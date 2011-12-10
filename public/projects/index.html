@@ -10,8 +10,11 @@
       }
 
       .project {
-        height: 250px;
-        margin: 0 0 5px 0;
+        margin: 0 0 25px 0;
+      }
+
+      .thumb-container {
+        height: 150px;
       }
 
       .expando {
@@ -64,10 +67,12 @@
               + "{{#projects}}"
               // each tag is added as a class for this project
               + "<div class='project span4{{#tags}} {{.}}{{/tags}}'>"
-                // if we're ejecting; make the image an external link
-                + "{{#eject}}<a href='{{eject}}'>{{#photos}}<img src={{thumb}} />{{/photos}}</a>{{/eject}}"
-                // if we're not ejecting, images will expand to larger blurbs
-                + "{{^eject}}{{#photos}}<img class='expando' src={{thumb}} />{{/photos}}{{/eject}}"
+                + "<div class='thumb-container'>"
+                  // if we're ejecting; make the image an external link
+                  + "{{#eject}}<a href='{{eject}}'>{{#photos}}<img class='thumb'src={{thumb}} />{{/photos}}</a>{{/eject}}"
+                  // if we're not ejecting, images will expand to larger blurbs
+                  + "{{^eject}}{{#photos}}<img class='expando' src={{thumb}} />{{/photos}}{{/eject}}"
+                + "</div><!--/thumb-container-->"
                 + "<p class='title'>{{name}}</p>"
                 + "<p>{{blurb}}</p>"
               + "</div>"
