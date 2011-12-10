@@ -85,9 +85,22 @@ var projects = {
                 }
                 , {
                     name: "trebuchet 2"
-                    , blurb: "let's make another trebuchet.."
+                    , blurb: "the second quick iteration on a simple trebuchet design"
                     , where: "Durham"
                     , tags: ["large"]
+                    , expound: 
+                        "<p>With <a href='trebuchet.htm'>many lessons learned</a>,"
+                        + " and only a little pre-planning, I've launched into a second trebuchet build."
+                        + "  I'm looking at a 10' arm on an 8' tall frame.  Around 18 pieces will be bolted together to constitute the machine."
+                        + "  Custom-poured concrete blocks serve as counterweight.</p>"
+                        + "<object width='400' height='300'>"
+                          + "<param name='allowfullscreen' value='true' />"
+                          + "<param name='allowscriptaccess' value='always' />"
+                          + "<param name='movie' value='http://vimeo.com/moogaloop.swf?clip_id=3657375&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1' />"
+                              + "<embed src='http://vimeo.com/moogaloop.swf?clip_id=3657375&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1' type='application/x-shockwave-flash' allowfullscreen='true' allowscriptaccess='always' width='400' height='300'></embed>"
+                        + "</object>"
+                        + "<p>Here's an early launch with about 120+ lbs of counterweight and a half liter bottle projectile; "
+                        + "more of the same on my <a href='http://vimeo.com/user1044247'>vimeo page</a>."
                     , photos: {
                         thumb: "http://i.imgur.com/dxtSk.jpg"
                     }
@@ -301,10 +314,6 @@ var projects = {
                     , tags: ["large"]
                     , photos: {
                         thumb: "http://i.imgur.com/yN0ba.jpg"
-                        , gallery: [
-                            "../static/img/canoe_1.png"
-                            , "../static/img/canoe_2.png"
-                        ]
                     }
                 }
                 , {
