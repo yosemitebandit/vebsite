@@ -23,8 +23,8 @@ var projects = {
                     , where: "Palo Alto"
                     , tags: ["large", "favorite"]
                     , expound: "<p>This was one of my last projects I made while working at <a href='http://redwoodsystems.com'>Redwood Systems</a>."
-                        + "  Redwood collects a huge amount of highly-resolved sensor data and this not-so-cleverly-named project aggregated the data on a 'cloud' platform."
-                        + "  I built a backend storage system with MongoDB and created an API and some authentication methods for sending and receiving the data."
+                        + "  Redwood collects a huge amount of highly-resolved sensor data and this not-so-cleverly-named project aggregated the data on a 'cloud' platform.</p>"
+                        + "<p>I built a backend storage system with MongoDB and created an API and some authentication methods for sending and receiving the data."
                         + "  I also created the flask-based frontend, demoed in the video below.</p>"
                         + "<iframe width='640' height='380' src='http://www.youtube.com/embed/DdJOxZUw0kM?hd=1' frameborder='0' allowfullscreen></iframe>" 
                         + "<p>A shorter, more 'promo-ish' video might still be up at <a href='https://redwoodcloud.com'>redwoodcloud.com</a>."
@@ -58,7 +58,14 @@ var projects = {
                     , blurb: "wifi-enabled occupancy sensors communicating to a web-backend"
                     , where: "Durham"
                     , tags: ["large", "favorite"]
-                    , links: ["http://ondemand.duke.edu/video/23338/perkinsense-a-new-way-to-find-", "http://ondemand.duke.edu/video/23339/perkinsense-an-explanation"]
+                    , expound: "<p>These were sensors I designed and built for the Perkins library at Duke when I was a senior"
+                        + "  The Duke study rooms are extremely popular and this project helped people find open ones."
+                        + "  Battery-powered and running on 8-bit AVRs, they used a rather fickle WiFi module called the 'WiFly.'"
+                        + "  This was one of my first web projects - the backend was, uh, interesting."
+                        + "  But there was a very basic web interface that showed the status of the ~20 rooms.</p>"
+                        + '<iframe width="480" height="360" src="http://www.youtube.com/embed/oXoiZqXyRsg?hd=1" frameborder="0" allowfullscreen></iframe>'
+                        + "<p>Alas, the project is no more and code and schematics are lost to me..perhaps someone else has copies?"
+                        + "  The video above gives a good overview of how things were.  (And here's <a href='http://ondemand.duke.edu/video/23338/perkinsense-a-new-way-to-find-' target='_blank'>another</a>.)</p>"
                     , photos: {
                         thumb: "http://i.imgur.com/WtPWz.png"
                     }
