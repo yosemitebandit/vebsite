@@ -170,6 +170,11 @@ var projects = {
                     , blurb: "surveying for a potential bridge in rural Bolivia"
                     , where: "Obrajes"
                     , tags: ["large", "favorite"]
+                    , expound: "<embed type='application/x-shockwave-flash'"
+                        + "src='https://picasaweb.google.com/s/c/bin/slideshow.swf'" 
+                        + "width='600' height='400'"
+                        + "flashvars='host=picasaweb.google.com&hl=en_US&feat=flashalbum&RGB=0x000000&feed=https%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2Fmattball43%2Falbumid%2F5208048113868756241%3Falt%3Drss%26kind%3Dphoto%26hl%3Den_US'"
+                        + "pluginspage='http://www.macromedia.com/go/getflashplayer'></embed>"
                     , photos: {
                         thumb: "http://i.imgur.com/YNd4G.jpg"
                     }
