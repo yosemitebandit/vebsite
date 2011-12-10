@@ -4,38 +4,6 @@
     <title>projects</title>
     <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
     <link rel='stylesheet' href='../static/css/bootstrap.min.css'>
-  
-    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
-    <script src='../static/js/mustache.js'></script>
-
-    <script src='projects.js'></script>
-
-    <script>
-      var template = 
-          "<div id='history' class='span14'>"
-            + "{{#history}}"
-            + "<div class='row year' id='{{year}}'>"
-              + "<h2>{{year}}</h2>"
-              + "{{#projects}}"
-              + "<div class='project span4{{#tags}} {{.}}{{/tags}}'>"
-                + "{{#photos}}<img src={{thumb}} />{{/photos}}"
-                + "<p class='title'>{{name}}</p>"
-                + "<p>{{blurb}}</p>"
-                + "<p class='expound'>{{expound}}</p>"
-              + "</div>"
-              + "{{/projects}}"
-            + "</div>"
-            + "{{/history}}"
-          +"</div><!--/content-->"
-
-      $(function() {
-
-        var html = Mustache.to_html(template, projects);
-        $('#sidebar').parent().append(html);
-
-      });
-
-    </script>
 
     <style>
       .project {
@@ -43,8 +11,12 @@
         margin: 0 0 5px 0;
       }
 
-      .expound {
-        display: none;
+      .expanded-project {
+        padding: 0 0 20px 0;
+      }
+
+      .close-button {
+        cursor: pointer;
       }
     </style>
   </head>
@@ -67,6 +39,90 @@
         </div>
       </div><!--/row-->
     </div><!--/container-->
+  
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
+    <script src='../static/js/mustache.js'></script>
+    <script src='../static/js/jquery.smooth-scroll.min.js'></script>
+
+    <script src='projects.js'></script>
+
+    <script>
+      var project_list_template = 
+          "<div id='history' class='span14'>"
+            // iterate through the years
+            + "{{#history}}"
+            + "<div class='row year' id='{{year}}'>"
+              + "<h2 class='year_label'>{{year}}</h2>"
+              // iterate through the year's projects
+              + "{{#projects}}"
+              // each tag is added as a class for this project
+              + "<div class='project span4{{#tags}} {{.}}{{/tags}}'>"
+                // if we're ejecting; make the image an external link
+                + "{{#eject}}<a href='{{eject}}'>{{#photos}}<img src={{thumb}} />{{/photos}}</a>{{/eject}}"
+                // if we're not ejecting, images will expand to larger blurbs
+                + "{{^eject}}{{#photos}}<img class='expando' src={{thumb}} />{{/photos}}{{/eject}}"
+                + "<p class='title'>{{name}}</p>"
+                + "<p>{{blurb}}</p>"
+              + "</div>"
+              + "{{/projects}}"
+            + "</div>"
+            + "{{/history}}"
+          +"</div><!--/content-->";
+      
+      var project_expanded_template = 
+          "<div id='{{name}}' class='expanded-project span12'>"
+            + "<h3>{{name}} <small>{{where}}</small>"
+              // set an onclick method here for removing the expanded project as it cannot be registered onload
+              + "<span class='close-button pull-right' onclick='remove_expanded($(this).parent().parent())'>"
+                + "&times;</span></h3>"
+            + "{{{expound}}}"
+          + "</div><!--/expanded-project-->";
+
+
+      $(function() {
+        
+        // populate the list
+        var html = Mustache.to_html(project_list_template, projects);
+        $('#sidebar').parent().append(html);
+        
+        // an image is clicked and we need to show some more info on this page
+        $('.expando').click(function() {
+          // clear out any expanded projects from this year
+          $(this).parent().siblings('.expanded-project').remove();
+
+          // drill down to the correct project; first find the year
+          for (m in projects['history']) {
+            if (projects['history'][m]['year'] == $(this).parent().parent().attr('id')) {
+              // find the project 
+              for (n in projects['history'][m]['projects']) {
+                if (projects['history'][m]['projects'][n]['name'] == $(this).siblings('.title').html()) {
+                  var html = Mustache.to_html(project_expanded_template, projects['history'][m]['projects'][n]);
+                  // add it to the top
+                  $(this).parent().siblings('.year_label').after(html);
+                  
+                  // scroll to the year
+                  $.smoothScroll({
+                    scrollTarget: $('#' + $(this).parent().parent().attr('id'))
+                    , speed: 500
+                  });
+
+                }
+              }
+            
+            }
+          }
+
+        });
+        
+      });
+
+      function remove_expanded(expanded_project) {
+        // x-button sends the whole project as a jq object onclick
+        //expanded_project.slideUp();
+        expanded_project.remove();
+      }
+
+    </script>
 
   </body>
 </html>
