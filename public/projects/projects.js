@@ -19,7 +19,13 @@ var projects = {
                     , blurb: "gathering, storing, and managing lots of distributed sensor data"
                     , where: "Palo Alto"
                     , tags: ["large", "favorite"]
-                    , links: ["http://www.youtube.com/watch?v=DdJOxZUw0kM"]
+                    , expound: "<p>This was one of my last projects I made while working at <a href='http://redwoodsystems.com'>Redwood Systems</a>."
+                        + "  Redwood collects a huge amount of highly-resolved sensor data and this not-so-cleverly-named project aggregated the data on a 'cloud' platform."
+                        + "  I built a backend storage system with MongoDB and created an API and some authentication methods for sending and receiving the data."
+                        + "  I also created the flask-based frontend, demoed in the video below.</p>"
+                        + "<iframe width='640' height='380' src='http://www.youtube.com/embed/DdJOxZUw0kM?hd=1' frameborder='0' allowfullscreen></iframe>" 
+                        + "<p>A shorter, more 'promo-ish' video might still be up at <a href='https://redwoodcloud.com'>redwoodcloud.com</a>."
+                        + "  But since leaving Redwood in early December 2011, I no longer work on that site.</p>"
                     , photos: {
                         thumb: "http://i.imgur.com/GzCBx.png"
                     }
