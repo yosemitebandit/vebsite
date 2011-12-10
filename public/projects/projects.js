@@ -2,13 +2,48 @@ var projects = {
     "title": "projects"
     , "history": [
         {
+            year: "2011"
+            , projects: [
+                {
+                    name: "MEDuele"
+                    , blurb: "connecting people to health information and resources"
+                    , where: "Palo Alto"
+                    , tags: ["large", "favorite"]
+                    , eject: "https://callmeduele.com"
+                    , photos: {
+                        thumb: "http://i.imgur.com/qisdp.png"
+                    }
+                }
+                , {
+                    name: "Redwood Cloud"
+                    , blurb: "gathering, storing, and managing lots of distributed sensor data"
+                    , where: "Palo Alto"
+                    , tags: ["large", "favorite"]
+                    , links: ["http://www.youtube.com/watch?v=DdJOxZUw0kM"]
+                    , photos: {
+                        thumb: "http://i.imgur.com/GzCBx.png"
+                    }
+                }
+                , {
+                    name: "Vinyl"
+                    , blurb: "backend and frontend for real-time occupancy visualization"
+                    , where: "Palo Alto"
+                    , tags: ["small", "favorite"]
+                    , links: ["http://www.youtube.com/watch?v=0aEmD2X_-sw"]
+                    , photos: {
+                        thumb: "http://i.imgur.com/qwL0A.png"
+                    }
+                }
+            ]
+        }
+        , {
             year: "2010"
             , projects: [
                 {
                     name: "Perkinsense"
                     , blurb: "wifi-enabled occupancy sensors communicating to a web-backend"
                     , where: "Durham"
-                    , tags: ["large, favorite"]
+                    , tags: ["large", "favorite"]
                     , links: ["http://ondemand.duke.edu/video/23338/perkinsense-a-new-way-to-find-", "http://ondemand.duke.edu/video/23339/perkinsense-an-explanation"]
                     , photos: {
                         thumb: "http://i.imgur.com/WtPWz.png"
@@ -33,7 +68,7 @@ var projects = {
                     name: "bike light"
                     , blurb: "bright as the sun &emdash; design from dan"
                     , where: "Durham"
-                    , tags: ["small, favorite"]
+                    , tags: ["small", "favorite"]
                     , photos: {
                         thumb: "http://i.imgur.com/I13Zq.jpg"
                     }
@@ -43,6 +78,7 @@ var projects = {
                     , blurb: "building some scaled-down turbines for a water purification demo"
                     , where: "Durham"
                     , tags: ["small"]
+                    , eject: "https://wiki.duke.edu/display/wtw/energy+capture"
                     , photos: {
                         thumb: "http://i.imgur.com/uNwZt.jpg"
                     }
@@ -108,9 +144,10 @@ var projects = {
                 }
                 , {
                     name: "gift wrap"
-                    , blurb: "gift wrap from old newspapers.  revolutionary."
+                    , blurb: "wrapping things up with old newspapers.  revolutionary."
                     , where: "Chapel Hill"
                     , tags: ["small"]
+                    , eject: "http://www.instructables.com/id/gift-wrapping-with-newspaper/"
                     , photos: {
                         thumb: "http://i.imgur.com/lPrkO.jpg"
                     }
@@ -156,6 +193,7 @@ var projects = {
                     , blurb: "testing Zeer pots and other methods of portable refridgeration for EWH"
                     , where: "Durham"
                     , tags: ["small"]
+                    , eject: "https://wiki.duke.edu/display/engworld/Portable+refrigeration"
                     , photos: {
                         thumb: "http://i.imgur.com/R4ICr.jpg"
                     }
@@ -217,7 +255,6 @@ var projects = {
                     name: "archery"
                     , blurb: "even the most primitive bows and arrows are pretty fun"
                     , where: "Chapel Hill"
-                    , eject: "https://wiki.duke.edu/display/engineerswithoutborders/Biomass+Charcoal"
                     , tags: ["small"]
                     , photos: {
                         thumb: "http://i.imgur.com/Xe9WX.jpg"
