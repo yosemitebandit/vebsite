@@ -2,18 +2,102 @@ var projects = {
     "title": "projects"
     , "history": [
         {
-            year: "2008"
+            year: "2010"
             , projects: [
                 {
-                    name: "microcontroller experimentation"
-                    , blurb: "started playing with 8bit AVRs"
+                    name: "Perkinsense"
+                    , blurb: "wifi-enabled occupancy sensors communicating to a web-backend"
                     , where: "Durham"
-                    , tags: ["small"]
+                    , tags: ["large, favorite"]
+                    , links: ["http://ondemand.duke.edu/video/23338/perkinsense-a-new-way-to-find-", "http://ondemand.duke.edu/video/23339/perkinsense-an-explanation"]
                     , photos: {
-                        thumb: "http://i.imgur.com/1lR7z.jpg"
+                        thumb: "http://i.imgur.com/WtPWz.png"
                     }
                 }
                 , {
+                    name: "DuTrack"
+                    , blurb: "real-time bus tracking on the cheap"
+                    , where: "Durham"
+                    , tags: ["large"]
+                    , links: ["http://today.duke.edu/2010/08/mattball.html"]
+                    , photos: {
+                        thumb: "http://i.imgur.com/jeNmM.jpg"
+                    }
+                }
+            ]
+        }
+        , {
+            year: "2009"
+            , projects: [
+                {
+                    name: "bike light"
+                    , blurb: "bright as the sun &emdash; design from dan"
+                    , where: "Durham"
+                    , tags: ["small, favorite"]
+                    , photos: {
+                        thumb: "http://i.imgur.com/I13Zq.jpg"
+                    }
+                }
+                , {
+                    name: "savonius wind turbine"
+                    , blurb: "building some scaled-down turbines for a water purification demo"
+                    , where: "Durham"
+                    , tags: ["small"]
+                    , photos: {
+                        thumb: "http://i.imgur.com/uNwZt.jpg"
+                    }
+                }
+                , {
+                    name: "trebuchet 2"
+                    , blurb: "let's make another trebuchet.."
+                    , where: "Durham"
+                    , tags: ["large"]
+                    , photos: {
+                        thumb: "http://i.imgur.com/dxtSk.jpg"
+                    }
+                }
+                , {
+                    name: "t-shirt design"
+                    , blurb: "bleaching with discharge paste"
+                    , where: "Chapel Hill"
+                    , tags: ["small"]
+                    , photos: {
+                        thumb: "http://i.imgur.com/oiuKR.jpg"
+                    }
+                }
+                , {
+                    name: "scene design"
+                    , blurb: "set models from some classic plays"
+                    , where: "Durham"
+                    , tags: ["small"]
+                    , photos: {
+                        thumb: "http://i.imgur.com/fSz3p.jpg"
+                    }
+                }
+                , {
+                    name: "early Matlab"
+                    , blurb: "some interesting matlab modeling and analysis"
+                    , where: "Durham"
+                    , tags: ["small"]
+                    , photos: {
+                        thumb: "http://i.imgur.com/yJWBZ.jpg"
+                    }
+                }
+                , {
+                    name: "portable theater proposal"
+                    , blurb: "my proposal for a portable outdoor theater setup..maybe it'll get built one of these days."
+                    , where: "Durham"
+                    , tags: ["small"]
+                    , photos: {
+                        thumb: "http://i.imgur.com/ZE3sq.jpg"
+                    }
+                }
+            ]
+        }
+        , {
+            year: "2008"
+            , projects: [
+                {
                     name: "plywood dug"
                     , blurb: "two eight foot canoes from two sheets of 4x8 plywood"
                     , where: "Chapel Hill"
@@ -23,12 +107,21 @@ var projects = {
                     }
                 }
                 , {
-                    name: "community garden"
-                    , blurb: "building beds and RWH tanks and sheds and compost bins"
-                    , where: "Durham"
-                    , tags: ["favorite", "large"]
+                    name: "gift wrap"
+                    , blurb: "gift wrap from old newspapers.  revolutionary."
+                    , where: "Chapel Hill"
+                    , tags: ["small"]
                     , photos: {
-                        thumb: "http://i.imgur.com/0g4CW.jpg"
+                        thumb: "http://i.imgur.com/lPrkO.jpg"
+                    }
+                }
+                , {
+                    name: "surveying in the Altiplano"
+                    , blurb: "surveying for a potential bridge in rural Bolivia"
+                    , where: "Obrajes"
+                    , tags: ["large", "favorite"]
+                    , photos: {
+                        thumb: "http://i.imgur.com/YNd4G.jpg"
                     }
                 }
                 , {
@@ -47,6 +140,42 @@ var projects = {
                     , tags: ["small"]
                     , photos: {
                         thumb: "http://i.imgur.com/ao9FL.jpg"
+                    }
+                }
+                , {
+                    name: "RASD infrastructure"
+                    , blurb: "helped build gates, and an internet cafe for the Rural Agency for Sustainable Development in Uganda"
+                    , where: "Nkokonjeru"
+                    , tags: ["small"]
+                    , photos: {
+                        thumb: "http://i.imgur.com/zikJ8.jpg"
+                    }
+                }
+                , {
+                    name: "portable refridgeration"
+                    , blurb: "testing Zeer pots and other methods of portable refridgeration for EWH"
+                    , where: "Durham"
+                    , tags: ["small"]
+                    , photos: {
+                        thumb: "http://i.imgur.com/R4ICr.jpg"
+                    }
+                }
+                , {
+                    name: "community garden"
+                    , blurb: "building beds and RWH tanks and sheds and compost bins"
+                    , where: "Durham"
+                    , tags: ["favorite", "large"]
+                    , photos: {
+                        thumb: "http://i.imgur.com/0g4CW.jpg"
+                    }
+                }
+                , {
+                    name: "microcontroller experimentation"
+                    , blurb: "started playing with 8bit AVRs"
+                    , where: "Durham"
+                    , tags: ["small"]
+                    , photos: {
+                        thumb: "http://i.imgur.com/1lR7z.jpg"
                     }
                 }
             ]
