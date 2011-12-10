@@ -100,21 +100,21 @@
         // an image is clicked and we need to show some more info on this page
         $('.expando').click(function() {
           // clear out any expanded projects from this year
-          $(this).parent().siblings('.expanded-project').remove();
+          $(this).parent().parent().siblings('.expanded-project').remove();
 
           // drill down to the correct project; first find the year
           for (m in projects['history']) {
-            if (projects['history'][m]['year'] == $(this).parent().parent().attr('id')) {
+            if (projects['history'][m]['year'] == $(this).parent().parent().parent().attr('id')) {
               // find the project 
               for (n in projects['history'][m]['projects']) {
-                if (projects['history'][m]['projects'][n]['name'] == $(this).siblings('.title').html()) {
+                if (projects['history'][m]['projects'][n]['name'] == $(this).parent().siblings('.title').html()) {
                   var html = Mustache.to_html(project_expanded_template, projects['history'][m]['projects'][n]);
                   // add it to the top
-                  $(this).parent().siblings('.year_label').after(html);
+                  $(this).parent().parent().siblings('.year_label').after(html);
                   
                   // scroll to the year
                   $.smoothScroll({
-                    scrollTarget: $('#' + $(this).parent().parent().attr('id'))
+                    scrollTarget: $('#' + $(this).parent().parent().parent().attr('id'))
                     , speed: 500
                   });
 
