@@ -9,7 +9,10 @@ var projects = {
                     , blurb: "connecting people to health information and resources"
                     , where: "Palo Alto"
                     , tags: ["large", "favorite"]
-                    , eject: "https://callmeduele.com"
+                    , expound: "<p>A website app for the Cal Health Data Hackathon with my friends <a href='http://stchangg.com'>Stephanie</a>, Will, and Patrick"
+                        + "  See the full site at <a href='https://callmeduele.com'>callmeduele.com</a>.</p>"
+                        + "  <p>Check the source on <a href='http://github.com/yosemitebandit/meduele'>github</a> and the short demo below.</p>"
+                        + '<iframe frameborder="0" allowfullscreen height="380" width="640" src="http://www.youtube.com/embed/q_gSaW4sj6I?hd=1"></iframe>'
                     , photos: {
                         thumb: "http://i.imgur.com/qisdp.png"
                     }
@@ -32,10 +35,15 @@ var projects = {
                 }
                 , {
                     name: "Vinyl"
-                    , blurb: "backend and frontend for real-time occupancy visualization"
+                    , blurb: "real-time visualization of sensor data"
                     , where: "Palo Alto"
                     , tags: ["small", "favorite"]
-                    , links: ["http://www.youtube.com/watch?v=0aEmD2X_-sw"]
+                    , expound: "<p><a href='http://redwoodsystems.com'>Redwood</a> is ostensibly a lighting company but they also have a <i>ton</i> of sensor data."
+                        + "  I built some APIs on a MongoDB backend for managing a slice of this data in the Redwood offices.</p>"
+                        + "  <p>Vinyl was a javascript visualization of this data, greatly inspired by 'Icicle,' one of <a href='http://thenoviceoof.com'>Nathan's</a> projects."
+                        + "  Each circle is a sensor in the building - they light up when something moves within their detection radius."
+                        + "  There was a barebones UI, vaguely inspired by youtube, that let people rewind to any part of the day or change the playback speed.</p>" 
+                        + '<iframe width="640" height="380" src="http://www.youtube.com/embed/0aEmD2X_-sw?hd=1" frameborder="0" allowfullscreen></iframe>'
                     , photos: {
                         thumb: "http://i.imgur.com/qwL0A.png"
                     }
