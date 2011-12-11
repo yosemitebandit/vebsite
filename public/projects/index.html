@@ -9,6 +9,12 @@
         margin: 30px 0 0 0;
       }
 
+      #project-types li {
+        margin: 0 0 0 5px;
+        cursor: pointer;
+        color: '#0069D6';
+      }
+
       .project {
         margin: 0 0 25px 0;
       }
@@ -41,6 +47,12 @@
               <p><a href='../'>home</a></p>
               <p><a href='../about'>about</a></p>
               <p>projects</p>
+              <ul id='project-types' class='unstyled'>
+                <li class='project-filter filter-selected' id='all'>all&nbsp;<span class='filter-selected-chevron'>&raquo;</span></li>
+                <li class='project-filter' id='large'>large&nbsp;<span style='display: none' class='filter-selected-chevron'>&raquo;</span></li>
+                <li class='project-filter' id='small'>small&nbsp;<span style='display: none' class='filter-selected-chevron'>&raquo;</span></li>
+                <li class='project-filter' id='favorite'>favorite&nbsp;<span style='display: none' class='filter-selected-chevron'>&raquo;</span></li>
+              </ul>
             </div> <!--/sidebar-->
 
             <!--history appended here-->
@@ -62,7 +74,7 @@
             // iterate through the years
             + "{{#history}}"
             + "<div class='row year' id='{{year}}'>"
-              + "<h2 class='year_label'>{{year}}</h2>"
+              + "<h2 class='year-label'>{{year}}</h2>"
               // iterate through the year's projects
               + "{{#projects}}"
               // each tag is added as a class for this project
@@ -79,7 +91,7 @@
           +"</div><!--/content-->";
       
       var project_expanded_template = 
-          "<div id='{{name}}' class='expanded-project span12'>"
+          "<div id='{{name}}' class='expanded-project span12{{#tags}} {{.}}{{/tags}}'>"
             + "<h3>{{name}} <small>{{where}}</small>"
               // set an onclick method here for removing the expanded project as it cannot be registered onload
               + "<span class='close-button pull-right' onclick='remove_expanded($(this).parent().parent())'>"
@@ -107,7 +119,7 @@
                 if (projects['history'][m]['projects'][n]['name'] == $(this).parent().siblings('.title').html()) {
                   var html = Mustache.to_html(project_expanded_template, projects['history'][m]['projects'][n]);
                   // add it to the top
-                  $(this).parent().parent().siblings('.year_label').after(html);
+                  $(this).parent().parent().siblings('.year-label').after(html);
                   
                   // scroll to the year
                   $.smoothScroll({
@@ -122,11 +134,36 @@
           }
 
         });
+
+
+        $('.project-filter').click(function() {
+          /* project sidebar filtering which projects are displayed based on the 'tags'
+          */
+          var filter = $(this).attr('id');
+          if (filter == 'all') {
+            $('.project').show();
+            $('.filter-selected-chevron').hide();
+            $(this).children('.filter-selected-chevron').show();
+
+          } else if(filter != $('.project-filter.filter-selected').attr('id')) {  // wasn't already selected
+            // show the relevant projects
+            $('.project.' + filter).show();
+            // hide all the ones that don't have this tag
+            $('.project').not('.'+filter).hide();
+            $('.expanded-project').not('.'+filter).hide();
+            // move the selected class around
+            $('.filter-selected').removeClass('filter-selected');
+            $(this).addClass('filter-selected');
+            $('.filter-selected-chevron').hide();
+            $(this).children('.filter-selected-chevron').show();
+          }
+        });
         
       });
 
       function remove_expanded(expanded_project) {
-        // x-button sends the whole project as a jq object onclick
+        /* x-button sends the whole project as a jq object onclick
+        */
         //expanded_project.slideUp();
         expanded_project.remove();
       }
