@@ -150,7 +150,7 @@
             $('.project.' + filter).show();
             // hide all the ones that don't have this tag
             $('.project').not('.'+filter).hide();
-            $('.expanded-project').not('.'+filter).hide();
+            $('.expanded-project').not('.'+filter).remove();
             // move the selected class around
             $('.filter-selected').removeClass('filter-selected');
             $(this).addClass('filter-selected');
