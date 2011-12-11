@@ -195,7 +195,8 @@ var projects = {
                     , blurb: "wrapping things up with old newspapers.  revolutionary."
                     , where: "Chapel Hill"
                     , tags: ["small"]
-                    , eject: "http://www.instructables.com/id/gift-wrapping-with-newspaper/"
+                    , expound: "<p>gift wrapping with newspaper.. some very interesting newspaper -"
+                        + " written up for some reason on <a href='http://www.instructables.com/id/gift-wrapping-with-newspaper/'>instructables</a></p>"
                     , photos: {
                         thumb: "http://i.imgur.com/lPrkO.jpg"
                     }
@@ -278,8 +279,9 @@ var projects = {
                     name: "soldering station"
                     , blurb: "just a little soldering iron holder and solder dispenser"
                     , where: "Chapel Hill"
-                    , eject: "http://www.instructables.com/id/Soldering-Station/"
                     , tags: ["small"]
+                    , expound: "<p>Made a little soldering iron station -"
+                        + " wrote it up on <a href='http://www.instructables.com/id/Soldering-Station/'>instructables</a></p>"
                     , photos: {
                         thumb: "http://i.imgur.com/dGggf.jpg"
                     }
@@ -340,10 +342,6 @@ var projects = {
                     , tags: ["favorite", "large"]
                     , photos: {
                         thumb: "http://i.imgur.com/qy7KP.jpg"
-                        , gallery: [
-                            "../static/img/canoe_1.png"
-                            , "../static/img/canoe_2.png"
-                        ]
                     }
                 }
                 , {
@@ -360,7 +358,8 @@ var projects = {
                     name: "Fire extinguisher lamp"
                     , blurb: "making a lamp from a fire extinguisher"
                     , where: "Durham"
-                    , eject: "http://www.instructables.com/id/Fire-Lamp!/"
+                    , expound: "made a lamp from an old fire extinguisher with some friends,"
+                        + " wrote it up on <a href='http://www.instructables.com/id/Fire-Lamp!/'>instructables</a>"
                     , tags: ["small"]
                     , photos: {
                         thumb: "http://i.imgur.com/AfZ0B.jpg"
