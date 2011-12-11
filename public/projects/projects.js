@@ -131,6 +131,8 @@ var projects = {
                     , blurb: "bleaching with discharge paste"
                     , where: "Chapel Hill"
                     , tags: ["small"]
+                    , expound: "<p>I made some TNT t-shirts for my step-brother using"
+                        + " this method from  <a href='http://www.instructables.com/id/Controlled-Bleaching-with-Discharge-Paste/'>fungus amungus</a>.</p>"
                     , photos: {
                         thumb: "http://i.imgur.com/oiuKR.jpg"
                     }
