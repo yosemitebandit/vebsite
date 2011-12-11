@@ -172,6 +172,14 @@ var projects = {
                     , blurb: "my proposal for a portable outdoor theater setup..maybe it'll get built one of these days."
                     , where: "Durham"
                     , tags: ["small"]
+                    , expound: "<p>Duke was soliciting 'good student ideas,' but this got no reply, hah.</p>" 
+                        + '<iframe class="scribd_iframe_embed" src="http://www.scribd.com/embeds/75401597/content?start_page=1&view_mode=list&access_key=key-ls8hgthoxjmku9j4bna"' 
+                        + 'data-auto-height="true" data-aspect-ratio="0.772727272727273" scrolling="no" id="doc_39060"'
+                        + 'width="100%" height="600" frameborder="0"></iframe>'
+                        + '<script type="text/javascript">(function() { var scribd = document.createElement("script");' 
+                        + 'scribd.type = "text/javascript"; scribd.async = true; '
+                        + 'scribd.src = "http://www.scribd.com/javascripts/embed_code/inject.js"; '
+                        + 'var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(scribd, s); })();</script>'
                     , photos: {
                         thumb: "http://i.imgur.com/ZE3sq.jpg"
                     }
