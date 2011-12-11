@@ -74,8 +74,20 @@ var projects = {
                     name: "DuTrack"
                     , blurb: "real-time bus tracking on the cheap"
                     , where: "Durham"
-                    , tags: ["large"]
-                    , links: ["http://today.duke.edu/2010/08/mattball.html"]
+                    , tags: ["large", "favorite"]
+                    , expound: "<p>I leveraged the open source <a href='http://www.opengts.org'>OpenGTS</a> project to bring create a low-cost bus-tracking system for my school when I was a senior."
+                        + "  For about $150 per year, you can have an unlimited data plan on some really cheap GPS-enabled cell phones."
+                        + "  The OpenGTS project has a small client app that runs on the phones and transmits position data back to the OpenGTS server, "
+                        + " which we initially ran on a small desktop in the <a href='http://dukesmarthome.com'>Smarthome</a>.</p>"
+                        + "<p>We installed ~30 trackers to cover the whole fleet - A mechanic was nice enough to connect the trackers to each bus's electrical system so they could stay on."
+                        + "  We then modified the OpenGTS source to greatly increase the update rate so it would send coordinates about every 5s.</p>"
+                        + " <img src='http://i.imgur.com/fq9sY.jpg' />"
+                        + "<p>I worked with a team to build a public-facing UI that showed the live positions of buses on certain routes."
+                        + "  (CSS-only Google maps icons, woo!)."
+                        + "  There was also an admin section for assigning buses to routes, creating new routes, writing bulletins and other things."
+                        + "  And then I left and it all went away, hah, I transitioned it poorly.."
+                        + "  But I wrote <a href='http://www.instructables.com/id/Bus-tracking-on-the-cheap/?ALLSTEPS'>this instructable</a> when we were testing things."
+                        + "  And here's <a href='http://today.duke.edu/2010/08/mattball.html'>a story</a> they wrote about the project.</p>"
                     , photos: {
                         thumb: "http://i.imgur.com/jeNmM.jpg"
                     }
