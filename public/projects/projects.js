@@ -12,7 +12,7 @@ var projects = {
                     , expound: "<p>A website app for the Cal Health Data Hackathon with my friends <a href='http://stchangg.com'>Stephanie</a>, Will, and Patrick"
                         + "  See the full site at <a href='https://callmeduele.com'>callmeduele.com</a>.</p>"
                         + "  <p>Check the source on <a href='http://github.com/yosemitebandit/meduele'>github</a> and the short demo below.</p>"
-                        + '<iframe frameborder="0" allowfullscreen height="380" width="640" src="http://www.youtube.com/embed/q_gSaW4sj6I?hd=1"></iframe>'
+                        + '<div class="embedded-content"><iframe frameborder="0" allowfullscreen height="380" width="640" src="http://www.youtube.com/embed/q_gSaW4sj6I?hd=1"></iframe></div>'
                     , photos: {
                         thumb: "http://i.imgur.com/qisdp.png"
                     }
@@ -26,7 +26,7 @@ var projects = {
                         + "  Redwood collects a huge amount of highly-resolved sensor data and this not-so-cleverly-named project aggregated the data on a 'cloud' platform.</p>"
                         + "<p>I built a backend storage system with MongoDB and created an API and some authentication methods for sending and receiving the data."
                         + "  I also created the flask-based frontend, demoed in the video below.</p>"
-                        + "<iframe width='640' height='380' src='http://www.youtube.com/embed/DdJOxZUw0kM?hd=1' frameborder='0' allowfullscreen></iframe>" 
+                        + "<div class='embedded-content'><iframe width='640' height='380' src='http://www.youtube.com/embed/DdJOxZUw0kM?hd=1' frameborder='0' allowfullscreen></iframe></div>" 
                         + "<p>A shorter, more 'promo-ish' video might still be up at <a href='https://redwoodcloud.com'>redwoodcloud.com</a>."
                         + "  But since leaving Redwood in early December 2011, I no longer work on that site.</p>"
                     , photos: {
@@ -43,7 +43,7 @@ var projects = {
                         + "  <p>Vinyl was a javascript visualization of this data, greatly inspired by 'Icicle,' one of <a href='http://thenoviceoof.com'>Nathan's</a> projects."
                         + "  Each circle is a sensor in the building - they light up when something moves within their detection radius."
                         + "  There was a barebones UI, vaguely inspired by youtube, that let people rewind to any part of the day or change the playback speed.</p>" 
-                        + '<iframe width="640" height="380" src="http://www.youtube.com/embed/0aEmD2X_-sw?hd=1" frameborder="0" allowfullscreen></iframe>'
+                        + '<div class="embedded-content"><iframe width="640" height="380" src="http://www.youtube.com/embed/0aEmD2X_-sw?hd=1" frameborder="0" allowfullscreen></iframe></div>'
                     , photos: {
                         thumb: "http://i.imgur.com/qwL0A.png"
                     }
@@ -63,7 +63,7 @@ var projects = {
                         + "  Battery-powered and running on 8-bit AVRs, they used a rather fickle WiFi module called the 'WiFly.'"
                         + "  This was one of my first web projects - the backend was, uh, interesting."
                         + "  But there was a very basic web interface that showed the status of the ~20 rooms.</p>"
-                        + '<iframe width="480" height="360" src="http://www.youtube.com/embed/oXoiZqXyRsg?hd=1" frameborder="0" allowfullscreen></iframe>'
+                        + '<div class="embedded-content"><iframe width="480" height="360" src="http://www.youtube.com/embed/oXoiZqXyRsg?hd=1" frameborder="0" allowfullscreen></iframe></div>'
                         + "<p>Alas, the project is no more and code and schematics are lost to me..perhaps someone else has copies?"
                         + "  The video above gives a good overview of how things were.  (And here's <a href='http://ondemand.duke.edu/video/23338/perkinsense-a-new-way-to-find-' target='_blank'>another</a>.)</p>"
                     , photos: {
@@ -81,7 +81,7 @@ var projects = {
                         + " which we initially ran on a small desktop in the <a href='http://dukesmarthome.com'>Smarthome</a>.</p>"
                         + "<p>We installed ~30 trackers to cover the whole fleet - A mechanic was nice enough to connect the trackers to each bus's electrical system so they could stay on."
                         + "  We then modified the OpenGTS source to greatly increase the update rate so it would send coordinates about every 5s.</p>"
-                        + " <img src='http://i.imgur.com/fq9sY.jpg' />"
+                        + " <div class='embedded-content'><img src='http://i.imgur.com/fq9sY.jpg' /></div>"
                         + "<p>I worked with a team to build a public-facing UI that showed the live positions of buses on certain routes."
                         + "  (CSS-only Google maps icons, woo!)."
                         + "  There was also an admin section for assigning buses to routes, creating new routes, writing bulletins and other things."
@@ -126,12 +126,12 @@ var projects = {
                         + " and only a little pre-planning, I've launched into a second trebuchet build."
                         + "  I'm looking at a 10' arm on an 8' tall frame.  Around 18 pieces will be bolted together to constitute the machine."
                         + "  Custom-poured concrete blocks serve as counterweight.</p>"
-                        + "<object width='400' height='300'>"
+                        + "<div class='embedded-content'><object width='400' height='300'>"
                           + "<param name='allowfullscreen' value='true' />"
                           + "<param name='allowscriptaccess' value='always' />"
                           + "<param name='movie' value='http://vimeo.com/moogaloop.swf?clip_id=3657375&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1' />"
                               + "<embed src='http://vimeo.com/moogaloop.swf?clip_id=3657375&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1' type='application/x-shockwave-flash' allowfullscreen='true' allowscriptaccess='always' width='400' height='300'></embed>"
-                        + "</object>"
+                        + "</object></div>"
                         + "<p>Here's an early launch with about 120+ lbs of counterweight and a half liter bottle projectile; "
                         + "more of the same on my <a href='http://vimeo.com/user1044247'>vimeo page</a>."
                     , photos: {
