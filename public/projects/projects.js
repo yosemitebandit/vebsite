@@ -99,9 +99,12 @@ var projects = {
             , projects: [
                 {
                     name: "bike light"
-                    , blurb: "bright as the sun &emdash; design from dan"
+                    , blurb: "bright as the sun"
                     , where: "Durham"
                     , tags: ["small", "favorite"]
+                    , expound: "<p>a 555 timer-based bike light, designed by "
+                        + " <a href='http://www.instructables.com/id/Ultimate-Bike-Light---FrontRear-Combo---100-Lumen/'>"
+                        + "dan at instructables</a></p>"
                     , photos: {
                         thumb: "http://i.imgur.com/I13Zq.jpg"
                     }
