@@ -19,7 +19,7 @@ var projects = {
                 }
                 , {
                     name: "Redwood Cloud"
-                    , blurb: "gathering, storing, and managing lots of distributed sensor data"
+                    , blurb: "gathering, storing and visualizing lots of distributed sensor data" 
                     , where: "Palo Alto"
                     , tags: ["large", "favorite"]
                     , expound: "<p>This was one of my last projects I made while working at <a href='http://redwoodsystems.com'>Redwood Systems</a>."
@@ -111,7 +111,7 @@ var projects = {
                 }
                 , {
                     name: "savonius wind turbine"
-                    , blurb: "building some scaled-down turbines for a water purification demo"
+                    , blurb: "scaled-down turbines for a water purification demo"
                     , where: "Durham"
                     , tags: ["small"]
                     , expound: "<p>I worked on the 'turbine research group' in a contest to create a wind-powered,"
@@ -169,7 +169,7 @@ var projects = {
                 }
                 , {
                     name: "early Matlab"
-                    , blurb: "some interesting matlab modeling and analysis"
+                    , blurb: "some modeling and analysis that I found interesting"
                     , where: "Durham"
                     , tags: ["small"]
                     , photos: {
@@ -178,7 +178,7 @@ var projects = {
                 }
                 , {
                     name: "portable theater proposal"
-                    , blurb: "my proposal for a portable outdoor theater setup..maybe it'll get built one of these days."
+                    , blurb: "just a proposal, sadly - maybe it'll get built someday"
                     , where: "Durham"
                     , tags: ["small"]
                     , expound: "<p>Duke was soliciting 'good student ideas,' but this got no reply, hah.</p>" 
@@ -212,7 +212,7 @@ var projects = {
                 }
                 , {
                     name: "gift wrap"
-                    , blurb: "wrapping things up with old newspapers.  revolutionary."
+                    , blurb: "wrapping things up with old newspapers - revolutionary."
                     , where: "Chapel Hill"
                     , tags: ["small"]
                     , expound: "<p>gift wrapping with newspaper.. some very interesting newspaper -"
@@ -222,8 +222,8 @@ var projects = {
                     }
                 }
                 , {
-                    name: "surveying in the Altiplano"
-                    , blurb: "surveying for a potential bridge in rural Bolivia"
+                    name: "the Altiplano"
+                    , blurb: "surveying people and the geology for a bridge in rural Bolivia"
                     , where: "Obrajes"
                     , tags: ["large", "favorite"]
                     , expound: "<p>I traveled to Obrajes, Bolivia in the summer of 2008 as part of an Engineers Without Borders team."
@@ -253,7 +253,7 @@ var projects = {
                     , blurb: "a fairly accurate scale from a bicycle axle"
                     , where: "Nkokonjeru"
                     , tags: ['small', 'favorite']
-                    , expound: "<p>When the electricity went off in Nkokonjeru,"
+                    , expound: "<p>When the electricity went off in Nkokonjeru"
                         + " I (finally) had an excuse to stop welding the gates for RASD, the NGO where we worked."
                         + "  Some other projects at the site needed to weigh things so I tried making a scale.</p>"
                         + "<div class='embedded-content'><img src='http://i.imgur.com/Vjm9F.jpg' /></div>"
@@ -273,7 +273,8 @@ var projects = {
                 }
                 , {
                     name: "jatropha biofuel"
-                    , blurb: "making biofuel and peanut butter in some hand-powered, small-scale expellers"
+                    //, blurb: "making fuel and sometimes peanut butter in some hand-powered, small-scale expellers"
+                    , blurb: "bio-oils of various kinds from tiny expellers"
                     , where: "Nkokonjeru"
                     , tags: ["small"]
                     , photos: {
@@ -282,7 +283,7 @@ var projects = {
                 }
                 , {
                     name: "RASD infrastructure"
-                    , blurb: "helped build gates, and an internet cafe for the Rural Agency for Sustainable Development in Uganda"
+                    , blurb: "building things with an NGO in Uganda"
                     , where: "Nkokonjeru"
                     , tags: ["small"]
                     , photos: {
@@ -291,7 +292,7 @@ var projects = {
                 }
                 , {
                     name: "portable refridgeration"
-                    , blurb: "testing Zeer pots and other methods of portable refridgeration for EWH"
+                    , blurb: "keeping biological samples cold in remote areas"
                     , where: "Durham"
                     , tags: ["small"]
                     , eject: "https://wiki.duke.edu/display/engworld/Portable+refrigeration"
@@ -310,7 +311,7 @@ var projects = {
                 }
                 , {
                     name: "microcontroller experimentation"
-                    , blurb: "started playing with 8bit AVRs"
+                    , blurb: "playing with 8bit AVRs"
                     , where: "Durham"
                     , tags: ["small"]
                     , photos: {
@@ -335,7 +336,7 @@ var projects = {
                 }
                 , {
                     name: "rainwater harvesting"
-                    , blurb: "designed and built a 2900 gallon RWH tank in rural Uganda"
+                    , blurb: "designing and building a 2900 gallon RWH tank in rural Uganda"
                     , where: "Kasaka/Kanoni"
                     , eject: "http://picasaweb.google.com/mattball43/Uganda2007"
                     , tags: ["large", "favorite"]
@@ -345,7 +346,7 @@ var projects = {
                 }
                 , {
                     name: "biomass charcoal"
-                    , blurb: "researched biomass charcoal production for use in rural Uganda"
+                    , blurb: "researching ways to make fuel from agricultural waste in rural Uganda"
                     , where: "Durham"
                     , eject: "https://wiki.duke.edu/display/engineerswithoutborders/Biomass+Charcoal"
                     , tags: ["large"]
@@ -393,7 +394,7 @@ var projects = {
                 }
                 , {
                     name: "ECG testers"
-                    , blurb: "manufacturing over a hundred ECG calibration devices for the developing world"
+                    , blurb: "making ECG calibration devices for hospitals in Central America"
                     , where: "Durham"
                     , expound: "we built a whole mess of these things"
                     , tags: ["large"]
@@ -403,7 +404,7 @@ var projects = {
                 }
                 , {
                     name: "Fire extinguisher lamp"
-                    , blurb: "making a lamp from a fire extinguisher"
+                    , blurb: "making a lamp from a spent fire extinguisher"
                     , where: "Durham"
                     , expound: "made a lamp from an old fire extinguisher with some friends,"
                         + " wrote it up on <a href='http://www.instructables.com/id/Fire-Lamp!/'>instructables</a>"
