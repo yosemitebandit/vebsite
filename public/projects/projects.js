@@ -5,6 +5,21 @@ var projects = {
             year: "2011"
             , projects: [
                 {
+                    name: "SMS Time Capsule"
+                    , blurb: "a time capsule for your texts"
+                    , where: "Palo Alto"
+                    , tags: ["small"]
+                    , blurb: 'communicate little moments to your future self'
+                    , expound: "<p>This is a time capsule for your text messages. Send a text to (650) 830-0777 and, "
+                        + " after some amount of time, that message will be sent back to you.</p>"
+                        + "<p>For example, a message like <code>king of Sunol, the wildcat sauntered towards me %5d 3h 4m 10s</code>"
+                        + "would be sent back in five days, three hours, four minutes and ten seconds."
+                        + "  Read more about it and see the source on <a href='https://github.com/yosemitebandit/never'>github</a>.</p>"
+                    , photos: {
+                        thumb: "http://i.imgur.com/zq0WJ.png"
+                    }
+                }
+                , {
                     name: "MEDuele"
                     , blurb: "connecting people to health information and resources"
                     , where: "Palo Alto"
