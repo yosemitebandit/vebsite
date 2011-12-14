@@ -24,8 +24,8 @@ var projects = {
                     , blurb: "connecting people to health information and resources"
                     , where: "Palo Alto"
                     , tags: ["large", "favorite"]
-                    , expound: "<p>A website app for the Cal Health Data Hackathon with my friends <a href='http://stchangg.com'>Stephanie</a>, Will, and Patrick"
-                        + "  See the full site at <a href='https://callmeduele.com'>callmeduele.com</a>.</p>"
+                    , expound: "<p>A website built for the Cal Health Data Hackathon with my friends <a href='http://stchangg.com'>Stephanie</a>, Will, and Patrick"
+                        + "  The full site's at <a href='https://callmeduele.com'>callmeduele.com</a>.</p>"
                         + "  <p>Check the source on <a href='http://github.com/yosemitebandit/meduele'>github</a> and the short demo below.</p>"
                         + '<div class="embedded-content"><iframe frameborder="0" allowfullscreen height="380" width="640" src="http://www.youtube.com/embed/q_gSaW4sj6I?hd=1"></iframe></div>'
                     , photos: {
@@ -238,7 +238,7 @@ var projects = {
                 }
                 , {
                     name: "the Altiplano"
-                    , blurb: "surveying people and the geology for a bridge in rural Bolivia"
+                    , blurb: "talking to people and surveying the land in rural Bolivia"
                     , where: "Obrajes"
                     , tags: ["large", "favorite"]
                     , expound: "<p>I traveled to Obrajes, Bolivia in the summer of 2008 as part of an Engineers Without Borders team."
