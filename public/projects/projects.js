@@ -5,16 +5,21 @@ var projects = {
             year: "2011"
             , projects: [
                 {
-                    name: "SMS Time Capsule"
-                    , blurb: "a time capsule for your texts"
+                    name: "Erik the Wall-Plotter"
+                    , blurb: "a robo-artist"
                     , where: "Palo Alto"
                     , tags: ["small"]
+                    , expound: "<p>Inspired by several other vertical wall-plotters we saw online, my buddy Will and I built Erik, a drawing robot.  It uses two stepper motors to pull a pen around a canvas.  But the pen cannot be lifted!  So there are some interesting path-generation challenges.  The software that interfaces with the controller board was written by us and it's available on <a href='https://github.com/yosemitebandit/erik'>github</a>.</p><div class='embedded-content'><img src='#' /></div>"
+                    , photos: {
+                        thumb: "http://i.imgur.com/zq0WJ.png"
+                    }
+                }
+                , {
+                    name: "SMS Time Capsule"
                     , blurb: 'communicate little moments to your future self'
-                    , expound: "<p>This is a time capsule for your text messages. Send a text to (650) 830-0777 and, "
-                        + " after some amount of time, that message will be sent back to you.</p>"
-                        + "<p>For example, a message like <code>king of Sunol, the wildcat sauntered towards me %5d 3h 4m 10s</code>"
-                        + " would be sent back in five days, three hours, four minutes and ten seconds."
-                        + "  Read more about it and see the source on <a href='https://github.com/yosemitebandit/never'>github</a>.</p>"
+                    , where: "Palo Alto"
+                    , tags: ["small"]
+                    , expound: "<p>This is a time capsule for your text messages. Send a text to (650) 830-0777 and, after some amount of time, that message will be sent back to you.</p><p>For example, a message like <code>king of Sunol, the wildcat sauntered towards me %5d 3h 4m 10s</code> would be sent back in five days, three hours, four minutes and ten seconds.  Read more about it and see the source on <a href='https://github.com/yosemitebandit/never'>github</a>.</p>"
                     , photos: {
                         thumb: "http://i.imgur.com/zq0WJ.png"
                     }
@@ -24,10 +29,7 @@ var projects = {
                     , blurb: "connecting people to health information and resources"
                     , where: "Palo Alto"
                     , tags: ["large", "favorite"]
-                    , expound: "<p>A website built for the Cal Health Data Hackathon with my friends <a href='http://stchangg.com'>Stephanie</a>, Will, and Patrick"
-                        + "  The full site's at <a href='https://callmeduele.com'>callmeduele.com</a>.</p>"
-                        + "  <p>Check the source on <a href='http://github.com/yosemitebandit/meduele'>github</a> and the short demo below.</p>"
-                        + '<div class="embedded-content"><iframe frameborder="0" allowfullscreen height="380" width="640" src="http://www.youtube.com/embed/q_gSaW4sj6I?hd=1"></iframe></div>'
+                    , expound: "<p>A website built for the Cal Health Data Hackathon with my friends <a href='http://stchangg.com'>Stephanie</a>, Will, and Patrick.  The full site's at <a href='https://callmeduele.com'>callmeduele.com</a>.</p><p>Check the source on <a href='http://github.com/yosemitebandit/meduele'>github</a> and the short demo below.</p><div class='embedded-content'><iframe frameborder='0' allowfullscreen height='380' width='640' src='http://www.youtube.com/embed/q_gSaW4sj6I?hd=1'></iframe></div>"
                     , photos: {
                         thumb: "http://i.imgur.com/qisdp.png"
                     }
@@ -37,13 +39,7 @@ var projects = {
                     , blurb: "gathering, storing and visualizing lots of distributed sensor data" 
                     , where: "Palo Alto"
                     , tags: ["large", "favorite"]
-                    , expound: "<p>This was one of my last projects I made while working at <a href='http://redwoodsystems.com'>Redwood Systems</a>."
-                        + "  Redwood collects a huge amount of highly-resolved sensor data and this not-so-cleverly-named project aggregated the data on a 'cloud' platform.</p>"
-                        + "<p>I built a backend storage system with MongoDB and created an API and some authentication methods for sending and receiving the data."
-                        + "  I also created the flask-based frontend, demoed in the video below.</p>"
-                        + "<div class='embedded-content'><iframe width='640' height='380' src='http://www.youtube.com/embed/DdJOxZUw0kM?hd=1' frameborder='0' allowfullscreen></iframe></div>" 
-                        + "<p>A shorter, more 'promo-ish' video might still be up at <a href='https://redwoodcloud.com'>redwoodcloud.com</a>."
-                        + "  But since leaving Redwood in early December 2011, I no longer work on that site.</p>"
+                    , expound: "<p>This was one of the last projects I made while working at <a href='http://redwoodsystems.com'>Redwood Systems</a>.  Redwood collects a huge amount of highly-resolved sensor data and this not-so-cleverly-named project aggregated the data on a 'cloud' platform.</p><p>I built a backend storage system with MongoDB and created an API and some authentication mechanisms for sending and receiving the data.  I also created the <a href='flask.pocoo.org'>flask-based</a> frontend for viewing reports - it's demoed in the video below.</p><div class='embedded-content'><iframe width='640' height='380' src='http://www.youtube.com/embed/DdJOxZUw0kM?hd=1' frameborder='0' allowfullscreen></iframe></div><p>A shorter, more 'promo-ish' video might still be up at <a href='https://redwoodcloud.com'>redwoodcloud.com</a>.  But since leaving Redwood in early December 2011, I no longer work on that site.</p>"
                     , photos: {
                         thumb: "http://i.imgur.com/GzCBx.png"
                     }
@@ -53,12 +49,7 @@ var projects = {
                     , blurb: "real-time visualization of sensor data"
                     , where: "Palo Alto"
                     , tags: ["small", "favorite"]
-                    , expound: "<p><a href='http://redwoodsystems.com'>Redwood</a> is ostensibly a lighting company but they also have a <i>ton</i> of sensor data."
-                        + "  I built some APIs on a MongoDB backend for managing a slice of this data in the Redwood offices.</p>"
-                        + "  <p>Vinyl was a javascript visualization of this data, greatly inspired by 'Icicle,' one of <a href='http://thenoviceoof.com'>Nathan's</a> projects."
-                        + "  Each circle is a sensor in the building - they light up when something moves within their detection radius."
-                        + "  There was a barebones UI, vaguely inspired by youtube, that let people rewind to any part of the day or change the playback speed.</p>" 
-                        + '<div class="embedded-content"><iframe width="640" height="380" src="http://www.youtube.com/embed/0aEmD2X_-sw?hd=1" frameborder="0" allowfullscreen></iframe></div>'
+                    , expound: "<p><a href='http://redwoodsystems.com'>Redwood</a> is ostensibly a lighting company but they also have a <i>ton</i> of sensor data.  I built some APIs on a MongoDB backend for managing a slice of this data in the Redwood offices.</p><p>Vinyl was a javascript visualization of this data, greatly inspired by 'Icicle,' one of <a href='http://thenoviceoof.com'>Nathan's</a> projects.  Each circle is a sensor in the building - they light up when something moves within their detection radius.  There was a barebones UI, vaguely inspired by youtube, that let people rewind to any part of the day or change the playback speed.</p><div class='embedded-content'><iframe width='640' height='380' src='http://www.youtube.com/embed/0aEmD2X_-sw?hd=1' frameborder='0' allowfullscreen></iframe></div>"
                     , photos: {
                         thumb: "http://i.imgur.com/qwL0A.png"
                     }
