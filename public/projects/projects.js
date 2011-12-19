@@ -89,9 +89,7 @@ var projects = {
                     , blurb: "bright as the sun"
                     , where: "Durham"
                     , tags: ["small", "favorite"]
-                    , expound: "<p>a 555 timer-based bike light, designed by "
-                        + " <a href='http://www.instructables.com/id/Ultimate-Bike-Light---FrontRear-Combo---100-Lumen/'>"
-                        + "dan at instructables</a></p>"
+                    , expound: "<p>a 555 timer-based bike light, designed by <a href='http://www.instructables.com/id/Ultimate-Bike-Light---FrontRear-Combo---100-Lumen/'>dan at instructables</a></p>"
                     , photos: {
                         thumb: "http://i.imgur.com/I13Zq.jpg"
                     }
@@ -101,13 +99,7 @@ var projects = {
                     , blurb: "scaled-down turbines for a water purification demo"
                     , where: "Durham"
                     , tags: ["small"]
-                    , expound: "<p>I worked on the 'turbine research group' in a contest to create a wind-powered,"
-                        + " mechanical energy-only, desal concept.  We built some variants on the the savonius"
-                        + " vertical-axis design to test the effects of different geometries."
-                        + "  Our team eventually took 'most-innovative' at the"
-                        + " <a href='http://www.ieenmsu.com/events/design-contest/past-years/2009-2/'>WERC contest</a>.</p>"
-                        + "<p>See some notes about what we were up to <a href='http://wiki.duke.edu/display/wtw/energy+capture'>here</a>.</p>"
-                    , eject: "https://wiki.duke.edu/display/wtw/energy+capture"
+                    , expound: "<p>I worked on the 'turbine research group' in a contest to create a wind-powered, mechanical energy-only, desal concept.  We built some variants on the the savonius vertical-axis design to test the effects of different geometries.  Our team eventually took 'most-innovative' at the <a href='http://www.ieenmsu.com/events/design-contest/past-years/2009-2/'>WERC contest</a>.</p><p>See some notes about what we were up to <a href='http://wiki.duke.edu/display/wtw/energy+capture'>here</a>.</p>"
                     , photos: {
                         thumb: "http://i.imgur.com/uNwZt.jpg"
                     }
@@ -118,18 +110,7 @@ var projects = {
                     , where: "Durham"
                     , tags: ["large"]
                     , expound: 
-                        "<p>With <a href='trebuchet.htm'>many lessons learned</a>,"
-                        + " and only a little pre-planning, I've launched into a second trebuchet build."
-                        + "  I'm looking at a 10' arm on an 8' tall frame.  Around 18 pieces will be bolted together to constitute the machine."
-                        + "  Custom-poured concrete blocks serve as counterweight.</p>"
-                        + "<div class='embedded-content'><object width='400' height='300'>"
-                          + "<param name='allowfullscreen' value='true' />"
-                          + "<param name='allowscriptaccess' value='always' />"
-                          + "<param name='movie' value='http://vimeo.com/moogaloop.swf?clip_id=3657375&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1' />"
-                              + "<embed src='http://vimeo.com/moogaloop.swf?clip_id=3657375&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1' type='application/x-shockwave-flash' allowfullscreen='true' allowscriptaccess='always' width='400' height='300'></embed>"
-                        + "</object></div>"
-                        + "<p>Here's an early launch with about 120+ lbs of counterweight and a half liter bottle projectile; "
-                        + "more of the same on my <a href='http://vimeo.com/user1044247'>vimeo page</a>."
+                        "<p>With <a href='trebuchet.htm'>many lessons learned</a>, and only a little pre-planning, I've launched into a second trebuchet build.  I'm looking at a 10' arm on an 8' tall frame.  Around 18 pieces will be bolted together to constitute the machine.  Custom-poured concrete blocks serve as counterweight.</p><div class='embedded-content'><object width='400' height='300'><param name='allowfullscreen' value='true' /><param name='allowscriptaccess' value='always' /><param name='movie' value='http://vimeo.com/moogaloop.swf?clip_id=3657375&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1' /><embed src='http://vimeo.com/moogaloop.swf?clip_id=3657375&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1' type='application/x-shockwave-flash' allowfullscreen='true' allowscriptaccess='always' width='400' height='300'></embed></object></div> <p>Here's an early launch with about 120+ lbs of counterweight and a half liter bottle projectile; more of the same on my <a href='http://vimeo.com/user1044247'>vimeo page</a>."
                     , photos: {
                         thumb: "http://i.imgur.com/dxtSk.jpg"
                     }
@@ -139,8 +120,7 @@ var projects = {
                     , blurb: "bleaching with discharge paste"
                     , where: "Chapel Hill"
                     , tags: ["small"]
-                    , expound: "<p>I made some TNT t-shirts for my step-brother using"
-                        + " this method from  <a href='http://www.instructables.com/id/Controlled-Bleaching-with-Discharge-Paste/'>fungus amungus</a>.</p>"
+                    , expound: "<p>I made some TNT t-shirts for my step-brother using this method from  <a href='http://www.instructables.com/id/Controlled-Bleaching-with-Discharge-Paste/'>fungus amungus</a>.</p>"
                     , photos: {
                         thumb: "http://i.imgur.com/oiuKR.jpg"
                     }
@@ -168,14 +148,7 @@ var projects = {
                     , blurb: "just a proposal, sadly - maybe it'll get built someday"
                     , where: "Durham"
                     , tags: ["small"]
-                    , expound: "<p>Duke was soliciting 'good student ideas,' but this got no reply, hah.</p>" 
-                        + '<iframe class="scribd_iframe_embed" src="http://www.scribd.com/embeds/75401597/content?start_page=1&view_mode=list&access_key=key-ls8hgthoxjmku9j4bna"' 
-                        + 'data-auto-height="true" data-aspect-ratio="0.772727272727273" scrolling="no" id="doc_39060"'
-                        + 'width="100%" height="600" frameborder="0"></iframe>'
-                        + '<script type="text/javascript">(function() { var scribd = document.createElement("script");' 
-                        + 'scribd.type = "text/javascript"; scribd.async = true; '
-                        + 'scribd.src = "http://www.scribd.com/javascripts/embed_code/inject.js"; '
-                        + 'var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(scribd, s); })();</script>'
+                    , expound: '<p>Duke was soliciting "good student ideas," but this got no reply, hah.</p><iframe class="scribd_iframe_embed" src="http://www.scribd.com/embeds/75401597/content?start_page=1&view_mode=list&access_key=key-ls8hgthoxjmku9j4bna" data-auto-height="true" data-aspect-ratio="0.772727272727273" scrolling="no" id="doc_39060" width="100%" height="600" frameborder="0"></iframe><script type="text/javascript">(function() { var scribd = document.createElement("script"); scribd.type = "text/javascript"; scribd.async = true; scribd.src = "http://www.scribd.com/javascripts/embed_code/inject.js"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(scribd, s); })();</script>'
                     , photos: {
                         thumb: "http://i.imgur.com/ZE3sq.jpg"
                     }
