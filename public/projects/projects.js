@@ -64,14 +64,7 @@ var projects = {
                     , blurb: "wifi-enabled occupancy sensors communicating to a web-backend"
                     , where: "Durham"
                     , tags: ["large", "favorite"]
-                    , expound: "<p>These were sensors I designed and built for the Perkins library at Duke when I was a senior"
-                        + "  The Duke study rooms are extremely popular and this project helped people find open ones."
-                        + "  Battery-powered and running on 8-bit AVRs, they used a rather fickle WiFi module called the 'WiFly.'"
-                        + "  This was one of my first web projects - the backend was, uh, interesting."
-                        + "  But there was a very basic web interface that showed the status of the ~20 rooms.</p>"
-                        + '<div class="embedded-content"><iframe width="480" height="360" src="http://www.youtube.com/embed/oXoiZqXyRsg?hd=1" frameborder="0" allowfullscreen></iframe></div>'
-                        + "<p>Alas, the project is no more and code and schematics are lost to me..perhaps someone else has copies?"
-                        + "  The video above gives a good overview of how things were.  (And here's <a href='http://ondemand.duke.edu/video/23338/perkinsense-a-new-way-to-find-' target='_blank'>another</a>.)</p>"
+                    , expound: "<p>These were sensors I designed and built for the Perkins library at Duke when I was a senior.  The Duke study rooms are extremely popular and this project helped people find open ones.  Battery-powered and running on 8-bit AVRs, they used a rather fickle WiFi module called the 'WiFly.'  This was one of my first web projects - the backend was, uh, interesting.  But there was a very basic web interface that showed the status of the ~20 rooms.</p><div class="embedded-content"><iframe width='480' height='360' src='http://www.youtube.com/embed/oXoiZqXyRsg?hd=1' frameborder='0' allowfullscreen></iframe></div><p>Alas, the project is no more and code and schematics are lost to me..perhaps someone else has copies?  The video above gives a good overview of how things were.  (And here's <a href='http://ondemand.duke.edu/video/23338/perkinsense-a-new-way-to-find-' target='_blank'>another</a>.)</p>"
                     , photos: {
                         thumb: "http://i.imgur.com/WtPWz.png"
                     }
@@ -81,19 +74,7 @@ var projects = {
                     , blurb: "real-time bus tracking on the cheap"
                     , where: "Durham"
                     , tags: ["large", "favorite"]
-                    , expound: "<p>I leveraged the open source <a href='http://www.opengts.org'>OpenGTS</a> project to bring create a low-cost bus-tracking system for my school when I was a senior."
-                        + "  For about $150 per year, you can have an unlimited data plan on some really cheap GPS-enabled cell phones."
-                        + "  The OpenGTS project has a small client app that runs on the phones and transmits position data back to the OpenGTS server, "
-                        + " which we initially ran on a small desktop in the <a href='http://dukesmarthome.com'>Smarthome</a>.</p>"
-                        + "<p>We installed ~30 trackers to cover the whole fleet - A mechanic was nice enough to connect the trackers to each bus's electrical system so they could stay on."
-                        + "  We then modified the OpenGTS source to greatly increase the update rate so it would send coordinates about every 5s.</p>"
-                        + " <div class='embedded-content'><img src='http://i.imgur.com/fq9sY.jpg' /></div>"
-                        + "<p>I worked with a team to build a public-facing UI that showed the live positions of buses on certain routes."
-                        + "  (CSS-only Google maps icons, woo!)."
-                        + "  There was also an admin section for assigning buses to routes, creating new routes, writing bulletins and other things."
-                        + "  And then I left and it all went away, hah, I transitioned it poorly.."
-                        + "  But I wrote <a href='http://www.instructables.com/id/Bus-tracking-on-the-cheap/?ALLSTEPS'>this instructable</a> when we were testing things."
-                        + "  And here's <a href='http://today.duke.edu/2010/08/mattball.html'>a story</a> they wrote about the project.</p>"
+                    , expound: "<p>I leveraged the open source <a href='http://www.opengts.org'>OpenGTS</a> project to bring create a low-cost bus-tracking system for my school when I was a senior.  For about $150 per year, you can have an unlimited data plan on some really cheap GPS-enabled cell phones.  The OpenGTS project has a small client app that runs on the phones and transmits position data back to the OpenGTS server, which we initially ran on a small desktop in the <a href='http://dukesmarthome.com'>Smarthome</a>.</p><p>We installed ~30 trackers to cover the whole fleet - A mechanic was nice enough to connect the trackers to each bus's electrical system so they could stay on.  We then modified the OpenGTS source to greatly increase the update rate so it would send coordinates about every 5s.</p><div class='embedded-content'><img src='http://i.imgur.com/fq9sY.jpg' /></div><p>I worked with a team to build a public-facing UI that showed the live positions of buses on certain routes (css-only Google maps icons, woo!).  There was also an admin section for assigning buses to routes, creating new routes, writing bulletins and other things.  And then I left and it all went away, hah, I transitioned it poorly..  But I wrote <a href='http://www.instructables.com/id/Bus-tracking-on-the-cheap/?ALLSTEPS'>this instructable</a> when we were testing things.  And here's <a href='http://today.duke.edu/2010/08/mattball.html'>a story</a> they wrote about the project.</p>"
                     , photos: {
                         thumb: "http://i.imgur.com/jeNmM.jpg"
                     }
