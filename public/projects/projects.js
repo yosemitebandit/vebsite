@@ -96,7 +96,7 @@ var projects = {
                 }
                 , {
                     name: "savonius wind turbine"
-                    , blurb: "scaled-down turbines for a water purification demo"
+                    , blurb: "scaled-down turbines for a water purification contest"
                     , where: "Durham"
                     , tags: ["small"]
                     , expound: "<p>I worked on the 'turbine research group' in a contest to create a wind-powered, mechanical energy-only, desal concept.  We built some variants on the the savonius vertical-axis design to test the effects of different geometries.  Our team eventually took 'most-innovative' at the <a href='http://www.ieenmsu.com/events/design-contest/past-years/2009-2/'>WERC contest</a>.</p><p>See some notes about what we were up to <a href='http://wiki.duke.edu/display/wtw/energy+capture'>here</a>.</p>"
