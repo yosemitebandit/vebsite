@@ -237,6 +237,7 @@ var projects = {
                     , blurb: "bio-oils of various kinds from tiny expellers"
                     , where: "Nkokonjeru"
                     , tags: ["small"]
+                    , expound: "<p>Uganda once had a booming vanilla industry and, being a vine, the many vanilla plants required a support structure.  The jatropha plant was a popular choice for many Ugandan farmers as it grew very rapidly and was native to the area.  Vanilla waned after some time and people began noticing that the abundance of jatropha seeds were an excellent candidate for bio-oil production.  While in Uganda in 2007, my friend Lee organized a trip to Royal Van Zanten's enormous flower-growing operation, just a short distance from the capital.  Many flower exporters have greenhouses in Uganda because of the excellent climate and the small timezone difference between East Africa and Europe.  Thousands of tons of flowers are flown to the Netherlands every week.  RVZ was just in the midst of a large-scale jatropha operation intending to power their generators with jatropha-based biodiesel.  They had previously employed several truck drivers to collect the seeds in surrounding communities and had recently planted every spare acre of their land with the bushy plants.  They had an industrial expelling and filtration process on-site.</p><p>Kerosene for lamps and generators is incredibly expensive in Uganda with some households we spoke to spending 30% of their income on the fuel.  We wanted to work with RASD and explore the possibilities of small-scale bio-oil production using hand-powered Piteba presses.</p>"
                     , photos: {
                         thumb: "http://i.imgur.com/ao9FL.jpg"
                     }
@@ -246,6 +247,7 @@ var projects = {
                     , blurb: "building things with an NGO in Uganda"
                     , where: "Nkokonjeru"
                     , tags: ["small"]
+                    , expound: "<p>I spent the better part of the summer in Nkokonjeru working with friends and the awesome people at the Rural Agency for Sustainalbe Development.  Led by Ignitius Bwoogi, RASD provides agricultural assistance, leads local health programs, and offers technical training to the community.  RASD and Ignitius are very well-respected within the community and this was our group's third year of working with him.  My buddy Will had worked for many months to plan out some of the infrastructure projects that RASD believed would help them make money and better serve the community.  We worked with them during the summer to create a welding and carpentry workshop, classrooms, and a fence.</p><p>Ignitius's largest goal was to set up an internet cafe at RASD - it would be the first in the community and could provide a steady stream of income to finance RASD's other programs.  I played a small part in helping Will set this up with solar-powered Inveneo computers.  See the biomass charcoal and jatropha bio-oil projects for more about my work that summer.</p>"
                     , photos: {
                         thumb: "http://i.imgur.com/zikJ8.jpg"
                     }
