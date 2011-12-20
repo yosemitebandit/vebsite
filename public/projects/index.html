@@ -101,7 +101,12 @@
               // set an onclick method here for removing the expanded project as it cannot be registered onload
               + "<span class='close-button pull-right' onclick='remove_expanded($(this).parent().parent())'>"
                 + "&times;</span></h3>"
-            + "{{{expound}}}"
+            + "{{#expound}}"
+              + "{{{expound}}}"
+            + "{{/expound}}"
+            + "{{^expound}}"
+              + "<i>still working on a full writeup - sorry!</i>"
+            + "{{/expound}}"
           + "</div><!--/expanded-project-->";
 
 
