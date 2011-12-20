@@ -359,7 +359,7 @@ var projects = {
                     name: "ECG testers"
                     , blurb: "making ECG calibration devices for hospitals in Central America"
                     , where: "Durham"
-                    , expound: "we built a whole mess of these things"
+                    , expound: "I led a small team in the production of 70 ECG calibration devices.  Feedback from Engineering World Health's partners in the field indicated that these devices were very useful and that more were needed.  The simple boards were designed by a past student group - they created sinusoidal waveforms and emulated heartbeats to assist in the calibration of electrocardiogram machines.  I sourced the parts for these devices and organized weekly builds where the solder flowed freely.  After in-house testing, we sent them to the EWH national group where they were sent along with trained volunteers to Central American hospitals.</p>"
                     , tags: ["large"]
                     , photos: {
                         thumb: "http://i.imgur.com/yN0ba.jpg"
