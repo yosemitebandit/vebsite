@@ -9,9 +9,9 @@ var projects = {
                     , blurb: "a robo-artist"
                     , where: "Palo Alto"
                     , tags: ["small"]
-                    , expound: "<p>Inspired by several other vertical wall-plotters we saw online, my buddy Will and I built Erik, a drawing robot.  It uses two stepper motors to pull a pen around a canvas.  But the pen cannot be lifted!  So there are some interesting path-generation challenges.  The software that interfaces with the controller board was written by us and it's available on <a href='https://github.com/yosemitebandit/erik'>github</a>.</p><div class='embedded-content'><img src='#' /></div>"
+                    , expound: "<p>Inspired by several other vertical wall-plotters we saw online, my buddy Will and I built Erik, a drawing robot.  It uses two stepper motors to pull a pen around a canvas.  But the pen cannot be lifted!  So there are some interesting path-generation challenges.  The software that interfaces with the controller board was written by us and it's available on <a href='https://github.com/yosemitebandit/erik'>github</a>.</p><div class='embedded-content'><img src='http://i.imgur.com/toPtD.jpg' /></div>"
                     , photos: {
-                        thumb: "http://i.imgur.com/zq0WJ.png"
+                        thumb: 'http://i.imgur.com/5Uv4H.jpg'
                     }
                 }
                 , {
@@ -64,7 +64,7 @@ var projects = {
                     , blurb: "wifi-enabled occupancy sensors communicating to a web-backend"
                     , where: "Durham"
                     , tags: ["large", "favorite"]
-                    , expound: "<p>These were sensors I designed and built for the Perkins library at Duke when I was a senior.  The Duke study rooms are extremely popular and this project helped people find open ones.  Battery-powered and running on 8-bit AVRs, they used a rather fickle WiFi module called the 'WiFly.'  This was one of my first web projects - the backend was, uh, interesting.  But there was a very basic web interface that showed the status of the ~20 rooms.</p><div class="embedded-content"><iframe width='480' height='360' src='http://www.youtube.com/embed/oXoiZqXyRsg?hd=1' frameborder='0' allowfullscreen></iframe></div><p>Alas, the project is no more and code and schematics are lost to me..perhaps someone else has copies?  The video above gives a good overview of how things were.  (And here's <a href='http://ondemand.duke.edu/video/23338/perkinsense-a-new-way-to-find-' target='_blank'>another</a>.)</p>"
+                    , expound: "<p>These were sensors I designed and built for the Perkins library at Duke when I was a senior.  The Duke study rooms are extremely popular and this project helped people find open ones.  Battery-powered and running on 8-bit AVRs, they used a rather fickle WiFi module called the 'WiFly.'  This was one of my first web projects - the backend was, uh, interesting.  But there was a very basic web interface that showed the status of the ~20 rooms.</p><div class='embedded-content'><iframe width='480' height='360' src='http://www.youtube.com/embed/oXoiZqXyRsg?hd=1' frameborder='0' allowfullscreen></iframe></div><p>Alas, the project is no more and code and schematics are lost to me..perhaps someone else has copies?  The video above gives a good overview of how things were.  (And here's <a href='http://ondemand.duke.edu/video/23338/perkinsense-a-new-way-to-find-' target='_blank'>another</a>.)</p>"
                     , photos: {
                         thumb: "http://i.imgur.com/WtPWz.png"
                     }
