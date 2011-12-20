@@ -311,6 +311,7 @@ var projects = {
                     , blurb: "researching ways to make fuel from agricultural waste in rural Uganda"
                     , where: "Durham"
                     , eject: "https://wiki.duke.edu/display/engineerswithoutborders/Biomass+Charcoal"
+                    , expound: "<p>My friends and I closely followed Amy Smith and the D-Lab's research on biomass charcoal production.  She was operating in Haiti, pyrolizing corn cobs to create a safe cooking fuel.  Smoke-inhalation from indoor cooking fires is the number one killer of children in the developing world and smokeless charcoal is an ideal alternative to burning sticks or other matter.  Producing traditional wood-based charcoal is becoming more difficult in Haiti, Uganda, and elsewhere due to rampant deforestation.</p><p>The D-Lab developed a small-scale pyrolysis process which we expounded upon in experiments in the States as well as in Uganda.</p>"
                     , tags: ["large"]
                     , photos: {
                         thumb: "http://i.imgur.com/KEu57.jpg"
