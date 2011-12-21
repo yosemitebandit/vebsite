@@ -151,15 +151,15 @@
           */
           var filter = $(this).attr('id');
           if (filter == 'all') {
-            $('.project').show();
+            $('.project').css({visibility: 'visible'});
             $('.filter-selected-chevron').hide();
             $(this).children('.filter-selected-chevron').show();
 
           } else {  // could check to make sure the fiter's not alerady active but that caused some trouble with 'favorites'
             // show the relevant projects
-            $('.project.' + filter).show();
+            $('.project.' + filter).css({visibility: 'visible'});
             // hide all the ones that don't have this tag
-            $('.project').not('.'+filter).hide();
+            $('.project').not('.'+filter).css({visibility: 'hidden'});
             $('.expanded-project').not('.'+filter).remove();
             // move the selected class around
             $('.filter-selected').removeClass('filter-selected');
