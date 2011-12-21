@@ -300,7 +300,7 @@ var projects = {
                     name: "rainwater harvesting"
                     , blurb: "designing and building a 2900 gallon RWH tank in rural Uganda"
                     , where: "Kasaka/Kanoni"
-                    , eject: "http://picasaweb.google.com/mattball43/Uganda2007"
+                    , expound: '<p>learned a tremendous amount on this trip - here are <a href="https://picasaweb.google.com/mattball43/Uganda2007">some photos</a> of my time there.  larger write-up to come.</p>'
                     , tags: ["large", "favorite"]
                     , photos: {
                         thumb: "http://i.imgur.com/H2hdd.jpg"
@@ -310,8 +310,7 @@ var projects = {
                     name: "biomass charcoal"
                     , blurb: "researching ways to make fuel from agricultural waste in rural Uganda"
                     , where: "Durham"
-                    , eject: "https://wiki.duke.edu/display/engineerswithoutborders/Biomass+Charcoal"
-                    , expound: "<p>My friends and I closely followed Amy Smith and the D-Lab's research on biomass charcoal production.  She was operating in Haiti, pyrolizing corn cobs to create a safe cooking fuel.  Smoke-inhalation from indoor cooking fires is the number one killer of children in the developing world and smokeless charcoal is an ideal alternative to burning sticks or other matter.  Producing traditional wood-based charcoal is becoming more difficult in Haiti, Uganda, and elsewhere due to rampant deforestation.</p><p>The D-Lab developed a small-scale pyrolysis process which we expounded upon in experiments in the States as well as in Uganda.</p>"
+                    , expound: "<p>My friends and I closely followed Amy Smith and the D-Lab's research on biomass charcoal production.  She was operating in Haiti, pyrolizing corn cobs to create a safe cooking fuel.  Smoke-inhalation from indoor cooking fires is the number one killer of children in the developing world and smokeless charcoal is an ideal alternative to burning sticks or other matter.  Producing traditional wood-based charcoal is becoming more difficult in Haiti, Uganda, and elsewhere due to rampant deforestation.</p><p>The D-Lab developed a small-scale pyrolysis process which we expounded upon in experiments in the States as well as in Uganda.  Some notes on our work are <a href='https://wiki.duke.edu/display/engineerswithoutborders/Biomass+Charcoal'>here</a>.</p>"
                     , tags: ["large", 'favorite']
                     , photos: {
                         thumb: "http://i.imgur.com/KEu57.jpg"
