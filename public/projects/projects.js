@@ -98,7 +98,7 @@ var projects = {
                     name: "savonius wind turbine"
                     , blurb: "scaled-down turbines for a water purification contest"
                     , where: "Durham"
-                    , tags: ["small"]
+                    , tags: ["small", 'favorite']
                     , expound: "<p>I worked on the 'turbine research group' in a contest to create a wind-powered, mechanical energy-only, desal concept.  We built some variants on the the savonius vertical-axis design to test the effects of different geometries.  Our team eventually took 'most-innovative' at the <a href='http://www.ieenmsu.com/events/design-contest/past-years/2009-2/'>WERC contest</a>.</p><p>See some notes about what we were up to <a href='http://wiki.duke.edu/display/wtw/energy+capture'>here</a>.</p>"
                     , photos: {
                         thumb: "http://i.imgur.com/uNwZt.jpg"
@@ -312,7 +312,7 @@ var projects = {
                     , where: "Durham"
                     , eject: "https://wiki.duke.edu/display/engineerswithoutborders/Biomass+Charcoal"
                     , expound: "<p>My friends and I closely followed Amy Smith and the D-Lab's research on biomass charcoal production.  She was operating in Haiti, pyrolizing corn cobs to create a safe cooking fuel.  Smoke-inhalation from indoor cooking fires is the number one killer of children in the developing world and smokeless charcoal is an ideal alternative to burning sticks or other matter.  Producing traditional wood-based charcoal is becoming more difficult in Haiti, Uganda, and elsewhere due to rampant deforestation.</p><p>The D-Lab developed a small-scale pyrolysis process which we expounded upon in experiments in the States as well as in Uganda.</p>"
-                    , tags: ["large"]
+                    , tags: ["large", 'favorite']
                     , photos: {
                         thumb: "http://i.imgur.com/KEu57.jpg"
                     }
