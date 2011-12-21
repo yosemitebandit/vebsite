@@ -155,7 +155,7 @@
             $('.filter-selected-chevron').hide();
             $(this).children('.filter-selected-chevron').show();
 
-          } else if(filter != $('.project-filter.filter-selected').attr('id')) {  // wasn't already selected
+          } else {  // could check to make sure the fiter's not alerady active but that caused some trouble with 'favorites'
             // show the relevant projects
             $('.project.' + filter).show();
             // hide all the ones that don't have this tag
