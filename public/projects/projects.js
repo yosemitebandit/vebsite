@@ -19,7 +19,7 @@ var projects = {
                     , blurb: 'communicate little moments to your future self'
                     , where: "Palo Alto"
                     , tags: ["small"]
-                    , expound: "<p>This is a time capsule for your text messages. Send a text to (650) 830-0777 and, after some amount of time, that message will be sent back to you.</p><p>For example, a message like <code>king of Sunol, the wildcat sauntered towards me %5d 3h 4m 10s</code> would be sent back in five days, three hours, four minutes and ten seconds.  Read more about it and see the source on <a href='https://github.com/yosemitebandit/never'>github</a>.</p>"
+                    , expound: "<p>This is a time capsule for your text messages. Send a text to (650) 830-0777 and, after some amount of time, that message will be sent back to you.</p><p>For example, a message like <code>king of Sunol, the wildcat sauntered towards me %5d 3h 4m 10s</code> would be sent back in five days, three hours, four minutes and ten seconds.  Read more about it and see the source on <a href='https://github.com/yosemitebandit/never'>github</a>.  This project also has a standalone site at <a href='http://neverforgetthistext.com'>neverforgetthistext.com</a>.</p>"
                     , photos: {
                         thumb: "http://i.imgur.com/zq0WJ.png"
                     }
@@ -266,6 +266,7 @@ var projects = {
                     , blurb: "designing and building a 2900 gallon RWH tank in rural Uganda"
                     , where: "Kasaka/Kanoni"
                     , expound: '<p>learned a tremendous amount on this trip - here are <a href="https://picasaweb.google.com/mattball43/Uganda2007">some photos</a> of my time there.  larger write-up to come.</p>'
+                    //, expound: '<p>I learned so much from this project - lived in rural Uganda for three weeks'
                     , tags: ["large", "favorite"]
                     , photos: {
                         thumb: "http://i.imgur.com/H2hdd.jpg"
@@ -323,7 +324,7 @@ var projects = {
                     name: "ECG testers"
                     , blurb: "making ECG calibration devices for hospitals in Central America"
                     , where: "Durham"
-                    , expound: "I led a small team in the production of 70 ECG calibration devices.  Feedback from Engineering World Health's partners in the field indicated that these devices were very useful and that more were needed.  The simple boards were designed by a past student group - they created sinusoidal waveforms and emulated heartbeats to assist in the calibration of electrocardiogram machines.  I sourced the parts for these devices and organized weekly builds where the solder flowed freely.  After in-house testing, we sent them to the EWH national group where they were sent along with trained volunteers to Central American hospitals.</p>"
+                    , expound: "I led a small team in the production of 70 ECG calibration devices.  Feedback from Engineering World Health's partners in the field indicated that these devices were very useful and that more were needed.  The hardware, designed by a student group of yore, created sinusoidal waveforms and emulated heartbeats to assist in the calibration of electrocardiogram machines.</p><p>I sourced the parts for these devices and organized weekly builds where the solder flowed freely.  After in-house testing, we gave them to the EWH national group where they were sent along with trained volunteers to Central American hospitals.</p>"
                     , tags: ["large"]
                     , photos: {
                         thumb: "http://i.imgur.com/yN0ba.jpg"
