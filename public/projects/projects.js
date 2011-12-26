@@ -109,8 +109,7 @@ var projects = {
                     , blurb: "the second quick iteration on a simple trebuchet design"
                     , where: "Durham"
                     , tags: ["large"]
-                    , expound: 
-                        "<p>With <a href='trebuchet.htm'>many lessons learned</a>, and only a little pre-planning, I've launched into a second trebuchet build.  I'm looking at a 10' arm on an 8' tall frame.  Around 18 pieces will be bolted together to constitute the machine.  Custom-poured concrete blocks serve as counterweight.</p><div class='embedded-content'><object width='400' height='300'><param name='allowfullscreen' value='true' /><param name='allowscriptaccess' value='always' /><param name='movie' value='http://vimeo.com/moogaloop.swf?clip_id=3657375&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1' /><embed src='http://vimeo.com/moogaloop.swf?clip_id=3657375&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1' type='application/x-shockwave-flash' allowfullscreen='true' allowscriptaccess='always' width='400' height='300'></embed></object></div> <p>Here's an early launch with about 120+ lbs of counterweight and a half liter bottle projectile; more of the same on my <a href='http://vimeo.com/user1044247'>vimeo page</a>."
+                    , expound: "<p>With <a href='trebuchet.htm'>many lessons learned</a>, and only a little pre-planning, I've launched into a second trebuchet build.  I'm looking at a 10' arm on an 8' tall frame.  Around 18 pieces will be bolted together to constitute the machine.  Custom-poured concrete blocks serve as counterweight.</p><div class='embedded-content'><object width='400' height='300'><param name='allowfullscreen' value='true' /><param name='allowscriptaccess' value='always' /><param name='movie' value='http://vimeo.com/moogaloop.swf?clip_id=3657375&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1' /><embed src='http://vimeo.com/moogaloop.swf?clip_id=3657375&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1' type='application/x-shockwave-flash' allowfullscreen='true' allowscriptaccess='always' width='400' height='300'></embed></object></div> <p>Here's an early launch with about 120+ lbs of counterweight and a half liter bottle projectile; more of the same on my <a href='http://vimeo.com/user1044247'>vimeo page</a>."
                     , photos: {
                         thumb: "http://i.imgur.com/dxtSk.jpg"
                     }
@@ -163,9 +162,7 @@ var projects = {
                     , blurb: "two eight foot canoes from two sheets of 4x8 plywood"
                     , where: "Chapel Hill"
                     , tags: ["large", "favorite"]
-                    , expound: "<p>Me and my friend Jaime built two canoes as gifts using "
-                        + "<a href='http://koti.kapsi.fi/hvartial/oss3/oss3.htm'>Hannu's 'Dug' design</a>."
-                        + "  These were awesome little boats; really stable and could hold about 250lbs before it was time to start baling.</p>"
+                    , expound: "<p>Me and my friend Jaime built two canoes as gifts using <a href='http://koti.kapsi.fi/hvartial/oss3/oss3.htm'>Hannu's 'Dug' design</a>.  These were awesome little boats; really stable and could hold about 250lbs before it was time to start baling.</p>"
                     , photos: {
                         thumb: "http://i.imgur.com/OdgwF.jpg"
                     }
@@ -175,8 +172,7 @@ var projects = {
                     , blurb: "wrapping things up with old newspapers - revolutionary."
                     , where: "Chapel Hill"
                     , tags: ["small"]
-                    , expound: "<p>gift wrapping with newspaper.. some very interesting newspaper -"
-                        + " written up for some reason on <a href='http://www.instructables.com/id/gift-wrapping-with-newspaper/'>instructables</a></p>"
+                    , expound: "<p>gift wrapping with newspaper.. some very interesting newspaper - written up for some reason on <a href='http://www.instructables.com/id/gift-wrapping-with-newspaper/'>instructables</a></p>"
                     , photos: {
                         thumb: "http://i.imgur.com/lPrkO.jpg"
                     }
@@ -186,24 +182,7 @@ var projects = {
                     , blurb: "talking to people and surveying the land in rural Bolivia"
                     , where: "Obrajes"
                     , tags: ["large", "favorite"]
-                    , expound: "<p>I traveled to Obrajes, Bolivia in the summer of 2008 as part of an Engineers Without Borders team."
-                        + "  The communities in the area are seasonally impeded by a river that swells" 
-                        + " with the rains and mountain runoff; crops cannot be taken to the nearby city of Oruro"
-                        + " and children are sometimes kept from school by the waters.</p>"
-                        + "<div class='embedded-content'><img src='http://i.imgur.com/dGkLG.jpg' /></div>"
-                        + "<p>Our small team took survey data of the river contours, tested the soil's bearing capacity,"
-                        + " and conducted numerous interviews with residents, all in preparation for"
-                        + " a potential bridge construction project to take place in 2009."
-                        + "  The report I created to summarize the MATLAB analysis of the survey data may be "
-                        + " <a href='http://www.scribd.com/doc/75417759/Bolivia-Survey-Report'>here</a>.</p>"
-                        + "<div class='embedded-content'><img src='http://i.imgur.com/VYMMN.jpg' /></div>"
-                        + "<p>This work generated a lot of reflection on issues of project sustainability and impact;"
-                        + " I am no longer involved with the work since the summer's end, but many Duke students" 
-                        + " traveled to the area in 2009 and completed a bridge crossing.</p>"
-                        + "<p>Up-to-date information about the Bolivia team's work can be viewed on the"
-                        + " <a href='https://wiki.duke.edu/display/engineerswithoutborders/bolivia'>team's wiki</a>."
-                        + "  And all of my photos from this amazing trip are online"
-                        + " <a href='http://picasaweb.google.com/mattball43/Bolivia2008#'>here</a>.</p>"
+                    , expound: "<p>I traveled to Obrajes, Bolivia in the summer of 2008 as part of an Engineers Without Borders team.  The communities in the area are seasonally impeded by a river that swells with the rains and mountain runoff; crops cannot be taken to the nearby city of Oruro and children are sometimes kept from school by the waters.</p><div class='embedded-content'><img src='http://i.imgur.com/dGkLG.jpg' /></div><p>Our small team took survey data of the river contours, tested the soil's bearing capacity, and conducted numerous interviews with residents, all in preparation for a potential bridge construction project to take place in 2009.  The report I created to summarize the MATLAB analysis of the survey data may be <a href='http://www.scribd.com/doc/75417759/Bolivia-Survey-Report'>here</a>.</p><div class='embedded-content'><img src='http://i.imgur.com/VYMMN.jpg' /></div><p>This work generated a lot of reflection on issues of project sustainability and impact; I am no longer involved with the work since the summer's end, but many Duke students traveled to the area in 2009 and completed a bridge crossing.</p><p>Up-to-date information about the Bolivia team's work can be viewed on the <a href='https://wiki.duke.edu/display/engineerswithoutborders/bolivia'>team's wiki</a>.  And all of my photos from this amazing trip are online <a href='http://picasaweb.google.com/mattball43/Bolivia2008#'>here</a>.</p>"
                     , photos: {
                         thumb: "http://i.imgur.com/YNd4G.jpg"
                     }
@@ -213,20 +192,7 @@ var projects = {
                     , blurb: "a fairly accurate scale from a bicycle axle"
                     , where: "Nkokonjeru"
                     , tags: ['small', 'favorite']
-                    , expound: "<p>When the electricity went off in Nkokonjeru"
-                        + " I (finally) had an excuse to stop welding the gates for RASD, the NGO where we worked."
-                        + "  Some other projects at the site needed to weigh things so I tried making a scale.</p>"
-                        + "<div class='embedded-content'><img src='http://i.imgur.com/Vjm9F.jpg' /></div>"
-                        + "<p>I used a moment-balance system where a known volume of water (usually 500mL)"
-                        + " would be shifted until it balanced the load on the other side of the scale."
-                        + "  It's somewhat similar to a physician's scale for weighing people."
-                        + "  I used a bike hub and some tough wood to form the scale's body;"
-                        + " scrap metal on the short end helped cancel the weight of the long arm.</p>"
-                        + "<p>When it was working, Abhinav Kapur and I estimated a 40g precision."
-                        + "  I made the mistake of taking the balance apart before finishing a second, nicer version."
-                        + "  Version two, of course, was never completed."
-                        + "  Sigh. I'd like to put one together in the States and employ the convenience of so many nice power tools,"
-                        + " it would be handy to have a scale around.</p>"
+                    , expound: "<p>When the electricity went off in Nkokonjeru I (finally) had an excuse to stop welding the gates for RASD, the NGO where we worked.  Some other projects at the site needed to weigh things so I tried making a scale.</p><div class='embedded-content'><img src='http://i.imgur.com/Vjm9F.jpg' /></div><p>I used a moment-balance system where a known volume of water (usually 500mL) would be shifted until it balanced the load on the other side of the scale.  It's somewhat similar to a physician's scale for weighing people.  I used a bike hub and some tough wood to form the scale's body; scrap metal on the short end helped cancel the weight of the long arm.</p><p>When it was working, Abhinav Kapur and I estimated a 40g precision.  I made the mistake of taking the balance apart before finishing a second, nicer version.  Version two, of course, was never completed.  Sigh. I'd like to put one together in the States and employ the convenience of so many nice power tools, it would be handy to have a scale around.</p>"
                     , photos: {
                         thumb: "http://i.imgur.com/EudwH.jpg"
                     }
@@ -290,8 +256,7 @@ var projects = {
                     , blurb: "just a little soldering iron holder and solder dispenser"
                     , where: "Chapel Hill"
                     , tags: ["small"]
-                    , expound: "<p>Made a little soldering iron station -"
-                        + " wrote it up on <a href='http://www.instructables.com/id/Soldering-Station/'>instructables</a></p>"
+                    , expound: "<p>Made a little soldering iron station - wrote it up on <a href='http://www.instructables.com/id/Soldering-Station/'>instructables</a></p>"
                     , photos: {
                         thumb: "http://i.imgur.com/dGggf.jpg"
                     }
