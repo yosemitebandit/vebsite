@@ -223,7 +223,7 @@ var projects = {
                     , blurb: "keeping biological samples cold in remote areas"
                     , where: "Durham"
                     , tags: ["small"]
-                    , expound: "<p>See <a href='https://wiki.duke.edu/display/engworld/Portable+refrigeration'>the wiki</a> for details</p>."
+                    , expound: "<p>See <a href='https://wiki.duke.edu/display/engworld/Portable+refrigeration'>the wiki</a> for details.</p>"
                     , photos: {
                         thumb: "http://i.imgur.com/R4ICr.jpg"
                     }
