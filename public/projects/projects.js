@@ -9,7 +9,7 @@ var projects = {
                     , blurb: "a robo-artist"
                     , where: "Palo Alto"
                     , tags: ["small"]
-                    , expound: "<p>Inspired by several other vertical wall-plotters we saw online, my buddy Will and I built Erik, a drawing robot.  It uses two stepper motors to pull a pen around a canvas.  But the pen cannot be lifted!  So there are some interesting path-generation challenges.  The software that interfaces with the controller board was written by us and it's available on <a href='https://github.com/yosemitebandit/erik'>github</a>.</p><div class='embedded-content'><img src='http://i.imgur.com/toPtD.jpg' /></div>"
+                    , expound: "<p>Inspired by several other vertical wall-plotters we saw online, my buddy Will and I built Erik, a drawing robot.  It uses two stepper motors to pull a pen around a canvas.  But the pen cannot be lifted!  So there are some interesting path-generation challenges.  The software that interfaces with the controller board was written by us and it's available on <a href='https://github.com/yosemitebandit/erik'>github</a>.</p><div class='embedded-content'><img src='http://i.imgur.com/PGe7V.jpg' /></div>"
                     , photos: {
                         thumb: 'http://i.imgur.com/5Uv4H.jpg'
                     }
