@@ -162,7 +162,7 @@ var projects = {
                     , blurb: "two eight foot canoes from two sheets of 4x8 plywood"
                     , where: "Chapel Hill"
                     , tags: ["large", "favorite"]
-                    , expound: "<p>Me and my friend Jaime built two canoes as gifts using <a href='http://koti.kapsi.fi/hvartial/oss3/oss3.htm'>Hannu's 'Dug' design</a>.  These were awesome little boats; really stable and could hold about 250lbs before it was time to start baling.</p>"
+                    , expound: "<p>Me and my friend Jaime built two canoes as gifts using <a href='http://koti.kapsi.fi/hvartial/oss3/oss3.htm'>Hannu's 'Dug' design</a>.  These were awesome little boats; really stable and could hold about 250lbs before it was time to start baling.</p><div class='embedded-content'><img src='http://i.imgur.com/iGcdE.jpg' /></div>"
                     , photos: {
                         thumb: "http://i.imgur.com/OdgwF.jpg"
                     }
