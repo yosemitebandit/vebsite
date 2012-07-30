@@ -2,6 +2,31 @@ var projects = {
     "title": "projects"
     , "history": [
         {
+            year: "2012"
+            , projects: [
+                {
+                    name: "Pipeline"
+                    , blurb: "aggregating and analyzing water system data"
+                    , where: "San Francisco"
+                    , tags: ["large"]
+                    , expound: "<p>A data collection and management system built for my work at Aquaya.  It's in production at <a href='https://pipelinehq.org'>pipelinehq.org</a> and open sourced <a href='https://github.com/aquaya/pipeline'>on github</a></p>."
+                    , photos: {
+                        thumb: "http://i.imgur.com/6vlp8.png"
+                    }
+                }
+                , {
+                    name: "stravanova"
+                    , blurb: "bike ride playback machine"
+                    , where: "San Francisco"
+                    , tags: ["small", "favorite"]
+                    , expound: "<p>The full site is at <a href='http://yosemitebandit.github.com/stravanova'>yosemitebandit.github.com/stravanova</a>.</p> </p>Stravanova plays and overlays <code>gpx</code> files.  It can be one rider on multiple rides or multiple riders doing the same ride.  The start times are normalized.  A python script interpolates points such that the dataset has a position for every second.  This gives time-accurate and smooth playback, although your computer will be put through its paces..</p>"
+                    , photos: {
+                        thumb: "http://i.imgur.com/cOyqI.png"
+                    }
+                }
+            ]
+        }
+        , {
             year: "2011"
             , projects: [
                 {
