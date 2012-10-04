@@ -44,7 +44,7 @@ var projects = {
                     , blurb: 'communicate little moments to your future self'
                     , where: "Palo Alto"
                     , tags: ["small"]
-                    , expound: "<p>This is a time capsule for your text messages. Send a text to (650) 830-0777 and, after some amount of time, that message will be sent back to you.</p><p>For example, a message like <code>king of Sunol, the wildcat sauntered towards me %5d 3h 4m 10s</code> would be sent back in five days, three hours, four minutes and ten seconds.  Read more about it and see the source on <a href='https://github.com/yosemitebandit/never'>github</a>.  This project also has a standalone site at <a href='http://neverforgetthistext.com'>neverforgetthistext.com</a>.</p>"
+                    , expound: "<p>This is a time capsule for your text messages. Send a text to (650) 830-0777 and, after some amount of time, that message will be sent back to you.</p><p>For example, a message like <code>king of Sunol, the wildcat sauntered towards me %5d 3h 4m 10s</code> would be sent back in five days, three hours, four minutes and ten seconds.  Read more about it and see the source on <a href='https://github.com/yosemitebandit/never'>github</a>.</p>"
                     , photos: {
                         thumb: "http://i.imgur.com/zq0WJ.png"
                     }
@@ -54,7 +54,7 @@ var projects = {
                     , blurb: "connecting people to health information and resources"
                     , where: "Palo Alto"
                     , tags: ["large", "favorite"]
-                    , expound: "<p>A website built for the Cal Health Data Hackathon with my friends <a href='http://stchangg.com'>Stephanie</a>, Will, and Patrick.  The full site's at <a href='https://callmeduele.com'>callmeduele.com</a>.</p><p>Check the source on <a href='http://github.com/yosemitebandit/meduele'>github</a> and the short demo below.</p><div class='embedded-content'><iframe frameborder='0' allowfullscreen height='380' width='640' src='http://www.youtube.com/embed/q_gSaW4sj6I?hd=1'></iframe></div>"
+                    , expound: "<p>A website built for the Cal Health Data Hackathon with my friends <a href='http://stchangg.com'>Stephanie</a>, Will, and Patrick.  </p><p>Check the source on <a href='http://github.com/yosemitebandit/meduele'>github</a> and the short demo below.  (Alas, I recently let go of the callmeduele.org domain.)</p><div class='embedded-content'><iframe frameborder='0' allowfullscreen height='380' width='640' src='http://www.youtube.com/embed/q_gSaW4sj6I?hd=1'></iframe></div>"
                     , photos: {
                         thumb: "http://i.imgur.com/qisdp.png"
                     }
