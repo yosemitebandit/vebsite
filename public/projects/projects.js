@@ -5,6 +5,24 @@ var projects = {
             year: "2012"
             , projects: [
                 {
+                    name: "Clusterbus"
+                    , blurb: "exploring the phenomenon of bus-bunching with SFMTA data"
+                    , where: "San Francisco"
+                    , tags: ["small"]
+                    , photos: {
+                        thumb: "https://s3.amazonaws.com/yb-img/clusterbus-tiny.png"
+                    }
+                }
+                , {
+                    name: "DoubleYou"
+                    , blurb: "avatars for visualizing health data"
+                    , where: "Berkeley"
+                    , tags: ["small"]
+                    , photos: {
+                        thumb: "https://s3.amazonaws.com/yb-img/doubleyou-tiny.png"
+                    }
+                }
+                , {
                     name: "Pipeline"
                     , blurb: "aggregating and analyzing water system data"
                     , where: "San Francisco"
@@ -22,6 +40,16 @@ var projects = {
                     , expound: "<p>The real action's at <a href='http://yosemitebandit.github.com/stravanova'>yosemitebandit.github.com/stravanova</a>.</p> </p>Stravanova plays and overlays <code>gpx</code> files.  It can be one rider on multiple rides or multiple riders doing the same ride.  The start times are normalized.  A python script interpolates points such that the dataset has a position for every second.  This gives time-accurate and smooth playback, although it will put your computer through its paces..</p>"
                     , photos: {
                         thumb: "http://i.imgur.com/cOyqI.png"
+                    }
+                }
+                , {
+                    name: "IVRHub"
+                    , blurb: "mobile data collection on any device, in any language"
+                    , where: "San Francisco"
+                    , tags: ["small", "favorite"]
+                    , expound: "Voice-based data collection &ndash; read more at <a href='https://ivrhub.org/about'>IVRHub.org</a>."
+                    , photos: {
+                        thumb: "https://s3.amazonaws.com/yb-img/ivrhub-response-tiny.png"
                     }
                 }
             ]
