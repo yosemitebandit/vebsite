@@ -27,7 +27,7 @@ var projects = {
                     name: "Pipeline"
                     , blurb: "aggregating and analyzing water system data"
                     , where: "San Francisco"
-                    , tags: ["large"]
+                    , tags: ["large", "favorite"]
                     , expound: "<p>A data collection and management system being built during my work at Aquaya.  It's in production at <a href='https://pipelinehq.org'>pipelinehq.org</a> and open sourced <a href='https://github.com/aquaya/pipeline'>on github</a>.</p>"
                     , photos: {
                         thumb: "http://i.imgur.com/6vlp8.png"
