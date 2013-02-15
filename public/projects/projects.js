@@ -2,6 +2,21 @@ var projects = {
     "title": "projects"
     , "history": [
         {
+            year: "2013"
+            , projects: [
+                {
+                    name: "the Prism (ultimater version)"
+                    , blurb: "close encounters with the bay"
+                    , where: "Menlo Park"
+                    , tags: ["small"]
+                    , expound: "<p>My friend <a href='trevorshp.com'>Trevor</a> and I built a one-sheet boat using plans from the famous <a href='http://koti.kapsi.fi/hvartial/oss2/oss2.htm'>Hannu</a>.  All you need is a lone sheet of birch plywood (3/8\" I think..) and fiberglass for the outer seams where the flat bottom meets the sides.  The inner seams were covered with a thickened resin.  The outside has a few coats of Tung oil.</p> <p>Hannu's 'ultimater' version of the Prism has some stability enhancements and can theoretically displace 800 lbs.  But we got a little nervous with three people inside &ndash; the freeboard gets to be <i>quite</i> low and if you're not all carefully balanced, the bow or stern can swamp.</p> <div class='embedded-content'><img src='https://s3.amazonaws.com/yb-img/boat-finish.jpg' /></div> <p>We have lots more <a href='https://plus.google.com/photos/104532315857990767595/albums/5833521596572962657'>pictures</a> of various excursions into the Bay, including Trevor's excellent <a href='https://plus.google.com/photos/104532315857990767595/albums/5833521596572962657/5843564031949934738'>timelapse</a>.  The boat seems to handle South Bay waters just fine and we're tentatively discussing a journey to the East Bay, probably following the narrowing along the Dumbarton Bridge..</p>"
+                    , photos: {
+                        thumb: "https://s3.amazonaws.com/yb-img/widowmaker-tiny.jpg"
+                    }
+                }
+            ]
+        }
+        , {
             year: "2012"
             , projects: [
                 {
