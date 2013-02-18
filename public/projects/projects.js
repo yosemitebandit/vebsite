@@ -63,7 +63,7 @@ var projects = {
                     name: "IVRHub"
                     , blurb: "mobile data collection on any device, in any language"
                     , where: "San Francisco"
-                    , tags: ["small", "favorite"]
+                    , tags: ["large", "favorite"]
                     , expound: "Voice-based data collection &ndash; read more at <a href='https://ivrhub.org/about'>IVRHub.org</a>."
                     , photos: {
                         thumb: "https://s3.amazonaws.com/yb-img/ivrhub-response-tiny.png"
