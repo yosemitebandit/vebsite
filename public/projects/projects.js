@@ -6,7 +6,7 @@ var projects = {
             , projects: [
                 {
                     name: "Target Accrual"
-                    , blurb: "getting to significant N"
+                    , blurb: "co-author networks and getting to significant N"
                     , where: "Stanford"
                     , tags: ["small"]
                     , expound: "<p>Me and some friends built <a href='http://targetaccrual.com'>targetaccrual.com</a> for the StartX-Med hackathon at Stanford.</p> <p>It's two..frankly separate ideas.  We wanted to build a <a href='http://targetaccrual.com/researcher-network'>network graph</a> of researchers for the Rare Cancer Research Foundation (led by friends that work on the <a href='http://chordoma.org'>Chordoma Foundation</a>).  PubMed was scraped to establish co-authorship networks for various diseases.  See <a href='https://github.com/yosemitebandit/crabnet'>github</a> and the demo for more.</p> <div class='embedded-content'><img src='http://s3.amazonaws.com/yb-img/polycythemia-vera.png' /></div> <p>To present a business angle, we got into headhunting for clinical trials.  Many trials fail due to a lack of enrollment and these failures are expensive.  We planned to use scraping systems to inform a custom ad network.  Ads would be targeted to connect doctors, candidates and trials.</p>"
