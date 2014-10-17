@@ -8,6 +8,7 @@ import os
 from fabric.api import env, run, local, sudo
 
 def prod():
+  env.use_ssh_config = True
   env.user = 'matt'
   env.hosts = ['kepler']
   env.project_dir = '/home/matt/yosemitebandit.com'
