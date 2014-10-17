@@ -2,6 +2,21 @@ var projects = {
     "title": "projects"
     , "history": [
         {
+          year: "2014"
+          , projects: [
+            {
+              name: "Project Wing"
+              , blurb: "flyin robots"
+              , where: "Mountain View"
+              , tags: ["large", "favorite"]
+              , expound: "I was part of the team that worked on Google's 'self-flying vehicle' project."
+              , photos: {
+                thumb: "https://s3.amazonaws.com/yb-img/wing-thumb.jpg"
+              }
+            }
+          ]
+        },
+        {
             year: "2013"
             , projects: [
                 {
