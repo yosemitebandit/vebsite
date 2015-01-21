@@ -20,7 +20,7 @@ then check `http://localhost:8000/projects`
 
 ### test that sucker out
 
-    $ hugo server --theme=pasture --port=8080 --watch
+    $ hugo server --theme=pasture --port=8080 --watch --disableLiveReload
 
 
 ### update pasture, the hugo theme
