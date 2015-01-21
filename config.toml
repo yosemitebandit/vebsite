@@ -31,7 +31,7 @@ MetaDataFormat = "toml"
 
   # Select a syntax highight.
   # Check the static/css/highlight directory for options.
-  highlight = "sunburst"
+  highlight = "tomorrow"
 
   # Displays under the author name in the sidebar
   tagline = "quite"
