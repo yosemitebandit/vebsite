@@ -16,11 +16,30 @@ maybe you have to hack them away to actually read the site.
 generative flowers and animals on the notes site
 or like animated ascii art.
 
+```
+
+                             *@*
+                          *@*
+            +B         *@*
+            +B        *@*
+             +B      (%&%]
+               +B  ([%&&&%))
+                 +B[%&&&&&%) >n
+                   ([%&&&%))   >n
+                     (%&%)       >n
+                      *@*         >n
+                    *@*           >n
+                  *@*
+               *@*
+
+
+```
+
+like this awesome demo from [nick kwiatek](http://nkwiatek.com/experiments/ascii#)
+or something colorful ala [substack](substack.net)
+
 or maybe the projects page scrolls horizontally,
 everybody loves stuff like that :|
-
-something more colorful ala [substack](substack.net)
-
 something a bit less prosaic and predictable,
 I mean, that's ok for the blog stuff,
 but the projects section should be fun..
