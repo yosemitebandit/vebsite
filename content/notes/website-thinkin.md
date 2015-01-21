@@ -14,6 +14,7 @@ you scroll down and roots continue being created in the side/background.
 and you can browse back into old projects.
 maybe you have to hack them away to actually read the site.
 generative flowers and animals on the notes site
+or like animated ascii art.
 
 or maybe the projects page scrolls horizontally,
 everybody loves stuff like that :|
