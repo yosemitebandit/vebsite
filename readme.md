@@ -18,11 +18,9 @@ then check `http://localhost:8000/projects`
  - or figure out the symlinking scheme
 
 
-### test that sucker out
+### 
+make some content, get the theme's latest and test that sucker out:
 
+    $ hugo new notes/yup.md
     $ hugo server --theme=pasture --port=8080 --watch --disableLiveReload
-
-
-### update pasture, the hugo theme
-
     $ git subtree pull --prefix themes/pasture https://github.com/yosemitebandit/pasture.git master --squash
