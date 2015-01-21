@@ -37,8 +37,8 @@ MetaDataFormat = "toml"
   tagline = "quite"
 
   # Metadata used to drive integrations.
-  googleAuthorship = "Your Google+ profile ID"
-  googleAnalytics = "Your Google Analytics tracking code"
+  #googleAuthorship = "Your Google+ profile ID"
+  #googleAnalytics = "Your Google Analytics tracking code"
   #gravatarHash = "95f17d2a12df6a614b33282b42b48899"
 
   # Sidebar social links, avoid enabling too many of these if possible.
