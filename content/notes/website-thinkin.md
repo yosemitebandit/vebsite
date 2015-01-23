@@ -43,3 +43,8 @@ everybody loves stuff like that :|
 something a bit less prosaic and predictable,
 I mean, that's ok for the blog stuff,
 but the projects section should be fun..
+
+on urls, what a wonderful timesink..
+[this site](http://www.manythings.org/vocabulary/lists/l/words.php?f=noll06)
+helped me find some interesting words for mashing together.
+for instance, "pinewire" and "oakmachine" were available, and they sound nice.
