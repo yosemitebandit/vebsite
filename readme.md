@@ -28,4 +28,4 @@ make some content, get the theme's latest and test that sucker out:
 
 changed the theme (a subtree) inside this repo?
 
-    $ git subtree push --prefix themes/pasture https://github.com/yosemitebandit/pasture.git master
+    $ git subtree push --prefix themes/pasture git@github.com:yosemitebandit/pasture.git master
