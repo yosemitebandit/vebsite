@@ -10,7 +10,7 @@ MetaDataFormat = "toml"
 
 
 [permalinks]
-  notes = "/notes/:year/:month/:day/:title/"
+  notes = "/:year/:title/"
 
 
 [indexes]
