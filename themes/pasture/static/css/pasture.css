@@ -1,3 +1,16 @@
+html {
+  font-family: "Inconsolata", sans-serif;
+}
+
+code, pre {
+  font-family: "Inconsolata", monospace;
+}
+
+code {
+  color: #40A837;  /* a mild green */
+  font-size: 90%;
+}
+
 .note-tags {
   display: block;
   margin-top: 0.5rem;
