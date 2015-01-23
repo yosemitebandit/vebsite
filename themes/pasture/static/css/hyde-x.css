@@ -2,14 +2,6 @@
  * Additional CSS for Hyde-X
  */
 
-.posts {
-  list-style: none;
-}
-
-.posts li {
-  margin: 0 0 .5em 0;
-}
-
 .sidebar-about img {
   margin: 0 auto 0.5rem auto;
   width: 150px;

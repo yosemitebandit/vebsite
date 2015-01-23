@@ -21,3 +21,15 @@ code {
   padding-top: 2.2rem;
   padding-bottom: 2.2rem;
 }
+
+.list-desc {
+  display: block;
+}
+
+.notes {
+  list-style: none;
+}
+
+.notes li {
+  margin: 0 0 1em 0;
+}

@@ -2,7 +2,7 @@
 
 <div class="content container">
 
-  <ul class="posts">
+  <ul class="notes">
 
     {{ range .Data.Pages }}
 
@@ -19,6 +19,13 @@
         )
 
         <span class='list-time'>{{ .Date.Format "Jan 2, 2006" }}</span>
+
+        <br />
+        {{ if .Description }}
+          <span class='list-desc'>{{ .Description }}</span>
+        {{ else }}
+          <span class='list-desc'>&nbsp;</span>
+        {{ end }}
 
       </li>
   {{ end }}
