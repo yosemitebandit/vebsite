@@ -1,7 +1,6 @@
 baseurl = "http://notes.yosemitebandit.com/"
 title = "notes"
 languageCode = "en-us"
-#disqusShortname = "your_disqus_shortname" # Optional, enable Disqus integration
 MetaDataFormat = "toml"
 
 
@@ -15,7 +14,6 @@ MetaDataFormat = "toml"
 
 [indexes]
   # Optional. Use if you want tags and lists.
-  category = "categories"
   tag = "tags"
 
 
@@ -40,11 +38,3 @@ MetaDataFormat = "toml"
   #googleAuthorship = "Your Google+ profile ID"
   #googleAnalytics = "Your Google Analytics tracking code"
   #gravatarHash = "95f17d2a12df6a614b33282b42b48899"
-
-  # Sidebar social links, avoid enabling too many of these if possible.
-  # These should be full URLs.
-  github = ""
-  linkedin = ""
-  googleplus = ""
-  facebook = ""
-  twitter = ""
