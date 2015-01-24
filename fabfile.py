@@ -1,12 +1,12 @@
-"""fabfile
+"""Buildin and deployin the ole site.
 
-automates the deployment from git
-
-usage:
-    $ fab prod host_info
-    $ fab prod deploy
+    $ fab oak build deploy
+    $ fab oak host_info
 """
-from fabric.api import env, run, local, sudo
+
+import os
+
+from fabric.api import env, run, local, sudo, put, cd
 
 
 def prod():
@@ -19,14 +19,37 @@ def prod():
   env.branch = 'master'
 
 
-def deploy():
-  """ pushes changes
-  """
-  # push changes of specific branch
-  local('git push origin %s' % env.branch)
+def oak():
+  """Oaken stuff."""
+  env.use_ssh_config = True
+  env.user = 'matt'
+  env.hosts = ['kepler']
+  env.project_dir = '/home/matt/oak.yosemitebandit.com'
+  #env.project_site_dir = 'public'
+  env.branch = 'hugo'
+  env.out_path = 'public'
 
-  # update the remote with these changes
-  run('cd %s; git pull origin %s' % (env.project_dir, env.branch))
+
+def build():
+  """Builds the content with hugo."""
+  local('hugo --theme=pasture')
+
+
+def deploy():
+  """Send static content to the remote."""
+  out_tgz = '%s.tgz' % env.out_path
+  local('tar -czvf %s %s' % (out_tgz, env.out_path))
+  remote_tgz = '/tmp/%s' % out_tgz
+  put(out_tgz, remote_tgz)
+  local('rm %s' % out_tgz)
+  run('mv %s %s' % (remote_tgz, env.project_dir))
+  with cd(env.project_dir):
+    run('tar -xf %s' % os.path.join(env.project_dir, out_tgz))
+    run('rm %s' % out_tgz)
+    '''
+    run('rm -rf %s && mv %s %s' % (env.project_site_dir, env.out_path,
+                                   env.project_site_dir))
+    '''
 
 
 def nginx(command):
