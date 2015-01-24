@@ -46,10 +46,6 @@ def deploy():
   with cd(env.project_dir):
     run('tar -xf %s' % os.path.join(env.project_dir, out_tgz))
     run('rm %s' % out_tgz)
-    '''
-    run('rm -rf %s && mv %s %s' % (env.project_site_dir, env.out_path,
-                                   env.project_site_dir))
-    '''
 
 
 def nginx(command):
