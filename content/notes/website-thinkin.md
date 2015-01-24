@@ -48,3 +48,16 @@ on urls, what a wonderful timesink..
 [this site](http://www.manythings.org/vocabulary/lists/l/words.php?f=noll06)
 helped me find some interesting words for mashing together.
 for instance, "pinewire" and "oakmachine" were available, and they sound nice.
+
+The workflow, I got my theme set as a subtree:
+
+```shell
+git subtree add --prefix themes/pasture https://github.com/yosemitebandit/pasture.git master --squash
+```
+
+Then I can pull or push
+
+```shell
+git subtree pull --prefix themes/pasture git@github.com:yosemitebandit/pasture.git master --squash
+git subtree push --prefix themes/pasture git@github.com:yosemitebandit/pasture.git master --squash
+```
