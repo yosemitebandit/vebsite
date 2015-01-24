@@ -239,7 +239,12 @@ a.sidebar-nav-item:focus {
 
 /* Dark Green */
 .theme-base-10 .sidebar {
+  /*
+  background: linear-gradient(180deg, #F1F2B5, #135058);
+  background: linear-gradient(0deg, #3D7EAA, #FFE47A);
+  */
   background-color: #3A8F25;
+  background: linear-gradient(20deg, #3f4c6b, #C9FFBF);
 }
 .theme-base-10 .content a,
 .theme-base-10 .related-posts li a:hover {
