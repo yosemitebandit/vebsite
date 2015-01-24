@@ -2,7 +2,7 @@
 date = "2015-01-24T05:10:05Z"
 description = "simulated annealing with scipy.optimize"
 menu = ""
-tags = ["python"]
+tags = ["python", "werk"]
 title = "uniform sampling in a polygon"
 
 +++
@@ -11,7 +11,7 @@ I was working on uniform sampling in an arbitrary polygon.
 An interesting [stackexchange thread](http://math.stackexchange.com/questions/15624).
 A [pdf](http://geostat-course.org/system/files/ov_Heuvelink_GEOSTAT11_workshop_sampling%20design_optimization1.pdf) on the topic --
 these kinds of problems arise in geosciences.
-For instance when you need to analyze a large area of soil.
+For instance when you need to analyze a large area of soil..
 We need a [low discrepancy](http://en.wikipedia.org/wiki/Low-discrepancy_sequence) sequence.
 
 A [thread](http://www.gamedev.net/topic/585566-generating-points-interior-to-a-concave-polygon/) on such matters --
