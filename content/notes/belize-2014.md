@@ -1,6 +1,6 @@
 +++
 date = "2014-03-15T07:52:19Z"
-description = ""
+description = "western sites, eastern towns"
 tags = ["travels"]
 title = "belize 2014"
 +++
