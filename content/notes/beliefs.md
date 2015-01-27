@@ -56,6 +56,7 @@ I like Dan Savage's advice to be "good, giving and game."
 
 
 #### family
+An unflinching support net that I've been lucky enough to have.
 
 
 #### speech
@@ -66,8 +67,8 @@ The attack on them was of course ludicrous but did they not push the bounds of s
 #### government
 How can we not worry about it?
 Too much historical precedent to do otherwise.
-I remember my dad talking about Germany in the 1900s,
-it was an advanced nation full of extremely intelligent people.
+I remember my dad talking about Germany in the early 20th century,
+it was one of the world's most culturally advanced nations full of extremely intelligent people.
 We've let some bad things happen as citizens of this country and should take care.
 
 
@@ -75,3 +76,11 @@ We've let some bad things happen as citizens of this country and should take car
 Still reading Sontag, I really like it.
 Absolutely need more of it in my life.
 Working with computers all day, I begin to feel more like a machine.
+
+
+### drugs
+Never tried em, which I find embarrassing to say..
+But I've got no problem with people voluntarily doing things to their own bodies..
+The harder stuff gives me pause because it seems to be a pretty clear path to self-destruction
+and seems to often harm others.
+But the world is full of such things :/
