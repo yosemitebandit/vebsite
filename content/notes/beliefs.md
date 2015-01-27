@@ -78,7 +78,7 @@ Absolutely need more of it in my life.
 Working with computers all day, I begin to feel more like a machine.
 
 
-### drugs
+#### drugs
 Never tried em, which I find embarrassing to say..
 But I've got no problem with people voluntarily doing things to their own bodies..
 The harder stuff gives me pause because it seems to be a pretty clear path to self-destruction
