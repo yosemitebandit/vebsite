@@ -16,6 +16,7 @@ but I thought it'd be nice to try and round out some of that knowledge.
 
 
 #### Ch1 - Physics
+
 * wavelengths: 802.11b at 2.4GHz has a wavelength of 12.5cm (and is considered a microwave),
 and our 900 MHz 2G networks are at 33.3cm
 * polarization can be used to limit interference:
@@ -57,3 +58,36 @@ Signal power is proportional to the square of the electric field.
 * +/- 3dB is double/half the power; +/- 10dB is an order of magnitude more or less power
 * dBm uses a base value of power (P-sub-zero) of 1mW
 whereas dBi is a measurement relative to an ideal isotropic antenna
+
+
+#### Ch2 - Telecom Basics
+
+* waveform graph: the plot of a signal's amplitude over time
+vs a spectrum graph: the plot of the amplitudes of the composite frequencies
+* Nyquist: we can reconstruct an analog signal if the sampling rate is
+at least double that of the highest frequency content of the input signal
+* jitter: the variability in the delay of the received signal
+* Marconi quickly conceived of multiple carrier frequencies
+to make better use of long-distance radio.
+* frequency-, amplitude- and phase-modulation can also help signals share a carrier channel
+* the techniques may optimize for some combo of
+robustness against noise, link capacity or spectral efficiency (bits / Hz)
+* bit-error-rates, the fraction of erroneously decoded bits,
+are typically 10^-3 to 10^-9
+* FDMA: different carriers for different users vs
+TDMA: different time slots for different users vs
+CDMA: users identified by a specific code vs
+SDMA: space-division where a received signal is compared between
+multiple antennas to determine "who" it came from (used in MIMO)
+-- would be interesting to read more about this last one especially..
+* for uplink and downlink support, channels are shared via
+FDD (frequency division duplexing) or TDD (time)
+
+
+#### Ch3 - Licensing and Regs
+* Unlicensed radio spectrum was set around the 2.4GHz band (globally) by ITU.
+5GHz was added in 2003 and 900MHz is unregulated in the US
+(though it's used for GSM phones in Western Europe and developing countries).
+* output power, /antenna/ output power, tower height
+and of course spectrum..it's all regulated
+* homologation: formal certification of comms equipment via an independent lab
