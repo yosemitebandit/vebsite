@@ -91,3 +91,27 @@ FDD (frequency division duplexing) or TDD (time)
 * output power, /antenna/ output power, tower height
 and of course spectrum..it's all regulated
 * homologation: formal certification of comms equipment via an independent lab
+
+
+### Ch4 - Spectrum
+* clarifies that SDMA is somewhat less interesting than I previously thought --
+just using the same spectrum in a different geographic area.
+* CDMA is "spread spectrum" comms that uses a special coding scheme..
+which I don't yet understand
+* 802.11af is about utilizing TV whitespace
+
+
+### Ch5 - Antennas and Tx Lines
+* the skin effect: high frequency electric signals only travel along
+the outer layer of a conductor -- the inside material does not contribute.
+So with bigger signalling cables, we are really just seeking bigger circumference.
+* keep cabling as short as possible and don't connectorize it yourself..
+* Voltage Standing Wave Ratio is a measurement of power loss due to
+signal reflection from the transmitter to the antenna.
+A theoretical perfect VSWR is 1, but <2 is the goal.
+* Most omnis have vertical polarization, so horizontally-polarized antennas
+are sometimes made to avoid man-made interference.
+* Uplink and downlink antennas must have matching polarization..
+yet there is also "circular polarization" -- how do you match that?
+* Antenna icing can lead to impedance mismatches
+and changes in the radiation pattern.
