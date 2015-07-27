@@ -12,7 +12,8 @@ I'm skimming [Wireless Networks in the Developing World](http://wndw.net/book.ht
 a book covering the basics of setting up wireless networks.
 Since I started working at Endaga six months ago
 I've learned a lot more about networking and hardware,
-but I thought it'd be nice to try and round out some of that knowledge.
+but I thought it'd be nice to try and round out
+some of my knowledge of those areas.
 
 
 #### Ch1 - Physics
@@ -28,8 +29,7 @@ Huygens' Principle: each point of an advancing wave front
 is just the center of a fresh disturbance and the source of new waves.
 The totality of the advancing wave is the sum of the waves created
 at points in the medium already traversed.
-This explains how sound can travel around corners, for instance,
-as well as this diagram:
+This explains how sound can travel around corners, for instance.
 
 ![diffraction](/img/diffraction.png)
 
@@ -93,7 +93,7 @@ and of course spectrum..it's all regulated
 * homologation: formal certification of comms equipment via an independent lab
 
 
-### Ch4 - Spectrum
+#### Ch4 - Spectrum
 * clarifies that SDMA is somewhat less interesting than I previously thought --
 just using the same spectrum in a different geographic area.
 * CDMA is "spread spectrum" comms that uses a special coding scheme..
@@ -101,7 +101,7 @@ which I don't yet understand
 * 802.11af is about utilizing TV whitespace
 
 
-### Ch5 - Antennas and Tx Lines
+#### Ch5 - Antennas and Tx Lines
 * the skin effect: high frequency electric signals only travel along
 the outer layer of a conductor -- the inside material does not contribute.
 So with bigger signalling cables, we are really just seeking bigger circumference.
