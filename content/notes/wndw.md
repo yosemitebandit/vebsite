@@ -115,3 +115,86 @@ are sometimes made to avoid man-made interference.
 yet there is also "circular polarization" -- how do you match that?
 * Antenna icing can lead to impedance mismatches
 and changes in the radiation pattern.
+
+
+#### Ch6 - Networking
+OSI standard (Open Systems Interconnection) divides network traffic into seven layers:
+
+* Layer 7: Application (http, ftp and smtp are application layer protocols).
+Humans are kind of at the "Layer 8" level, interacting with the application.
+* Layer 6: Presentation -- data representation like html, encoding and compression.
+* Layer 5: Session -- manages logical comms between apps (RPC, for example)
+* Layer 4: Transport -- allows systems to reach a service on a network node.
+TCP and UDP are examples.
+* Layer 3: Network -- where routing occurs.  IP is an example.
+This layer is sometimes called "the internet level."
+* Layer 2: Data Link -- when two nodes are connected via the same physical medium,
+this layer is in play.  Ethernet and 802.11a/b/g are examples.
+This is also known as the MAC layer.  MAC addresses are unique 48 bit numbers
+assigned to every networking device when it's manufactured.
+* Layer 1: Physical -- copper CAT5 cable, radio waves, fiber bundles,
+the actual medium transmitting signals.
+
+TCP/IP has a different organization in five layers:
+Application, Transport, Internet, Data Link, Physical.
+Layers 5-7 in OSI are rolled into the TCP/IP Application Layer
+as these layers are "just data."
+
+IPv6 will be the norm in 2020.  Addresses are 128bits written in 32bit chunks.
+
+* for example: `2001:0db8:1234:babe:0000:0000:0000:0001`.
+* but typically leading zeros are removed from the address: `2001:db8:1234:babe:0:0:0:1`.
+* or consolidated further: `2001:db8:1234:babe::1`.
+
+The loopback form in IPv6 is `::1`.
+The unspecified address is `::` (similar to `127.0.0.1` in IPv4).
+IPv6 prefixes are usually the most significant 64 bits,
+so an address would be written: `2001:db8:1234:babe::1/64`.
+These prefixes are like IPv4 subnet masks.
+The latter half of the address is the IID, the interface identifier.
+All nodes on a LAN or WAN will share an address prefix.
+
+IPv4 subnet masks define the size of networks:
+`/24` indicates 8bits are reserved for hosts for 256 total hosts.
+But `.0` is the address of the network itself and `.255` is the broadcast address,
+so really only 254 hosts are available.
+Subnet masks can be applied to an IP address to find the network address.
+
+IANA (Internet Assigned Numbers Authority) adminsters IPv4 and IPv6 allocation.
+All address are divided into subnets
+which are delegated to five large regional registries
+the US and Canada are in ARIN).
+These regional registries (RIRs) distribute to ISPs.
+
+* IPv4 uses DHCP to assign dynamic IPs (typically)
+but IPv6 uses Stateless Address Auto-Configuration (SLAAC)
+where the device generates a random address on its own.
+* private addresses: `10.0.0.0/8`, `172.16.0.0/12` and `192.168.0.0/16`
+* neighbor-discovery: Address Resolution Protocol (ARP) in IPv4 and NDP in IPv6.
+Someone asks the network (via multicast) "Who is 192.168.1.3?"
+and that host will reply with its MAC.  Then the two can communicate directly.
+* default gateway: when a router receives a packet
+destined for a network for which it has no explicit route,
+the packet is forwarded to the default gateway.
+This is typically the "best route out of your network" and often towards the ISP.
+
+Network Address Translation (NAT) devices manipulate the address of packets
+instead of just forwarding them.
+So the private network can use an address from the private range
+but the NAT router's internet connection uses a globally-routed IPv4 address.
+You're basically sharing a global address among a lot of private addresses.
+
+ICMP (internet control message protocol) is part of the IP suite
+(along with TCP and UDP) but is more used for debug and maintenance.
+It consists of things like `echo`
+and notifying when a packet couldn't be delivered
+
+The physical layer:
+
+* MAC addresses reveal in the first 24 bits the assigning entity of the address
+* hubs just connect multiple twisted-pair ethernet devices together --
+they repeat signals received on one port out to all the other ports.
+They work on the first layer (phy).
+A WiFi AP is a hub on the radio side of things.
+* switches are like hubs that can create dedicated connection between ports.
+They operate on the second level (the data link layer).
