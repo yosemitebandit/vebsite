@@ -147,7 +147,7 @@ IPv6 will be the norm in 2020.  Addresses are 128bits written in 32bit chunks.
 * or consolidated further: `2001:db8:1234:babe::1`.
 
 The loopback form in IPv6 is `::1`.
-The unspecified address is `::` (similar to `127.0.0.1` in IPv4).
+The unspecified address is `::/128` (similar to `0.0.0.0/32` in IPv4).
 IPv6 prefixes are usually the most significant 64 bits,
 so an address would be written: `2001:db8:1234:babe::1/64`.
 These prefixes are like IPv4 subnet masks.
