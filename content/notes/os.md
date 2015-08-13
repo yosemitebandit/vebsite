@@ -52,3 +52,65 @@ but it can be linked to form an executable
 * the `-0` and `-01` (etc) flags will slowly increase optimization levels
 * `-S` will generate assembly
 * `-E` will run the preprocessor only (bringing in `include` files)
+
+
+### Ch2 - processes
+
+isolation:
+
+* the process model provides isolation in an OS
+* processes are "software objects" containing data and methods that operate on that data
+* multitasking: the OS allows a process to be interrupted at almost any time,
+its hardware state is saved and the process may resume later
+* virtual memory: the OS makes it appear as though each process
+has its own isolated, dedicated chunk of memory
+* device abstraction: the OS allows processes to access the network interface,
+graphics cards, the hard drive and other peripherals in an ordered way
+
+unix processes:
+
+* typing something in the shell, like `make`, will create a new process to run `make`
+(via forking, I believe).
+This will then create another process to run `LaTeX` and then another to display the output.
+* `ps` will show running processes associated with the current terminal
+* adding `-e` will show all processes, even those belonging to another user (!)
+* "tty" comes from "teletypewriter"
+* and the etymology of "daemon" has to do with helpful spirits (ala His Dark Materials)
+
+
+### Ch3 - virtual memory
+
+basics:
+
+* running processes put their data in main memory, usually RAM
+* memory is, for historical reasons, measured in binary unites (e.g. gibibytes, or 2^30 bytes)
+* each byte in main memory has a physical address --
+in a 1GiB system the highest valid address is 2^30 - 1: `0x03ff ffff`
+
+virtual memory: 
+
+* OSs provide virtual memory, the size of which is determined by the OS and the hardware:
+in 32 bit systems the virtual address space runs from `0` to `0xffff ffff` (2^32 bytes),
+in 64 bit systems the size of the virtual address space is 2^64 bytes
+(16 exbibytes, ~ one billion times larger than typical physical address spaces)
+* programs generate virtual addresses when reading and writing values in memory --
+this is per-process, so even if the same virtual address is generated,
+they map to different locations in physical memory, providing per-process isolation
+* the memory management unit (MMU) sits between the CPU and main memory --
+it performs translation between virtual and physical addresses
+* VAs have two parts: the page number and the offset -- the page is just a chunk of memory
+and the size of the page is typically around 1-4 KiB
+* the MMU looks up the page number in teh page table
+and gets the corresponding physical page number,
+combining that with the offset produces a PA
+* page tables are often implemented as sparse arrays or associated arrays
+since most processes don't use even a small fraction of their virtual address space
+
+memory segments:
+
+* data corresponding to a running process has four segments:
+a text segment consisting of the machine language instructions that constitute the program,
+a static segment with variables allocated by the compiler (global vars and local vars declared `static`),
+another static segmetn with the run-time stack, itself consisting of stack frames
+(stack frames contain parameters and local variables of a function)
+* the heap segment with chunks of memory allocated at run-time
