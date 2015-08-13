@@ -105,6 +105,12 @@ and gets the corresponding physical page number,
 combining that with the offset produces a PA
 * page tables are often implemented as sparse arrays or associated arrays
 since most processes don't use even a small fraction of their virtual address space
+* wikipedia has a [nice article](https://en.wikipedia.org/wiki/Virtual_memory) on this topic
+but the gist is that VM is used for security,
+to hide memory fragmentation
+and, via paging, to allow programs to use more memory than is physically present on the system
+* unix calls this moving of memory pages between RAM and disk "swapping,"
+and an entire hard disk partition may be devoted to this (the swap partition)
 
 memory segments:
 
