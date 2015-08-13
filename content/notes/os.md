@@ -120,3 +120,49 @@ memory segments:
 * another static segment with the run-time stack, itself consisting of stack frames
 (stack frames contain parameters and local variables of a function)
 * the heap segment with chunks of memory allocated at run-time
+
+
+### Ch8 - multitasking
+
+interrupts:
+
+* beyond just running several processes on multiple cores,
+each core can switch between processes quickly
+* the kernel, the lowest-level software, implements multitasking
+by handling interrupts -- an event taht stops the normal instruction cycle
+and causes the flow of execution to jump to an interrupt handler
+* (hah, the "shell" is so named because it surrounds the kernel..)
+* a NIC might create a hardware interrupt when a packet arrives,
+or a disk drive might raise an interrupt when some data transfer completes
+* software interrupts might be raised when an instruction cannot compelte,
+e.g. division by zero
+* programs needing to access a hardware device will issue a system call
+which triggers an interrupt and causes the execution flow to jump to the kernel
+* the program state must be saved before executing an interrupt --
+the hardware state (state of registers) must also be saved and then later restored
+before the interrupted process resumes
+(the interrupted process will generally not know there ever was an interruption)
+* note that we only save the state of hw registers that will be used
+* context switches (switch to another process) are time consuming
+as the MMU might need to be cleared, new data has to be loaded into the new process
+and more registers have to be saved
+* the kernel's scheduler deliberately interrupts processes for context switches --
+processes are allowed to run for a small time slice and then they are stopped.
+The scheduler may allow the process to resume or it may context switch.
+
+process life cycle:
+
+* each process, when created, tracks information about itself in the process control block:
+* whether or not it is running, whether it's ready and waiting for a core to be free,
+whether it's blocked, awaiting more events/data,
+and whether it's done with exit status info that hasn't yet been read
+* a process is created when a running program executes something like `fork` --
+after this the scheduler may resume the parent process
+* the scheduler can do some prioritization to, for instance,
+prevent an interactive program from sitting in the `ready` state for too long
+* these priorities are generally set based on how long a process stays in its time slice,
+its connections to other processes and its CPU usage
+* `nice` is the system call used to decrease its own priority
+* real-time scheduling is more useful for robotic systems --
+there would be better control of priority, deadlines for process completion
+and pre-emption of low priority tasks by high priority tasks
