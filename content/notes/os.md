@@ -100,7 +100,7 @@ they map to different locations in physical memory, providing per-process isolat
 it performs translation between virtual and physical addresses
 * VAs have two parts: the page number and the offset -- the page is just a chunk of memory
 and the size of the page is typically around 1-4 KiB
-* the MMU looks up the page number in teh page table
+* the MMU looks up the page number in the page table
 and gets the corresponding physical page number,
 combining that with the offset produces a PA
 * page tables are often implemented as sparse arrays or associated arrays
