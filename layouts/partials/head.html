@@ -15,14 +15,15 @@
   <link rel="stylesheet" href="{{ .Site.BaseUrl }}/css/poole-overrides.css">
   <link rel="stylesheet" href="{{ .Site.BaseUrl }}/css/hyde-overrides.css">
   <link rel="stylesheet" href="{{ .Site.BaseUrl }}/css/hyde-x.css">
+  <link rel="stylesheet" href="{{ .Site.BaseUrl }}/css/pasture.css">
   {{ if isset .Site.Params "highlight" }}
     <link rel="stylesheet" href="{{ .Site.BaseUrl }}/css/highlight/{{ .Site.Params.highlight }}.css">
   {{ end }}
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cardo">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Inconsolata">
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
-  <link href="/favicon.png" rel="icon">
+  <link href="/img/favicon.ico" rel="icon">
 
   <!-- RSS -->
   <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }} &middot; {{ .Site.Author.name }}" />

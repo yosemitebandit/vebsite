@@ -31,9 +31,6 @@
  * Update the foundational and global aspects of the page.
  */
 
-html {
-  font-family: "Cardo", sans-serif;
-}
 @media (min-width: 48em) {
   html {
     font-size: 16px;
@@ -66,7 +63,7 @@ html {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 18rem;
+    width: 12rem;
     text-align: left;
   }
 }
@@ -117,22 +114,17 @@ a.sidebar-nav-item:focus {
  * with a 25%-wide `.sidebar`.
  */
 
-.content {
-  padding-top:    4rem;
-  padding-bottom: 4rem;
-}
-
 @media (min-width: 48em) {
   .content {
-    max-width: 38rem;
-    margin-left: 20rem;
+    max-width: 44rem;
+    margin-left: 14rem;
     margin-right: 2rem;
   }
 }
 
 @media (min-width: 64em) {
   .content {
-    margin-left: 22rem;
+    margin-left: 16rem;
     margin-right: 4rem;
   }
 }
@@ -247,7 +239,12 @@ a.sidebar-nav-item:focus {
 
 /* Dark Green */
 .theme-base-10 .sidebar {
+  /*
+  background: linear-gradient(180deg, #F1F2B5, #135058);
+  background: linear-gradient(0deg, #3D7EAA, #FFE47A);
+  */
   background-color: #3A8F25;
+  background: linear-gradient(20deg, #3f4c6b, #C9FFBF);
 }
 .theme-base-10 .content a,
 .theme-base-10 .related-posts li a:hover {
