@@ -42,9 +42,13 @@ you need to track both the head node and the tail node
 from the Think CS example
 
 
-### binary trees
+### binary search trees
 * each node in the tree may have a max of two subtrees
 * all values in the "left" subtree are less than the value of the node itself
 * whereas all values in the "right" subtree are greater than the node's value
 * each node's value must be unique
-
+* much like the other structures above, the implementation is all about recursion,
+[here's mine in python](https://gist.github.com/yosemitebandit/66d30bc11193bd52f70d),
+based loosely on [this post](http://www.laurentluce.com/posts/binary-search-tree-library-in-python/)
+and this diagram:
+![binary tree](/img/binary-tree.png)
