@@ -83,11 +83,11 @@ This will then create another process to run `LaTeX` and then another to display
 basics:
 
 * running processes put their data in main memory, usually RAM
-* memory is, for historical reasons, measured in binary unites (e.g. gibibytes, or 2^30 bytes)
+* memory is, for historical reasons, measured in binary units (e.g. gibibytes, or 2^30 bytes)
 * each byte in main memory has a physical address --
 in a 1GiB system the highest valid address is 2^30 - 1: `0x03ff ffff`
 
-virtual memory: 
+virtual memory:
 
 * OSs provide virtual memory, the size of which is determined by the OS and the hardware:
 in 32 bit systems the virtual address space runs from `0` to `0xffff ffff` (2^32 bytes),
@@ -109,8 +109,8 @@ since most processes don't use even a small fraction of their virtual address sp
 memory segments:
 
 * data corresponding to a running process has four segments:
-a text segment consisting of the machine language instructions that constitute the program,
-a static segment with variables allocated by the compiler (global vars and local vars declared `static`),
-another static segmetn with the run-time stack, itself consisting of stack frames
+* a text segment consisting of the machine language instructions that constitute the program,
+* a static segment with variables allocated by the compiler (global vars and local vars declared `static`),
+* another static segment with the run-time stack, itself consisting of stack frames
 (stack frames contain parameters and local variables of a function)
 * the heap segment with chunks of memory allocated at run-time
