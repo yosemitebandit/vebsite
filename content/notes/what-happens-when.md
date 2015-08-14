@@ -31,7 +31,8 @@ and give it access to the screen and keyboard through the kernel
 * when `/bin/ls` finishes, it'll issue an `exit` system call
 * then the kernel wakes up the shell and tells it to resume
 * note that some commands like `cd` are shell builtins
-and do not require a new process to be spawned -- the shell can just take action on its own
+and do not require a new process to be spawned --
+the shell can just take action on its own by calling `chdir`
 
 
 ### ..you access google.com
@@ -90,3 +91,28 @@ followed by the text of the document which the browser will display
 * after parsing the HTML, the process is repeated for every resource referenced by the HTML page
 * SPDY may also be used by some clients -- this is like compression of HTTP requests
 and also performs some other optimizations by caching headers and keeping certain connections alive
+
+congestion control aside:
+
+notes from [this deck](http://www.slideshare.net/KrishnaRanjan/congestion-control-13017107)
+
+* the internet is basically a queue of packets, with some devices adding packets to the queue
+and some devices removing packets
+* sometimes parts of the network may have an inbalanced flow where more packets are being added
+than are being removed -- this is congestion
+* routers may be forced to drop packets if they run out of memory
+or if they can't process packets quickly enough packets time out
+(and drops causing retransmission, making things worse)
+* a "token" control strategy involves generating tokens at some rate and,
+when there are tokens available, it's ok to transmit a packet,
+but if there are no tokens available, we have to wait to transmit
+* a closed loop approach involves detecting congestion
+and either shutting off new connections (ala the PSTN)
+or routing around congestion via new virtual connections
+* choke packets can be sent between routers as a downstream signal
+that traffic should be reduced between nodes
+* load shedding can be implemented where packets are dropped randomly
+or based on some assigned priority
+* the TCP spec has "slow start" to allow only a certain amount of data to be sent initially,
+with that max amount being raised with each packet's `ACK`
+* more on slow start in this [UCSD lecture](http://cseweb.ucsd.edu/classes/fa11/cse123-a/123f11_Lec15.pdf)
