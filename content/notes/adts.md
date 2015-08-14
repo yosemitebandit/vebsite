@@ -51,4 +51,24 @@ from the Think CS example
 [here's mine in python](https://gist.github.com/yosemitebandit/66d30bc11193bd52f70d),
 based loosely on [this post](http://www.laurentluce.com/posts/binary-search-tree-library-in-python/)
 and this diagram:
+
 ![binary tree](/img/binary-tree.png)
+
+
+### binary heaps
+* these are complete binary trees that satisfy a heap-ordering property, either:
+the value of each node is greater than or equal to the value of its parent (min-heap)
+or each node is less than or equal its parent (max-heap)
+* ("complete" in that every level, except possibly the last, is completely filled
+and all nodes in the last level are as far to the left as possible)
+* think of it like a priority queue -- in a min heap the lowest priority element is at the root
+* heaps are partially ordered (at a given level, there is no particular relationship between sibling nodes)
+* the neat thing about heaps is that they can be represented as an array,
+they don't need a linked list like an ordinary binary tree:
+for the `kth` element of the array, the left child is at `2k`,
+the right child is at `2k+1` and the parent is at `k/2`
+* in the OS world, the heap is just any memory not on the stack
+(and the stack is the organized chunk of memory where functions, parameters and return values
+get passed around)
+
+![min heap](/img/min-heap.png)
