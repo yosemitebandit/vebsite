@@ -29,3 +29,46 @@ and give it acess to the screen and keyboard through the kernel
 * then the shell sleeps, waiting for that command to finish..
 * when `/bin/ls` finishes, it'll issue an `exit` system call
 * then the kernel wakes up the shell and tells it to resume
+
+
+### ..you access google.com
+
+(also from [IITK](http://www.iitk.ac.in/LDP/HOWTO/Unix-and-Internet-Fundamentals-HOWTO/internet.html))
+
+first we need to establish a connection with the machine where the document lives:
+
+* find the address of `google.com` from the name server,
+an IP address you may have setup from your ISP or from some other source (like `8.8.8.8`)
+* this is DNS..the first step in finding that IP
+is querying the authoritative name server for `.com`
+* the primary server might then query other servers on your behalf (er, or is that on the client?)
+until the nameserver for `google.com` is found
+* some of this info might be in a nameserver's cache
+
+requesting the page:
+
+* now that we have an address, we can form a packet
+* the request may be something like `GET / HTTP/1.0`,
+this'll be wrapped up with the destination address,
+the source address and a destination port number (typically 80 or 443)
+* this packet gets shipped to a router and eventually makes it to the wider internet
+* routers do the hard work of finding the fastest functioning routes for a packet
+* the destination machine uses the port number to send the packet to a web server
+and the web server can reply to the destination address with a series of packets
+
+tcp/ip:
+
+* the addressing of packets follows IP
+* TCP determines how the connection operates: receivers know to send `acks` of
+received packets, and senders will retransmit if an `ack` is not received
+* sequence numbers are also attached to each packet,
+providing some resiliency against weird network performance
+where packets may not arrive in the order sent
+* a checksum is also provided to enable the detection of data corruption
+
+http:
+
+* riding on top of the TCP/IP stack is HTTP, that `GET` request at the beginning
+* it's a human-readable application level protocol for communicating strings of bytes
+* the response is also human readable -- a block of headers
+followed by the text of the document which the browser will display
