@@ -33,7 +33,8 @@ and give it acess to the screen and keyboard through the kernel
 
 ### ..you access google.com
 
-(also from [IITK](http://www.iitk.ac.in/LDP/HOWTO/Unix-and-Internet-Fundamentals-HOWTO/internet.html))
+from [IITK](http://www.iitk.ac.in/LDP/HOWTO/Unix-and-Internet-Fundamentals-HOWTO/internet.html)
+and the compiled notes [here](https://github.com/alex/what-happens-when)
 
 first we need to establish a connection with the machine where the document lives:
 
@@ -44,6 +45,12 @@ is querying the authoritative name server for `.com`
 * the primary server might then query other servers on your behalf (er, or is that on the client?)
 until the nameserver for `google.com` is found
 * some of this info might be in a nameserver's cache
+* we also use ARP in here to find the MAC address corresponding to an IP --
+machines on the same subnet use MACs to communicate.
+ARP involves sending a request tasking "who is <some-ip>?"
+All machines receive the message and the target replies with its MAC.
+* ARP is used to determine MACs so that devices can communicate in layer 2 (data link)
+whereas we appear to only be using layer 3 (network aka TCP/IP)
 
 requesting the page:
 
@@ -51,7 +58,8 @@ requesting the page:
 * the request may be something like `GET / HTTP/1.0`,
 this'll be wrapped up with the destination address,
 the source address and a destination port number (typically 80 or 443)
-* this packet gets shipped to a router and eventually makes it to the wider internet
+* this packet gets shipped to a router (by attaching layer 2 MAC info)
+and eventually makes it to the wider internet
 * routers do the hard work of finding the fastest functioning routes for a packet
 * the destination machine uses the port number to send the packet to a web server
 and the web server can reply to the destination address with a series of packets
@@ -65,6 +73,7 @@ received packets, and senders will retransmit if an `ack` is not received
 providing some resiliency against weird network performance
 where packets may not arrive in the order sent
 * a checksum is also provided to enable the detection of data corruption
+* a socket between the client and server is opened
 
 http:
 
@@ -72,3 +81,9 @@ http:
 * it's a human-readable application level protocol for communicating strings of bytes
 * the response is also human readable -- a block of headers
 followed by the text of the document which the browser will display
+* if the client sent the right headers, the browser might reply with `304 Not Modified`
+* the server might also indiciate whether the connection should be closed or persist
+(in HTTP 1.1 only)
+* after parsing the HTML, the process is repeated for every resource referenced by the HTML page
+* SPDY may also be used by some clients -- this is like compression of HTTP requests
+and also performs some other optimizations by caching headers and keeping certain connections alive
