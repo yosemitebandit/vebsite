@@ -24,11 +24,14 @@ the shell:
 * when `Enter` is pressed, the line is passed to the shell,
 and the shell will attempt to interpret this as input as a command
 * the shell figures out you want to run `/bin/ls` (or whatever)
-and it makes a system call to start `/bin/ls` as a child process
-and give it acess to the screen and keyboard through the kernel
+and it makes a system call to start `/bin/ls` as a child process (forking)
+and give it access to the screen and keyboard through the kernel
+* this forking results in a copy of the environment from the parent process to the child
 * then the shell sleeps, waiting for that command to finish..
 * when `/bin/ls` finishes, it'll issue an `exit` system call
 * then the kernel wakes up the shell and tells it to resume
+* note that some commands like `cd` are shell builtins
+and do not require a new process to be spawned -- the shell can just take action on its own
 
 
 ### ..you access google.com
