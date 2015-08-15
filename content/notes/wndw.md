@@ -183,6 +183,9 @@ instead of just forwarding them.
 So the private network can use an address from the private range
 but the NAT router's internet connection uses a globally-routed IPv4 address.
 You're basically sharing a global address among a lot of private addresses.
+The MAC layer is unused in NAT, but, interestingly, TCP packets can be modified in flight.
+This is necessary when, say, two private addresses are browsing the same site.
+The NATting router will modify the TCP port such that there is a unique port/IP combo.
 
 ICMP (internet control message protocol) is part of the IP suite
 (along with TCP and UDP) but is more used for debug and maintenance.
