@@ -40,6 +40,20 @@ the shell can just take action on its own by calling `chdir`
 from [IITK](http://www.iitk.ac.in/LDP/HOWTO/Unix-and-Internet-Fundamentals-HOWTO/internet.html)
 and the compiled notes [here](https://github.com/alex/what-happens-when)
 
+overview
+
+* ultimately we will construct "frames" as:
+`[MAC src/dst [IP src/dst [TCP src/dst port [application packet (e.g. HTTP)]]]]`
+* each of these addresses need to be determined..
+* as an aside, switches by definition will only look at link layer (aka MAC) headers
+the "outermost layers" of a packet,
+whereas routers will only consider the IP header
+* MAC layers will be continually stripped and re-added
+as the inner layers (untouched save for the IP packet's TTL) are moved around between network devices
+in transit from server to client or client to server
+
+![data layers](/img/data-layers.png)
+
 first we need to establish a connection with the machine where the document lives:
 
 * find the address of `google.com` from the name server,
@@ -51,7 +65,7 @@ until the nameserver for `google.com` is found
 * some of this info might be in a nameserver's cache
 * we also use ARP in here to find the MAC address corresponding to an IP --
 machines on the same subnet use MACs to communicate.
-ARP involves sending a request tasking "who is <some-ip>?"
+ARP involves sending a request asking "who is \<some-ip\>?"
 All machines receive the message and the target replies with its MAC.
 * ARP is used to determine MACs so that devices can communicate in layer 2 (data link)
 whereas we appear to only be using layer 3 (network aka TCP/IP)
