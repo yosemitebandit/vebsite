@@ -43,7 +43,7 @@ and the compiled notes [here](https://github.com/alex/what-happens-when)
 overview
 
 * ultimately we will construct "frames" as:
-`[MAC src/dst [IP src/dst [TCP src/dst port [application packet (e.g. HTTP)]]]]`
+`[MAC src/dst [IP src/dst [TCP src/dst port [application data (e.g. HTTP)]]]]`
 * each of these addresses need to be determined..
 * as an aside, switches by definition will only look at link layer (aka MAC) headers
 the "outermost layers" of a packet,
