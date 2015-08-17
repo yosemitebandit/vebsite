@@ -109,9 +109,20 @@ followed by the text of the document which the browser will display
 * SPDY may also be used by some clients -- this is like compression of HTTP requests
 and also performs some other optimizations by caching headers and keeping certain connections alive
 
-congestion control aside:
+more:
 
-notes from [this deck](http://www.slideshare.net/KrishnaRanjan/congestion-control-13017107)
+* recall that each layer -- layer2 link/MAC, layer3 network/IP, layer 4 transport/TCP
+and layer 7 application/http -- can work independently
+* TCP is streaming program-to-program data and thus only needs ports,
+congestion window (tx controls) flow clontrol (rx controls) and seqno data
+* IP is about host-to-host communication
+so you need src/dst IP addrs and there is a TTL value to track loops
+* MAC is link-to-link and connects NICs (only need src/dst MAC addrs)
+* MAC just gets data out on the right physical wire
+
+
+congestion control aside
+(notes from [this deck](http://www.slideshare.net/KrishnaRanjan/congestion-control-13017107):
 
 * the internet is basically a queue of packets, with some devices adding packets to the queue
 and some devices removing packets
@@ -133,3 +144,22 @@ or based on some assigned priority
 * the TCP spec has "slow start" to allow only a certain amount of data to be sent initially,
 with that max amount being raised with each packet's `ACK`
 * more on slow start in this [UCSD lecture](http://cseweb.ucsd.edu/classes/fa11/cse123-a/123f11_Lec15.pdf)
+* but the most important part is slow start + AIMD (additive increase, multiplicative decrease):
+double the number of packets we send until a packet is lost (slow start)
+and then +1 the number of packets we send, halving when they are lost
+* and this is all managed at the OS layer, the OS will buffer packets until the next ack comes.
+There is a congestion window header established at the TCP layer
+
+DNS aside
+
+* my laptop will make a request to a domain resolver for the IP addr of `google.com`
+* then the domain resolver (8.8.8.8 or some other ISP-provided machine)
+will make an NS request to the .com root server
+* the response will be an IP addr for a nameserver, say some cloudflare endpoint
+* the domain resolver will then ask the nameserver for `www.endaga`
+and the nameserver might reply with an IP of the requested site
+or with another nameserver (and that could continue)
+* eventually though an IP will be returned with a TTL,
+the domain resolver will pass that on to the client
+* the OS manages this translation
+* and a large amount of caching can happen on all these intermediary machines
