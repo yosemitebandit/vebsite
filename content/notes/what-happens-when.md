@@ -91,7 +91,10 @@ received packets, and senders will retransmit if an `ack` is not received
 providing some resiliency against weird network performance
 where packets may not arrive in the order sent
 * a checksum is also provided to enable the detection of data corruption
+* a TTL field is decremented at each router hop -- if it drops to zero, the packet is discarded
 * a socket between the client and server is opened
+* the request is wrapped with TCP headers (layer 4), then IP headers (layer 3)
+and then the src/dst MAC headers (layer 2) where the dst header here is the MAC address of the gateway
 
 http:
 
