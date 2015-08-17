@@ -33,6 +33,8 @@ and give it access to the screen and keyboard through the kernel
 * note that some commands like `cd` are shell builtins
 and do not require a new process to be spawned --
 the shell can just take action on its own by calling `chdir`
+* to see all these system calls being made you use `strace <some-command>` --
+files are opened and stated and attributes are read, stdout may get written to
 
 
 ### ..you access google.com
