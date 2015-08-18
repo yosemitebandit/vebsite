@@ -63,8 +63,8 @@ and then decrypted with the public key: `m = 198^11 mod(323) = 12`
 
 
 ### asides
-* Wikipedia has nice pseudocode for using the Extended Euclidean Algorithm
-to find multiplicative inverses in some modulus
+* Wikipedia has [nice pseudocode](https://en.wikipedia.org/wiki/Extended_Euclidean_algorithm#Modular_integers)
+for using the Extended Euclidean Algorithm to find multiplicative inverses in some modulus
 * Rabin-Miller primality tests are used (in multiple rounds) to find large numbers
 that are extermely likely to be prime
 * to get our message into a numeric format, we can convert a string into a bit array,
