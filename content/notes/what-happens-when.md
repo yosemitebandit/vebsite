@@ -22,19 +22,21 @@ the shell:
 
 * when focused, the kernel echoes keystrokes to the screen
 * when `Enter` is pressed, the line is passed to the shell,
-and the shell will attempt to interpret this as input as a command
+and the shell will attempt to interpret this input as a command
 * the shell figures out you want to run `/bin/ls` (or whatever)
 and it makes a system call to start `/bin/ls` as a child process (forking)
 and give it access to the screen and keyboard through the kernel
 * this forking results in a copy of the environment from the parent process to the child
 * then the shell sleeps, waiting for that command to finish..
+really it's just that the scheduler has gotten another process to deal with (`/bin/ls`)
+and so it will context switch the shell and other processes as usual
 * when `/bin/ls` finishes, it'll issue an `exit` system call
 * then the kernel wakes up the shell and tells it to resume
 * note that some commands like `cd` are shell builtins
 and do not require a new process to be spawned --
 the shell can just take action on its own by calling `chdir`
 * to see all these system calls being made you use `strace <some-command>` --
-files are opened and stated and attributes are read, stdout may get written to
+files are opened and `stat`ed and attributes are read, stdout may get written to..etc
 
 
 ### ..you access google.com
@@ -42,85 +44,94 @@ files are opened and stated and attributes are read, stdout may get written to
 from [IITK](http://www.iitk.ac.in/LDP/HOWTO/Unix-and-Internet-Fundamentals-HOWTO/internet.html)
 and the compiled notes [here](https://github.com/alex/what-happens-when)
 
-overview
+overview:
 
-* ultimately we will construct "frames" as:
-`[MAC src/dst [IP src/dst [TCP src/dst port [application data (e.g. HTTP)]]]]`
-* each of these addresses need to be determined..
-* as an aside, switches by definition will only look at link layer (aka MAC) headers
-the "outermost layers" of a packet,
-whereas routers will only consider the IP header
-* MAC layers will be continually stripped and re-added
-as the inner layers (untouched save for the IP packet's TTL) are moved around between network devices
-in transit from server to client or client to server
+* recall that each layer -- layer2 link/MAC, layer3 network/IP, layer 4 transport/TCP
+and layer 7 application/http -- can work independently
+* ultimately we will construct "packets / MAC frames" as follows
+(and we will need to determine each of these ports and addresses):
+
+```
+Application data (e.g. HTTP)
+---
+TCP src/dst ports (transport)
+---
+IP src/dst addresses (network)
+---
+MAC src/dst addresses (link)
+```
+
+or similarly:
 
 ![data layers](/img/data-layers.png)
 
-first we need to establish a connection with the machine where the document lives:
+first we need to establish a connection with the machine where the document lives,
+this is done via DNS:
 
-* find the address of `google.com` from the name server,
-an IP address you may have setup from your ISP or from some other source (like `8.8.8.8`)
-* this is DNS..the first step in finding that IP
-is querying the authoritative name server for `.com`
-* the primary server might then query other servers on your behalf (er, or is that on the client?)
-until the nameserver for `google.com` is found
-* some of this info might be in a nameserver's cache
-* we also use ARP in here to find the MAC address corresponding to an IP --
-machines on the same subnet use MACs to communicate.
-ARP involves sending a request asking "who is \<some-ip\>?"
-All machines receive the message and the target replies with its MAC.
-* ARP is used to determine MACs so that devices can communicate in layer 2 (data link)
-whereas we appear to only be using layer 3 (network aka TCP/IP)
+* my laptop will make a request to a domain resolver for the IP address of `google.com`
+* then the domain resolver (8.8.8.8 or some other ISP-provided machine)
+will make an NS request to the .com root server
+* the response will be an IP addr for a nameserver, say some cloudflare endpoint
+* the domain resolver will then ask the nameserver for `www.endaga`
+and the nameserver might reply with an IP of the requested site
+or with another nameserver (and that could continue)
+* eventually though an IP will be returned with a TTL,
+the domain resolver will pass that on to the client
+* the OS manages this hostname/IP translation
+* and a large amount of caching can happen on all these intermediary machines
 
-requesting the page:
+requesting the page (application data):
 
-* now that we have an address, we can form a packet
-* the request may be something like `GET / HTTP/1.0`,
-this'll be wrapped up with the destination address,
-the source address and a destination port number (typically 80 or 443)
-* this packet gets shipped to a router (by attaching layer 2 MAC info)
-and eventually makes it to the wider internet
-* routers do the hard work of finding the fastest functioning routes for a packet
-* the destination machine uses the port number to send the packet to a web server
-and the web server can reply to the destination address with a series of packets
-
-tcp/ip:
-
-* the addressing of packets follows IP
-* TCP determines how the connection operates: receivers know to send `acks` of
-received packets, and senders will retransmit if an `ack` is not received
-* sequence numbers are also attached to each packet,
-providing some resiliency against weird network performance
-where packets may not arrive in the order sent
-* a checksum is also provided to enable the detection of data corruption
-* a TTL field is decremented at each router hop -- if it drops to zero, the packet is discarded
-* a socket between the client and server is opened
-* the request is wrapped with TCP headers (layer 4), then IP headers (layer 3)
-and then the src/dst MAC headers (layer 2) where the dst header here is the MAC address of the gateway
-
-http:
-
-* riding on top of the TCP/IP stack is HTTP, that `GET` request at the beginning
-* it's a human-readable application level protocol for communicating strings of bytes
-* the response is also human readable -- a block of headers
-followed by the text of the document which the browser will display
-* if the client sent the right headers, the browser might reply with `304 Not Modified`
-* the server might also indiciate whether the connection should be closed or persist
-(in HTTP 1.1 only)
+* now that we have an IP address, we can form a packet
+* the application request data may be something like `GET / HTTP/1.0`
+and additional HTTP headers for cache control, cookies, user-agent etc
+* the server's response body will come in this layer,
+it may indicate that the response is unmodified and the browser should use its cache.
+It may also indicate whether a connection should persist or be closed.
 * after parsing the HTML, the process is repeated for every resource referenced by the HTML page
 * SPDY may also be used by some clients -- this is like compression of HTTP requests
 and also performs some other optimizations by caching headers and keeping certain connections alive
 
-more:
+on to TCP:
 
-* recall that each layer -- layer2 link/MAC, layer3 network/IP, layer 4 transport/TCP
-and layer 7 application/http -- can work independently
-* TCP is streaming program-to-program data and thus only needs ports,
-congestion window (tx controls) flow clontrol (rx controls) and seqno data
-* IP is about host-to-host communication
-so you need src/dst IP addrs and there is a TTL value to track loops
-* MAC is link-to-link and connects NICs (only need src/dst MAC addrs)
-* MAC just gets data out on the right physical wire
+* application data is wrapped up with the TCP destination port number
+(typically 80 or 443)
+* TCP is all about streaming program-to-program data over a socket
+so its headers include congestion window (controlling tx flow),
+flow control info (how much the receiver can buffer) and sequence and numbers
+* sequence numbers are also attached to each packet,
+this way we can handle slow start / AIMD
+providing some resiliency against weird network performance
+where packets may not arrive in the order sent
+* TCP has a three way handshake when the client first connects to the server:
+a `SYN` from the client, `SYN-ACK` from the server and an `ACK` from the client
+with sequence numbers incremented and acknowledged along the way
+
+then IP data is added:
+
+* recall that IP is all about host-to-host communications..
+* IP source and destination headers are set
+* a TTL field in IP is decremented at each router hop --
+if it drops to zero, the packet is discarded.
+This prevents immortal packets from looping through networks forever.
+Note that this seemingly should belong in the transport layer but is in fact in IP!
+A typical starting value of TTL is 64.
+
+finally we get to the link layer, MAC:
+
+* MAC is about connecting NICs and getting data out on the right physical wire
+by setting src/dst MAC address headers
+* routers do the hard work of finding the fastest functioning routes for a packet
+* as an aside, switches by definition will only look at link layer (aka MAC) headers
+the "outermost layers" of a packet, whereas routers will only consider the IP header
+* MAC layers will be continually stripped and re-added
+as the inner layers (untouched save for the IP packet's TTL) are moved around between network devices
+in transit from server to client or client to server
+* we also use ARP in here to find the MAC address corresponding to an IP --
+machines on the same subnet use MACs to communicate.
+ARP involves sending a request asking "who is \<some-ip\>?"
+All machines receive the message and the target replies with its MAC.
+* as DNS finds IP/hostname mapping, ARP finds MAC/IP mapping
 
 
 congestion control aside
@@ -151,17 +162,3 @@ double the number of packets we send until a packet is lost (slow start)
 and then +1 the number of packets we send, halving when they are lost
 * and this is all managed at the OS layer, the OS will buffer packets until the next ack comes.
 There is a congestion window header established at the TCP layer
-
-DNS aside
-
-* my laptop will make a request to a domain resolver for the IP addr of `google.com`
-* then the domain resolver (8.8.8.8 or some other ISP-provided machine)
-will make an NS request to the .com root server
-* the response will be an IP addr for a nameserver, say some cloudflare endpoint
-* the domain resolver will then ask the nameserver for `www.endaga`
-and the nameserver might reply with an IP of the requested site
-or with another nameserver (and that could continue)
-* eventually though an IP will be returned with a TTL,
-the domain resolver will pass that on to the client
-* the OS manages this translation
-* and a large amount of caching can happen on all these intermediary machines
