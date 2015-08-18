@@ -33,8 +33,9 @@ The first block shows running (or runnable, i.e. waiting-to-run) and blocked pro
     0   272256    19132    96332
 ```
 
-Next we have various memory usages: virtual, idle, in-buffer and in-cache
-(kB by default).
+Next we have various memory usages: virtual, idle, in-buffer and in-cache (kB by default).
+Buffered memory is that which describes file metadata and tracks in-flight pages.
+Cached data is the contents of those pages.
 
 ```shell
 ---swap--
