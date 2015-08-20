@@ -48,7 +48,7 @@ the first form will execute if true, the second if false.
 ```clojure
 (def order {:items {:cake 3 :cookies 4}})
 (:cake (:items order) 0)
-; 2
+; 3
 ```
 
 * if there was no `:cake` keyword in the `:items` map,
