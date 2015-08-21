@@ -2,7 +2,7 @@
 date = "2015-08-19T17:58:30-07:00"
 description = "on learning clojure"
 menu = ""
-tags = ["watching"]
+tags = ["watching", "reading"]
 title = "clojure"
 
 +++
@@ -62,3 +62,23 @@ the default of `0` would be returned
 ```
 
 * the `(defn -main [])` form is special -- it is the static function used by `lein run`
+* `(partition n coll)` returns a sequence of lists of `n` items each
+(note how the "remainder" of 9 and 10 are dropped):
+
+```clojure
+(partition 4 (range 10))
+;;=> ((0 1 2 3) (4 5 6 7))
+```
+
+
+now on to a [vim-fireplace tutorial](http://clojure-doc.org/articles/tutorials/vim_fireplace.html)
+
+* hm, sometimes I have to completely reload the repl, bummer
+(`cpR` isn't enough to get changes to the test file to reload)
+* ah, later in the tutorial they point out you might indeed have to restart the repl
+or try `cq` and unmap the test from the namespace: `(ns-unmap *ns* 'a-test)`.
+Though to be honest I don't understand the quasi-repl provided by `cq`..
+* `K` gives documentation about a given symbol
+
+* the `%` motion is helpful to go between matching parens
+* block motions are arguably better though -- `ab` (all block) and `ib` (inner block)
