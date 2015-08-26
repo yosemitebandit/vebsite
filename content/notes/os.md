@@ -109,7 +109,7 @@ since most processes don't use even a small fraction of their virtual address sp
 but the gist is that VM is used for security,
 to hide memory fragmentation
 and, via paging, to allow programs to use more memory than is physically present on the system
-* unix calls this moving of memory pages between RAM and disk "swapping,"
+* Unix calls this moving of memory pages between RAM and disk "swapping,"
 and an entire hard disk partition may be devoted to this (the swap partition)
 
 memory segments:
@@ -120,6 +120,48 @@ memory segments:
 * another static segment with the run-time stack, itself consisting of stack frames
 (stack frames contain parameters and local variables of a function)
 * the heap segment with chunks of memory allocated at run-time
+
+
+### Ch4 - the file system
+
+* the file system abstraction is that of a key-value store
+with filenames as keys and the contents of a file (the sequence of bytes) as the value
+* the OS translates the byte-based operations we carry out in programs
+into block-based operations on the storage level
+* when a file is opened the initial block is read into memory
+and a variable is stored to track our position in the file
+* as we read through, we increment that position tracker
+and when there are no more bytes to read, we try to fetch the next block
+* we also track the fact that this file is currently open for reading
+* data for writing to a file is also stored in memory until a full block is available
+* let's talk speed:
+a 2GHz processor completes an instruction every 0.5ns,
+an SSD will read a 4KiB block (4x2^10B) in 25us and write one in 250us
+whereas a disk drive will take 2-6ms to read a block.
+So the CPU will complete ~10M instructions while waiting for data from the hard drive.
+* OSs and hardware will do things like prefetching, buffering and caching
+to try to reconcile these differences in storage retrieval and processing speeds
+* OSs aren't required to place data contiguously on a disk --
+a data structure called an "inode" (index node) tracks where each block is on a disk.
+* inodes track permissions, ownership, modified times and accessed times
+and block numbers for the first 12 blocks that make up a file
+* inodes use single-, double-, and triple- indirection blocks which point to other blocks,
+allowing us to reference files up to 8TiB.
+Other file systems handle things differently --
+FAT for instance has a big linked list of entries pointing to blocks
+* file systems have to track block allocation,
+Unix currently uses ext4 but may soon move to btrfs (a B-tree based filesystem)
+* the Unix "everything is a file" and "files are streams of bytes" ideas
+are useful for piping around data and handling network streams
+
+notes from [IITK](http://www.iitk.ac.in/LDP/HOWTO/Unix-and-Internet-Fundamentals-HOWTO/disk-layout.html)
+
+* each partition on a disk is either swap (for virtual memory) or part of a file system
+* the first partition is often the boot partition, where a kernel would be located
+* an inode pool exists in the lowest-level blocks -- each inode describes a file
+(but doesn't know the filename).  The filename is stored in the directory structure
+which maps names to inodes so multiple true names (hard links) are possible in Unix
+* on boot, other partitions are mounted as directories onto the root partition
 
 
 ### Ch8 - multitasking
