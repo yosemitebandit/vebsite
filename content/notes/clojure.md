@@ -82,3 +82,13 @@ Though to be honest I don't understand the quasi-repl provided by `cq`..
 
 * the `%` motion is helpful to go between matching parens
 * block motions are arguably better though -- `ab` (all block) and `ib` (inner block)
+
+
+back to purely functional for their webapp series:
+
+* `ring` is the standard that presents a standard interface
+for frameworks like jetty, netty and others.
+It consists of adapters, middleware and handlers.
+Adapters convert HTTP reqs into Ring Requests.
+Recall that middleware can modify requests /and/ responses
+* `compojure` is the ring lib used for routing and HTTP method switching
