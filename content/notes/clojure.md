@@ -92,3 +92,39 @@ It consists of adapters, middleware and handlers.
 Adapters convert HTTP reqs into Ring Requests.
 Recall that middleware can modify requests /and/ responses
 * `compojure` is the ring lib used for routing and HTTP method switching
+* `handle-dump` is another nice function within ring, useful for debugging requests
+* you use `defroutes` to specify paths:
+
+```clojure
+(defn calc [req]
+  (let [a (Integer. (:a (:route-params req)))
+        ...])
+  ...)
+
+(defroutes app
+  (GET "/calc/:a/:operator/:b" [] calc))
+```
+* here's the full example:
+
+<script src="https://gist.github.com/yosemitebandit/8d12355c51d833fd714a.js"></script>
+
+and here's a tutorial on [clojure webapps from heroku](https://devcenter.heroku.com/articles/clojure-web-application)
+
+* asdf
+
+and another tutorial on [clojure desktop games](http://noobtuts.com/clojure/2d-pong-game):
+
+* the [quil package](quil.info) is pretty great -- it's a port of Processing
+* note the `atom` pattern with `swap!`:
+
+```clojure
+(def ball (atom [1 2 3 4]))
+(swap! ball next-ball @ball-dir)
+; where @ball-dir refers to yet another atom
+```
+
+* the game fragment I ended up making:
+
+<script src="https://gist.github.com/yosemitebandit/33a29d246382bd0c7cc3.js"></script>
+
+todo: split into basics + vim, webapps and quil
