@@ -110,7 +110,8 @@ Recall that middleware can modify requests /and/ responses
 
 and here's a tutorial on [clojure webapps from heroku](https://devcenter.heroku.com/articles/clojure-web-application)
 
-* asdf
+* I had to futz with my [version of javac](http://askubuntu.com/questions/117189/apt-get-install-openjdk-7-jdk-doesnt-install-javac-why)
+so java, JDBC and the postgres driver all played nice together
 
 and another tutorial on [clojure desktop games](http://noobtuts.com/clojure/2d-pong-game):
 
