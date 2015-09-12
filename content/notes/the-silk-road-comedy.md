@@ -55,3 +55,23 @@ also by the cirrus fellow, I believe.
 A lot of this is sad -- especially the alleged murder-for-hire stuff.
 But it is fun to see an amateur kingpin cum web dev hoisted by his own petard in very public fashion..
 
+*Sept 15 2015 update*
+
+Just read [this Mar 31 article on Forbes](http://www.forbes.com/sites/sarahjeong/2015/03/31/force-and-bridges/)
+about the DEA agent Carl Mark Force and the Secret Service agent Shaun Bridges.
+They orchestrated the fake hit ordered by DPR.
+And Force allegedly extorted DPR for bitcoin
+by selling off information from inside the federal investigation into Silk Road.
+Force made ~$1M off from these efforts.
+He also used his DEA authority to do background checks on behalf of CoinMKT, another exchange.
+
+Force got into trouble though when he started using his badge
+to clear up personal issues with Venmo and Coinstamp -- they got suspicious and reported him.
+There are also screenshots of some interesting emails between Karpeles and Force --
+Force trying to offload 250 BTC, then looking for a job at Mt Gox
+and then needling Karpeles when his exchange was raided.
+The information about Force and Bridges' actions wasn't raised in the Ulbricht trial.
+The judge explicitly declared it not exculpatory.
+The government says that agents Force and Bridges
+had gained admin access to Silk Road (through Curtis Clark Green),
+but they used that access in ilicit ways about which the government had no knowledge.
