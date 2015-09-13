@@ -128,4 +128,30 @@ and another tutorial on [clojure desktop games](http://noobtuts.com/clojure/2d-p
 
 <script src="https://gist.github.com/yosemitebandit/33a29d246382bd0c7cc3.js"></script>
 
+
+what about quoting, that's kinda weird.. here are notes from
+[8th light](https://blog.8thlight.com/colin-jones/2012/05/22/quoting-without-confusion.html):
+
+* `'` or `quote` is a very basic special form in Lisp --
+it will return the form without evaluating it:
+
+```clojure
+user=> (quote (- 4 5 6))
+(- 4 5 6)
+```
+
+* all the symbols shown remain unevaluated symbols
+* syntax quote (backtick: \`) is slightly different than `quote` and `'`:
+symbols are resolved (so you may get namespace-qualifed symbols returned)
+and unquoting can happen inside via `~`.. from the 8thlight post:
+
+```clojure
+user=> `(this ~(symbol (str "i" "s" \- "cool")))
+(user/this is-cool)
+```
+
+* this stuff is helpful in macros -- keeping in mind the idiom that code is data
+* you will often see quoting when importing modules: `(require 'cljs.build.api)`
+
+
 todo: split into basics + vim, webapps and quil
