@@ -61,3 +61,15 @@ Then I can pull or push
 git subtree pull --prefix themes/pasture git@github.com:yosemitebandit/pasture.git master --squash
 git subtree push --prefix themes/pasture git@github.com:yosemitebandit/pasture.git master --squash
 ```
+
+#### structure
+
+It would be nice to view tags in two ways:
+the first typical way would just shows articles corresponding to that tag.
+The second would actually show the full article for every tag
+to make searching with `CTRL+F` easier.
+
+
+#### others
+
+* 8th light has a nice looking set of articles
