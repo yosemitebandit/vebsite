@@ -31,6 +31,8 @@ but I found `harris` worked the best while generating the fewest false positives
 might be worth trying.
 These [pylab methods](http://stackoverflow.com/questions/13586686/extract-external-contour-or-silhouette-of-image-in-python)
 might also be useful.
+Same with this [skimage lecture](http://www.scipy-lectures.org/packages/scikit-image/)
+and the [mahotas project](https://github.com/luispedro/mahotas/).
 The [morphsnakes](https://github.com/pmneila/morphsnakes)
 also generates good concave hulls (outlines of the pieces) but can be slow.
 
