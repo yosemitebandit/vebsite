@@ -43,3 +43,7 @@ to generate "true corners" (the green circles):
 ![pipeline output](/img/quandry-pipeline-output.png)
 
 The code I'm using is on [github](https://github.com/yosemitebandit/quandry).
+
+My imaging rig needs some better lighting --
+here's an [LED refresher from adafruit](https://learn.adafruit.com/all-about-leds/overview)
+that I should read..
