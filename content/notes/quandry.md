@@ -29,6 +29,8 @@ but I found `harris` worked the best while generating the fewest false positives
 
 [Blob detection](http://scikit-image.org/docs/dev/auto_examples/plot_blob.html)
 might be worth trying.
+These [pylab methods](http://stackoverflow.com/questions/13586686/extract-external-contour-or-silhouette-of-image-in-python)
+might also be useful.
 The [morphsnakes](https://github.com/pmneila/morphsnakes)
 also generates good concave hulls (outlines of the pieces) but can be slow.
 
