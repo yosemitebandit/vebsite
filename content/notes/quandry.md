@@ -22,7 +22,7 @@ via the "marching squares" algorithm (`measure.find_contours`)
 1. detect corners (features really) with `skimage.feature.corner_harris`
 using the segmented image
 1. identify the "true corners" of each piece
-1. compute the path length between corners along the piece's outline
+1. compute the straight-line distances between these corners
 
 ![pipeline output](/img/quandry-pipeline-output.png)
 
@@ -31,7 +31,9 @@ using the segmented image
 * "Candidates corners" are shown as red crosses.
 * From these candidates I use some fluffy heuristics to generate "true corners" (the green circles).
 
-The matching sides of two puzzle pieces should have the same length.
+The matching sides of two puzzle pieces should have the same length along the path.
+I'm having issues getting this measurement working at the moment,
+so I'm just using straight-line distances between corners as a first pass.
 Color-matching and other more advanced techniques could be applied later for more filtering..
 I'm learning a lot just trying to get side lengths.
 
