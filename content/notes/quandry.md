@@ -30,6 +30,7 @@ using the segmented image
 * The blue star is an estimate of the piece's centroid.
 * "Candidates corners" are shown as red crosses.
 * From these candidates I use some fluffy heuristics to generate "true corners" (the green circles).
+* In this example, btw, the two sides on the bottom of each image fit together.
 
 The matching sides of two puzzle pieces should have the same length along the path.
 I'm having issues getting this measurement working at the moment,
