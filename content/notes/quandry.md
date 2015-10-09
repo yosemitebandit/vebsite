@@ -57,6 +57,9 @@ and the [mahotas project](https://github.com/luispedro/mahotas/).
 also generates good concave hulls (outlines of the pieces) but can be slow.
 * This [article on watershed markers](http://scikit-image.org/docs/dev/auto_examples/plot_marked_watershed.html)
 might help me generate those in a better way.
+* Hausdorff distance, Procrustes distance and dynamic time warping
+might be useful for comparing the sides of pieces (but I'm starting with Frechet distance).
+* Consider histogram equalization as per [this article](http://blog.yhathq.com/posts/image-processing-with-scikit-image.html).
 
 The code I'm using is on [github](https://github.com/yosemitebandit/quandry).
 
