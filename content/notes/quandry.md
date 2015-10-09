@@ -22,7 +22,10 @@ via the "marching squares" algorithm (`measure.find_contours`)
 1. detect corners (features really) with `skimage.feature.corner_harris`
 using the segmented image
 1. identify the "true corners" of each piece
-1. compute the straight-line distances between these corners
+1. arrange the corners in clockwise rotation with the first in the upper left
+1. arrange the sides in N-E-S-W fashion
+1. compute the distances between these corners along the path defined by each side
+1. classify each side as 'in,' 'out' or 'flat'
 
 ![pipeline output](/img/quandry-pipeline-output.png)
 
@@ -30,13 +33,11 @@ using the segmented image
 * The blue star is an estimate of the piece's centroid.
 * "Candidates corners" are shown as red crosses.
 * From these candidates I use some fluffy heuristics to generate "true corners" (the green circles).
-* In this example, btw, the two sides on the bottom of each image fit together.
+* In this example, btw, the two sides on the bottom of each image are known to fit together.
 
 The matching sides of two puzzle pieces should have the same length along the path.
-I'm having issues getting this measurement working at the moment,
-so I'm just using straight-line distances between corners as a first pass.
 Color-matching and other more advanced techniques could be applied later for more filtering..
-I'm learning a lot just trying to get side lengths.
+I'm learning a lot just getting the side lengths.
 
 I tried various corner-detecting routines provided by skimage:
 `fast`, `foerstner`, `kitchen_rosenfeld`, `shi_tomasi` and `subpix`,
@@ -63,6 +64,7 @@ might be useful for comparing the sides of pieces (but I'm starting with Frechet
 
 The code I'm using is on [github](https://github.com/yosemitebandit/quandry).
 
-My imaging rig needs some better lighting --
+I've built a few small imaging rigs to take consistent photographs,
+but they still needs some better lighting --
 here's an [LED refresher from adafruit](https://learn.adafruit.com/all-about-leds/overview)
 that I should read..
