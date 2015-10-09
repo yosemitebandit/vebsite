@@ -16,15 +16,15 @@ The current pipeline:
 1. generate thresholded markers
 1. segment the image with `morphology.watershed`
 1. "close" the image with `scipy.ndimage.binary_fill_holes`
-1. edge detection on the segmented image
+1. detect the edges of the segmented image
 via the "marching squares" algorithm (`measure.find_contours`)
 1. estimate the piece's centroid
-1. detect corners (features really) with `skimage.feature.corner_harris`
-using the segmented image
+1. detect corners (features really) with `feature.corner_harris`
+using the segmented image as input
 1. identify the "true corners" of each piece
 1. arrange the corners in clockwise rotation with the first in the upper left
 1. arrange the sides in N-E-S-W fashion
-1. compute the distances between these corners along the path defined by each side
+1. compute the distances between the true corners along the path defined by each side
 1. classify each side as 'in,' 'out' or 'flat'
 
 ![pipeline output](/img/quandry-pipeline-output.png)
