@@ -64,7 +64,7 @@ might be useful for comparing the sides of pieces (but I'm starting with Frechet
 
 The code I'm using is on [github](https://github.com/yosemitebandit/quandry).
 
-I've built a few small imaging rigs to take consistent photographs,
-but they still needs some better lighting --
-here's an [LED refresher from adafruit](https://learn.adafruit.com/all-about-leds/overview)
-that I should read..
+I've built a few small imaging rigs to take photographs with consistent lighting and camera positioning.
+I'm using a beaglebone black and an adafruit JPEG TTL camera with my own LED right ring.
+I need to try taking photos on pieces of paper that have sharper contrast with the pieces --
+some of the white colors in the pieces get lost in the edge detection step.
