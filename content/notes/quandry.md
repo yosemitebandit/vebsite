@@ -42,6 +42,9 @@ I'm learning a lot just getting the side lengths.
 I tried various corner-detecting routines provided by skimage:
 `fast`, `foerstner`, `kitchen_rosenfeld`, `shi_tomasi` and `subpix`,
 but I found `harris` worked the best while generating the fewest false positives.
+I've also experimented with template-matching:
+
+![corner template matching](/img/corner-template-matching.png)
 
 I also found that the marching squares routine was significantly more robust
 when the sobel/watershed techniques were applied first to generate a segmented image.
