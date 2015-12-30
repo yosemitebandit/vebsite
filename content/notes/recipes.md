@@ -17,6 +17,8 @@ quite tasty -- cut the bread small and make sure it doesn't get too dry
 was the best part of my homemade pumpkin pie
 * my sister made this [squash cashew soup](http://cooking.nytimes.com/recipes/1014339-creamy-cashew-butternut-squash-soup) --
 very nice
+* this [bread recipe](http://www.food.com/recipe/quick-yeast-bread-89164)
+was very straightforward and quick -- tasted good and had a nice crust
 
 
 #### things that look interesting
