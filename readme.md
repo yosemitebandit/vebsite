@@ -1,6 +1,13 @@
 notes on various things
 
 
+#### things to make better
+
+* some sense of "updated" since I frequently add more to the same article
+* get all those notes and projects from `master`
+* some kind of landing page
+
+
 #### hugo workflow
 
 make some content, get the theme's latest and test that sucker out:
