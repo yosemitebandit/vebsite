@@ -154,4 +154,11 @@ user=> `(this ~(symbol (str "i" "s" \- "cool")))
 * you will often see quoting when importing modules: `(require 'cljs.build.api)`
 
 
+now looking a bit at the [aphyr tutorial](https://aphyr.com/posts/311-clojure-from-the-ground-up-logistics)
+
+* `->` vs `->>` -- both are "threading macros,"
+the former puts results as the first arg, the latter as the last arg,
+some good examples are [here](http://jdevuyst.blogspot.com/2013/11/thoughts-on-clojure-threading-macros.html)
+
+
 todo: split into basics + vim, webapps and quil
