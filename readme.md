@@ -1,24 +1,7 @@
-## testing
-the history API doesn't work for local files so start a server
-
-    $ cd vebsite/public
-    $ python -m SimpleHTTPServer
-
-then check `http://localhost:8000/projects`
+notes on various things
 
 
-## deploy
-
-    $ fab prod deploy
-
-
-## gitignore
- - git repos that end up in public/ are added to the gitignore of the vebsite project
- - maybe would be better to add them as submodules..
- - or figure out the symlinking scheme
-
-
-### workflow
+#### hugo workflow
 
 make some content, get the theme's latest and test that sucker out:
 
@@ -29,3 +12,15 @@ make some content, get the theme's latest and test that sucker out:
 changed the theme (a subtree) inside this repo?
 
     $ git subtree push --prefix themes/pasture git@github.com:yosemitebandit/pasture.git master
+
+view the site locally:
+
+    $ hugo server --theme=pasture --port=8000 --watch --disableLiveReload
+
+build the static content:
+
+    $ hugo --theme=pasture --verbose
+
+or with the power of fabric:
+
+    $ fab oak build deploy

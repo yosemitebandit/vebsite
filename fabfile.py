@@ -25,7 +25,6 @@ def oak():
   env.user = 'matt'
   env.hosts = ['kepler']
   env.project_dir = '/home/matt/oak.yosemitebandit.com'
-  #env.project_site_dir = 'public'
   env.branch = 'hugo'
   env.out_path = 'public'
 
@@ -71,10 +70,12 @@ def host_info():
   print 'checking lsb_release of host: '
   run('lsb_release -a')
 
+
 def uptime():
   """ get uptime
   """
   run('uptime')
+
 
 def grep_python():
   """ check that the python apps are still kickin'
