@@ -19,6 +19,11 @@ was the best part of my homemade pumpkin pie
 very nice
 * this [bread recipe](http://www.food.com/recipe/quick-yeast-bread-89164)
 was very straightforward and quick -- tasted good and had a nice crust
+* quick, pan-fried [citrus chicken](http://cooking.nytimes.com/recipes/12240-citrus-chicken)
+from Mark Bittman.  It was indeed fast and easy,
+the sauce was maybe not as tasty as I would've liked.
+* [espresso chili](http://www.epicurious.com/recipes/food/views/Black-Bean-and-Espresso-Chili-107639) --
+used to make this all the time.  The recipe as listed makes a /ton/ of food.
 
 
 #### things that look interesting
@@ -27,3 +32,5 @@ was very straightforward and quick -- tasted good and had a nice crust
 (sans guinea pigs `:|`) -- includes seafood and plaintains, meat and cheese potato cakes,
 and tuna stew
 * [soy sauce cured eggs](http://www.nytimes.com/2015/11/29/magazine/drinking-food.html)
+* [diy jerky](http://www.instructables.com/id/Start-Your-Beef-Jerky-Addiction-Today/?ALLSTEPS)
+-- the dehydrator could make other camping food
