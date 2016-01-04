@@ -24,6 +24,7 @@ from Mark Bittman.  It was indeed fast and easy,
 the sauce was maybe not as tasty as I would've liked.
 * [espresso chili](http://www.epicurious.com/recipes/food/views/Black-Bean-and-Espresso-Chili-107639) --
 used to make this all the time.  The recipe as listed makes a /ton/ of food.
+* [baked sweet potatoes](http://empoweredsustenance.com/bake-a-sweet-potato/)
 
 
 #### things that look interesting
@@ -34,3 +35,5 @@ and tuna stew
 * [soy sauce cured eggs](http://www.nytimes.com/2015/11/29/magazine/drinking-food.html)
 * [diy jerky](http://www.instructables.com/id/Start-Your-Beef-Jerky-Addiction-Today/?ALLSTEPS)
 -- the dehydrator could make other camping food
+* [bittman's polenta](http://cooking.nytimes.com/recipes/1013040-creamy-polenta-with-parmesan-and-sausage)
+-- I've tried other polenta recipes but this one is milk-less, which I think is an advantage
