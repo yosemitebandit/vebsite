@@ -159,6 +159,12 @@ now looking a bit at the [aphyr tutorial](https://aphyr.com/posts/311-clojure-fr
 * `->` vs `->>` -- both are "threading macros,"
 the former puts results as the first arg, the latter as the last arg,
 some good examples are [here](http://jdevuyst.blogspot.com/2013/11/thoughts-on-clojure-threading-macros.html)
+* I don't like threading..think I need to practice doing things in the non-threading manner first..
+
+
+now checking out this [spell-checker tutorial](http://www.bernhardwenzel.com/blog/2015/02/01/clojure-hands-on-tutorial-for-beginners-building-a-spell-checker)
+
+* recall clojure lists are unordered collections (vectors are the ordered form)
 
 
 todo: split into basics + vim, webapps and quil
