@@ -19,8 +19,6 @@ they disappointed, honestly, but `Big Thief` was great.
 was really excited about this but I had to leave to catch the train before Thao came on..
 * `Mountain Goats` at the Fillmore -- one of my favorites
 * `Gregory Alan Isakov` at the Fillmore -- great sound live
-* didn't go see `Sufjan` because the tickets were too expensive,
-same with `Jose Gonzalez` :/
 
 ### 2014
 * `Worldwide Dance Party` -- a funky show in RWC
@@ -35,6 +33,12 @@ same with `Jose Gonzalez` :/
 * `Here We Go Magic` with `Beach House` (er, I think?) as an opener, both were great
 
 ### 2008-ish
-* my friend got `Beirut` to come to a local coffeeshop
-right before his first album blew up, but I didn't go :/
 * `Mountain Goats` at NCSSM
+
+
+### shows that I missed..
+
+* didn't go see `Sufjan` because the tickets were too expensive,
+same with `Jose Gonzalez` (2015)
+* my friend got `Beirut` to come to a local coffeeshop
+right before his first album blew up, but I didn't go :| (2008-ish)
