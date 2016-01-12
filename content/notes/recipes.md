@@ -28,6 +28,7 @@ used to make this all the time.  The recipe as listed makes a /ton/ of food.
 * [bittman's polenta](http://cooking.nytimes.com/recipes/1013040-creamy-polenta-with-parmesan-and-sausage)
 -- I've tried other polenta recipes but this one is milk-less, which I think is an advantage.
 I like to add sauteed mushrooms.
+* I love this [chimichurri recipe](http://www.food.com/recipe/chimichurri-21151)
 
 
 #### things that look interesting
