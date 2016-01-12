@@ -29,6 +29,8 @@ used to make this all the time.  The recipe as listed makes a /ton/ of food.
 -- I've tried other polenta recipes but this one is milk-less, which I think is an advantage.
 I like to add sauteed mushrooms.
 * I love this [chimichurri recipe](http://www.food.com/recipe/chimichurri-21151)
+* my sister and I made this [matzo brittle](http://smittenkitchen.com/blog/2009/04/chocolate-caramel-crackers/) --
+scary good
 
 
 #### things that look interesting
