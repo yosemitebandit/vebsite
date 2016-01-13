@@ -48,12 +48,23 @@ CNNs are 95% accurate (on par with humans).
 maps an input image, `xi`, and a weighting matrix, `W`
 to an array of scores, the highest score being the output "guess" -- `f(xi, W) = Wxi`.
 The notes have a thorough walkthrough of this, including the use of biases and simplifying tricks.
+* the learned weights end up looking like template images --
+the article has some really cool examples of this
 * preprocessing: center the data by subtracting the mean from every feature
 and scale things such that they range on `[-1, 1]` or are otherwise zero-centered
 * to set these weights and train the model, we need something to optimize --
 we'll try to minimize a "loss" function and one common example of such a function
-is the Support Vector Machine.
-
+is the Support Vector Machine.  SVM wants the correct class for each image
+to have a higher score than the incorrect classes by some margin `delta`.
+(Note that our algorithm's "scores" are still thought to be better if they are larger.)
+"The loss function quantifies our unhappiness with predictions on the training set."
+* `hinge loss` is the use of a zero threshold in SVM --
+sometimes "squared hinge loss" is used: L2-SVM.
+* A `regularization penalty` is often applied to discourage weights with large values --
+this has nothing to do with the data, it just removes some ambiguities in finding the weights.
+This penalization also means that no input dimension can have a very large influence on the scores.
+The final classifier is thus encouraged to take into account all input dimensions to some degree,
+rather than strongly considering a small of dimensions.
 
 
 #### NNs part one

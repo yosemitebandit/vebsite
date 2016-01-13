@@ -69,6 +69,12 @@ the first typical way would just shows articles corresponding to that tag.
 The second would actually show the full article for every tag
 to make searching with `CTRL+F` easier.
 
+I also find myself adding on to notes a lot..
+I think I should just write some notes each day and tag sections / paragraphs.
+When the tag is clicked, things could be aggregated there.
+Then this could be more of a traditional blog where I'm just writing..
+So each article would be a "day" and the pages with meaningful names would be tags.
+
 
 #### others
 
