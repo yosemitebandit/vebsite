@@ -16,6 +16,7 @@ js and not quite complete
 * a [udemy course](https://www.udemy.com/data-science-deep-learning-in-python/#/) that eventually gets to TensorFlow
 * the famous [course from Andrew Ng](https://www.coursera.org/learn/machine-learning/home/week/1)
 * background on [perceptrons and more](http://neuralnetworksanddeeplearning.com/chap1.html)
+* [NNs from scratch in python](http://www.wildml.com/2015/09/implementing-a-neural-network-from-scratch/)
 
 
 ## Stanford course notes for the [CS231n class](http://cs231n.github.io/)
@@ -97,6 +98,10 @@ that is, there are some situations when different sized arrays can be multiplied
 and finding the weights that compute the score.
 After covering this, the material returns to the first component
 and develops more complex mappings such as NNs and CNNs.
+The general ideas of the loss fn and the need to optimize will remain.
+* At this stage, the SVM cost function is a convex shape.
+However, when this work is generalized to NNs, we will no longer see a convex form,
+so the typical convex optimization strategies will not be employed.
 
 
 #### NNs part one
