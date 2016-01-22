@@ -17,6 +17,7 @@ js and not quite complete
 * the famous [course from Andrew Ng](https://www.coursera.org/learn/machine-learning/home/week/1)
 * background on [perceptrons and more](http://neuralnetworksanddeeplearning.com/chap1.html)
 * [NNs from scratch in python](http://www.wildml.com/2015/09/implementing-a-neural-network-from-scratch/)
+* [2014 slides on NNs](https://goo.gl/IDCXnI)
 
 
 ## Stanford course notes for the [CS231n class](http://cs231n.github.io/)
@@ -111,3 +112,19 @@ but ReLUs, rectified linear units, are the most prevalent now --
 `y = 0 | x < 0` and `y = x` otherwise.
 It's computationally easier to handle than the others and,
 seemingly for other reasons,  .
+
+
+## Notes on the Udemy course [Data Science and Logistic Regression in Python](https://www.udemy.com/data-science-logistic-regression-in-python)
+
+* minimizing cross entropy is mathematically the same as maximizing the log likelihood --
+recall that LL is the probability of seeing a certain result given some data
+(see lecture ten)
+* gradient descent: finding the optimal set of weights that gives the minimum error --
+you can take the partial derivative of the cross entropy score with respect to the weights
+and find that `dJ/dw = - sum(tn - yn) * xni` (lecture 11).
+So, by gradient descent, the new value of weights, at each iteration
+is `old value - learning rate * sum of (true value - guess) * input`
+* note that when outputs have more than two classes,
+it's better to use softmax rather than the sigmoid
+* my ipython notebook that looks at weights, the sigmoid, cross entropy and gradient descent
+is [here](https://gist.github.com/yosemitebandit/75c3ca7a988ac7aee38c)
