@@ -18,25 +18,37 @@ and maintain their own origins and reference planes
 * joints are used to govern positioning and motion of assembly components --
 as-built joints can be used to setup how parts should move in relation to each other
 once the thing is actually created
-* the parametric timeline is really cool -- editing old sketches is super easy
+* the timeline is really cool -- editing old sketches is super easy
 * sculpting is also a cool mode that I had not seen before --
 see the bike seat video below.  You can create more organic things in a free-form way.
 * the patch workspace seems to be for creating surfaces,
 as opposed to the model workspace which creates solid geometries
+* there's some discussion on parameteric vs direct modeling --
+it seems like parametric is what I'm used to from Solidworks:
+defining variables and basing designs off of other surfaces and dimensioned drawings.
+When one edge moves, others react accordingly..
+Direct seems to be just any nonparametric modeling (like the sculpting mode).
 
 
 #### renderings
-
-* Here's a bike seat I made, loosely following the tutorial below,
+Here's a bike seat, loosely following the tutorial below,
 using [saddle images from this page](http://design-real.com/saddle/) and
-the cloud rendering feature.  Mm.. oak.. comfy.
+the cloud rendering feature.  Mm.. bamboo.. comfy.
 
 ![rendered saddle](/img/rendered-saddle.png)
 
 
-* And the board of my car key's remote -- I'm trying to build it a new enclosure.
+the board of my car key's remote -- I'm trying to build a new enclosure for the board:
 
 ![prius key](/img/prius-key.png)
+
+a swept frame for a pair of glasses:
+
+![glasses frame](/img/glasses-frame.png)
+
+a flat pack stool:
+
+![flat pack stool](/img/flat-pack-stool.png)
 
 
 
@@ -50,3 +62,9 @@ the cloud rendering feature.  Mm.. oak.. comfy.
 * [corkscrew](https://www.youtube.com/watch?v=narfcnqf-DY)
 * [sculpting a bike seat](https://www.youtube.com/watch?v=SqCgsphPYO4)
 * [bookshelf on a shopbot](https://www.youtube.com/watch?v=VZU_Jpyyc5M)
+* tons of screencasts from autodesk staff [like this fellow](https://knowledge.autodesk.com/profile/LXMBRRH7985TU/screencasts)
+
+
+#### ideas -- things to practice on
+* an ice scoop
+* a propeller with some twist ala [this tutorial](https://goo.gl/vlE2tt)
