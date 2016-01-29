@@ -21,6 +21,23 @@ once the thing is actually created
 * the parametric timeline is really cool -- editing old sketches is super easy
 * sculpting is also a cool mode that I had not seen before --
 see the bike seat video below.  You can create more organic things in a free-form way.
+* the patch workspace seems to be for creating surfaces,
+as opposed to the model workspace which creates solid geometries
+
+
+#### renderings
+
+* Here's a bike seat I made, loosely following the tutorial below,
+using [saddle images from this page](http://design-real.com/saddle/) and
+the cloud rendering feature.  Mm.. oak.. comfy.
+
+![rendered saddle](/img/rendered-saddle.png)
+
+
+* And the board of my car key's remote -- I'm trying to build it a new enclosure.
+
+![prius key](/img/prius-key.png)
+
 
 
 #### tutorials
@@ -32,3 +49,4 @@ see the bike seat video below.  You can create more organic things in a free-for
 * [flatpack furniture](https://www.youtube.com/watch?v=DHrP1MunhFw)
 * [corkscrew](https://www.youtube.com/watch?v=narfcnqf-DY)
 * [sculpting a bike seat](https://www.youtube.com/watch?v=SqCgsphPYO4)
+* [bookshelf on a shopbot](https://www.youtube.com/watch?v=VZU_Jpyyc5M)
