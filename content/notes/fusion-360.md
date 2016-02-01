@@ -28,12 +28,26 @@ it seems like parametric is what I'm used to from Solidworks:
 defining variables and basing designs off of other surfaces and dimensioned drawings.
 When one edge moves, others react accordingly..
 Direct seems to be just any nonparametric modeling (like the sculpting mode).
+* "Some components have moved" -- what's up with that message (and with capturing position)?
+It's there because some operations are position dependent.
+[Here is a well-explained example](http://goo.gl/52EGCk).
+* hide previous sketches if you want to sketch something new,
+but you don't want it to be part of an old sketch
+* consider leaving bodies visible when sketching new components --
+you can use that old geometry.  I have a tendency to hide them or project parts of them.
+I don't think it's always necessary to project..
+* you can project axes into a sketch (though they may be small / hard to find).. that's a good trick
+* contact sets are very neat -- allow you to easily test motion and interference
+(see the corkscrew tutorial, part two)
+* if you're trying to select something underneath a bunch of cruft,
+just click and hold, then highlight the thing you want
 
 
 #### renderings
 Here's a bike seat, loosely following the tutorial below,
 using [saddle images from this page](http://design-real.com/saddle/) and
 the cloud rendering feature.  Mm.. bamboo.. comfy.
+I kinda messed it up when I tried to put the gap in the seat, oops.
 
 ![rendered saddle](/img/rendered-saddle.png)
 
@@ -50,6 +64,12 @@ a flat pack stool:
 
 ![flat pack stool](/img/flat-pack-stool.png)
 
+a small linkage -- this had issues with creating joints on chamfered edges..
+the forums say this is a known thing, either chamfer later
+or don't preselect before clicking the joint tool:
+
+![linkage](/img/linkage.png)
+
 
 
 #### tutorials
@@ -63,6 +83,8 @@ a flat pack stool:
 * [sculpting a bike seat](https://www.youtube.com/watch?v=SqCgsphPYO4)
 * [bookshelf on a shopbot](https://www.youtube.com/watch?v=VZU_Jpyyc5M)
 * tons of screencasts from autodesk staff [like this fellow](https://knowledge.autodesk.com/profile/LXMBRRH7985TU/screencasts)
+* [on joints, alignment and linkages](https://www.youtube.com/watch?v=LN4bvjfxQ4c)
+* [on lofting](https://www.youtube.com/watch?v=fXQ28AVaMh0)
 
 
 #### ideas -- things to practice on
