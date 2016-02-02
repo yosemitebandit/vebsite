@@ -3,7 +3,7 @@ date = "2016-01-21T23:36:13-08:00"
 description = ""
 menu = ""
 tags = []
-title = "ipyhton"
+title = "ipython"
 
 +++
 
