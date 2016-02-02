@@ -21,6 +21,13 @@ notes on various things
 * cache invalidation
 
 
+#### reorg todos
+
+* show all tags
+* show the latest ten on the home page
+* import `public-old`, `vvebsite`, and the posts here in `content`
+
+
 #### hugo workflow
 
 make some content, get the theme's latest and test that sucker out:
