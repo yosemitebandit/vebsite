@@ -1,11 +1,21 @@
 notes on various things
 
 
+#### organization
+
+* `/notes/305` -- permalink to each page
+* `/fusion-360`, `/python` -- tags
+* `/about`, `/all` -- special pages
+
+
 #### things to make better
 
 * some sense of "updated" since I frequently add more to the same article
 * get all those notes and projects from `master`
+* get all those notes and projects from the old `vvebsite` blog
 * some kind of landing page
+* code rendering on the site (instead of embedded gists)
+* some handling of ipython notebooks
 
 
 #### hugo workflow
@@ -28,6 +38,6 @@ build the static content:
 
     $ hugo --theme=pasture --verbose
 
-or with the power of fabric:
+or, with the power of fabric, build and deploy:
 
     $ fab oak build deploy
