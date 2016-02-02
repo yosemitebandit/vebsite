@@ -20,9 +20,10 @@ ala [this post](http://ktmud.github.io/huggle/en/intro/)
 * pasture can be smaller
 * search
 * cache invalidation
-* better tag delimiting :|
+* better tag delimiting :| (see the delimit option in template functions)
 ala [this post](https://discuss.gohugo.io/t/howto-delimiter-separated-tags/146/6)
 * do not show "main" pages in lists
+* custom 404 page
 
 
 #### reorg todos
