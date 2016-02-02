@@ -3,12 +3,16 @@
 
     <ul class="sidebar-nav">
       <li class="sidebar-nav-item">
-        <a href="{{ .Site.BaseURL }}">&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;</a>
+        <a href="{{ .Site.BaseURL }}">
+          / home
+        </a>
       </li>
 
       {{ range .Site.Menus.main }}
         <li class="sidebar-nav-item">
-          <a href="{{ .URL }}">{{ .Name }}</a>
+          <a href="{{ .URL }}">
+            &capdot; {{ .Name }}
+          </a>
         </li>
       {{end}}
     </ul>
