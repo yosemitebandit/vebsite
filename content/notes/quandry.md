@@ -10,7 +10,10 @@ title = "quandry"
 I'm messing with [scikit-image](http://scikit-image.org/docs/dev/)
 and trying to solve jigsaw puzzles.
 
-The current pipeline (see [my github project](https://github.com/yosemitebandit/quandry) for more):
+The current pipeline
+(but see [the code on github](https://github.com/yosemitebandit/quandry) for a more up-to-date picture):
+
+<!--more-->
 
 1. find an elevation map with `filters.sobel`
 1. generate thresholded markers
