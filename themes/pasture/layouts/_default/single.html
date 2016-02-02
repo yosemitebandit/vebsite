@@ -4,24 +4,17 @@
 
   <div class="post">
 
-    <h1>{{ .Title }}</h1>
+    <h2>&sup; {{ .Title }}</h2>
 
     <span class="note-date">
       {{ .Date.Format "Jan 2, 2006" }}
     </span>
 
-    <span class="note-tags">
-    (
-      {{ if isset .Params "tags" }}
-        {{ $baseUrl := .Site.BaseURL }}
-        {{ range .Params.tags }}
-          <a href="{{ $baseUrl }}/tags/{{ . | urlize }}">{{ . }}</a>,
-        {{ end }}
-      {{ end }}
-    )
-    </span>
+    {{ partial "tag-list.html" . }}
 
-    {{ .Content }}
+    <p>
+      {{ .Content }}
+    </p>
 
   </div>
 

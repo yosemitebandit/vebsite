@@ -8,18 +8,7 @@
       <span class="post-date">
         {{ .Date.Format "Jan 2, 2006" }} &middot;
         {{ .ReadingTime }} minute read
-
-        {{ if isset .Params "tags" }}
-          {{ if .Params.tags }}
-            <br/>
-            (
-            {{ $baseUrl := .Site.BaseURL }}
-            {{ range .Params.tags }}
-              <a href="{{ $baseUrl }}/tags/{{ . | urlize }}">{{ . }}</a>,
-            {{ end }}
-            )
-          {{ end }}
-        {{ end }}
+        {{ partial "tag-list.html" . }}
       </span>
 
       <i>{{ .Description }}</i>

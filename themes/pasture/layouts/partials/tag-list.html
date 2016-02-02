@@ -1,0 +1,12 @@
+<span class="note-tags">
+  {{ if isset .Params "tags" }}
+    {{ if .Params.tags }}
+      (
+      {{ $baseUrl := .Site.BaseURL }}
+      {{ range .Params.tags }}
+        <a href="{{ $baseUrl }}/tags/{{ . | urlize }}">{{ . }}</a>,
+      {{ end }}
+      )
+    {{ end }}
+  {{ end }}
+</span>
