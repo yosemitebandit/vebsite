@@ -15,10 +15,13 @@ notes on various things
 * get all those notes and projects from the old `vvebsite` blog
 * some kind of landing page
 * code rendering on the site (instead of embedded gists)
+ala [this post](http://ktmud.github.io/huggle/en/intro/)
 * some handling of ipython notebooks
 * pasture can be smaller
 * search
 * cache invalidation
+* better tag delimiting :|
+ala [this post](https://discuss.gohugo.io/t/howto-delimiter-separated-tags/146/6)
 
 
 #### reorg todos
