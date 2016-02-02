@@ -10,8 +10,6 @@ notes on various things
 
 #### things to make better
 
-* get all those notes and projects from `master`
-* get all those notes and projects from the old `vvebsite` blog
 * code rendering on the site (instead of embedded gists)
 ala [this post](http://ktmud.github.io/huggle/en/intro/)
 * some handling of ipython notebooks
@@ -22,6 +20,7 @@ ala [this post](http://ktmud.github.io/huggle/en/intro/)
 ala [this post](https://discuss.gohugo.io/t/howto-delimiter-separated-tags/146/6)
 * do not show "main" pages in lists
 * custom 404 page
+* capture location ala the old site
 
 
 #### reorg todos
