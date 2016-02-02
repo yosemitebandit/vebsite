@@ -24,6 +24,7 @@ ala [this post](http://ktmud.github.io/huggle/en/intro/)
 ala [this post](https://discuss.gohugo.io/t/howto-delimiter-separated-tags/146/6)
 * do not show "main" pages in lists
 * custom 404 page
+* post list "partial template" -- the index page and the "tagged with" pages are the same
 
 
 #### reorg todos
