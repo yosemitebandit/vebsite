@@ -29,8 +29,6 @@ ala [this post](https://discuss.gohugo.io/t/howto-delimiter-separated-tags/146/6
 
 #### reorg todos
 
-* show all tags
-* show the latest ten on the home page
 * import `public-old`, `vvebsite`, and the posts here in `content`
 * rename "tags" to something like..sections?  idk..
 
