@@ -22,6 +22,7 @@ ala [this post](http://ktmud.github.io/huggle/en/intro/)
 * cache invalidation
 * better tag delimiting :|
 ala [this post](https://discuss.gohugo.io/t/howto-delimiter-separated-tags/146/6)
+* do not show "main" pages in lists
 
 
 #### reorg todos
