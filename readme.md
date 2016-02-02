@@ -26,7 +26,13 @@ ala [this post](https://discuss.gohugo.io/t/howto-delimiter-separated-tags/146/6
 
 #### reorg todos
 
-* import `public-old`, `vvebsite`, and the posts here in `content`
+* setup the new style of numbered posts..or ponder this more
+* convert the posts here to the new style
+* create a fab method for uploading images to S3
+(er, or are we just going to host images ourselves..)
+* create some thumbnail functionality for displaying images in the article list
+* import `public-old`
+* import `vvebsite`
 
 
 #### hugo workflow
