@@ -2,6 +2,7 @@
 date = "2015-01-15T07:52:19Z"
 title = "about"
 menu = "main"
+type = "about"
 +++
 
 Howdy!  Matt Ball here.

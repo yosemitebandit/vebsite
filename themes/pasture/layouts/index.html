@@ -3,10 +3,8 @@
 <div class="content container">
 
   <div class="posts">
-
-    {{ range .Data.Pages }}
+    {{ range .Paginator.Pages }}
       <div class="post">
-
         <h2 class="post-title">
           <a href="{{ .Permalink }}">{{ .Title }}</a>
         </h2>
@@ -25,15 +23,14 @@
         </span>
 
         <i>{{ .Description }}</i>
-
         <p>{{ .Render "summary" }}</p>
-
         <a href="{{ .Permalink }}">more &rarr;</a>
-
       </div>
     {{ end }}
-
   </div>
+
+  {{ template "_internal/pagination.html" . }}
+
 </div>
 
 

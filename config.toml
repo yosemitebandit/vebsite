@@ -27,6 +27,9 @@ MetaDataFormat = "toml"
   # Check the static/css/highlight directory for options.
   highlight = "tomorrow"
 
+  paginate = 10
+  paginatePath = "page"
+
   # Metadata used to drive integrations.
   #googleAuthorship = "Your Google+ profile ID"
   #googleAnalytics = "Your Google Analytics tracking code"
