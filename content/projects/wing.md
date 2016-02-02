@@ -1,10 +1,12 @@
 +++
 date = "2015-01-15T07:43:31Z"
-description = "I got to work on project wing, twas fun!"
+description = "flyin robots"
 tags = ["werk", "hardware", "travels"]
 title = "wing"
 +++
 
-learned a lot
+I was part of the team that worked on Google's 'self-flying vehicle' project.
 
-traveled to Australia, also fun
+![wing](https://s3.amazonaws.com/yb-img/wing-large.jpg)
+
+learned a lot, and traveled to Australia -- a very fun project all around.
