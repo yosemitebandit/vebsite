@@ -1,5 +1,6 @@
-"""Buildin and deployin the ole site.
+"""Building and deploying the site.
 
+e.g.
     $ fab oak build deploy
     $ fab oak host_info
 """
@@ -9,8 +10,8 @@ import os
 from fabric.api import env, run, local, sudo, put, cd
 
 
-def prod():
-  """ the prod environment - the site hosted on kepler
+def yosemitebandit():
+  """The yosemitebandit.com site hosted on kepler.
   """
   env.use_ssh_config = True
   env.user = 'matt'
@@ -20,7 +21,8 @@ def prod():
 
 
 def oak():
-  """Oaken stuff."""
+  """The oak.yosemitebandit.com domain on kepler.
+  """
   env.use_ssh_config = True
   env.user = 'matt'
   env.hosts = ['kepler']
@@ -30,12 +32,14 @@ def oak():
 
 
 def build():
-  """Builds the content with hugo."""
+  """Builds the content with hugo.
+  """
   local('hugo --theme=pasture')
 
 
 def deploy():
-  """Send static content to the remote."""
+  """Send static content to the remote.
+  """
   out_tgz = '%s.tgz' % env.out_path
   local('tar -czvf %s %s' % (out_tgz, env.out_path))
   remote_tgz = '/tmp/%s' % out_tgz
@@ -48,7 +52,7 @@ def deploy():
 
 
 def nginx(command):
-  """ commands nginx
+  """Commands nginx.
   """
   if command == 'start':
     sudo('service nginx start')
@@ -65,19 +69,19 @@ def nginx(command):
 
 
 def host_info():
-  """ check host
+  """Gets lsb release data.
   """
   print 'checking lsb_release of host: '
   run('lsb_release -a')
 
 
 def uptime():
-  """ get uptime
+  """Gets uptime.
   """
   run('uptime')
 
 
 def grep_python():
-  """ check that the python apps are still kickin'
+  """Checks that python apps are still alive and kickin.
   """
   run('ps aux | grep python')
