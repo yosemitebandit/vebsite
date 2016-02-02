@@ -1,7 +1,5 @@
 +++
 date = "2015-01-15T07:52:19Z"
-description = ""
-tags = []
 title = "about"
 menu = "main"
 +++

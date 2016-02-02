@@ -26,6 +26,7 @@ notes on various things
 * show all tags
 * show the latest ten on the home page
 * import `public-old`, `vvebsite`, and the posts here in `content`
+* rename "tags" to something like..sections?  idk..
 
 
 #### hugo workflow

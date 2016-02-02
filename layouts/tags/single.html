@@ -1,0 +1,22 @@
+{{ partial "head.html" . }}
+
+<div class="content container">
+
+  <div class="post">
+
+    <h1>tags</h1>
+
+    <span class="note-tags">
+      {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+        <li><a href="/tags/{{ $name | urlize }}">{{ $name }}</a></li>
+      {{ end }}
+    </span>
+
+    {{ .Content }}
+
+  </div>
+
+</div>
+
+
+{{ partial "foot.html" . }}
