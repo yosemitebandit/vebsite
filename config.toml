@@ -18,10 +18,6 @@ MetaDataFormat = "toml"
 
 
 [params]
-  # Used when a given page doesn't set its own.
-  defaultDescription = "miscellany"
-  defaultKeywords = "yes,sir,indeed"
-
   # Changes sidebar background and link/accent colours.
   # See below for more colour options.
   # This also works: "theme-base-08 layout-reverse", or just "layout-reverse".
@@ -31,10 +27,6 @@ MetaDataFormat = "toml"
   # Check the static/css/highlight directory for options.
   highlight = "tomorrow"
 
-  # Displays under the author name in the sidebar
-  tagline = "quite"
-
   # Metadata used to drive integrations.
   #googleAuthorship = "Your Google+ profile ID"
   #googleAnalytics = "Your Google Analytics tracking code"
-  #gravatarHash = "95f17d2a12df6a614b33282b42b48899"
