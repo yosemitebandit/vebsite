@@ -41,6 +41,14 @@ I don't think it's always necessary to project..
 (see the corkscrew tutorial, part two)
 * if you're trying to select something underneath a bunch of cruft,
 just click and hold, then highlight the thing you want
+* when making 3D sketches, you can modify a spline, say,
+or use "include 3D geometry" to bring in other reference edges --
+note the difference here between that command and "project" which would make the edges coplanar
+* use `construct` `>` `plane at angle` to make planes perpendicular
+to previously-drawn 2D sketch planes -- then you can draw on those newly-constructed planes,
+projecting in geometry from the old sketch
+* hold `command` to toggle between the geometry preview and
+the old geometry / selecting the edges when you are, say, creating a fillet
 
 
 #### renderings
@@ -50,7 +58,6 @@ the cloud rendering feature.  Mm.. bamboo.. comfy.
 I kinda messed it up when I tried to put the gap in the seat, oops.
 
 ![rendered saddle](/img/rendered-saddle.png)
-
 
 the board of my car key's remote -- I'm trying to build a new enclosure for the board:
 
@@ -70,10 +77,20 @@ or don't preselect before clicking the joint tool:
 
 ![linkage](/img/linkage.png)
 
+a grip:
+
+![grip](/img/grip.png)
+
+and a corkscrew:
+
+![corkscrew](/img/corkscrew.png)
+
 
 
 #### tutorials
-* there's lots of good instruction within the F360 app itself
+there's lots of good instruction within the F360 app itself --
+here are some other videos that were helpful:
+
 * [arduino enclosure](https://www.youtube.com/watch?v=E0bhdr84FNU)
 * [lampshade](https://www.youtube.com/watch?v=3PnKBSOulwo)
 * [windows logo](https://www.youtube.com/watch?v=DAckUNX0b4g)
@@ -85,6 +102,8 @@ or don't preselect before clicking the joint tool:
 * tons of screencasts from autodesk staff [like this fellow](https://knowledge.autodesk.com/profile/LXMBRRH7985TU/screencasts)
 * [on joints, alignment and linkages](https://www.youtube.com/watch?v=LN4bvjfxQ4c)
 * [on lofting](https://www.youtube.com/watch?v=fXQ28AVaMh0)
+* [advanced sketching techniques](https://www.youtube.com/watch?v=Dfxm8irfEhc)
+* [making some sort of flange](https://www.youtube.com/watch?v=tu-Sg47RxMo)
 
 
 #### ideas -- things to practice on
