@@ -16,6 +16,9 @@ notes on various things
 * some kind of landing page
 * code rendering on the site (instead of embedded gists)
 * some handling of ipython notebooks
+* pasture can be smaller
+* search
+* cache invalidation
 
 
 #### hugo workflow
