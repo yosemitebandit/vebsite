@@ -12,7 +12,7 @@
 
     <ul class="sidebar-nav">
       <li class="sidebar-nav-item">
-        <a href="{{ .Site.BaseUrl }}/">
+        <a href="{{ .Site.BaseURL }}/">
           &nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
         </a>
       </li>
@@ -20,7 +20,7 @@
       <li class="sidebar-nav-item"><a href="/notes">notes</a></li>
       <li class="sidebar-nav-item"><a href="/projects">projects</a></li>
       {{ range .Site.Menus.main }}
-        <li class="sidebar-nav-item"><a href="{{ .Url }}">{{ .Name }}</a></li>
+        <li class="sidebar-nav-item"><a href="{{ .URL }}">{{ .Name }}</a></li>
       {{end}}
     </ul>
 

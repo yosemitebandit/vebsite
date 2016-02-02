@@ -1,6 +1,4 @@
 +++
-description = ""
-tags = []
 title = ""
-menu = ""
+tags = []
 +++

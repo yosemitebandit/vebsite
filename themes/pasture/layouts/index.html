@@ -13,12 +13,12 @@
         </h1>
 
         <span class="post-date">
-          {{ .Date.Format "Jan 2, 2006" }} &middot; 
+          {{ .Date.Format "Jan 2, 2006" }} &middot;
           {{ .ReadingTime }} minute read
 
           {{ if isset .Params "categories" }}
             <br/>
-            {{ $baseUrl := .Site.BaseUrl }}
+            {{ $baseUrl := .Site.BaseURL }}
             {{ range .Params.categories }}
               <a class="label" href="{{ $baseUrl }}/categories/{{ . | urlize }}">{{ . }}</a>
             {{ end }}

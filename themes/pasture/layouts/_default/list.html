@@ -11,7 +11,7 @@
 
         (
         {{ if isset .Params "tags" }}
-          {{ $baseUrl := .Site.BaseUrl }}
+          {{ $baseUrl := .Site.BaseURL }}
           {{ range .Params.tags }}
             <a class="label" href="{{ $baseUrl }}/tags/{{ . | urlize }}">{{ . }}</a>,
           {{ end }}
