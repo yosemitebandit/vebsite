@@ -44,6 +44,9 @@ something a bit less prosaic and predictable,
 I mean, that's ok for the blog stuff,
 but the projects section should be fun..
 
+there are lots of interesting [typographical glyphs](https://dev.w3.org/html5/html-author/charref)
+to play with
+
 on urls, what a wonderful timesink..
 [this site](http://www.manythings.org/vocabulary/lists/l/words.php?f=noll06)
 helped me find some interesting words for mashing together.
