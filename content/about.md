@@ -5,11 +5,13 @@ menu = "main"
 type = "about"
 +++
 
-Howdy!  Matt Ball here.
-Hope my notes are as useful to you as they are to me.
+hello!  I hope my notes are as useful to you as they are to me.
 
-You can locate me elsewhere on github, goodreads and grooveshark.
+You can locate me elsewhere on
+[github](https://github.com/yosemitebandit),
+[goodreads](https://www.goodreads.com/user/show/5207178-matt-ball),
+and [last.fm](http://www.last.fm/user/post_haste).
 
 This site's made with [hugo](http://hugo.spf13.com)
 and the [pasture](https://github.com/yosemitebandit/pasture) theme.
-Here are my notes on using hugo..I like it, now that I've got some practice.
+The source for this site is [here](https://github.com/yosemitebandit/vebsite).
