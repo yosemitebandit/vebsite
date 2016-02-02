@@ -5,11 +5,13 @@
   <div class="post">
 
     <h2>tags</h2>
-    <span class="note-tags">
+    <p>
+      (
       {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
-        <li><a href="/tags/{{ $name | urlize }}">{{ $name }}</a></li>
+        <a href="/tags/{{ $name | urlize }}">{{ $name }}</a>,
       {{ end }}
-    </span>
+      )
+    </p>
 
   </div>
 </div>

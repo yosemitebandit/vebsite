@@ -2,36 +2,44 @@
 
 <div class="content container">
 
-  <ul class="notes">
+  <div class='post'>
+    <h2>
+      <i>tagged with "{{ lower .Title }}"</i>
+    </h2>
+  </div>
 
-    {{ range .Data.Pages }}
+  <div class="notes">
+    {{ range .Paginator.Pages }}
+      <div class="post">
+        <h2 class="post-title">
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </h2>
 
-      <li>
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        <span class="post-date">
+          {{ .Date.Format "Jan 2, 2006" }} &middot;
+          {{ .ReadingTime }} minute read
 
-        (
-        {{ if isset .Params "tags" }}
-          {{ $baseUrl := .Site.BaseURL }}
-          {{ range .Params.tags }}
-            <a class="label" href="{{ $baseUrl }}/tags/{{ . | urlize }}">{{ . }}</a>,
+          {{ if isset .Params "tags" }}
+            <br/>
+            (
+            {{ $baseUrl := .Site.BaseURL }}
+            {{ range .Params.tags }}
+              <a href="{{ $baseUrl }}/tags/{{ . | urlize }}">{{ . }}</a>,
+            {{ end }}
+            )
           {{ end }}
-        {{ end }}
-        )
+        </span>
 
-        <span class='list-time'>{{ .Date.Format "Jan 2, 2006" }}</span>
+        <i>{{ .Description }}</i>
+        <p>{{ .Render "summary" }}</p>
+        <a href="{{ .Permalink }}">more &rarr;</a>
+      </div>
+    {{ end }}
+  </div>
 
-        <br />
-        {{ if .Description }}
-          <span class='list-desc'>{{ .Description }}</span>
-        {{ else }}
-          <span class='list-desc'>&nbsp;</span>
-        {{ end }}
-
-      </li>
-  {{ end }}
-
-  </ul>
+  {{ template "_internal/pagination.html" . }}
 
 </div>
+
 
 {{ partial "foot.html" . }}
