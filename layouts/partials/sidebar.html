@@ -8,17 +8,21 @@
         </a>
       </li>
 
-      {{ range .Site.Menus.main }}
-        <li class="sidebar-nav-item">
-          <a href="{{ .URL }}">
-            &xcap; {{ .Name }}
-          </a>
-        </li>
-      {{end}}
+      <li class="sidebar-nav-item">
+        <a href="/about">
+          &xcap; about
+        </a>
+      </li>
 
       <li class="sidebar-nav-item">
         <a href="/tags/projects">
           &mlcp; projects
+        </a>
+      </li>
+
+      <li class="sidebar-nav-item">
+        <a href="/tags">
+          &profsurf; tags
         </a>
       </li>
     </ul>
