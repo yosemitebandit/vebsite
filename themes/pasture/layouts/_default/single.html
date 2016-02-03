@@ -3,6 +3,9 @@
 <div class="content container">
 
   <div class="post">
+    {{ if .Params.thumbnail }}
+      <img class="post-thumbnail" src="{{ .Params.thumbnail }}" />
+    {{ end }}
 
     <h2>&sup; {{ .Title }}</h2>
 
