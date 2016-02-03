@@ -3,6 +3,7 @@ date = "2012-12-11T23:52:49-08:00"
 tags = ["projects", "python"]
 thumbnail = "/img/doubleyou-thumbnail.png"
 title = "doubleyou"
+location = "Berkeley"
 
 +++
 

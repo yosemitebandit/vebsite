@@ -3,6 +3,7 @@ date = "2011-12-16T09:34:17-08:00"
 tags = ["projects", "python"]
 thumbnail = "/img/erik-thumbnail.jpg"
 title = "erik the wall-plotter"
+location = "SF"
 
 +++
 

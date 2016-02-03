@@ -3,6 +3,7 @@ date = "2012-07-29T00:05:39-08:00"
 tags = ["projects", "python", "js", "favorites"]
 thumbnail = "/img/stravanova-thumbnail.png"
 title = "stravanova"
+location = "SF"
 
 +++
 

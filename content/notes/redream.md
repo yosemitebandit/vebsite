@@ -3,6 +3,7 @@ date = "2013-03-23T23:18:52-08:00"
 tags = ["projects", "python", "favorites"]
 thumbnail = "/img/redream-thumbnail.png"
 title = "redream"
+location = "SF"
 
 +++
 

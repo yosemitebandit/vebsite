@@ -3,6 +3,7 @@ date = "2013-02-24T23:18:59-08:00"
 tags = ["projects", "python", "js"]
 thumbnail = "/img/target-accrual-thumbnail.png"
 title = "target accrual"
+location = "Palo Alto"
 
 +++
 

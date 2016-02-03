@@ -2,4 +2,5 @@
 title = ""
 tags = []
 thumbnail = ""
+location = ""
 +++

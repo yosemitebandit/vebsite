@@ -3,10 +3,14 @@ date = "2016-01-08T18:43:16-08:00"
 description = ""
 tags = ["python", "projects"]
 title = "readout"
+location = "Mountain View"
 
 +++
 
 I'm playing around with techniques for reading old-school displays.
+
+<!--more-->
+
 I used [`ssocr`](https://www.unix-ag.uni-kl.de/~auerswal/ssocr/)
 to preprocess and read a picture of my oven:
 

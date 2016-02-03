@@ -15,8 +15,11 @@
         </h2>
 
         <span class="post-date">
-          {{ .Date.Format "Jan 2, 2006" }} &middot;
-          {{ .ReadingTime }} minute read
+          {{ .Date.Format "Jan 2, 2006" }}
+          {{ if .Params.location }}
+            &middot; {{ .Params.location }}
+          {{ end }}
+          &middot; {{ .ReadingTime }} minute read
           {{ partial "tag-list.html" . }}
         </span>
 

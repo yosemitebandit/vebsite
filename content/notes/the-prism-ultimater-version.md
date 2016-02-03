@@ -3,6 +3,7 @@ date = "2013-02-09T23:19:11-08:00"
 tags = ["outside", "projects", "favorites"]
 thumbnail = "/img/widowmaker-thumbnail.jpg"
 title = "the prism, ultimater version"
+location = "Menlo Park"
 
 +++
 

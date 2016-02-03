@@ -3,6 +3,7 @@ date = "2012-10-21T23:39:06-08:00"
 tags = ["projects", "python", "js"]
 thumbnail = "/img/clusterbus-thumbnail.png"
 title = "clusterbus"
+location = "SF"
 
 +++
 
