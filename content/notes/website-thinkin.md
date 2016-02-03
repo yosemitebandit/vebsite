@@ -38,7 +38,7 @@ or like animated ascii art.
 ```
 
 like this awesome demo from [nick kwiatek](http://nkwiatek.com/experiments/ascii#)
-or something colorful ala [substack](substack.net)
+or something colorful ala [substack](http://substack.net)
 
 or maybe the projects page scrolls horizontally,
 everybody loves stuff like that :|
