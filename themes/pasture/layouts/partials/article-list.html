@@ -1,6 +1,14 @@
 <div class="posts">
   {{ range .Paginator.Pages }}
+
     <div class="post">
+
+      {{ if .Params.thumbnail }}
+        <a href="{{ .Permalink }}">
+          <img class="post-thumbnail" src="{{ .Params.thumbnail }}" />
+        </a>
+      {{ end }}
+
       <h2 class="post-title">
         <a href="{{ .Permalink }}">&sup; {{ .Title }}</a>
       </h2>
@@ -12,8 +20,14 @@
       </span>
 
       <i>{{ .Description }}</i>
+
       <p>{{ .Render "summary" }}</p>
-      <a href="{{ .Permalink }}">more &gtcc;</a>
+
+
+      {{ if .Truncated }}
+        <a href="{{ .Permalink }}">more &gtcc;</a>
+      {{ end }}
     </div>
+
   {{ end }}
 </div>

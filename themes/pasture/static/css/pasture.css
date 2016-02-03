@@ -47,3 +47,12 @@ img {
 .pasture-pagination {
   text-align: center;
 }
+
+.post-thumbnail {
+  float: left;
+  margin: 0 30px 0 0;
+}
+
+.video-player {
+  text-align: center;
+}
