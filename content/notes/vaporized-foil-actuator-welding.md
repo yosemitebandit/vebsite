@@ -1,7 +1,6 @@
 +++
 date = "2015-10-29T19:24:28-07:00"
 description = ""
-menu = ""
 tags = ["reading"]
 title = "vaporized foil actuator welding"
 

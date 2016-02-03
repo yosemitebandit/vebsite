@@ -1,8 +1,7 @@
 +++
 date = "2015-08-13T18:13:45-07:00"
 description = "notes on the everyday of sw engineering"
-menu = ""
-tags = ["reading"]
+tags = ["reading", "ops"]
 title = "what happens when.."
 
 +++

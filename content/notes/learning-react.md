@@ -1,7 +1,6 @@
 +++
 date = "2015-01-23T06:38:26Z"
 description = "towards more frontend skills"
-menu = ""
 tags = ["js"]
 title = "learning react"
 

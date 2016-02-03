@@ -1,7 +1,6 @@
 +++
 date = "2015-09-11T08:41:36-07:00"
 description = ""
-menu = ""
 tags = ["reading"]
 title = "week 37 reading, 2015"
 

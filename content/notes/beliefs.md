@@ -1,7 +1,6 @@
 +++
 date = "2015-01-26T04:21:03Z"
 description = "these truths.."
-menu = ""
 tags = ["ideas"]
 title = "beliefs"
 

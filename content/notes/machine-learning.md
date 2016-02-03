@@ -1,8 +1,7 @@
 +++
 date = "2016-01-08T13:04:26-08:00"
 description = ""
-menu = ""
-tags = []
+tags = ["cs", "python"]
 title = "machine learning"
 
 +++

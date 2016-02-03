@@ -1,8 +1,7 @@
 +++
 date = "2015-08-17T16:25:09-07:00"
 description = "what the heck is vmstat"
-menu = ""
-tags = ["reading"]
+tags = ["reading", "ops"]
 title = "vmstat"
 
 +++

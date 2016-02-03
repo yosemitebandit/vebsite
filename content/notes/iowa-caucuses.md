@@ -1,7 +1,6 @@
 +++
 date = "2016-02-01T09:33:21-08:00"
 description = ""
-menu = ""
 tags = ["politics"]
 title = "iowa caucuses"
 

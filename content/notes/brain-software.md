@@ -1,7 +1,6 @@
 +++
 date = "2016-01-27T12:08:38-08:00"
 description = ""
-menu = ""
 tags = ["reading"]
 title = "brain software"
 

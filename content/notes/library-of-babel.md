@@ -1,7 +1,6 @@
 +++
 date = "2015-10-12T22:51:12-07:00"
 description = ""
-menu = ""
 tags = ["reading"]
 title = "library of babel"
 

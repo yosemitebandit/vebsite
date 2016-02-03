@@ -5,7 +5,8 @@ notes on various things
 
 * use `<!--more-->` in an article to set the "read more" breakpoint --
 yes that's an html comment in the markdown itself
-* thumbnails should be 190 x 144px
+* use `python thumbnailify` to create thumbnails --
+and link thumbnails with `thumbnail = "/img/boat-thumbnail.png"` in the front matter
 
 
 #### organization

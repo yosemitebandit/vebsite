@@ -1,8 +1,7 @@
 +++
 date = "2016-01-08T18:43:16-08:00"
 description = ""
-menu = ""
-tags = []
+tags = ["python", "projects"]
 title = "readout"
 
 +++

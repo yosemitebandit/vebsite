@@ -1,7 +1,6 @@
 +++
 date = "2015-08-31T15:27:29-07:00"
 description = ""
-menu = ""
 tags = ["reading"]
 title = "hashicorp"
 

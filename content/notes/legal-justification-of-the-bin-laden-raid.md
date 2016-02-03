@@ -1,8 +1,7 @@
 +++
 date = "2015-10-29T11:08:18-07:00"
 description = ""
-menu = ""
-tags = ["reading"]
+tags = ["reading", "politics"]
 title = "legal justification of the bin Laden raid"
 
 +++

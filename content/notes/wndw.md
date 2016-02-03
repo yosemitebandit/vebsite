@@ -1,7 +1,6 @@
 +++
 date = "2015-07-25T20:37:51-07:00"
 description = "reading up on some networking basics"
-menu = ""
 tags = ["reading"]
 title = "WNDW book"
 

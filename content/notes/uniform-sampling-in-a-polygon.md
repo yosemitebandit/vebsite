@@ -1,13 +1,16 @@
 +++
 date = "2015-01-24T05:10:05Z"
 description = "simulated annealing with scipy.optimize"
-menu = ""
 tags = ["python", "werk"]
 title = "uniform sampling in a polygon"
+thumbnail = "/img/uniform-sampling-thumbnail.png"
 
 +++
 
 I was working on uniform sampling in an arbitrary polygon.
+
+<!--more-->
+
 An interesting [stackexchange thread](http://math.stackexchange.com/questions/15624).
 A [pdf](http://geostat-course.org/system/files/ov_Heuvelink_GEOSTAT11_workshop_sampling%20design_optimization1.pdf) on the topic --
 these kinds of problems arise in geosciences.

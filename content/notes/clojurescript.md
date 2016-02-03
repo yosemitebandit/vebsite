@@ -1,7 +1,6 @@
 +++
 date = "2015-09-13T11:35:04-07:00"
 description = ""
-menu = ""
 tags = ["reading"]
 title = "clojurescript"
 

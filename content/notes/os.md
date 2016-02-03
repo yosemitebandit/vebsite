@@ -1,8 +1,7 @@
 +++
 date = "2015-08-13T09:45:52-07:00"
 description = "notes on the Think OS book"
-menu = ""
-tags = ["reading", "cs"]
+tags = ["reading", "cs", "ops"]
 title = "os"
 
 +++

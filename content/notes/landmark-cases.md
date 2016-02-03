@@ -1,7 +1,6 @@
 +++
 date = "2015-10-06T20:36:40-07:00"
 description = "Stephen Breyer and landmark Supreme Court cases"
-menu = ""
 tags = ["listening", "reading", "history"]
 title = "landmark cases"
 

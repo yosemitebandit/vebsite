@@ -1,10 +1,9 @@
 +++
 date = "2015-01-25T21:54:23Z"
 description = "terrible but funny"
-menu = ""
 tags = ["reading"]
 title = "the silk road comedy"
-
+thumbnail = "/img/sr-mastermind-thumbnail.jpg"
 +++
 
 Perhaps still in Serial withdrawal, I've been reading a little bit about the Silk Road trial against Ulbricht.

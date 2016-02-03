@@ -1,8 +1,7 @@
 +++
 date = "2016-01-11T22:14:22-08:00"
 description = ""
-menu = ""
-tags = []
+tags = ["listening", "watching"]
 title = "talks"
 
 +++

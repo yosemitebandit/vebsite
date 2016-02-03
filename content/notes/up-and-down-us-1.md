@@ -1,9 +1,9 @@
 +++
 date = "2015-01-19T21:31:22Z"
 description = ""
-menu = ""
-tags = ["travels"]
+tags = ["outside", "travels"]
 title = "up and down US 1"
+thumbnail = "/img/us-1-s-pasture-thumbnail.jpg"
 
 +++
 

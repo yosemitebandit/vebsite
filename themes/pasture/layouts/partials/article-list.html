@@ -1,33 +1,36 @@
 <div class="posts">
   {{ range .Paginator.Pages }}
 
-    <div class="post">
+    {{ if not (isset .Params "menu") }}
 
-      {{ if .Params.thumbnail }}
-        <a href="{{ .Permalink }}">
-          <img class="post-thumbnail" src="{{ .Params.thumbnail }}" />
-        </a>
-      {{ end }}
+      <div class="post">
+        {{ if .Params.thumbnail }}
+          <a href="{{ .Permalink }}">
+            <img class="post-thumbnail" src="{{ .Params.thumbnail }}" />
+          </a>
+        {{ end }}
 
-      <h2 class="post-title">
-        <a href="{{ .Permalink }}">&sup; {{ .Title }}</a>
-      </h2>
+        <h2 class="post-title">
+          <a href="{{ .Permalink }}">&sup; {{ .Title }}</a>
+        </h2>
 
-      <span class="post-date">
-        {{ .Date.Format "Jan 2, 2006" }} &middot;
-        {{ .ReadingTime }} minute read
-        {{ partial "tag-list.html" . }}
-      </span>
+        <span class="post-date">
+          {{ .Date.Format "Jan 2, 2006" }} &middot;
+          {{ .ReadingTime }} minute read
+          {{ partial "tag-list.html" . }}
+        </span>
 
-      <i>{{ .Description }}</i>
+        <i>{{ .Description }}</i>
 
-      <p>{{ .Render "summary" }}</p>
+        <p>{{ .Render "summary" }}</p>
 
 
-      {{ if .Truncated }}
-        <a href="{{ .Permalink }}">more &gtcc;</a>
-      {{ end }}
-    </div>
+        {{ if .Truncated }}
+          <a href="{{ .Permalink }}">more &gtcc;</a>
+        {{ end }}
+      </div>
+
+    {{ end }}
 
   {{ end }}
 </div>

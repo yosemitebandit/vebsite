@@ -1,7 +1,6 @@
 +++
 date = "2015-11-11T13:11:55-08:00"
 description = ""
-menu = ""
 tags = []
 title = "beaglebone black wifi"
 

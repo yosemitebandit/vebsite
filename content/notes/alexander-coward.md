@@ -1,7 +1,6 @@
 +++
 date = "2015-10-12T15:18:55-07:00"
 description = ""
-menu = ""
 tags = ["reading"]
 title = "alexander coward"
 

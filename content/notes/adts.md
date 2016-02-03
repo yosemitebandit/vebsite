@@ -1,7 +1,6 @@
 +++
 date = "2015-08-12T12:11:05-07:00"
 description = "binary trees, red-black trees and other data structures"
-menu = ""
 tags = ["reading", "cs"]
 title = "adts"
 

@@ -1,8 +1,7 @@
 +++
 date = "2016-01-02T17:15:28-08:00"
 description = "interesting walks"
-menu = ""
-tags = []
+tags = ["outside"]
 title = "hikes"
 
 +++

@@ -1,7 +1,7 @@
 +++
 date = "2015-01-15T07:47:27Z"
 description = "tulum and parts south"
-tags = ["travels"]
+tags = ["outside", "travels"]
 title = "mexico 2015"
 +++
 

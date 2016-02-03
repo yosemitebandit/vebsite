@@ -1,7 +1,6 @@
 +++
 date = "2015-11-19T15:31:07-08:00"
 description = ""
-menu = ""
 tags = ["reading"]
 title = "red mercury"
 

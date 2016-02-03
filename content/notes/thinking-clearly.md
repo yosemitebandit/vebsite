@@ -1,7 +1,6 @@
 +++
 date = "2015-01-25T21:53:56Z"
 description = "Dobelli 2013"
-menu = ""
 tags = ["reading"]
 title = "thinking clearly"
 

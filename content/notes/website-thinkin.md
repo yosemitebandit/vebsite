@@ -1,13 +1,15 @@
 +++
 date = "2015-01-21T10:39:25Z"
 description = "thoughts on a new site"
-tags = ["web"]
+tags = ["web", "ops"]
 title = "website thinkin"
 
 +++
 
 ..I'd hate for this sidebar site to be my main thing --
 it'd be fun to be more creative
+
+<!--more-->
 
 like what about a generative site..
 you scroll down and roots continue being created in the side/background.

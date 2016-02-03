@@ -1,7 +1,6 @@
 +++
 date = "2015-08-21T09:59:16-07:00"
 description = ""
-menu = ""
 tags = ["reading"]
 title = "vi"
 

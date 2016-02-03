@@ -1,8 +1,7 @@
 +++
 date = "2015-09-10T09:31:52-07:00"
 description = ""
-menu = ""
-tags = ["reading", "python"]
+tags = ["cs", "reading", "python"]
 title = "think bayes"
 
 +++

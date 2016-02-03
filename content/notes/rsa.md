@@ -1,7 +1,6 @@
 +++
 date = "2015-07-31T10:24:12-07:00"
 description = "RSA review from doctrina.org"
-menu = ""
 tags = ["reading"]
 title = "rsa"
 

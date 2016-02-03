@@ -1,7 +1,6 @@
 +++
 date = "2016-01-19T16:15:15-08:00"
 description = ""
-menu = ""
 tags = ["watching"]
 title = "bitcoin"
 
