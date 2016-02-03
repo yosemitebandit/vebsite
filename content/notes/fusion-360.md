@@ -1,9 +1,9 @@
 +++
 date = "2016-01-28T13:33:03-08:00"
 description = ""
-menu = ""
 tags = ["modeling"]
 title = "fusion 360"
+thumbnail = "/img/linkage-thumbnail.png"
 
 +++
 

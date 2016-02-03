@@ -3,6 +3,7 @@ date = "2016-01-08T18:57:28-08:00"
 description = ""
 tags = ["outside"]
 title = "rides"
+thumbnail = "/img/bike-at-henry-coe-thumbnail.jpg"
 +++
 
 memories of past rides, and places I'd like to go someday..
