@@ -2,12 +2,14 @@
 date = "2016-01-21T23:36:13-08:00"
 description = ""
 menu = ""
-tags = []
+tags = ["python"]
 title = "ipython"
 
 +++
 
 how I use iPython:
+
+<!--more-->
 
 * I have a server image on digital ocean that's setup with iPython --
 it can be created from scratch in just a few minutes when I want to create notebooks

@@ -1,13 +1,14 @@
 +++
 date = "2016-01-08T18:57:28-08:00"
 description = ""
-menu = ""
-tags = []
+tags = ["outside"]
 title = "rides"
-
 +++
 
-riding around various places..
+memories of past rides, and places I'd like to go someday..
+
+<!--more-->
+
 
 ### 2016
 

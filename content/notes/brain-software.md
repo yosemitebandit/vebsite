@@ -2,13 +2,15 @@
 date = "2016-01-27T12:08:38-08:00"
 description = ""
 menu = ""
-tags = []
+tags = ["reading"]
 title = "brain software"
 
 +++
 
-a friend recommended this [wait but why article](http://waitbutwhy.com/2015/11/the-cook-and-the-chef-musks-secret-sauce.html)
-on Elon Musk:
+A friend recommended this [wait but why article](http://waitbutwhy.com/2015/11/the-cook-and-the-chef-musks-secret-sauce.html)
+on Elon Musk.
+
+<!--more-->
 
 * The author believes there is a technique in use whereby desires from a "want" pool
 are combined with possibilities from a "reality" pool

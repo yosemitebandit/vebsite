@@ -2,7 +2,7 @@
 date = "2016-01-28T13:33:03-08:00"
 description = ""
 menu = ""
-tags = []
+tags = ["modeling"]
 title = "fusion 360"
 
 +++
@@ -12,6 +12,8 @@ it's an excellent modeling program.
 I tried 123D Design and had issues with it on mac.
 In the past I've used Sketchup, OpenSCAD and, to a limited extent, Solidworks and FreeCAD,
 but Fusion 360 is my favorite of the bunch.
+
+<!--more-->
 
 * components are containers for bodies -- they're bound by their own degrees of freedom
 and maintain their own origins and reference planes

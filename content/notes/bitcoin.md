@@ -2,12 +2,16 @@
 date = "2016-01-19T16:15:15-08:00"
 description = ""
 menu = ""
-tags = []
+tags = ["watching"]
 title = "bitcoin"
 
 +++
 
 notes on an older video, [How Bitcoin Works Under the Hood](https://www.youtube.com/watch?v=Lx9zgZCMqXE):
+
+<!--more-->
+
+{{% youtube Lx9zgZCMqXE %}}
 
 * just a group of computers maintaining a ledger --
 emphasis on group, rather than some central banking authority
