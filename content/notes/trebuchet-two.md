@@ -1,7 +1,7 @@
 +++
 date = "2009-03-13T12:36:02-08:00"
 location = "Durham"
-tags = ["projects", "hardware"]
+tags = ["projects", "woodworking"]
 thumbnail = "/img/trebuchet-two-thumbnail.jpg"
 title = "trebuchet two"
 
