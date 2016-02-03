@@ -1,6 +1,6 @@
 +++
 date = "2015-01-15T07:43:31Z"
-tags = ["werk", "hardware", "travels"]
+tags = ["werk", "hardware", "travels", "favorites"]
 title = "wing"
 thumbnail = "/img/wing-thumbnail.jpg"
 +++
