@@ -1,6 +1,6 @@
 +++
 date = "2009-03-13T12:36:02-08:00"
-location = "Durahm"
+location = "Durham"
 tags = ["projects", "hardware"]
 thumbnail = "/img/trebuchet-two-thumbnail.jpg"
 title = "trebuchet two"
