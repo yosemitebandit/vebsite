@@ -31,9 +31,9 @@ ala [this post](http://ktmud.github.io/huggle/en/intro/)
 * better tag delimiting :| (see the delimit option in template functions)
 ala [this post](https://discuss.gohugo.io/t/howto-delimiter-separated-tags/146/6)
 * custom 404 page
-* capture location ala the old site
 * minify some of these images with a script --
 see the fusion 360 post, for example, it's 3MB!
+* maybe the `/projects` endpoint should just be pics
 
 
 #### reorg todos
