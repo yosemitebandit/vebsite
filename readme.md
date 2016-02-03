@@ -1,7 +1,6 @@
 notes on various things
 
 
-
 #### reminders
 
 * use `<!--more-->` in an article to set the "read more" breakpoint --
