@@ -1,7 +1,7 @@
 +++
 date = "2006-06-03T15:25:39-08:00"
 location = "Bedford"
-tags = ["woodworking", "projects"]
+tags = ["woodworking", "projects", "favorites"]
 thumbnail = "/img/weatherwood-thumbnail.jpg"
 title = "weatherwood"
 

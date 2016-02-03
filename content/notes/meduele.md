@@ -1,7 +1,7 @@
 +++
 date = "2011-10-12T09:50:32-08:00"
 location = "Berkeley"
-tags = ["projects", "python"]
+tags = ["projects", "python", "favorites"]
 thumbnail = "/img/meduele-thumbnail.png"
 title = "MEDuele"
 
