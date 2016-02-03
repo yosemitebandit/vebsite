@@ -1,6 +1,6 @@
 +++
 date = "2015-08-13T09:45:52-07:00"
-description = "notes on the Think OS book"
+description = ""
 tags = ["reading", "cs", "ops"]
 title = "os"
 
@@ -8,6 +8,8 @@ title = "os"
 
 Some notes on the [Think OS book](http://greenteapress.com/thinkos/)
 from Green Tea Press.
+
+<!--more-->
 
 
 ### Ch1 - compilation

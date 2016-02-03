@@ -6,6 +6,10 @@ title = "think bayes"
 
 +++
 
+from Downey's <i>Think Bayes</i> book:
+
+<!--more-->
+
 * Downey generally recommends starting with simple models
 and focusing on the clarity and "goodness" of the model
 * then add details to reduce the biggest sources of error in the model

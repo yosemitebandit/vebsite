@@ -1,6 +1,6 @@
 +++
 date = "2015-08-12T12:11:05-07:00"
-description = "binary trees, red-black trees and other data structures"
+description = ""
 tags = ["reading", "cs"]
 title = "adts"
 
@@ -10,6 +10,8 @@ title = "adts"
 some notes on abstract data types
 compiled from [Think CS](http://www.openbookproject.net/thinkcs/python/english2e/)
 and [this blog](http://alextrle.blogspot.com/2011/05/write-linked-list-in-python.html)
+
+<!--more-->
 
 
 ### asides on the "why" of certain python practices

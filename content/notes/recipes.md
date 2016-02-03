@@ -1,11 +1,14 @@
 +++
 date = "2015-11-25T17:21:59-08:00"
-description = "cooking various things"
-menu = ""
-tags = ["cooking various things"]
+description = ""
+tags = ["cooking"]
 title = "recipes"
 
 +++
+
+things I've made in the past, and things I'd like to make some day
+
+<!--more-->
 
 #### things I've made
 
@@ -41,3 +44,4 @@ and tuna stew
 * [soy sauce cured eggs](http://www.nytimes.com/2015/11/29/magazine/drinking-food.html)
 * [diy jerky](http://www.instructables.com/id/Start-Your-Beef-Jerky-Addiction-Today/?ALLSTEPS)
 -- the dehydrator could make other camping food
+

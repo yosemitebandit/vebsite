@@ -7,6 +7,9 @@ title = "machine learning"
 +++
 
 Recently, several projects I've worked on have made me want to know more about machine learning.
+
+<!--more-->
+
 Here are some online resources I've found:
 
 * [2012 Coursera Neural Net course from Geoffrey Hinton](https://class.coursera.org/neuralnets-2012-001)

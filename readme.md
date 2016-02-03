@@ -8,6 +8,9 @@ yes that's an html comment in the markdown itself
 * use `python thumbnailify` to create thumbnails --
 and link thumbnails with `thumbnail = "/img/boat-thumbnail.png"` in the front matter
 * tags should be plural or a gerund
+* the menu topmatter is kind of not necessary anymore as the sidebar is hardcoded --
+in fact, including a menu item, even a blank one,
+will mean the page doesn't show up in article lists
 
 
 #### organization
