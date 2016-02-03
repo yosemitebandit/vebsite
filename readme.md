@@ -7,6 +7,7 @@ notes on various things
 yes that's an html comment in the markdown itself
 * use `python thumbnailify` to create thumbnails --
 and link thumbnails with `thumbnail = "/img/boat-thumbnail.png"` in the front matter
+* tags should be plural or a gerund
 
 
 #### organization
