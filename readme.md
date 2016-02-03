@@ -1,6 +1,14 @@
 notes on various things
 
 
+
+#### reminders
+
+* use `<!--more-->` in an article to set the "read more" breakpoint --
+yes that's an html comment in the markdown itself
+* thumbnails should be 190 x 144px
+
+
 #### organization
 
 * `/notes/305` -- permalink to each page
