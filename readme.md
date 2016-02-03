@@ -39,6 +39,7 @@ see the fusion 360 post, for example, it's 3MB!
 * convert the posts here to the new style
 * import `public-old`
 * import `vvebsite`
+* also post.yosemitebandit.com -- there's stuff there too :|
 
 
 #### hugo workflow
