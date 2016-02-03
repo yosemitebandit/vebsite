@@ -1,5 +1,5 @@
 +++
-date = "2008-12-20T13:43:13-08:00"
+date = "2007-12-20T13:43:13-08:00"
 location = "Chapel Hill"
 tags = ["projects", "woodworking"]
 thumbnail = "/img/plywood-dug-thumbnail.jpg"
