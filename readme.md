@@ -37,11 +37,6 @@ see the fusion 360 post, for example, it's 3MB!
 * add more endaga projects
 
 
-#### reorg todos
-
-* branch off master and merge this in
-
-
 #### hugo workflow
 
 make some content, get the theme's latest and test that sucker out:
