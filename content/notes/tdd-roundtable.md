@@ -1,8 +1,9 @@
 +++
-date = "2014-12-20"
-description = ""
-tags = ["linux", "python", "reading", "watching"]
+date = "2014-12-20T13:00:00-08:00"
+thumbnail = ""
 title = "tdd roundtable"
+location = ""
+tags = ["linux", "python", "reading", "watching", "drafts"]
 
 +++
 
