@@ -7,5 +7,5 @@ title = "time traveling forum"
 
 +++
 
-[brilliant time travel forum](http://patriotsofmars.blogspot.de/2012/05/everyone-tries-to-kill-hitler.html)
-creation by Desmond Warzel
+[brilliant time travelers forum](http://patriotsofmars.blogspot.de/2012/05/everyone-tries-to-kill-hitler.html),
+created by Desmond Warzel
