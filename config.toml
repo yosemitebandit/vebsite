@@ -1,5 +1,5 @@
 baseurl = "http://oak.yosemitebandit.com/"
-title = "notes"
+title = "oakmachine"
 languageCode = "en-us"
 MetaDataFormat = "toml"
 
