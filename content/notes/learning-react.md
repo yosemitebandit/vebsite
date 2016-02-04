@@ -86,7 +86,7 @@ An [article](http://www.smashingmagazine.com/2014/01/23/understanding-javascript
 
 Note that this sets props name and key, which makes sense..they are HTML / XML properties, nothing special with the naming there:
 
-```jsx
+```js
 return (<DropdownItem name={item} key={index} />);
 ```
 

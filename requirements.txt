@@ -1,5 +1,6 @@
 docopt==0.6.2
 envoy==0.0.3
 Pillow==3.1.0
+Pygments==2.1
 pytoml==0.1.7
 PyYAML==3.11

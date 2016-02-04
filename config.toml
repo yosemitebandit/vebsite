@@ -1,7 +1,13 @@
-baseurl = "http://oak.yosemitebandit.com/"
-title = "oakmachine"
-languageCode = "en-us"
+# General settings.
+BaseURL = "http://oak.yosemitebandit.com/"
+Title = "oakmachine"
+LanguageCode = "en-us"
 MetaDataFormat = "toml"
+
+
+# Syntax highlighting settings.
+PygmentsUseClasses = true
+PygmentsCodeFences = true
 
 
 [author]
@@ -23,10 +29,7 @@ MetaDataFormat = "toml"
   # This also works: "theme-base-08 layout-reverse", or just "layout-reverse".
   theme = "theme-base-10"
 
-  # Select a syntax highight.
-  # Check the static/css/highlight directory for options.
-  highlight = "tomorrow"
-
+  # Pagination settings.
   paginate = 10
   paginatePath = "page"
 

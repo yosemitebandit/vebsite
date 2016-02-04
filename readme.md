@@ -15,8 +15,6 @@ will mean the page doesn't show up in article lists
 
 #### things to make better
 
-* code rendering on the site (instead of embedded gists)
-ala [this post](http://ktmud.github.io/huggle/en/intro/)
 * some handling of ipython notebooks
 * pasture can be smaller
 * better tag delimiting :| (see the delimit option in template functions)

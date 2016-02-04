@@ -6,7 +6,7 @@ title = "ipython"
 
 +++
 
-how I use iPython:
+how I use iPython
 
 <!--more-->
 
