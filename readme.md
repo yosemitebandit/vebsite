@@ -25,7 +25,7 @@ ala [this post](https://discuss.gohugo.io/t/howto-delimiter-separated-tags/146/6
 * minify some of these images with a script --
 see the fusion 360 post, for example, it's 3MB!
 * maybe the `/projects` endpoint should just be pics
-* add more endaga projects
+* some of the layouts should be in pasture, I think
 
 
 #### hugo workflow
