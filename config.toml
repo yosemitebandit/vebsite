@@ -1,5 +1,5 @@
 # General settings.
-BaseURL = "http://oak.yosemitebandit.com/"
+BaseURL = "http://oakmachine.com/"
 Title = "oakmachine"
 LanguageCode = "en-us"
 MetaDataFormat = "toml"

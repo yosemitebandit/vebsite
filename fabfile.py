@@ -21,12 +21,12 @@ def yosemitebandit():
 
 
 def oak():
-  """The oak.yosemitebandit.com domain on kepler.
+  """The oakmachine.com domain on kepler.
   """
   env.use_ssh_config = True
   env.user = 'matt'
   env.hosts = ['kepler']
-  env.project_dir = '/home/matt/oak.yosemitebandit.com'
+  env.project_dir = '/home/matt/oakmachine.com'
   env.branch = 'hugo'
   env.out_path = 'public'
 
