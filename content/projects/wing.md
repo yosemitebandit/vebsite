@@ -8,4 +8,5 @@ location = "Mountain View"
 +++
 
 I was part of the team that worked on Google's 'self-flying vehicle' project.
-Learned a lot, and traveled to Australia -- a very fun project all around!
+Learned a lot about GPS, ESCs, simulation, and I got to travel to Australia --
+a very fun project all around!
