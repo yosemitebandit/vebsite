@@ -1,26 +1,8 @@
 {{ partial "head.html" . }}
 
+
 <div class="content container">
-
-  <div class="post">
-    {{ if .Params.thumbnail }}
-      <img class="post-thumbnail" src="{{ .Params.thumbnail }}" />
-    {{ end }}
-
-    <h2>&sup; {{ .Title }}</h2>
-
-    <span class="note-date">
-      {{ .Date.Format "Jan 2, 2006" }}
-    </span>
-
-    {{ partial "tag-list.html" . }}
-
-    <p>
-      {{ .Content }}
-    </p>
-
-  </div>
-
+  {{ partial "single-article.html" . }}
 </div>
 
 

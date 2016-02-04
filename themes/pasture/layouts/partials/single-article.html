@@ -1,0 +1,24 @@
+<div class="post">
+  {{ if .Params.thumbnail }}
+    <a href="{{ .Permalink }}">
+      <img class="post-thumbnail" src="{{ .Params.thumbnail }}" />
+    </a>
+  {{ end }}
+
+  <h2 class="post-title">
+    <a href="{{ .Permalink }}">&sup; {{ .Title }}</a>
+  </h2>
+
+  <span class="post-date">
+    {{ .Date.Format "Jan 2, 2006" }}
+    {{ if .Params.location }}
+      &middot; {{ .Params.location }}
+    {{ end }}
+    &middot; {{ .ReadingTime }} minute read
+    {{ partial "tag-list.html" . }}
+  </span>
+
+  <i>{{ .Description }}</i>
+
+  <p>{{ .Content }}</p>
+</div>
