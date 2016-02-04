@@ -2,8 +2,8 @@
 date = "2013-03-29T13:00:00-08:00"
 thumbnail = ""
 title = "mtrrdr"
-location = ""
-tags = ["projects", "tiny", "ocr", "drafts"]
+location = "Menlo Park"
+tags = ["projects"]
 
 +++
 
