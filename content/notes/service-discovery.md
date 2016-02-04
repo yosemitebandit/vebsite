@@ -3,7 +3,7 @@ date = "2014-12-20T13:00:00-08:00"
 thumbnail = ""
 title = "service discovery"
 location = ""
-tags = ["linux", "drafts"]
+tags = ["ops"]
 
 +++
 

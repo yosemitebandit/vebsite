@@ -3,7 +3,7 @@ date = "2014-12-20T13:00:00-08:00"
 thumbnail = ""
 title = "golang first bits"
 location = ""
-tags = ["go", "drafts"]
+tags = ["go"]
 
 +++
 
@@ -43,9 +43,8 @@ they run for a minimum of one second each, with increasing `b.N` until this is s
 * a common mistake: using `b.N` values in the benchmarked function: these just control the number of loops
 
 * on privacy: if the first letter of a struct or variable is capitalized, it is visible outside the struct
-* and some interesting gotchas with compiler optimization;
+* and some interesting gotchas with compiler optimization --
 but I don't think my vanilla code fell into this trap..
-
 * then I memoized with `var m map[int]int` which panicked
 with "runtime error: assignment to entry in nil map"
 * but it works with `var m = make(map[int]int)`

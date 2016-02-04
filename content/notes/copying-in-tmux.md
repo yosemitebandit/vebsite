@@ -3,7 +3,7 @@ date = "2015-01-14T13:00:00-08:00"
 thumbnail = ""
 title = "copying in tmux"
 location = ""
-tags = ["linux", "drafts"]
+tags = ["ops"]
 
 +++
 

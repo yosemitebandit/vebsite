@@ -2,13 +2,13 @@
 date = "2013-04-01T13:00:00-08:00"
 thumbnail = ""
 title = "getting started with OpenCV in Python"
-location = ""
-tags = ["python", "ocr", "drafts"]
+location = "SF"
+tags = ["python"]
 
 +++
 
 I had a hard time training tesseract 3.02.02 for the [mtrrdr](/mtrrdr) OCR project
-so I've decided to try some options with 
+so I've decided to try some options with
 [OpenCV](http://opencv.org/) and [SciPy](http://www.scipy.org/).
 I was interested in testing the ideas posted [here](http://stackoverflow.com/questions/9413216/simple-digit-recognition-ocr-in-opencv-python)
 and [here](http://opencvpython.blogspot.com/2012/12/k-means-clustering-2-working-with-scipy.html)

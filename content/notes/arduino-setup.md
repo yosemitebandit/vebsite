@@ -3,7 +3,7 @@ date = "2013-04-05T13:00:00-08:00"
 thumbnail = ""
 title = "arduino command line setup"
 location = ""
-tags = ["arduino", "linux", "drafts"]
+tags = ["hardware"]
 
 +++
 

@@ -3,7 +3,7 @@ date = "2014-12-16T13:00:00-08:00"
 thumbnail = ""
 title = "storing and deploying keys securely"
 location = ""
-tags = ["linux", "drafts"]
+tags = ["ops"]
 
 +++
 

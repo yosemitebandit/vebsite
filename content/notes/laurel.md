@@ -3,7 +3,7 @@ date = "2013-03-27T13:00:00-08:00"
 thumbnail = ""
 title = "Laurel walking tour"
 location = ""
-tags = ["local", "drafts"]
+tags = ["local"]
 
 +++
 

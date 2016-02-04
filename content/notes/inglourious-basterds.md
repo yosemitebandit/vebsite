@@ -3,7 +3,7 @@ date = "2013-02-10T13:00:00-08:00"
 thumbnail = ""
 title = "Inglourious Basterds"
 location = ""
-tags = ["reviews", "films", "drafts"]
+tags = ["reviews", "films"]
 
 +++
 

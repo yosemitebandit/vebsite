@@ -1,11 +1,12 @@
 +++
 date = "2015-01-15T07:47:27Z"
-description = "tulum and parts south"
-tags = ["outside", "drafts", "travels"]
+description = ""
+tags = ["outside", "travels"]
 title = "mexico 2015"
 +++
 
-Me and Nora went to Tulum and had a great time.
+Me and Nora went to Tulum and had a great time!
+
 Swam in a cenote.
 Ate a lot of fish tacos.
 Went snorkeling a bunch

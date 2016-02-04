@@ -1,7 +1,7 @@
 +++
 date = "2015-08-21T09:59:16-07:00"
 description = ""
-tags = ["reading", "drafts"]
+tags = ["reading"]
 title = "vi"
 
 +++
@@ -24,11 +24,11 @@ Some other notes:
 
 * find/replace a word under the cursor
 as per [this article](http://vim.wikia.com/wiki/Search_and_replace_the_word_under_the_cursor)
-  * type *
-  * ciw (change inner word)
+  * type `*`
+  * `ciw` (change inner word)
   * `<esc>`
-  * then n (next occurrence)
-  * and . (repeat change)
+  * then `n` (next occurrence)
+  * and `.` (repeat change)
 
 * I've been building little go scripts in vim and this pops up the quickfix pane when there's an error
   * my vimrc has two ways of hiding this: call ToggleErrors() and :ccl
@@ -40,6 +40,6 @@ as per [this article](http://vim.wikia.com/wiki/Search_and_replace_the_word_unde
 
 * I keep forgetting I have easy-motion
   * jump to the letter d, anywhere:
-  * <leader>ssd
+  * `<leader>ssd`
 
 * I should learn snippets..

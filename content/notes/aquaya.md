@@ -16,7 +16,7 @@ working further with HueWACO
 IVRHub for Cambodia
 further prototyping with UNICEF-Mozambique
 
-grants with E, M, J, B, I, 
+grants with E, M, J, B, I,
 consulting with SP
 more work with UNICEF-Mozambique
 paper

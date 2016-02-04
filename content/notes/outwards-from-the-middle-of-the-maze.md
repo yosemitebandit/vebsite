@@ -3,7 +3,7 @@ date = "2014-12-20T13:00:00-08:00"
 thumbnail = ""
 title = "outwards from the middle of the maze"
 location = ""
-tags = ["linux", "watching", "drafts"]
+tags = ["ops", "watching",]
 
 +++
 

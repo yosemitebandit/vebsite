@@ -1,9 +1,9 @@
 +++
 date = "2014-12-22T13:00:00-08:00"
 thumbnail = ""
-title = "benchmarks and testing in go"
+title = "optimizing in go"
 location = ""
-tags = ["watching", "go", "drafts"]
+tags = ["watching", "go"]
 
 +++
 

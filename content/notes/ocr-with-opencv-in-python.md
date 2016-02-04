@@ -3,7 +3,7 @@ date = "2013-04-02T13:00:00-08:00"
 thumbnail = ""
 title = "OCR with OpenCV and Python"
 location = ""
-tags = ["python", "ocr", "drafts"]
+tags = ["python"]
 
 +++
 

@@ -3,7 +3,7 @@ date = "2014-12-20T13:00:00-08:00"
 thumbnail = ""
 title = "think complexity chapter two"
 location = ""
-tags = ["python", "go", "drafts"]
+tags = ["python", "go"]
 
 +++
 
@@ -14,7 +14,7 @@ tags = ["python", "go", "drafts"]
 * probability that an atom decays in an interval is lambda * dt
 * with multiple decays, probability of a decay path is found by just multiplying all
 probabilities along the chain
-* decay chain of highest probability? give each edge a 'length' of -1*log(lambda)
+* decay chain of highest probability? give each edge a 'length' of `-1*log(lambda)`
 and then find shortest path via astar or dijkstra
 * because adding log probabilities is the same as multiplying probabilities
 * since log is negated, shortest path is most likely decay route

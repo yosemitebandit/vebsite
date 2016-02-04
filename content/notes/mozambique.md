@@ -1,9 +1,9 @@
 +++
 date = "2013-03-27T13:00:00-08:00"
 thumbnail = ""
-title = "Mozambique 2012"
+title = "Mozambique"
 location = ""
-tags = ["travels", "drafts", "werk"]
+tags = ["travels", "werk"]
 
 +++
 

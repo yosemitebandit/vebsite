@@ -3,11 +3,11 @@ date = "2014-12-20T13:00:00-08:00"
 thumbnail = ""
 title = "on how committees invent"
 location = ""
-tags = ["reading", "drafts"]
+tags = ["reading"]
 
 +++
 
-[http://www.melconway.com/research/committees.html](http://www.melconway.com/research/committees.html)
+from [melconway.com](http://www.melconway.com/research/committees.html)
 
  * "Given any design team organization, there is a class of design alternatives
 which cannot be effectively pursued by such an organization

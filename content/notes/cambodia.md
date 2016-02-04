@@ -3,7 +3,7 @@ date = "2013-03-27T13:00:00-08:00"
 thumbnail = ""
 title = "Cambodia 2012"
 location = ""
-tags = ["travels", "drafts"]
+tags = ["travels"]
 
 +++
 

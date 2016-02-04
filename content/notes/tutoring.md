@@ -3,7 +3,7 @@ date = "2013-02-08T13:00:00-08:00"
 thumbnail = ""
 title = "tutoring"
 location = ""
-tags = ["local", "drafts"]
+tags = ["local"]
 
 +++
 

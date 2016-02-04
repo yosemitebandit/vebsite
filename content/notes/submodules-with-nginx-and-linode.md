@@ -3,7 +3,7 @@ date = "2013-01-28T13:00:00-08:00"
 thumbnail = ""
 title = "configuring submodules with nginx and linode"
 location = ""
-tags = ["linux", "drafts"]
+tags = ["ops"]
 
 +++
 

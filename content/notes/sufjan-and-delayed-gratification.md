@@ -3,7 +3,7 @@ date = "2013-01-30T13:00:00-08:00"
 thumbnail = ""
 title = "Sufjan and delayed gratification"
 location = ""
-tags = ["drafts", "reviews", "music"]
+tags = ["reviews", "music"]
 
 +++
 

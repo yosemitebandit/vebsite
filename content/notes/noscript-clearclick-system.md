@@ -3,7 +3,7 @@ date = "2013-01-30T13:00:00-08:00"
 thumbnail = ""
 title = "noscript's anti-clickjacking system"
 location = ""
-tags = ["drafts"]
+tags = ["js"]
 
 +++
 
