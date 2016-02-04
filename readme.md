@@ -19,8 +19,6 @@ will mean the page doesn't show up in article lists
 ala [this post](http://ktmud.github.io/huggle/en/intro/)
 * some handling of ipython notebooks
 * pasture can be smaller
-* search
-* cache invalidation
 * better tag delimiting :| (see the delimit option in template functions)
 ala [this post](https://discuss.gohugo.io/t/howto-delimiter-separated-tags/146/6)
 * custom 404 page
