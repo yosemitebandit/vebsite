@@ -1,7 +1,7 @@
 +++
 date = "2015-08-19T17:58:30-07:00"
 description = "on learning clojure"
-tags = ["watching", "reading"]
+tags = ["watching", "reading", "clojure"]
 title = "clojure"
 
 +++
