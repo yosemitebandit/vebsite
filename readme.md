@@ -1,4 +1,4 @@
-notes on various things
+a site built with [hugo](http://gohugo.io/overview/introduction/)
 
 
 #### reminders
@@ -11,13 +11,6 @@ and link thumbnails with `thumbnail = "/img/boat-thumbnail.png"` in the front ma
 * the menu topmatter is kind of not necessary anymore as the sidebar is hardcoded --
 in fact, including a menu item, even a blank one,
 will mean the page doesn't show up in article lists
-
-
-#### organization
-
-* `/notes/305` -- permalink to each page
-* `/fusion-360`, `/python` -- tags
-* `/about`, `/all` -- special pages
 
 
 #### things to make better
