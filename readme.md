@@ -17,8 +17,6 @@ will mean the page doesn't show up in article lists
 
 * some handling of ipython notebooks
 * pasture can be smaller
-* better tag delimiting :| (see the delimit option in template functions)
-ala [this post](https://discuss.gohugo.io/t/howto-delimiter-separated-tags/146/6)
 * custom 404 page
 * maybe the `/projects` endpoint should just be pics
 * some of the layouts should be in pasture, I think
