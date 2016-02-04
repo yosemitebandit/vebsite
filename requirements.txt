@@ -1,2 +1,4 @@
 docopt==0.6.2
 Pillow==3.1.0
+pytoml==0.1.7
+PyYAML==3.11
