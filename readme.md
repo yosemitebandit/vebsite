@@ -5,7 +5,7 @@ a site built with [hugo](http://gohugo.io/overview/introduction/)
 
 * use `<!--more-->` in an article to set the "read more" breakpoint --
 yes that's an html comment in the markdown itself
-* use `python resize` to create thumbnails and resize large images --
+* use `python shrinkify.py` to create thumbnails and shrink large images --
 link thumbnails with `thumbnail = "/img/boat-thumbnail.png"` in the front matter
 * tags should be plural or a gerund
 * the menu topmatter is kind of not necessary anymore as the sidebar is hardcoded --
