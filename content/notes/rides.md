@@ -41,16 +41,25 @@ memories of past rides, and places I'd like to go someday..
 ### 2013
 
 * Alpine Dam (my favorite ride)
+
+![alpine dam fog](/img/alpine-dam-summit-fog.jpg)
+
 * Pt. Reyes with Joe -- met that Cambodian guy and his kids while picking fruit
 * Mt. Tam / Point Reyes station century with Joe
 * Muir Woods + Beach
 * lost in Novato
+* night wandering across the bridge
+
+![mill valley](/img/mill-valley.jpg)
 
 
 ### 2012
 
 * Mt. Diablo loop
 * backside of Mt. Hamilton and down from Lick -- had to get water from the firefighters
+
+![lick telescope](/img/lick-telescope.jpg)
+
 * Pacifica solo and again with D. Moss (or were we elsewhere?)
 * hawk hill x 5 (or maybe just four)
 * one way to Sacramento-ish to hang out with D. Moss and eat all the figs and acorns in his yard
