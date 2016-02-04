@@ -3,13 +3,13 @@
 "vvebsite" being my old blog, that is..
 
 Usage:
-  convert_vvebsite_article <in_path> <out_path>
+  convert_vvebsite_article <in_path>
 
 Arguments:
   <in_path>  path to the vvebsite entry
-  <out_path>  where to save the hugo-compatible entry
 """
 
+import os
 import time
 
 from docopt import docopt
@@ -25,6 +25,7 @@ if __name__ == '__main__':
     file_data = in_file.read()
   frontmatter, article_contents = file_data.split('---')
   metadata = yaml.load(frontmatter)
+  _, filename = os.path.split(arguments['<in_path>'])
 
   # Generate the output file.
   created_date = time.strptime(metadata['created'], '%B %d, %Y')
@@ -48,6 +49,7 @@ if __name__ == '__main__':
     '\n+++',
     article_contents))
 
-  # Save the output.
-  with open(arguments['<out_path>'], 'w') as out_file:
+  # Save the output to the default location.
+  out_path = os.path.join('content/notes', filename)
+  with open(out_path, 'w') as out_file:
     out_file.write(output_contents)
