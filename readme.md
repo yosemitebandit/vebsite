@@ -39,8 +39,7 @@ see the fusion 360 post, for example, it's 3MB!
 
 #### reorg todos
 
-* import `vvebsite`
-* also post.yosemitebandit.com -- there's stuff there too :|
+* branch off master and merge this in
 
 
 #### hugo workflow
