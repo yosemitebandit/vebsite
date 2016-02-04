@@ -1,11 +1,15 @@
-"""Resizes images.
+"""Shrinks images.
 
-Note that this will maintain aspect ratio and shrink the image until it reaches
-either the specified width or height.  So, to set the width, just specify a
-very large height.  To make a thumbnail just specify the source.
+This was originally thumbnailify -- just specify the source to create a new
+thumbnail image in the same dir as source.
+
+You can also shrink images if they're "raw" and too large.  Note that this will
+maintain aspect ratio and shrink the image until it reaches either the
+specified width or height.  So, to set only the width, just specify a very
+large height.
 
 Usage:
-  resize <source> [--width=<width>] [--height=<height>] [--preserve]
+  shrinkify <source> [--width=<width>] [--height=<height>] [--preserve]
 
 Arguments:
   <source>  the source image
@@ -14,7 +18,6 @@ Options:
   --height=<height>  new height in pixels [default: 144]
   --width=<width>    new width in pixels [default: 190]
   --preserve         maintain the existing filename
-  --verbose          print stuff
 """
 
 import os
@@ -48,5 +51,4 @@ if __name__ == '__main__':
   if extension == 'jpg':
     extension = 'jpeg'
   image.save(outpath, extension)
-  if '--verbose' in arguments:
-    print 'saving "%s" ..' % outpath
+  print 'saving "%s" ..' % outpath
