@@ -8,11 +8,14 @@ maintain aspect ratio and shrink the image until it reaches either the
 specified width or height.  So, to set only the width, just specify a very
 large height.
 
+If you specify a directory, this will try to shrinkify or thumbnailify
+everything in that location (except items with 'thumbnail' in the filename).
+
 Usage:
   shrinkify <source> [--width=<width>] [--height=<height>] [--preserve]
 
 Arguments:
-  <source>  the source image
+  <source>  the source image or a directory of images
 
 Options:
   --height=<height>  new height in pixels [default: 144]
@@ -29,26 +32,38 @@ from PIL import Image
 if __name__ == '__main__':
   arguments = docopt(__doc__)
 
+  # Process the source, checking to see if it's a directory.
+  paths = []
+  if os.path.isfile(arguments['<source>']):
+    paths.append(arguments['<source>'])
+  else:
+    for filename in os.listdir(arguments['<source>']):
+      # Check each file in the dir, skipping if it's another dir or already a
+      # thumbnail.
+      full_path = os.path.join(arguments['<source>'], filename)
+      if not os.path.isfile(full_path):
+        continue
+      if 'thumbnail' in filename:
+        continue
+      paths.append(full_path)
+
   # Set the size.
   size = (int(arguments['--width']), int(arguments['--height']))
 
-  # Process the input filepath.
-  path, file_with_extension = os.path.split(arguments['<source>'])
-  filename, extension = file_with_extension.split('.')
+  # Shrink all these paths.
+  for in_path in paths:
+    in_dir, file_with_extension = os.path.split(in_path)
+    filename, extension = file_with_extension.split('.')
+    # Generate the output filepath.
+    if arguments['--preserve']:
+      outfile = '%s.%s' % (filename, extension)
+    else:
+      outfile = '%s-thumbnail.%s' % (filename, extension)
+    out_path = os.path.join(in_dir, outfile)
 
-  # Generate the output filepath.
-  if arguments['--preserve']:
-    outfile = file_with_extension
-  else:
-    outfile = '%s-thumbnail.%s' % (filename, extension)
-  outpath = os.path.join(path, outfile)
-
-  # Make the thumbnail.
-  image = Image.open(arguments['<source>'])
-  image.thumbnail(size)
-
-  # Save.
-  if extension == 'jpg':
-    extension = 'jpeg'
-  image.save(outpath, extension)
-  print 'saving "%s" ..' % outpath
+    image = Image.open(in_path)
+    image.thumbnail(size)
+    if extension == 'jpg':
+      extension = 'jpeg'
+    image.save(out_path, extension)
+    print 'saving "%s"' % out_path
