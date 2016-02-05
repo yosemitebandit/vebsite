@@ -51,6 +51,7 @@ to previously-drawn 2D sketch planes -- then you can draw on those newly-constru
 projecting in geometry from the old sketch
 * hold `command` to toggle between the geometry preview and
 the old geometry / selecting the edges when you are, say, creating a fillet
+* check for interference via the "inspect" menu
 
 
 #### renderings
