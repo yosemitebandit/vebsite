@@ -2,7 +2,7 @@
 date = "2016-02-04T18:36:55-08:00"
 location = "Mountain View"
 tags = ["projects", "hardware"]
-thumbnail = ""
+thumbnail = "/img/key-enclosure-rendering-two-thumbnail.png"
 title = "prius key"
 
 +++
@@ -32,6 +32,8 @@ the gameplan..
   I'll superglue some fabric over the holes so you can press the button,
   but the buttons will stay protected
 * send the enclosure for 3D printing
+
+![enclosure](/img/key-enclosure-rendering-one.png)
 
 What to do about the battery..
 I could have it just press into place with the back of the enclosure holding it in.
