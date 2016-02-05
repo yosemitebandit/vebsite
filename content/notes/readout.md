@@ -11,6 +11,8 @@ I'm playing around with techniques for reading old-school displays.
 
 <!--more-->
 
+(This is something I messed with long ago -- see [/mtrrdr](/mtrrdr).)
+
 I used [`ssocr`](https://www.unix-ag.uni-kl.de/~auerswal/ssocr/)
 to preprocess and read a picture of my oven:
 
