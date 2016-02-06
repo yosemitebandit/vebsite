@@ -145,3 +145,5 @@ so they will be on (0, 1).
 `D(S(Wx+b), L)`:
 
 ![multinomial logistic classification](/img/multinomial-logistic-classification-diagram.png)
+
+* still working on the first ipython assignment..
