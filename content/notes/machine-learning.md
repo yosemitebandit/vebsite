@@ -3,6 +3,7 @@ date = "2016-01-08T13:04:26-08:00"
 description = ""
 tags = ["cs", "python"]
 title = "machine learning"
+thumbnail = "/img/multinomial-logistic-classification-diagram-thumbnail.png"
 
 +++
 
@@ -130,3 +131,17 @@ is `old value - learning rate * sum of (true value - guess) * input`
 it's better to use softmax rather than the sigmoid
 * my ipython notebook that looks at weights, the sigmoid, cross entropy and gradient descent
 is [here](https://gist.github.com/yosemitebandit/75c3ca7a988ac7aee38c)
+
+
+## Notes on the [Udacity Deep Learning course](https://www.udacity.com/course/deep-learning--ud730)
+
+* "one-hot encoding" is just using vector labels with a lot of zeros
+and a one in the slot for the correct class
+* cross entropy, `D` is given by `D(S, L) = -sum(Li * log(Si))`
+where `S` is the scores and `L` is the labels --
+and remember the `S` scores have had the softmax fn applied (or something equivalent)
+so they will be on (0, 1).
+* L1 on cross entropy has a nice "pipeline" diagram on this multinomial logistic classification,
+`D(S(Wx+b), L)`:
+
+![multinomial logistic classification](/img/multinomial-logistic-classification-diagram.png)
