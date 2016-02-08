@@ -1,7 +1,7 @@
 +++
 date = "2016-01-08T18:57:28-08:00"
 description = ""
-tags = ["outside"]
+tags = ["outside", "travels"]
 title = "rides"
 thumbnail = "/img/bike-at-henry-coe-thumbnail.jpg"
 +++
