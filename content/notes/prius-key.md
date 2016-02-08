@@ -40,3 +40,11 @@ I could have it just press into place with the back of the enclosure holding it 
 ..But what's holding the front of the enclosure in place?
 The PCB has no holes or anything to register on.
 The original key had a screw-on cover..very annoying.
+
+#### next rev
+* remember for 3d printing..
+  * press fits made in ABS will shrink, so you need to add some room for that (or file)
+  * make sure you have flat surfaces
+  * consider the support structure that will be needed
+  * skip shelling it -- just combine/cut with the pcb itself and then expand that cavity --
+  this will make sure your press fit pegs have somewhere to bite
