@@ -149,3 +149,22 @@ so they will be on (0, 1).
 ![multinomial logistic classification](/img/multinomial-logistic-classification-diagram.png)
 
 * still working on the first ipython assignment..
+* validation set size rule of thumb --
+if a model adjustment improves 30 samples in the validation set,
+that is usually statistically significant.
+So people typically hold 30k samples in their validation set (or more),
+allowing the validation set measurement to be accurate to 0.1%.
+
+#### SGD
+* stochastic gradient descent is GD but with sampling --
+instead of computing the loss over all data, you compute the loss over a small,
+randomly chosen subset and take smaller GD "steps."
+This means far more steps, but far easier computations,
+as computing the loss function over the whole dataset is very expensive.
+* For SGD to work well, inputs should have a mean of zero and equal and small variance --
+weights should also be inited randomly, with a mean of zero and have small, equal variance
+* we can also use momentum -- keeping a running average of previous gradients,
+and we can use learning rate decay
+* lowering the learning rate is the recommendation for what to do when things don't work
+* ADAGRAD is an SGD variant with builtin momentum and learning rate decay,
+removing some of these hyperparameters
