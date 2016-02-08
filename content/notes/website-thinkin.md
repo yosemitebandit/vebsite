@@ -18,24 +18,7 @@ maybe you have to hack them away to actually read the site.
 generative flowers and animals on the notes site
 or like animated ascii art.
 
-```
-
-                             *@*
-                          *@*
-            +B         *@*
-            +B        *@*
-             +B      (%&%]
-               +B  ([%&&&%))
-                 +B[%&&&&&%) >n
-                   ([%&&&%))   >n
-                     (%&%)       >n
-                      *@*         >n
-                    *@*           >n
-                  *@*
-               *@*
-
-
-```
+<script src="https://gist.github.com/yosemitebandit/3dc720da322e71976f68.js"></script>
 
 like this awesome demo from [nick kwiatek](http://nkwiatek.com/experiments/ascii#)
 or something colorful ala [substack](http://substack.net)
