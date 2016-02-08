@@ -21,6 +21,7 @@ js and not quite complete
 * background on [perceptrons and more](http://neuralnetworksanddeeplearning.com/chap1.html)
 * [NNs from scratch in python](http://www.wildml.com/2015/09/implementing-a-neural-network-from-scratch/)
 * [2014 slides on NNs](https://goo.gl/IDCXnI)
+* [notes on `sklearn`](http://machinelearningmastery.com/get-your-hands-dirty-with-scikit-learn-now/)
 
 
 ## Stanford course notes for the [CS231n class](http://cs231n.github.io/)

@@ -35,6 +35,8 @@ I like to add sauteed mushrooms.
 * my sister and I made this [matzo brittle](http://smittenkitchen.com/blog/2009/04/chocolate-caramel-crackers/) --
 scary good
 * [carrot cake](http://allrecipes.com/recipe/7402/carrot-cake-iii/)
+* [rum punch](http://allrecipes.com/recipe/32349/caribbean-rum-punch/) --
+but I used Sunny D and pumpking pie spice :|
 
 
 #### things that look interesting
