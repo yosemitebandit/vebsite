@@ -22,6 +22,7 @@ js and not quite complete
 * [NNs from scratch in python](http://www.wildml.com/2015/09/implementing-a-neural-network-from-scratch/)
 * [2014 slides on NNs](https://goo.gl/IDCXnI)
 * [notes on `sklearn`](http://machinelearningmastery.com/get-your-hands-dirty-with-scikit-learn-now/)
+* [concise numpy examples](http://scipy.github.io/old-wiki/pages/Numpy_Example_List#append.28.29)
 
 
 ## Stanford course notes for the [CS231n class](http://cs231n.github.io/)
