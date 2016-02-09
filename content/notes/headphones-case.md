@@ -18,5 +18,5 @@ and then worked around from there.
 
 ![headphones model](/img/headphones-model.png)
 
-The headband didn't "close" in to a proper circle when I mirrored everything --
+The headband didn't "close" into a proper semicircle when I mirrored everything --
 you can see the little imperfection on the far right.
