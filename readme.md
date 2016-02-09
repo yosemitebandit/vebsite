@@ -22,6 +22,7 @@ will mean the page doesn't show up in article lists
 * some of the layouts should be in pasture, I think
 * more travel updates
 * gist shortcode
+* some concept of "updated"
 
 
 #### hugo workflow
