@@ -7,7 +7,7 @@ title = "dean scream"
 
 +++
 
-Interesting documentary on the "Dean Scream" from 2004.
+A short documentary on the "Dean Scream" from 2004.
 
 <!--more-->
 
@@ -25,4 +25,6 @@ a vote in which he came in a disappointing third
 * other footage from the event shows it was really loud -- there were 3500 people there
 * he actually cracks a pretty funny joke about it..
 * and most people in the documentary claim that, rather than the scream being his undoing,
-it was his coming in third in Iowa that sunk his campaign (he left the race soon after)
+it was his lack of a result in Iowa that sunk his campaign (he left the race soon after)
+* he was the first candidate to raise millions online,
+but failed to galvanize more than the youth vote
