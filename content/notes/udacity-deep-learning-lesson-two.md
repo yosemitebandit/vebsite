@@ -73,3 +73,4 @@ an offset is picked randomly to form a randomly selected minibatch.
 The placeholder nodes are fed this minibatch within the session.
 
 Another set of [TF tutorials](https://github.com/pkmital/tensorflow_tutorials).
+[Keras](http://keras.io/#getting-started-30-seconds-to-keras) also looks awesome.
