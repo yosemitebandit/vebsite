@@ -1,0 +1,15 @@
++++
+date = "2016-02-10T14:27:22-08:00"
+location = ""
+tags = ["watching"]
+thumbnail = ""
+title = "frank howarth makes sake trays"
+
++++
+
+Great video showing Frank Howarth making sake trays
+for a Japanese restaurant:
+
+{{% youtube MTubEgZ8mCs %}}
+
+It's a cool view into a prototype / feedback cycle.
