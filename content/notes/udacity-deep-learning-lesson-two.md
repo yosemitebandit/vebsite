@@ -47,22 +47,29 @@ differentiating the model at some point in time
 
 #### TensorFlow
 
-* getting the first taste of TF in Assignemnt Two --
+Getting the first taste of TF in Assignemnt Two --
 with TF, you first setup a computation graph within `with graph.as_default()`.
 This includes..
+
   * bringing in the data
   * initing the weights and biases
   * setting up the logits (train data * weights + biases)
   * calculating loss (via the average of the cross entropy of the softmax)
   * setting up an optimizer with some learning rate
   * and setting up some predictions (for later reporting)
-* then, within another block `with tf.Session(graph=graph) as session` you..
+
+Then, within another block `with tf.Session(graph=graph) as session` you..
+
   * run an init to actually do the setup described above
   * run the optimizer, compute the loss and get the trained predictions (all in one line)
   * occasionally print the validation accuracy
   * and finally print the test accuracy
-* I'm not understanding how the ReLUs are applied by TF here..
+
+I'm not understanding how the ReLUs are applied by TF here..
 ah, we have to add them via the assignment!
-* ah, we can also use SGD via a slightly computation graph employing placeholder nodes --
+
+We can also use SGD via a slightly computation graph employing placeholder nodes --
 an offset is picked randomly to form a randomly selected minibatch.
 The placeholder nodes are fed this minibatch within the session.
+
+Another set of [TF tutorials](https://github.com/pkmital/tensorflow_tutorials).
