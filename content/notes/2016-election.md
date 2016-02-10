@@ -1,7 +1,7 @@
 +++
 date = "2016-02-09T18:53:58-08:00"
 location = ""
-tags = ["politics"]
+tags = ["politics", "self"]
 thumbnail = ""
 title = "2016 election"
 

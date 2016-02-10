@@ -1,7 +1,7 @@
 +++
 date = "2015-01-26T04:21:03Z"
 description = "these truths.."
-tags = ["ideas"]
+tags = ["ideas", "self"]
 title = "beliefs"
 
 +++
