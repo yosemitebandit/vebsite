@@ -16,8 +16,8 @@ an amazing discovery.  The livestream:
 
 * 1.3 billion light years away, two black holes coalesced and produced a 10^-21
 peak strain in two of the LIGO detectors
-* they detected a signal at Livingston (?) and then another signal at Hanford
-7ms (?) later -- and the signals were extremely similar
+* they detected a signal at the Livingston, Louisiana site (?)
+and then, 7ms later, the same signal at the Hanford, WA detector
 * they know it's a black hole merger
 because the signal aligns so well with a numerical model of such an event
 * see Physical Review Letters for the paper
