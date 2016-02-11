@@ -72,5 +72,15 @@ We can also use SGD via a slightly computation graph employing placeholder nodes
 an offset is picked randomly to form a randomly selected minibatch.
 The placeholder nodes are fed this minibatch within the session.
 
+ReLU setup, two-layer network:
+
+* if you have 1024 ReLUs, you'll have a weight matrix with dimensions `input-data-size x 1024`
+and a `1024 x 1` bias vector
+* your first set of logits will be a ReLU-wrapped `Wx + b` computation
+* then you'll have the "output layer" with its own set of weights that is `1024 x number-of-labels` in size
+plus a bias vector that is `number-of-labels x 1` in size
+* the output logits will be `Wx + b` where `x` is the hidden layer output
+* then this output will be fed into the softmax function (or something equivalent)..
+
 Another set of [TF tutorials](https://github.com/pkmital/tensorflow_tutorials).
 [Keras](http://keras.io/#getting-started-30-seconds-to-keras) also looks awesome.

@@ -1,6 +1,6 @@
 +++
 date = "2015-08-17T16:25:09-07:00"
-description = "what the heck is vmstat"
+description = ""
 tags = ["reading", "ops"]
 title = "vmstat"
 
@@ -8,6 +8,8 @@ title = "vmstat"
 
 I typically use `top` to look at system performance and per-process metrics,
 but `vmstat` gives an alternative look:
+
+<!--more-->
 
 ```shell
 mercury  ~  vmstat
