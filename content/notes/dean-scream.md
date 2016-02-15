@@ -3,7 +3,7 @@ date = "2016-02-09T19:03:20-08:00"
 location = ""
 tags = ["politics", "watching"]
 thumbnail = ""
-title = "dean scream"
+title = "the Dean Scream"
 
 +++
 

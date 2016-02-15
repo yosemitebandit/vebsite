@@ -3,7 +3,7 @@ date = "2016-02-11T07:47:17-08:00"
 location = ""
 tags = ["watching"]
 thumbnail = "/img/ligo-livingston-thumbnail.jpg"
-title = "ligo"
+title = "LIGO"
 
 +++
 
