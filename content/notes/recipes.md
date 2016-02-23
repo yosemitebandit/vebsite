@@ -37,6 +37,10 @@ scary good
 * [carrot cake](http://allrecipes.com/recipe/7402/carrot-cake-iii/)
 * [rum punch](http://allrecipes.com/recipe/32349/caribbean-rum-punch/) --
 but I used Sunny D and pumpking pie spice :|
+* [broccolini with garlic](http://www.foodnetwork.com/recipes/ina-garten/sauteed-broccolini-and-garlic-recipe.html)
+* [salsa / pico de gallo](http://allrecipes.com/recipe/16542/salsa/)
+* [bittman's pancakes](http://cooking.nytimes.com/recipes/1893-everyday-pancakes) --
+doubled the recipe and (consequently?) found these to be a bit bland
 
 
 #### things that look interesting
