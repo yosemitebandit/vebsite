@@ -25,3 +25,6 @@ It was very rewarding and fun work.
 
 The founding team was acquired by Facebook, but we all parted on good terms.
 Definitely looking forward to what they do next with the team in Menlo Park!
+
+Update!  The Endaga work is part of [Facebook TIP](http://telecominfraproject.com)
+and the software should be open sourced before too long!
