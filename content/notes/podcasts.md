@@ -19,3 +19,6 @@ funny show that's just a recording of five people playing D&D
 tales of odd jobs, made by a friend
 * [TLDR](http://www.onthemedia.org/tags/tldr_podcast/) --
 an older show from the main ReplyAll guys
+* [Mystery Show](https://gimletmedia.com/show/mystery-show/) --
+Starlee Kine converses with the world
+* [Planet Money](http://www.npr.org/sections/money/)
