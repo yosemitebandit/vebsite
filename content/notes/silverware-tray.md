@@ -10,6 +10,8 @@ title = "silverware tray"
 I'm making the most over-designed silverware tray, haha.
 Spent a long time making ugly utinsels in Fusion to come up with this innovative design `:|`
 
+<!--more-->
+
 ![silverware tray render](/img/silverware-tray-render.png)
 
 I can't get the align tool to work so, according to the design, my cutlery will be levitating..
