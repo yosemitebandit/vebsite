@@ -23,6 +23,7 @@ will mean the page doesn't show up in article lists
 * more travel updates
 * gist shortcode
 * some concept of "updated"
+* images look bad on nicer screens (like my phone :|)
 
 
 #### hugo workflow
