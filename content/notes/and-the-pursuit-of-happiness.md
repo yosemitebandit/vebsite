@@ -3,7 +3,7 @@ date = "2016-02-23T09:48:25-08:00"
 location = ""
 tags = ["reading"]
 thumbnail = "/img/kalman-paints-a-dancer-thumbnail.jpg"
-title = "and the pursuit of happiness"
+title = "And The Pursuit Of Happiness"
 
 +++
 
