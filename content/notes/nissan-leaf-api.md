@@ -23,3 +23,7 @@ They also pointed out that, since VINs are often visibly displayed on the front 
 you could just read them off..
 
 Thankfully the Leaf doesn't provide remote unlock or remote start via the app.
+
+(Reading this guy's blog led me to a note on a
+[Rolls Royce model with GPS-aided transmission](https://www.press.rolls-roycemotorcars.com/rolls-royce-motor-cars-pressclub/article/detail/T0137422EN/world-debut-for-rolls-royce-wraith-at-geneva-motor-show)
+..insane.)
