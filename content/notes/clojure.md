@@ -105,7 +105,7 @@ Recall that middleware can modify requests /and/ responses
 ```
 * here's the full example:
 
-<script src="https://gist.github.com/yosemitebandit/8d12355c51d833fd714a.js"></script>
+{{% gist yosemitebandit 8d12355c51d833fd714a %}}
 
 and here's a tutorial on [clojure webapps from heroku](https://devcenter.heroku.com/articles/clojure-web-application)
 
@@ -125,7 +125,7 @@ and another tutorial on [clojure desktop games](http://noobtuts.com/clojure/2d-p
 
 * the game fragment I ended up making:
 
-<script src="https://gist.github.com/yosemitebandit/33a29d246382bd0c7cc3.js"></script>
+{{% gist yosemitebandit 33a29d246382bd0c7cc3 %}}
 
 
 what about quoting, that's kinda weird.. here are notes from

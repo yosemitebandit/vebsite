@@ -44,4 +44,5 @@ Twiddling the SA dials, you can start to appreciate (laugh at?) the recursivenes
 I’m watching a graph output get closer and closer to what I expect, myself optimizing the optimizer (and probably overfitting :|)
 
 The end result:
-<script src="https://gist.github.com/yosemitebandit/2324a917f2a327a749fa.js"></script>
+
+{{% gist yosemitebandit 2324a917f2a327a749fa %}}

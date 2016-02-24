@@ -21,7 +21,6 @@ will mean the page doesn't show up in article lists
 * maybe the `/projects` endpoint should just be pics
 * some of the layouts should be in pasture, I think
 * more travel updates
-* gist shortcode
 * some concept of "updated"
 * images look bad on nicer screens (like my phone :|)
 
