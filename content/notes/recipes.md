@@ -41,6 +41,9 @@ but I used Sunny D and pumpking pie spice :|
 * [salsa / pico de gallo](http://allrecipes.com/recipe/16542/salsa/)
 * [bittman's pancakes](http://cooking.nytimes.com/recipes/1893-everyday-pancakes) --
 doubled the recipe and (consequently?) found these to be a bit bland
+* [oatmeal chocolate chip cookies](http://www.kingarthurflour.com/recipes/chocolate-chip-oatmeal-cookies-recipe) --
+didn't exactly follow the recipe for want of the right kind of sugar and a way to measure butter..
+they were ok
 
 
 #### things that look interesting
