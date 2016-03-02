@@ -104,3 +104,4 @@ Also of note:
 * on [react vs polymer](http://programmers.stackexchange.com/questions/225400)
 (polymer being an implementation of the web components standard)
 * another possibly interesting tutorial on [flux and react](https://www.codementor.io/reactjs/tutorial/react-js-flux-architecture-tutorial)
+* a [series of classes on the basics](http://courses.reactjsprogram.com/courses/reactjsfundamentals)
