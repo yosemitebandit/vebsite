@@ -44,6 +44,10 @@ doubled the recipe and (consequently?) found these to be a bit bland
 * [oatmeal chocolate chip cookies](http://www.kingarthurflour.com/recipes/chocolate-chip-oatmeal-cookies-recipe) --
 didn't exactly follow the recipe for want of the right kind of sugar and a way to measure butter..
 they were ok
+* [couscous with cilantro](http://www.food.com/recipe/couscous-with-fresh-cilantro-and-lemon-juice-505110) --
+quick and pretty good!  Added much more cilantro and turmeric.
+* [oven-baked cod](http://www.food.com/recipe/easy-oven-baked-cod-133718) --
+we used Dover Sole, lime and cilantro -- still very flaky and tasty
 
 
 #### things that look interesting
@@ -54,4 +58,4 @@ and tuna stew
 * [soy sauce cured eggs](http://www.nytimes.com/2015/11/29/magazine/drinking-food.html)
 * [diy jerky](http://www.instructables.com/id/Start-Your-Beef-Jerky-Addiction-Today/?ALLSTEPS)
 -- the dehydrator could make other camping food
-
+* a [tagine](http://cooking.nytimes.com/recipes/1016987-daniel-bouluds-chicken-tagine)
