@@ -48,6 +48,8 @@ they were ok
 quick and pretty good!  Added much more cilantro and turmeric.
 * [oven-baked cod](http://www.food.com/recipe/easy-oven-baked-cod-133718) --
 we used Dover Sole, lime and cilantro -- still very flaky and tasty
+* [parmesan cream crackers](http://cooking.nytimes.com/recipes/1012655-parmesan-cream-crackers) --
+tasty!
 
 
 #### things that look interesting
