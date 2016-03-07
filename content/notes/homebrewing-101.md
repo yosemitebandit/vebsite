@@ -1,7 +1,7 @@
 +++
 date = "2016-02-29T20:30:24-08:00"
 location = ""
-tags = ["listening", "talks"]
+tags = ["talks"]
 thumbnail = ""
 title = "homebrewing 101"
 
