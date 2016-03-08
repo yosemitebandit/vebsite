@@ -21,8 +21,9 @@ will mean the page doesn't show up in article lists
 * maybe the `/projects` endpoint should just be pics
 * some of the layouts should be in pasture, I think
 * more travel updates
-* some concept of "updated"
+* some concept of "updated" -- maybe a script that tweaks a "last modified" field
 * images look bad on nicer screens (like my phone :|)
+* ssl
 
 
 #### hugo workflow
