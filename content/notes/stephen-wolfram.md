@@ -23,6 +23,9 @@ maybe old hat for this audience..
 would devise huge formulae in his papers with MACSYMA
 * known for cellular automata, particle physics
 * Caltech PhD at 20
+
+![wolfram](/img/wolfram.jpg)
+
 * started working on his own symbolic manipulation language, SMP
     * told by Rob Pike to use C, "the lang of the future"
     * encrypted the source and lost the pw...lol, they recently broke it recently with crowdsourcing
