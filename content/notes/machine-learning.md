@@ -115,8 +115,7 @@ so the typical convex optimization strategies will not be employed.
 * several neuron activation functions are possible (sigmoid, tanh)
 but ReLUs, rectified linear units, are the most prevalent now --
 `y = 0 | x < 0` and `y = x` otherwise.
-It's computationally easier to handle than the others and,
-seemingly for other reasons,  .
+Compared to the others, it's computationally easier to handle.
 
 
 ## Notes on the Udemy course [Data Science and Logistic Regression in Python](https://www.udemy.com/data-science-logistic-regression-in-python)
@@ -148,7 +147,6 @@ so they will be on (0, 1).
 
 ![multinomial logistic classification](/img/multinomial-logistic-classification-diagram.png)
 
-* still working on the first ipython assignment..
 * validation set size rule of thumb --
 if a model adjustment improves 30 samples in the validation set,
 that is usually statistically significant.
