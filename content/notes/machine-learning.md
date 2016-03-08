@@ -166,3 +166,34 @@ and we can use learning rate decay
 * lowering the learning rate is the recommendation for what to do when things don't work
 * ADAGRAD is an SGD variant with builtin momentum and learning rate decay,
 removing some of these hyperparameters
+
+#### Hidden Layers
+* I saw a modest improvement in test accuracy (85% to 88%)
+when I added a single hidden layer of 1024 ReLUs to my SGD model (lesson two).
+* It's apparently more efficient to add more layers
+as opposed to increasing the size of the model --
+possibly due to the hierarchical structure of natural phenomena,
+and the use of fewer parameters in deep networks (compared to "wide" networks).
+
+#### Other improvements
+* train just until the validation set stops improving to prevent overfitting
+* L2 Regularization: added to the model -- it's a hyperparameter *
+the sum of the squares of the individual elements --
+the derivatives are just the weight vectors themselves
+* dropout -- the data flowing between layers is known as "activations."
+With dropout, we randomly select half of those activations and make them zero,
+squashing that data flow..which seems odd.
+But this forces the network to learn several redundant "pathways"
+for achieving the same result from some input.
+This also allows networks to act as they are taking the consensus over an ensemble of networks.
+When evaluating a model that was trained with dropout,
+you obviously no longer want this random behavior to be present --
+instead you take the consensus over the random models.
+This works by averaging activations -- if you scale non-dropped activations
+by two during training, you can just remove the dropout and scaling operations during evaluation
+to get the average activations.
+* In assignment three, we try these techniques..
+    * in the logistic models, I went from 82.2% validation accuracy to 83.3% with L2 regularization
+    and a beta value of 5e-4 -- not sure how to set this up as a hyperparameter
+    * in the model with one hidden layer of ReLUs, I went from 85.0% validation accuracy to
+    91.5% when I applied L2 regularization to both sets of weights
