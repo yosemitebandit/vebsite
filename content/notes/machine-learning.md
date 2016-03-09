@@ -200,6 +200,9 @@ to get the average activations.
     * dropout had little effect -- some people say it helps more when the networks are larger,
     see [here](https://discussions.udacity.com/t/problem-3-3-dropout-does-not-improve-test-accuarcy/46286/17) for more
     * I got to 93.7% accuracy by using L2 Regularization and training for 12k steps
-    * struggling to get better than 89.7% validation accuracy (94.7% test accuracy) with a 3-layer NN --
+    * struggling to get better than 90.3% validation accuracy (95.1% test accuracy) with a 3-layer NN --
     I'm using L2 Regularization, dropout and some weight-initialization tricks proposed on the forums.
     Things that help: increasing the number of steps and fiddling with `keep_prob` settings on the dropout.
+    My setup at the end of this assignment:
+
+{{% gist yosemitebandit 8aec5677e69017bed04c %}}
