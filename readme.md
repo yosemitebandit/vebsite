@@ -24,6 +24,7 @@ will mean the page doesn't show up in article lists
 * some concept of "updated" -- maybe a script that tweaks a "last modified" field
 * images look bad on nicer screens (like my phone :|)
 * ssl
+* code-highlighting is broken :(
 
 
 #### hugo workflow
