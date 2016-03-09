@@ -23,6 +23,7 @@ js and not quite complete
 * [2014 slides on NNs](https://goo.gl/IDCXnI)
 * [notes on `sklearn`](http://machinelearningmastery.com/get-your-hands-dirty-with-scikit-learn-now/)
 * [concise numpy examples](http://scipy.github.io/old-wiki/pages/Numpy_Example_List#append.28.29)
+* [unsupervised feature learning](http://ufldl.stanford.edu/wiki/index.php/UFLDL_Tutorial)
 
 
 ## Stanford course notes for the [CS231n class](http://cs231n.github.io/)
