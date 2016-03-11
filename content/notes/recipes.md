@@ -50,6 +50,8 @@ quick and pretty good!  Added much more cilantro and turmeric.
 we used Dover Sole, lime and cilantro -- still very flaky and tasty
 * [parmesan cream crackers](http://cooking.nytimes.com/recipes/1012655-parmesan-cream-crackers) --
 tasty!
+* [katherine hepburn's brownies](http://cooking.nytimes.com/recipes/10782-katharine-hepburns-brownies) --
+the best.  Good with walnuts, haven't tried pecans.  Used a few pinches of salt (not just one)
 
 
 #### things that look interesting
