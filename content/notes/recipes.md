@@ -21,7 +21,9 @@ was the best part of my homemade pumpkin pie
 * my sister made this [squash cashew soup](http://cooking.nytimes.com/recipes/1014339-creamy-cashew-butternut-squash-soup) --
 very nice
 * this [bread recipe](http://www.food.com/recipe/quick-yeast-bread-89164)
-was very straightforward and quick -- tasted good and had a nice crust
+was very straightforward and quick -- tasted good and had a nice crust.
+The crust will get brown at about minute twenty,
+but you can press on bake for another ten or twenty minutes.
 * quick, pan-fried [citrus chicken](http://cooking.nytimes.com/recipes/12240-citrus-chicken)
 from Mark Bittman.  It was indeed fast and easy,
 the sauce was maybe not as tasty as I would've liked.
