@@ -17,5 +17,8 @@ I'm throwing one- and two-layer neural networks at this,
 using synthetic training data.
 See the [github repo's readme](https://github.com/yosemitebandit/setbot)
 for more on the pipeline.
+You can also see the ipython notebooks I'm using to develop these models.
 Currently I can detect the number of shapes in an image with 100% accuracy,
 and I can guess the color 90% of the time.
+
+I'm using tensorflow on 8GB, 4 core digital ocean boxes.
