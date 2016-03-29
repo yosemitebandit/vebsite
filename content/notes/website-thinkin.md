@@ -67,3 +67,4 @@ So each article would be a "day" and the pages with meaningful names would be ta
 #### others
 
 * 8th light has a nice looking set of articles
+* [this](http://robenkleene.github.io/2016/03/17/live-search/) is a nice blog
