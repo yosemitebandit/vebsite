@@ -24,6 +24,7 @@ very nice
 was very straightforward and quick -- tasted good and had a nice crust.
 The crust will get brown at about minute twenty,
 but you can press on bake for another ten or twenty minutes.
+We've probably made 20+ loaves of this..it's a staple!
 * quick, pan-fried [citrus chicken](http://cooking.nytimes.com/recipes/12240-citrus-chicken)
 from Mark Bittman.  It was indeed fast and easy,
 the sauce was maybe not as tasty as I would've liked.
@@ -54,6 +55,9 @@ we used Dover Sole, lime and cilantro -- still very flaky and tasty
 tasty!
 * [katherine hepburn's brownies](http://cooking.nytimes.com/recipes/10782-katharine-hepburns-brownies) --
 the best.  Good with walnuts, haven't tried pecans.  Used a few pinches of salt (not just one)
+* [potato tart](http://cooking.nytimes.com/recipes/1016882-savory-potato-tart) --
+came out well but yeah, it's a tough one to make, takes a while..
+* [oatmeal](http://ambertheblack.com/how-to-make-oatmeal/) -- 3 parts liquid to 2 parts oats
 
 
 #### things that look interesting
