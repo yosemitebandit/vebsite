@@ -207,3 +207,22 @@ to get the average activations.
     My setup at the end of this assignment:
 
 {{% gist yosemitebandit 8aec5677e69017bed04c %}}
+
+
+#### Convolutional Neural Networks
+* 'weight sharing' concept helps create statistical invariance --
+used in CNNs for images and embeddings in RNNs for text
+* conv nets slide a kernel through an image while keeping the 'weights' the same --
+this is weight sharing -- and it generates a new "image" with a new color depth
+* you generally want to form a pyramid of conv layers that squeezes spatial info
+into the final classifier
+* recall when designing your convnet kernel, a 3x3 kernel will start sweeping with the middle (fifth) pixel,
+so if your padding mode is "valid" (not adding zeros to fix the image size),
+you may lose some data around the edges -- see "feature map sizes" lesson
+* networks are often designed with max pooling layers alternated with convolutional layers --
+the pooling layers have a kernel that takes the max value in the neighborhood
+* adding in 1x1 "convolutions" can also help -- they are cheap
+and introduce nonlinearities into the typical convolutional patch analysis
+(which is just a linear classifier)
+* the inception concept is to do all things at each layer --
+pool, 1x1 convolutions and larger convolutions, all concatenated together
