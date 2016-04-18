@@ -59,6 +59,8 @@ the best.  Good with walnuts, haven't tried pecans.  Used a few pinches of salt 
 came out well but yeah, it's a tough one to make, takes a while..
 * [oatmeal](http://ambertheblack.com/how-to-make-oatmeal/) -- 3 parts liquid to 2 parts oats
 * [salad lyonnaise](http://cooking.nytimes.com/recipes/1013180-salade-lyonnaise) -- very nice, a hearty meal
+* sweet potato quesadillas and Brazilian onion salsa from the Moosewood cookbook --
+lots of grating and chopping, but they were a good combo!
 
 
 #### things that look interesting
