@@ -3,6 +3,8 @@ a site built with [hugo](http://gohugo.io/overview/introduction/)
 
 #### reminders
 
+* make sure you activate the virtualenv when you run the fab task --
+I think you need pygmentize on your path for code highlighting to work right
 * use `<!--more-->` in an article to set the "read more" breakpoint --
 yes that's an html comment in the markdown itself
 * use `python shrinkify.py` to create thumbnails and shrink large images --
@@ -24,7 +26,6 @@ will mean the page doesn't show up in article lists
 * some concept of "updated" -- maybe a script that tweaks a "last modified" field
 * images look bad on nicer screens (like my phone :|)
 * ssl
-* code-highlighting is broken :(
 
 
 #### hugo workflow
