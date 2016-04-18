@@ -1,7 +1,7 @@
 +++
 date = "2016-01-08T18:43:16-08:00"
 description = ""
-tags = ["python", "projects"]
+tags = ["python", "projects", "neural-networks"]
 title = "readout"
 location = "Mountain View"
 
