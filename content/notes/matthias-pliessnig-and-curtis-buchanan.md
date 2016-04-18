@@ -20,3 +20,7 @@ I'd love to see more of his boats and more info on the steaming process.
 and another profile on the chairmaker Curtis Buchanan:
 
 {{% youtube IaqBHssy7cQ %}}
+
+"Contentment is underrated," he says.
+Love the story on how he got started with this --
+over the last 30 years he's probably made 1500 chairs.
