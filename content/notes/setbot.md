@@ -7,18 +7,18 @@ title = "setbot"
 
 +++
 
-I've been working on the backend for a set-playing robot: setbot.
-The vision: a machine watches a game of set
-and awkwardly tries to slap the cards as it finds sets.
+I've been working on a set-playing robot: setbot.
+It watches a game being played and then identifies three card patterns.
+Recently it beat a human!  ..Though it was very close.
+One day I'd like it to have appendages so it can awkwardly slap the board.
 
 <!--more-->
 
 I'm throwing one- and two-layer neural networks at this,
 using synthetic training data.
-See the [github repo's readme](https://github.com/yosemitebandit/setbot)
-for more on the pipeline.
-You can also see the ipython notebooks I'm using to develop these models.
-Currently I can detect the number of shapes in an image with 100% accuracy,
-and I can guess the color 90% of the time.
+A keras-based CNN got to about 90% accuracy on the synthetic data
+and works pretty well in practice, certainly >75% accurate at identifying cards,
+and handles various lighting conditions well.
 
-I'm using tensorflow on 8GB, 4 core digital ocean boxes.
+See the [github repo](https://github.com/yosemitebandit/setbot)
+for more on the pipeline.
