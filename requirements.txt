@@ -1,6 +1,10 @@
 docopt==0.6.2
+ecdsa==0.13
 envoy==0.0.3
+Fabric==1.11.1
+paramiko==1.16.0
 Pillow==3.1.0
+pycrypto==2.6.1
 Pygments==2.1
 pytoml==0.1.7
 PyYAML==3.11

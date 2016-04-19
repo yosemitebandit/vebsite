@@ -3,8 +3,6 @@ a site built with [hugo](http://gohugo.io/overview/introduction/)
 
 #### reminders
 
-* make sure you activate the virtualenv when you run the fab task --
-I think you need pygmentize on your path for code highlighting to work right
 * use `<!--more-->` in an article to set the "read more" breakpoint --
 yes that's an html comment in the markdown itself
 * use `python shrinkify.py` to create thumbnails and shrink large images --
@@ -13,7 +11,9 @@ link thumbnails with `thumbnail = "/img/boat-thumbnail.png"` in the front matter
 * the menu topmatter is kind of not necessary anymore as the sidebar is hardcoded --
 in fact, including a menu item, even a blank one,
 will mean the page doesn't show up in article lists
-
+* make sure you activate the virtualenv when you run the fab task --
+I think you need pygmentize on your path for code highlighting to work right.
+The fabfile /should/ handle this now..
 
 #### things to make better
 

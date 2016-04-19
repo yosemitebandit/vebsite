@@ -7,7 +7,7 @@ e.g.
 
 import os
 
-from fabric.api import env, run, local, sudo, put, cd
+from fabric.api import env, run, local, sudo, put, cd, prefix
 
 
 def yosemitebandit():
@@ -29,12 +29,14 @@ def oak():
   env.project_dir = '/home/matt/oakmachine.com'
   env.branch = 'hugo'
   env.out_path = 'public'
+  env.activate = 'source ~/conf/virtualenvs/vebsite/bin/activate'
 
 
 def build():
   """Builds the content with hugo.
   """
-  local('hugo --theme=pasture')
+  with prefix(env.activate):
+    local('hugo --theme=pasture')
 
 
 def deploy():
