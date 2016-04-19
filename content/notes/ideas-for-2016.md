@@ -22,3 +22,5 @@ some things to do this year..
 * work on that linear algebra book in rust --
 or simple classifiers in rust
 * AVC car dynamics test
+* the "home court advantage" idea --
+is it just about the time spent traveling?
