@@ -19,13 +19,14 @@ The fabfile /should/ handle this now..
 
 * some handling of ipython notebooks
 * pasture can be smaller
-* custom 404 page
-* maybe the `/projects` endpoint should just be pics
+* custom 404 page..some not found handling of some kind
+* maybe the `/projects` endpoint should just be pics -- more brutalist as before
 * some of the layouts should be in pasture, I think
 * more travel updates
 * some concept of "updated" -- maybe a script that tweaks a "last modified" field
 * images look bad on nicer screens (like my phone :|)
 * ssl
+* new font?
 
 
 #### hugo workflow
