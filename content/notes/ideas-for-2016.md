@@ -24,3 +24,5 @@ or simple classifiers in rust
 * AVC car dynamics test
 * the "home court advantage" idea --
 is it just about the time spent traveling?
+* primitive bow / red oak bow on instructables
+* projector + imu -- "window" into another space
