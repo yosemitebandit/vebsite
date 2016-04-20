@@ -87,5 +87,14 @@ converts guess into an `int` (and feeds rust the expected type, `u32`)
 * switch from `expect` to `match` if you actually want to handle the error (and not panic)
 * `_` is a catch all -- like if you don't know what error type you might raise
 
+
 #### [piston tutorial](https://github.com/PistonDevelopers/Piston-Tutorials/tree/master/getting-started)
 * ..
+
+#### other notes
+* you can use `cargo` like `pip` via `cargo install pulldown-cmark` --
+this looks to `crate.io` for the referenced markdown processor
+and, if a binary target is specified in the repo's `Cargo.toml`,
+it'll install to your system.
+..Although the two markdown bins I just installed aren't working for me :|
+`markdown` and `pulldown-cmark` are both having issues.
