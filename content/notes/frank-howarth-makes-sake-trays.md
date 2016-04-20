@@ -1,7 +1,7 @@
 +++
 date = "2016-02-10T14:27:22-08:00"
 location = ""
-tags = ["watching"]
+tags = ["watching", "woodworking"]
 thumbnail = "/img/sake-trays-thumbnail.png"
 title = "Frank Howarth makes sake trays"
 
