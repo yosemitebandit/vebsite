@@ -17,6 +17,7 @@ Only PhDs get it right -- highly selective, largely self-guided, paid a stipend 
 Early education should be more Montessori-style.
 Kids should be allowed to explore their interests and be creative.
 Too much testing and rote memorization.
+The goal should be to develop a kid's sense of curiosity and self-determinism.
 
 
 #### science
@@ -27,7 +28,7 @@ So wide-ranging, it makes me sad to hear kids say they don't like it.
 
 #### religion
 Don't believe in a god.
-Raised a methodist though and I liked that.
+Raised a methodist / UU though and I liked that.
 Worship and fellowship are great -- just nice big peaceful group meditations.
 And the teachings of many religions are excellent.
 Pretty interested, actually, in religions from a historical perspective.
