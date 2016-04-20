@@ -8,10 +8,11 @@ title = "learning rust"
 +++
 
 I'd like to do some homegrown machine learning work in rust
-so I'm going through [rustbyexample.com](http://rustbyexample.com).
+so I'm going through some tutorials..
 
 <!--more-->
 
+#### [rust by example](http://rustbyexample.com)
 * the compiler is great, have yet to find a way to get compilation results in vim's quickfix window,
 syntastic is also missing errors
 * I smiled at the "return on the statement with no semicolon" idea --
