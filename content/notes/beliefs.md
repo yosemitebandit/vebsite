@@ -10,6 +10,8 @@ at the behest of [Doebelli](/2015/thinking-clearly/)
 and especially his chapter on ...,
 here is a list of beliefs that I hold dear:
 
+<!--more-->
+
 
 #### education
 Should be free through college.
