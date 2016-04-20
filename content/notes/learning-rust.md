@@ -52,8 +52,39 @@ analyze_slice(&ys[1 .. 4]);
 
 
 #### tutorial from [rust-lang book](https://doc.rust-lang.org/book/guessing-game.html)
-* ..
+* rust automatically imports ["the prelude"](https://doc.rust-lang.org/std/prelude/)
+into every program -- there is also an io prelude..but I don't really get what that's about,
+just more imports I think
+* because `fn main() {` doesn't include a return type, it's assumed to be an empty tuple
+* `String::new()` creates a growable, UTF-8 encoded portion of text
+* the `::` means `new` is a static method -- a method associated with `String` itself,
+rather than with a particular instance of a `String`
+* breaking down this line:
 
+```rust
+io::stdin().read_line(&mut guess).expect("failed to read line");
+```
+
+* `read_line(&mut guess)` calls the method on a mutable reference to `guess` --
+rust uses these references to reduce copying.
+References are immutable by default.
+* why `expect` -- it has to do with the return of `read_line` (an `io::Result`) --
+there is an `expect` method on this type
+that takes the value it's called with and `panic!`s with that message
+
+* [cargo.toml vs cargo.lock](http://doc.crates.io/guide.html#cargotoml-vs-cargolock) --
+commit the lock file for binaries, leave it out for libs.
+There are ways to update the lock file -- sometimes it's automatated and sometimes not,
+see [here](https://doc.rust-lang.org/book/guessing-game.html#generating-a-secret-number)
+
+* hm, not a fan of this: have to call `extern crate rand;` then `use rand::Rng;` to get
+the `Rng` train in scope, then we can call `rand::thread_rng.gen_range(1, 101);` --
+need to learn more about traits, I think..would be nicer if there was an explicit use of `Rng`
+
+* this statement: `let guess: u32 = guess.trim().parse().expect("need a number!");`
+converts guess into an `int` (and feeds rust the expected type, `u32`)
+* switch from `expect` to `match` if you actually want to handle the error (and not panic)
+* `_` is a catch all -- like if you don't know what error type you might raise
 
 #### [piston tutorial](https://github.com/PistonDevelopers/Piston-Tutorials/tree/master/getting-started)
 * ..
