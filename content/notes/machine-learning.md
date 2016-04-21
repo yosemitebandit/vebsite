@@ -226,3 +226,7 @@ and introduce nonlinearities into the typical convolutional patch analysis
 (which is just a linear classifier)
 * the inception concept is to do all things at each layer --
 pool, 1x1 convolutions and larger convolutions, all concatenated together
+
+
+#### some examples from [tflearn](https://github.com/tflearn/tflearn)
+* ..
