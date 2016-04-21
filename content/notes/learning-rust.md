@@ -98,7 +98,34 @@ converts guess into an `int` (and feeds rust the expected type, `u32`)
   * `Result` is a "richer" version of `Option` -- it expresses the possibility of `Error(E)` or `Ok(T)`
   * the docs say you should use `Result` when you can --
   when it's possible to explain why something failed
-  * for now, to "cleanly" catch errors, you want to do case matching
+  * there are "`Result` idioms` like `Result<i32>` which fixes the error type to a particular result
+  (like `ParseIntError`) for convenience
+  * `unwrap` is not conventional unless you're just writing something quick
+  or when there truly is an error in the code that `unwrap` would expose --
+  `expect` is the equivalent on `Option` types -- it just gives you something nicer to print
+  * convert an `Option` to a `Result` with `ok_or`
+  * `and_then` chains computations when there could be an error
+  * you can also return early with the explicit `return` keyword
+  * and the `try!` macro abstracts away the early return pattern
+  (it returns the value or an error)
+  * rule of thumb: define your own error enum, but a `String` is ok too, especially in apps:
+
+```rust
+#[derive(Debug)]
+enum CliError {
+    Io(io:Error),
+    Parse(num::ParseIntError),
+}
+```
+
+* [closures](https://doc.rust-lang.org/book/closures.html)
+  * syntatic sugar around traits.. a section I have yet to cover
+  * pipes denote closures (lambda expressions):
+
+```rust
+let plus_one = |x: i32| x + 1;
+assert_eq!(2, plus_one(1));
+```
 
 
 #### [piston tutorial](https://github.com/PistonDevelopers/Piston-Tutorials/tree/master/getting-started)
