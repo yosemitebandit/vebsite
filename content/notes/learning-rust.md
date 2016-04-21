@@ -52,7 +52,7 @@ analyze_slice(&ys[1 .. 4]);
 * panics still possible if you out-of-bounds index an array :((
 
 
-#### tutorial from [rust-lang book](https://doc.rust-lang.org/book/guessing-game.html)
+#### tutorial from the [rust-lang book](https://doc.rust-lang.org/book/guessing-game.html)
 * rust automatically imports ["the prelude"](https://doc.rust-lang.org/std/prelude/)
 into every program -- there is also an io prelude..but I don't really get what that's about,
 just more imports I think
@@ -86,6 +86,19 @@ need to learn more about traits, I think..would be nicer if there was an explici
 converts guess into an `int` (and feeds rust the expected type, `u32`)
 * switch from `expect` to `match` if you actually want to handle the error (and not panic)
 * `_` is a catch all -- like if you don't know what error type you might raise
+
+* [error handling](https://doc.rust-lang.org/book/error-handling.html)
+  * `unwrap` gets the result of a computation and panics if there was a problem
+  * both the `Option` and `Result` implement `unwrap`
+  * you'd typically ahve a function return an `Option` and then,
+  in the caller, use `match` to handle the `Some` and `None` possibilities
+  * in fact, `unwrap` does case analysis for you, and just panics on the `None` result
+  * `map` is often used to handle the `None => None`, `Some(value) => Some(f(value))` boilerplate
+  * there is also `unwrap_or` which allows `None` results to translate into a default value
+  * `Result` is a "richer" version of `Option` -- it expresses the possibility of `Error(E)` or `Ok(T)`
+  * the docs say you should use `Result` when you can --
+  when it's possible to explain why something failed
+  * for now, to "cleanly" catch errors, you want to do case matching
 
 
 #### [piston tutorial](https://github.com/PistonDevelopers/Piston-Tutorials/tree/master/getting-started)
