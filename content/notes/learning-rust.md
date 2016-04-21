@@ -89,7 +89,9 @@ converts guess into an `int` (and feeds rust the expected type, `u32`)
 
 
 #### [piston tutorial](https://github.com/PistonDevelopers/Piston-Tutorials/tree/master/getting-started)
-* ..
+* `impl` provides the ability to use the "method call syntax" --
+`circle.area()` or something chained like `finances.report().send()`
+* they also recommend the [builder pattern](https://doc.rust-lang.org/book/method-syntax.html)
 
 #### other notes
 * you can use `cargo` like `pip` via `cargo install pulldown-cmark` --
