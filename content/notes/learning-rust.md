@@ -146,6 +146,37 @@ assert_eq!(2, plus_one(1));
 * comments
   * `rustdoc` and the doc comments (`\\\`) seem really cool..
 
+* `if`
+  * `if` is an expression so you can do `let y = if x == 5 { 10 } else { 3 };`
+  because the value of the expression is the value of the last expression in the chosen branch
+
+* loops
+  * `loop` just goes infinitely and the compiler handles it better than `while true`
+  * you can enumerate for loops: `for (i, v) in (5..10).enumerate() { .. }`
+  * `break` and `continue` work as they do in python
+  * cool -- "loop labels" let you break or continue out of a specific inner or outer
+  or somewhere-in-between loop: `'outer: for x in 0..10 { .. }`
+
+* [ownership](https://doc.rust-lang.org/book/ownership.html)
+  * if you bind a variable, then pass that var to a function, the fn now owns the var
+  and you won't be able to use it..so you use refs
+  * traits are annotations to types that change the behavior of the type
+  * all primitives implement the `Copy` trait so that copies of data are assigned if a variable is used --
+  so really that first bullet I wrote is only applicable to non-primitives, like for `Vectors` for instance
+  * (aside: you can use a leading underscore on unused vars to prevent a compiler warning)
+  * references are used in arguments: `fn test(v1: &Vec<i32>) { .. } -> i32`
+  and thus also in args: `let answer = test(&vector);`
+  * references are immutable -- so you can't push new values into a vector reference
+  * you can also do weird stuff with [`&mut` refs](https://doc.rust-lang.org/book/references-and-borrowing.html#mut-references) --
+  you may see the pointer syntax with `*` for stuff like this
+  * there are [borrowing rules](https://doc.rust-lang.org/book/references-and-borrowing.html#mut-references) --
+  one or more `&T` refs to a resource, but /only/ one mutable reference `&mut T` to prevent data races
+  * scopes matter and the compiler will give you good info about where scopes begin and end
+  * even printing borrows: `println!("{}", x);` -- that's a borrow on `x`
+  * this all prevents stuff like..modifying collections over which you are iterating, and use after free
+  * declaration order matters!  you need to define `let x = 5;` before you can: `let y: &i32`
+  if your plan is to `y = &x;`
+
 
 #### [piston tutorial](https://github.com/PistonDevelopers/Piston-Tutorials/tree/master/getting-started)
 * `impl` provides the ability to use the "method call syntax" --
@@ -163,5 +194,6 @@ it'll install to your system.
 #### [rustlings exercises](https://github.com/carols10cents/rustlings)
 * hm gotta read more on borrowing..why is the type signature of `&array` different than `array`
 (if `let array = [1,2,3];`)
+* there is no `assert_not_eq!` macro but you can just negate stuff with `!`: `assert!(!false)`
 
 #### [pnkfelix exercises](http://pnkfelix.github.io/rust-examples-icfp2014/)
