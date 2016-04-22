@@ -127,6 +127,25 @@ let plus_one = |x: i32| x + 1;
 assert_eq!(2, plus_one(1));
 ```
 
+* [variables and bindings](https://doc.rust-lang.org/book/variable-bindings.html)
+  * "shadowing" is just establishing a new variable binding
+  with the same name as another binding that's currently in scope --
+  just calling `let` again..  You can also change the mutability of a variable when shadowing
+
+* [functions](https://doc.rust-lang.org/book/functions.html)
+  * rust is an expression-based language and expressions (unlike statements) return values --
+  one declaration though is `let`
+  * vars can also bind to functions: `let f: fn(i32) -> i32 = plus_one;`
+
+* primitives
+  * `u8` is an unsigned 8-bit integer (0 to 255) while `i8` is a signed integer: -127 to 128, I believe
+  * slices -- to get everything: `let complete = &a[..];`
+  * you can destructure tuples with `let`, ala: `let (a, b, c) = (1, 2, 3);`
+  * tuples you access with dot notation: `tuple.0`, whereas arrays use brackets: `array[2]`
+
+* comments
+  * `rustdoc` and the doc comments (`\\\`) seem really cool..
+
 
 #### [piston tutorial](https://github.com/PistonDevelopers/Piston-Tutorials/tree/master/getting-started)
 * `impl` provides the ability to use the "method call syntax" --
@@ -140,3 +159,9 @@ and, if a binary target is specified in the repo's `Cargo.toml`,
 it'll install to your system.
 ..Although the two markdown bins I just installed aren't working for me :|
 `markdown` and `pulldown-cmark` are both having issues.
+
+#### [rustlings exercises](https://github.com/carols10cents/rustlings)
+* hm gotta read more on borrowing..why is the type signature of `&array` different than `array`
+(if `let array = [1,2,3];`)
+
+#### [pnkfelix exercises](http://pnkfelix.github.io/rust-examples-icfp2014/)
