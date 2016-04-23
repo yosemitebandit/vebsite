@@ -176,6 +176,9 @@ assert_eq!(2, plus_one(1));
   * this all prevents stuff like..modifying collections over which you are iterating, and use after free
   * declaration order matters!  you need to define `let x = 5;` before you can: `let y: &i32`
   if your plan is to `y = &x;`
+  * lifetimes: declared in the `<>` of a function call, ala: `fn bar<'a>(x: &'a i32)` --
+  other "generic parameters" can be in the `<>`, by the way
+  * could also have `&'a mut i32` as "a mutable reference to an `i32` with the lifetimes `'a`
 
 
 #### [piston tutorial](https://github.com/PistonDevelopers/Piston-Tutorials/tree/master/getting-started)
@@ -197,3 +200,27 @@ it'll install to your system.
 * there is no `assert_not_eq!` macro but you can just negate stuff with `!`: `assert!(!false)`
 
 #### [pnkfelix exercises](http://pnkfelix.github.io/rust-examples-icfp2014/)
+
+#### [Alex Crichton's talk](http://people.mozilla.org/~acrichton/rust-talk-2014-12-10/#/)
+
+{{% youtube agzf6ftEsLU %}}
+
+* there is explicit memory management and reference counting if you want it via `std::rc::Rc`
+* values can be frozen by borrowing -- his example:
+
+```rust
+let mut a = Vec::new();
+{
+    let b = &a
+    a.push(1);   // error
+}
+a.push(2);  // valid -- the b borrow has ended
+```
+
+* mutability propagates deeply into owned types (think nested structs)
+* `spawn(proc() { .. });` is a nice way to achieve parallelism
+* `enum`s can have data -- and you can do something with that data when you match
+* `&` pointers are never null -- but you can have the `Option` type be `None`
+* there can only ever be one mutable pointer to your data
+* most FFI happens in `unsafe` blocks since you can't guarantee a foreign function's signature
+or how it affects the stack
