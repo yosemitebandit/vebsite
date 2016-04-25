@@ -51,6 +51,18 @@ analyze_slice(&ys[1 .. 4]);
 (enums with `Some` and `None` variants) -- you might see these when accessing slices
 * panics still possible if you out-of-bounds index an array :((
 
+#### structs, enums and constants
+* unit, tuple and classic C-like structs are all possible --
+structs can also contain other structs
+* `let` can destructure a struct
+* use attribute notation to access fields, ala `point.x`
+* create types with `enum` -- good examples [here](http://rustbyexample.com/custom_types/enum.html)
+with variant creation and matching
+* `use` with enums brings names in to scope
+* can also use an `enum` as an integer, just like C
+* the `Box` is heap-allocated, by the way -- recall the heap is memory space shared by all programs,
+while each thread in an app will have its own stack
+
 
 #### tutorial from the [rust-lang book](https://doc.rust-lang.org/book/guessing-game.html)
 * rust automatically imports ["the prelude"](https://doc.rust-lang.org/std/prelude/)
@@ -60,6 +72,7 @@ just more imports I think
 * `String::new()` creates a growable, UTF-8 encoded portion of text
 * the `::` means `new` is a static method -- a method associated with `String` itself,
 rather than with a particular instance of a `String`
+* you could also write `String::from("hi");` to build a `String` from an `&str` (string slice)
 * breaking down this line:
 
 ```rust
@@ -90,7 +103,7 @@ converts guess into an `int` (and feeds rust the expected type, `u32`)
 * [error handling](https://doc.rust-lang.org/book/error-handling.html)
   * `unwrap` gets the result of a computation and panics if there was a problem
   * both the `Option` and `Result` implement `unwrap`
-  * you'd typically ahve a function return an `Option` and then,
+  * you'd typically have a function return an `Option` and then,
   in the caller, use `match` to handle the `Some` and `None` possibilities
   * in fact, `unwrap` does case analysis for you, and just panics on the `None` result
   * `map` is often used to handle the `None => None`, `Some(value) => Some(f(value))` boilerplate
@@ -98,7 +111,7 @@ converts guess into an `int` (and feeds rust the expected type, `u32`)
   * `Result` is a "richer" version of `Option` -- it expresses the possibility of `Error(E)` or `Ok(T)`
   * the docs say you should use `Result` when you can --
   when it's possible to explain why something failed
-  * there are "`Result` idioms` like `Result<i32>` which fixes the error type to a particular result
+  * there are "`Result` idioms" like `Result<i32>` which fixes the error type to a particular result
   (like `ParseIntError`) for convenience
   * `unwrap` is not conventional unless you're just writing something quick
   or when there truly is an error in the code that `unwrap` would expose --
@@ -144,7 +157,7 @@ assert_eq!(2, plus_one(1));
   * tuples you access with dot notation: `tuple.0`, whereas arrays use brackets: `array[2]`
 
 * comments
-  * `rustdoc` and the doc comments (`\\\`) seem really cool..
+  * `rustdoc` and the doc comments (`\\\`) seem cool..
 
 * `if`
   * `if` is an expression so you can do `let y = if x == 5 { 10 } else { 3 };`
@@ -152,7 +165,7 @@ assert_eq!(2, plus_one(1));
 
 * loops
   * `loop` just goes infinitely and the compiler handles it better than `while true`
-  * you can enumerate for loops: `for (i, v) in (5..10).enumerate() { .. }`
+  * you can enumerate `for` loops: `for (i, v) in (5..10).enumerate() { .. }`
   * `break` and `continue` work as they do in python
   * cool -- "loop labels" let you break or continue out of a specific inner or outer
   or somewhere-in-between loop: `'outer: for x in 0..10 { .. }`
@@ -180,6 +193,22 @@ assert_eq!(2, plus_one(1));
   other "generic parameters" can be in the `<>`, by the way
   * could also have `&'a mut i32` as "a mutable reference to an `i32` with the lifetimes `'a`
 
+* [strings](https://doc.rust-lang.org/book/strings.html)
+  * unicode scalar values encoded as a stream of UTF-8 bytes
+  * `&str`: string slices -- has a fixed size
+  * string literals are statically allocated (saved inside the compiled program) --
+  `let greeting = "hi there";` is of type `&'static str`
+  * you can tell if you've got a string slice with the `'static` lifetime
+  if the data of the string lives in the code itself
+  * multiline via `\` or just continue writing to preserve the whitespace
+  * `Strings` are heap-allocated and growable --
+  they are often created by converting a string slice via `to_string`
+  * convert the other way (`String` to `&str`) via `&`..or sometimes `&*` if a trait is needed
+  * use `.as_bytes()` or `.chars()` to index a string
+  * slicing works, though you get byte offsets, not char offsets
+  * concatenate with `+` or with [`format`](https://github.com/nrc/patterns/blob/master/idioms/concat-format.md) --
+  though the latter may not be the most efficient
+
 
 #### [piston tutorial](https://github.com/PistonDevelopers/Piston-Tutorials/tree/master/getting-started)
 * `impl` provides the ability to use the "method call syntax" --
@@ -201,7 +230,7 @@ it'll install to your system.
 
 #### [pnkfelix exercises](http://pnkfelix.github.io/rust-examples-icfp2014/)
 
-#### [Alex Crichton's talk](http://people.mozilla.org/~acrichton/rust-talk-2014-12-10/#/)
+#### [Alex Crichton's talk (slides)](http://people.mozilla.org/~acrichton/rust-talk-2014-12-10/#/)
 
 {{% youtube agzf6ftEsLU %}}
 
