@@ -12,7 +12,7 @@ so I'm going through some tutorials..
 
 <!--more-->
 
-#### [rust by example](http://rustbyexample.com)
+### [rust by example](http://rustbyexample.com)
 * the compiler is great, have yet to find a way to get compilation results in vim's quickfix window,
 syntastic is also missing errors
 * I smiled at the "return on the statement with no semicolon" idea --
@@ -62,9 +62,67 @@ with variant creation and matching
 * can also use an `enum` as an integer, just like C
 * the `Box` is heap-allocated, by the way -- recall the heap is memory space shared by all programs,
 while each thread in an app will have its own stack
+* `'static` lifetimes last for the duration of the running program
+
+#### casting, literals and inference
+* you use the `as` keyword..very nice:
+
+```rust
+let number = 123.45678;
+let integer = decimal as u8;
+```
+
+* `i32` and `f64` are assumed -- you can also append the type ala `let x = 3u8;`
+* with the exception of primitives, types must use CamelCase --
+relevant when you perform type aliasing: `type NanoSecond = u64;`
+(this provides no extra type safety though --
+anything that's `u64` under the hood can be added to a `NanoSecond`)
+
+#### match
+* tuples can be destructured in a `match` --
+see the example [here](http://rustbyexample.com/flow_control/match/destructuring/destructure_tuple.html)
+* destructuring (`&`, `ref` and `ref mut`) is different than dereferencing (`*`)
+* the destructuring in `match` seems to be done just so we modify the vars in the `match` block,
+that is, both of these work:
+
+```rust
+let mut x = 5;
+
+match x {
+    v => println!("it's just a value, {}", v);
+}
+
+match x {
+    &v => println!("now I've made it a ref, {}", v);
+}
+
+match x {
+    ref mut v => {
+        // deref it here so we can modify it
+        *v += 10;
+        println!("now I've modified it, {}", v);
+    }
+}
+
+println!("strangely this is 15, {}", x);
+```
+
+* for ranges, an interesting `@` binding
+[is also possible](http://rustbyexample.com/flow_control/match/binding.html)
+* `if let` is cleaner than `match` sometimes
+* `while let` is a thing too..
+* note that a `ref` borrow on the left side of an assignment
+is the same as an `&` borrow on the right:
+
+```rust
+let c = 2;
+let ref ref_c1 = c;
+let ref_c2 = &c;
+```
 
 
-#### tutorial from the [rust-lang book](https://doc.rust-lang.org/book/guessing-game.html)
+
+### the [rust-lang book](https://doc.rust-lang.org/book/guessing-game.html)
 * rust automatically imports ["the prelude"](https://doc.rust-lang.org/std/prelude/)
 into every program -- there is also an io prelude..but I don't really get what that's about,
 just more imports I think
@@ -210,27 +268,40 @@ assert_eq!(2, plus_one(1));
   though the latter may not be the most efficient
 
 
-#### [piston tutorial](https://github.com/PistonDevelopers/Piston-Tutorials/tree/master/getting-started)
+
+### [piston tutorial](https://github.com/PistonDevelopers/Piston-Tutorials/tree/master/getting-started)
 * `impl` provides the ability to use the "method call syntax" --
 `circle.area()` or something chained like `finances.report().send()`
 * they also recommend the [builder pattern](https://doc.rust-lang.org/book/method-syntax.html)
 
-#### other notes
+
+
+### other notes
 * you can use `cargo` like `pip` via `cargo install pulldown-cmark` --
 this looks to `crate.io` for the referenced markdown processor
 and, if a binary target is specified in the repo's `Cargo.toml`,
 it'll install to your system.
 ..Although the two markdown bins I just installed aren't working for me :|
 `markdown` and `pulldown-cmark` are both having issues.
+* `rust-clippy` and `cargo-clippy` are neat linters
+* [arewewebyet.org](http://www.arewewebyet.org/) has good framework suggestions
+  * here's a post on using [iron](https://blog.wearewizards.io/trying-rust-for-web-services)
+  * and another on building [http test](https://github.com/brson/httptest)
 
-#### [rustlings exercises](https://github.com/carols10cents/rustlings)
+
+
+### [rustlings exercises](https://github.com/carols10cents/rustlings)
 * hm gotta read more on borrowing..why is the type signature of `&array` different than `array`
 (if `let array = [1,2,3];`)
 * there is no `assert_not_eq!` macro but you can just negate stuff with `!`: `assert!(!false)`
 
-#### [pnkfelix exercises](http://pnkfelix.github.io/rust-examples-icfp2014/)
 
-#### [Alex Crichton's talk (slides)](http://people.mozilla.org/~acrichton/rust-talk-2014-12-10/#/)
+
+### [pnkfelix exercises](http://pnkfelix.github.io/rust-examples-icfp2014/)
+
+
+
+### [Alex Crichton's talk (slides)](http://people.mozilla.org/~acrichton/rust-talk-2014-12-10/#/)
 
 {{% youtube agzf6ftEsLU %}}
 
@@ -255,7 +326,9 @@ a.push(2);  // valid -- the b borrow has ended
 or how it affects the stack
 
 
-#### [too many lists tutorial](http://cglab.ca/~abeinges/blah/too-many-lists/book/)
+
+### [too many lists tutorial](http://cglab.ca/~abeinges/blah/too-many-lists/book/)
+
 * `Box<T>` provides simple  heap allocation -- see [this answer](http://stackoverflow.com/a/25296420/232638)
 for more: "One way ot regard `Box<T>` is that it's a normal `T` with the guarantee that it has a fixed size."
 * on non-static methods: `&` is for methods that only want to observe `self` --
@@ -282,3 +355,26 @@ this isn't necessary within a function
   * many inputs: assume they all have independent lifetimes
   * with methods: assume all output lifetimes are derived from `self`
 * and there is more with `Arc`..maybe later
+
+
+### [learn x in y minutes](https://learnxinyminutes.com/docs/rust/)
+* nice example of "more advanced matching" where there is an additional if tree --
+that is apparently a "match guard" -- see [here](http://rustbyexample.com/flow_control/match/guard.html)
+* terse examples of references and borrowing
+
+
+
+### [my friend Suchin's post on matrix multiplication](http://www.suchin.co/2016/04/25/Matrix-Multiplication-In-Rust-Pt-1/)
+* nice example of `fold` and `ArrayView`
+
+
+
+### [learn you a rust for greater good](http://pro.theta.eu.org/2016/03/12/learn-you-a-rust-for-great-good.html)
+* nice talk of borrows and mutable borrows
+[in the second part especially](http://pro.theta.eu.org/2016/03/18/lyar-borrows.html)
+* by default, variable bindings have "move semantics,"
+but some types implement `Copy` (giving them "copy semantics"),
+meaning we don't have to pass around refs all the time -- this is true for the primitives
+
+
+### [24 days of rust](http://zsiciarz.github.io/24daysofrust)
