@@ -253,3 +253,32 @@ a.push(2);  // valid -- the b borrow has ended
 * there can only ever be one mutable pointer to your data
 * most FFI happens in `unsafe` blocks since you can't guarantee a foreign function's signature
 or how it affects the stack
+
+
+#### [too many lists tutorial](http://cglab.ca/~abeinges/blah/too-many-lists/book/)
+* `Box<T>` provides simple  heap allocation -- see [this answer](http://stackoverflow.com/a/25296420/232638)
+for more: "One way ot regard `Box<T>` is that it's a normal `T` with the guarantee that it has a fixed size."
+* on non-static methods: `&` is for methods that only want to observe `self` --
+most methods actually don't want `self` as taking it would prevent other locations from accessing it
+* I think `Option` as well as `Some` and `None` (`Option` variants) are part of the prelude import
+* `mod` creates modules (and adjusts namespaces.. you might need something like `use super::List;`)
+* and the `[cfg(test)]` block tells the compiler to only compile a block during test
+* the `Drop` trait is a destructor -- if you contain types that implement `Drop`, you don't need to implement it on your own
+* `impl Drop for List` is the syntax for implementing a trait (an interface)
+* `while let` will do a thing until a pattern doesn't match
+* `Option` has a method, `take`, that is very similar to the `mem::replace(&mut option, None)` idiom
+(taking the value out of the option, leaving a `None` in its place)
+* `match option { None => None, Some(x) => Some(y)` is also a popular idiom --
+we use `map` + a closure (the `|` syntax) for it
+* generics..just sprinkle in the `<T>`s -- see [this example](http://cglab.ca/~abeinges/blah/too-many-lists/book/second-generic.html) --
+used it to make a linked list handle datatypes besides `i32`
+* lifetimes: the name of a scope somewhere in a program --
+when refs are tagged with a lifetimes, we're saying the ref must be valid for the entire scope
+* you work with lifetimes at the type and API level,
+telling the compiler about the relationship between different lifetimes --
+this isn't necessary within a function
+* [nice examples of lifetime elision](http://cglab.ca/~abeinges/blah/too-many-lists/book/second-iter.html):
+  * one input reference means the output must be dervied from that input
+  * many inputs: assume they all have independent lifetimes
+  * with methods: assume all output lifetimes are derived from `self`
+* and there is more with `Arc`..maybe later
