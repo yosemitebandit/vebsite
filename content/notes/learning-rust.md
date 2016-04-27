@@ -378,3 +378,8 @@ meaning we don't have to pass around refs all the time -- this is true for the p
 
 
 ### [24 days of rust](http://zsiciarz.github.io/24daysofrust)
+
+
+### the rust-lang blog
+* [on traits](http://blog.rust-lang.org/2015/05/11/traits.html)
+* [on FFI](http://blog.rust-lang.org/2015/04/24/Rust-Once-Run-Everywhere.html)
