@@ -1,1 +1,0 @@
-../themes/pasture/archetypes/default.md
