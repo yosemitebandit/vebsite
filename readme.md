@@ -25,6 +25,7 @@ The fabfile /should/ handle this now..
 * some concept of "updated" -- maybe a script that tweaks a "last modified" field
 * images look bad on nicer screens (like my phone :|)
 * ssl
+* why is `/projects` a valid endpoint??
 
 
 #### hugo workflow

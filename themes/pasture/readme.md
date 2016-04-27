@@ -1,14 +1,9 @@
 pasture, a hugo theme
 
 
-### provenance
-Hyde-X, itself from [Hyde](https://github.com/poole/hyde) theme.
-
-
 ### shortcodes
-These are little hugo tricks to embed media
-and work around the limits of markdown.
-We've got shortcodes for youtube and soundcloud
+These are little hugo tricks to embed media and work around the limits of markdown.
+We've got shortcodes for youtube, gist, scribd, vimeo and soundcloud
 (get the track ID from deep in the embed link):
 
 ```
