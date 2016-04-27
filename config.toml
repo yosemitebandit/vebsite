@@ -1,7 +1,6 @@
 # General settings.
 BaseURL = "http://oakmachine.com/"
 Title = "oakmachine"
-LanguageCode = "en-us"
 MetaDataFormat = "toml"
 
 
@@ -19,20 +18,9 @@ PygmentsCodeFences = true
 
 
 [indexes]
-  # Optional. Use if you want tags and lists.
   tag = "tags"
 
 
 [params]
-  # Changes sidebar background and link/accent colours.
-  # See below for more colour options.
-  # This also works: "theme-base-08 layout-reverse", or just "layout-reverse".
-  theme = "theme-base-10"
-
-  # Pagination settings.
   paginate = 10
   paginatePath = "page"
-
-  # Metadata used to drive integrations.
-  #googleAuthorship = "Your Google+ profile ID"
-  #googleAnalytics = "Your Google Analytics tracking code"

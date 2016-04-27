@@ -1,19 +1,19 @@
-{{ partial "head.html" . }}
+<!doctype html>
+<html>
 
+  {{ partial "head.html" . }}
 
-<div class="content container">
-  <div class="posts">
+  <div class="content container">
+    <div class="posts">
 
-    <h2>all</h2>
+      <h2>all</h2>
 
-    {{ range .Site.Pages }}
-      {{ if not (isset .Params "menu") }}
-        {{ partial "single-article.html" . }}
+      {{ range .Site.Pages }}
+        {{ if not (isset .Params "menu") }}
+          {{ partial "single-article.html" . }}
+        {{ end }}
       {{ end }}
-    {{ end }}
 
+    </div>
   </div>
-</div>
-
-
-{{ partial "foot.html" . }}
+</html>

@@ -1,12 +1,15 @@
-{{ partial "head.html" . }}
+<!doctype html>
+<html>
 
+  {{ partial "head.html" . }}
 
-<div class="content container">
+  <body>
+    <div class="content container">
 
-  {{ partial "summary-list.html" . }}
-  {{ partial "pagination.html" . }}
+      {{ partial "summary-list.html" . }}
+      {{ partial "pagination.html" . }}
 
-</div>
+    </div>
+  </body>
 
-
-{{ partial "foot.html" . }}
+</html>

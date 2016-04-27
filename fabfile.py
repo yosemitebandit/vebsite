@@ -10,16 +10,6 @@ import os
 from fabric.api import env, run, local, sudo, put, cd, prefix
 
 
-def yosemitebandit():
-  """The yosemitebandit.com site hosted on kepler.
-  """
-  env.use_ssh_config = True
-  env.user = 'matt'
-  env.hosts = ['kepler']
-  env.project_dir = '/home/matt/yosemitebandit.com'
-  env.branch = 'master'
-
-
 def oak():
   """The oakmachine.com domain on kepler.
   """

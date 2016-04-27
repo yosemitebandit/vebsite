@@ -1,18 +1,19 @@
-{{ partial "head.html" . }}
+<!doctype html>
+<html>
 
+  {{ partial "head.html" . }}
 
-<div class="content container">
+  <div class="content container">
 
-  <div class='post'>
-    <h2>
-      <i>tagged with "{{ lower .Title }}"</i>
-    </h2>
+    <div class='post'>
+      <h2>
+        <i>tagged with "{{ lower .Title }}"</i>
+      </h2>
+    </div>
+
+    {{ partial "summary-list.html" . }}
+    {{ partial "pagination.html" . }}
+
   </div>
 
-  {{ partial "summary-list.html" . }}
-  {{ partial "pagination.html" . }}
-
-</div>
-
-
-{{ partial "foot.html" . }}
+</html>

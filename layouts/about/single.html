@@ -1,16 +1,17 @@
-{{ partial "head.html" . }}
+<!doctype html>
+<html>
+  {{ partial "head.html" . }}
 
 
-<div class="content container">
-  <div class="post">
+  <div class="content container">
+    <div class="post">
 
-    <h2>&xcap; about</h2>
-    <p>
-      {{ .Content }}
-    </p>
+      <h2>&xcap; about</h2>
+      <p>
+        {{ .Content }}
+      </p>
 
+    </div>
   </div>
-</div>
 
-
-{{ partial "foot.html" . }}
+</html>
