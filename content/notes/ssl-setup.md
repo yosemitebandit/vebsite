@@ -7,7 +7,15 @@ tags = ["ops"]
 
 +++
 
+*update*: DigitalOcean has a very nice guide on doing this
+[with the LetsEncrypt CA](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-14-04) --
+it worked well for me!
+Though I am a bit worried about the `well-known` dir
+and its persistence with my current build methods.
+
 I keep forgetting how to do this, so here are some notes:
+
+<!--more-->
 
 1. you're going to buy a ComodoSSL cert from Namecheap or something
 2. your server needs a cert-signing request,
