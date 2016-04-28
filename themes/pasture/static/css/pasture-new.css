@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
   margin-bottom: 15px;
 }
 
-h1, h2, h3, h4, h5, h6, p, li, span, a, pre {
+h1, h2, h3, h4, h5, h6, p, li, span, a, pre, td, th {
   font-weight: 200;
 }
 
@@ -52,13 +52,17 @@ li {
   margin-left: 25px;
 }
 
-.article-text {
-  margin-top: 10px;
+.content {
+  margin-bottom: 20px;
 }
 
 /* used to reset the summary text in the article list view */
 .content p {
   clear: both;
+}
+
+.article-text {
+  margin-top: 10px;
 }
 
 .post {
