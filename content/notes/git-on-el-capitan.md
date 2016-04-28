@@ -17,7 +17,7 @@ the process of actually symlinking in a new one is even more obfuscated.
 I installed an upgrade with homebrew, moved the old git binary
 and linked in the new binary:
 
-```
+```python
 $ brew install git
 $ sudo mv /Library/Developer/CommandLineTools/usr/bin/git /Library/Developer/CommandLineTools/usr/bin/git-apple
 $ sudo ln -s /usr/local/bin/git /Library/Developer/CommandLineTools/usr/bin/git
@@ -25,7 +25,7 @@ $ sudo ln -s /usr/local/bin/git /Library/Developer/CommandLineTools/usr/bin/git
 
 git claims to still be in `/usr/bin`, but the version is now correct so it seems fine:
 
-```
+```python
 $ which git
 /usr/bin/git
 $ which git

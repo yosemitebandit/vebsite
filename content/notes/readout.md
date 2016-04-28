@@ -1,6 +1,5 @@
 +++
 date = "2016-01-08T18:43:16-08:00"
-description = ""
 tags = ["python", "projects", "neural-networks"]
 title = "readout"
 location = "Mountain View"
@@ -18,7 +17,7 @@ to preprocess and read a picture of my oven:
 
 ![oven](/img/oven.jpg)
 
-```
+```python
 $ ssocr crop 174 129 197 92 oven.jpg --foreground=white --background=black --threshold=200 --number-digits=-1
 $ 350
 ```

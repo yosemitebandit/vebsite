@@ -1,6 +1,5 @@
 +++
 date = "2015-08-13T18:13:45-07:00"
-description = "notes on the everyday of sw engineering"
 tags = ["reading", "ops"]
 title = "what happens when.."
 
@@ -50,7 +49,7 @@ and layer 7 application/http -- can work independently
 * ultimately we will construct "packets / MAC frames" as follows
 (and we will need to determine each of these ports and addresses):
 
-```
+```python
 Application data (e.g. HTTP)
 ---
 TCP src/dst ports (transport)

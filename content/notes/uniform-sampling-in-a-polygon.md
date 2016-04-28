@@ -1,6 +1,5 @@
 +++
 date = "2015-01-24T05:10:05Z"
-description = "simulated annealing with scipy.optimize"
 tags = ["python", "werk"]
 title = "uniform sampling in a polygon"
 thumbnail = "/img/uniform-sampling-thumbnail.png"
