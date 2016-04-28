@@ -61,6 +61,8 @@ came out well but yeah, it's a tough one to make, takes a while..
 * [salad lyonnaise](http://cooking.nytimes.com/recipes/1013180-salade-lyonnaise) -- very nice, a hearty meal
 * sweet potato quesadillas and Brazilian onion salsa from the Moosewood cookbook --
 lots of grating and chopping, but they were a good combo!
+* also from Moosewood, the espresso / mascarpone / brandy pudding (mousse?) was very nice,
+but the gorgonzola / cream cheese / hazelnut dip was less of a hit (though not a bad spread)
 
 
 #### things that look interesting
