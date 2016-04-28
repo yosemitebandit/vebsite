@@ -1,7 +1,7 @@
 +++
 date = "2016-03-13T16:22:49-07:00"
 location = "Mountain View"
-tags = ["projects", "python", "neural-networks"]
+tags = ["projects", "favorites", "python", "neural-networks"]
 thumbnail = "/img/3-green-striped-bean-thumbnail.png"
 title = "setbot"
 
