@@ -22,10 +22,10 @@
           {{ partial "tag-list.html" . }}
         </span>
 
-        <i>{{ .Description }}</i>
 
-        <p>{{ .Render "summary" }}</p>
-
+        <div class='article-text'>
+          <p>{{ .Render "summary" }}</p>
+        </div>
 
         {{ if .Truncated }}
           <a href="{{ .Permalink }}">more &gtcc;</a>

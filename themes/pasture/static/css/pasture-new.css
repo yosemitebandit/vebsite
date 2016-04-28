@@ -8,7 +8,7 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
 
 body {
   font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #111;
+  color: #303030;
   background-color: #fdfdfd;
 }
 
@@ -42,7 +42,6 @@ li {
 
 .article-text {
   margin-top: 10px;
-  float: left;
 }
 
 /* used to reset the summary text in the article list view */
@@ -79,4 +78,16 @@ img.post-thumbnail {
 .video-player {
   text-align: center;
   margin-bottom: 15px;
+}
+
+.top-matter ul {
+  list-style: none;
+}
+
+.top-matter ul > li {
+  display: inline-block;
+}
+
+.top-matter ul > li:first-child {
+  margin-left: 0px;
 }
