@@ -34,7 +34,7 @@ The fabfile /should/ handle this now..
 make some content, get the theme's latest and test that sucker out:
 
     $ hugo new notes/yup.md
-    $ hugo server --theme=pasture --port=8080 --watch --disableLiveReload
+    $ hugo server --theme=pasture --port=8080 --watch --disableLiveReload --preserveTaxonomyNames
     $ git subtree pull --prefix themes/pasture https://github.com/yosemitebandit/pasture.git master --squash
 
 changed the theme (a subtree) inside this repo?
