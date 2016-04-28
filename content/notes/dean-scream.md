@@ -7,13 +7,10 @@ title = "the Dean Scream"
 
 +++
 
-A short documentary on the "Dean Scream" from 2004.
+A [short documentary](http://fivethirtyeight.com/features/the-dean-scream-what-really-happened/)
+on the "Dean Scream" from 2004.
 
 <!--more-->
-
-<div class='embed video-player'>
-<script src="https://player.espn.com/player.js?playerBrandingId=4ef8000cbaf34c1687a7d9a26fe0e89e&adSetCode=91cDU6NuXTGKz3OdjOxFdAgJVtQcKJnI&pcode=1kNG061cgaoolOncv54OAO1ceO-I&width=576&height=324&externalId=espn:14697936&thruParam_espn-ui[autoPlay]=false&thruParam_espn-ui[playRelatedExternally]=true"></script>
-</div>
 
 * bonus Dave Chappelle clip..
 * probably with the benefit of hindsight,
