@@ -11,7 +11,7 @@ but `vmstat` gives an alternative look:
 
 <!--more-->
 
-```shell
+```python
 mercury  ~  vmstat
 procs ------------memory-------------- ---swap-- -----io---- -system-- ------cpu-----
  r  b  swpd     free     buff    cache   si   so    bi    bo   in   cs us sy id wa st
@@ -20,7 +20,7 @@ procs ------------memory-------------- ---swap-- -----io---- -system-- ------cpu
 
 Let's go through section-by-section:
 
-```shell
+```python
 procs
  r  b
  1  0
@@ -28,7 +28,7 @@ procs
 
 The first block shows running (or runnable, i.e. waiting-to-run) and blocked processes.
 
-```shell
+```python
 ------------memory--------------
  swpd     free     buff    cache
     0   272256    19132    96332
@@ -38,7 +38,7 @@ Next we have various memory usages: virtual, idle, in-buffer and in-cache (kB by
 Buffered memory is that which describes file metadata and tracks in-flight pages.
 Cached data is the contents of those pages.
 
-```shell
+```python
 ---swap--
   si   so
    0    0
@@ -46,7 +46,7 @@ Cached data is the contents of those pages.
 
 Then there's the amount of memory swapped from disk.
 
-```shell
+```python
 ----io----
   bi    bo
 1169    18
@@ -55,7 +55,7 @@ Then there's the amount of memory swapped from disk.
 And blocks received and written from and to a block device (e.g. a hard drive)
 in blocks / second.  Blocks in linux are now 1024B.
 
-```shell
+```python
  -system--
    in   cs
   134  481
@@ -64,7 +64,7 @@ in blocks / second.  Blocks in linux are now 1024B.
 There's a count of interrupts per second and context switches per second --
 the latter just being the process scheduler giving time to different processes.
 
-```shell
+```python
  ------cpu-----
  us sy id wa st
   6  5 89  1  0

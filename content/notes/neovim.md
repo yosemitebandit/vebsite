@@ -14,12 +14,12 @@ and especially how I setup neomake to work with rust.
 
 basics:
 
-```
+```python
 $ brew install neovim/neovim/neovim  # yeah, idk..
 $ brew install python3
 $ mkdir -p ~/.config/nvim
 $ touch ~/.config/nvim/init.vim  # the new ~/.vimrc
-$ alias nv=nvim
+$ alias nv='nvim'
 ```
 
 I used most of my existing `.vimrc` (my [dotfiles are here](https://github.com/yosemitebandit/dotdotdot))

@@ -13,7 +13,7 @@ When running client-side, you include this JSXTransformer code that converts you
 There is some weirdness -- the XML is like your typical html tags but with some adjustments to work around reserved js keywords.
 Maybe the more appealing thing is to use react server-side:
 
-```shell
+```python
 $ sudo apt-get install npm
 $ sudo npm install -g react-tools
 $ sudo ln -s /usr/bin/nodejs /usr/bin/node

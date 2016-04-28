@@ -20,7 +20,7 @@ The gist of it is:
 * check the kernel version with `uname -a`
 * do an upgrade (this brought me to 3.8.13-bone79):
 
-```shell
+```python
 cd /opt/scripts/tools
 git pull
 sudo ./update_kernel.sh

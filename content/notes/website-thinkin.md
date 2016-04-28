@@ -39,15 +39,15 @@ for instance, "pinewire" and "oakmachine" were available, and they sound nice.
 
 The workflow, I got my theme set as a subtree:
 
-```shell
-git subtree add --prefix themes/pasture https://github.com/yosemitebandit/pasture.git master --squash
+```python
+$ git subtree add --prefix themes/pasture https://github.com/yosemitebandit/pasture.git master --squash
 ```
 
 Then I can pull or push
 
-```shell
-git subtree pull --prefix themes/pasture git@github.com:yosemitebandit/pasture.git master --squash
-git subtree push --prefix themes/pasture git@github.com:yosemitebandit/pasture.git master --squash
+```python
+$ git subtree pull --prefix themes/pasture git@github.com:yosemitebandit/pasture.git master --squash
+$ git subtree push --prefix themes/pasture git@github.com:yosemitebandit/pasture.git master --squash
 ```
 
 #### structure

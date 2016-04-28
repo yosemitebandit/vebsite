@@ -14,6 +14,7 @@ will mean the page doesn't show up in article lists
 * make sure you activate the virtualenv when you run the fab task --
 I think you need pygmentize on your path for code highlighting to work right.
 The fabfile /should/ handle this now..
+* don't use `shell`-type code fences -- it looks bad, just use `python`
 
 
 #### things to make better
