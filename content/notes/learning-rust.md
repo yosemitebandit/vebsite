@@ -301,7 +301,7 @@ it'll install to your system.
 
 
 
-### [Alex Crichton's talk (slides)](http://people.mozilla.org/~acrichton/rust-talk-2014-12-10/#/)
+### Alex Crichton's talk [(slides)](http://people.mozilla.org/~acrichton/rust-talk-2014-12-10/#/)
 
 {{% youtube agzf6ftEsLU %}}
 

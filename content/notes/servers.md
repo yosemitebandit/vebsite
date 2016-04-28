@@ -1,7 +1,7 @@
 +++
 date = "2016-03-14T18:33:51-07:00"
 location = ""
-tags = []
+tags = ["ops"]
 thumbnail = ""
 title = "servers"
 
