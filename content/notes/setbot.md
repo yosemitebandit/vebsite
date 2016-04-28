@@ -21,7 +21,7 @@ the [github repo is here](https://github.com/yosemitebandit/setbot).
 * each card is sent to a keras-based convolutional neural network
 that was trained on about 200k cards -- the classifier reports the cards characteristics
 * once the board is understood, we pick three card combos and check to see if they are sets
-All identified sets have an attached probability
+* all identified sets have an attached probability
 (based on the classifier's confidence in card-identification),
 so, in the typical gameplay mode, it outputs only the "most likely" set.
 
@@ -48,7 +48,8 @@ would make my model stop converging during training..which makes no sense.
 So I think there is some weird instability there -- I'll probably look to vanilla tensorflow from now on.
 * the keras-based code is [here](https://github.com/yosemitebandit/setbot/blob/master/cnn_with_generator.py)
 * I trained on an 8 core digital ocean box (CPU only) --
-though once I started using a generator, I was only using about 4GB of memory so I could've downgraded
+though once I started using a generator to feed in the training batches,
+I was only using about 4GB of memory so I could've downgraded
 
 
 #### image generation
