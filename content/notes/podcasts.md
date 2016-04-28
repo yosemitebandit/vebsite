@@ -22,3 +22,6 @@ an older show from the main ReplyAll guys
 * [Mystery Show](https://gimletmedia.com/show/mystery-show/) --
 Starlee Kine converses with the world
 * [Planet Money](http://www.npr.org/sections/money/)
+* [Freakonomics Radio](http://freakonomics.com/archive/) --
+really excellent in-depth looks at the minimum wage, deliberate practice,
+payday loans, guaranteed minimum income and the list goes on..
