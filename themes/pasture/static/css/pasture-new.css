@@ -10,6 +10,8 @@ body {
   font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #303030;
   background-color: #fdfdfd;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
@@ -18,6 +20,15 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
 
 h1, h2, h3, h4, h5, h6, p, li, span, a, pre {
   font-weight: 200;
+}
+
+a {
+  color: #1B963A;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #167A2F;
 }
 
 /* text inside single backticks `like this` */
@@ -33,7 +44,8 @@ pre {
   padding-top: 2px;
   padding-bottom: 4px;
   padding-left: 4px;
-  white-space: pre-wrap;
+  padding-right: 4px;
+  overflow-x: scroll;
 }
 
 li {
