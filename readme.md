@@ -19,13 +19,10 @@ The fabfile /should/ handle this now..
 
 #### things to make better
 
-* some handling of ipython notebooks
 * maybe the `/projects` endpoint should just be pics -- more brutalist as before
-* some of the layouts should be in pasture, I think
 * more travel updates
 * some concept of "updated" -- maybe a script that tweaks a "last modified" field
 * images look bad on nicer screens (like my phone :|)
-* ssl
 * why is `/projects` a valid endpoint??
 
 

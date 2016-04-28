@@ -1,5 +1,5 @@
 # General settings.
-BaseURL = "http://oakmachine.com/"
+BaseURL = "https://oakmachine.com/"
 Title = "oakmachine"
 MetaDataFormat = "toml"
 
