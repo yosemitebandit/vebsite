@@ -2,7 +2,7 @@
 date = "2016-04-18T15:04:24-07:00"
 location = ""
 tags = ["reading", "rust"]
-thumbnail = ""
+thumbnail = "/img/rustacean-thumbnail.png"
 title = "learning rust"
 
 +++

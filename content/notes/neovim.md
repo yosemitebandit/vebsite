@@ -2,7 +2,7 @@
 date = "2016-04-26T14:54:48-07:00"
 location = ""
 tags = ["reading", "rust", "vim"]
-thumbnail = ""
+thumbnail = "/img/neovim-logo-thumbnail.png"
 title = "neovim"
 
 +++

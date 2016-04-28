@@ -2,7 +2,7 @@
 date = "2016-04-19T20:42:11-07:00"
 location = "Mountain View"
 tags = ["projects", "woodworking"]
-thumbnail = "/img/projector-stand-thumbnail.png"
+thumbnail = "/img/projector-stand-irl-aa-thumbnail.jpg"
 title = "projector stand"
 
 +++
@@ -25,8 +25,10 @@ The build came out ok -- you have to /really/ crank down on the wingnuts
 to lock the arm's position in place.
 It's cantilevered out pretty far.
 The mount slides on to the back of the couch --
-I made a lot of paper test pieces to figure out the shape,
+I made a lot of paper test pieces to figure out the shape
 and cut out the pieces on a scroll saw.
+
+![projector stand irl](/img/projector-stand-irl.jpg)
 
 The whole thing would be smaller and less prone to wobbling
 and just all around less finicky if I could bring the projector
