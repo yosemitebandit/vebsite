@@ -1,6 +1,5 @@
 +++
 date = "2015-09-28T23:19:45-07:00"
-description = "solvin puzzles with scikit-image"
 tags = ["python"]
 title = "quandry"
 thumbnail = "/img/quandry-out-thumbnail.png"

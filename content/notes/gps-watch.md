@@ -1,6 +1,5 @@
 +++
 date = "2015-01-25T08:21:21Z"
-description = "thinkin about a little gps wristwatch"
 tags = ["hardware", "ideas"]
 title = "gps watch"
 thumbnail = "/img/gps-front-thumbnail.jpg"
