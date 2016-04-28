@@ -30,12 +30,22 @@ code {
 /* text inside code fences */
 pre {
   font-size: 90%;
+  padding-top: 2px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  white-space: pre-wrap;
 }
 
-.content {
-  padding-bottom: 2.2rem;
+li {
+  margin-left: 25px;
 }
 
+.article-text {
+  margin-top: 10px;
+  float: left;
+}
+
+/* used to reset the summary text in the article list view */
 .content p {
   clear: both;
 }
@@ -53,6 +63,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
+  margin-bottom: 10px;
   display: block;
 }
 

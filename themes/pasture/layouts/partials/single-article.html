@@ -17,7 +17,8 @@
     {{ partial "tag-list.html" . }}
   </span>
 
-  <i>{{ .Description }}</i>
+  <div class='article-text'>
+    <p>{{ .Content }}</p>
+  </div>
 
-  <p>{{ .Content }}</p>
 </div>
