@@ -20,7 +20,7 @@ It's sort of a ridiculously roundabout method
 but I think it could be useful for other folks with pre-built instruments.
 Here's a sample panel from [Amazon](http://www.amazon.com/Norcross-Hawkeye-D10D-Depth-Sounder/dp/B000JEOEE0/ref=pd_cp_e_0):
 
-![hawkeye depth gauge](http://ecx.images-amazon.com/images/I/41M0UPcMW2L._SX300_.jpg
+![hawkeye depth gauge](https://ecx.images-amazon.com/images/I/41M0UPcMW2L._SX300_.jpg
 "the hawkeye depth gauge")
 
 "mtrrdr" (meter reader) would be one part Android app and one part web service.

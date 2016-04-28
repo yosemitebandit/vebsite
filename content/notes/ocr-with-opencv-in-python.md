@@ -20,7 +20,7 @@ The image's contours are the "islands" of black in the sea of white,
 so if the image is clean, each discovered contour is probably a digit.
 Here's an example training image from Rahman's post:
 
-![training image](http://s3.amazonaws.com/yb-img/train.png "training image")
+![training image](/img/image-of-random-numbers.png)
 
 When you run the first script, the full training image will be shown,
 and the program will sequentially draw a bounding box around each contour it has found.
@@ -35,7 +35,7 @@ we can use a [KNN model](http://en.wikipedia.org/wiki/K-nearest_neighbors_algori
 to classify another image.
 Again from Rahman's post on SO, I used this for classification:
 
-![mystery image](http://s3.amazonaws.com/yb-img/pi.png "mystery image")
+![mystery image](/img/image-of-pi.png)
 
 The `classify.py` script will preprocess the image
 using the same methods performed on the training image.
