@@ -14,18 +14,18 @@ and especially how I setup neomake to work with rust.
 
 basics:
 
-* get `neovim`: `brew install neovim/neovim/neovim` (yeah, idk)
-* get python3 too: `brew install python3`
-* create a  `~/.config/nvim/init.vim` (the new `~/.vimrc`) --
-you could link your existing config, but I wanted to start anew
-* make `~/.config/nvim/autoload/`
-and get [vim-plug](https://github.com/junegunn/vim-plug) set up inside there
-* create `alias nv=nvim`
+```
+$ brew install neovim/neovim/neovim  # yeah, idk..
+$ brew install python3
+$ mkdir -p ~/.config/nvim
+$ touch ~/.config/nvim/init.vim  # the new ~/.vimrc
+$ alias nv=nvim
+```
 
 I used most of my existing `.vimrc` (my [dotfiles are here](https://github.com/yosemitebandit/dotdotdot))
 with these exceptions:
 
-* upgraded to `vim-plug` as noted above
+* upgraded to `vim-plug`
 * thought it was a good time to try `vim-sensible` --
 subsequently dropped a lot of my old vimrc, that was nice
 * dropped `syntastic` in favor of `neomake` -- more on this later
@@ -40,7 +40,7 @@ you want to install neomake and then call `:Neomake! cargo`
 from within vim
 * and then you probably want to do that on save, so, in `init.vim`:
 `autocmd BufWritePost *.rs Neomake! cargo`
-* see more in my [init.vim](https://github.com/yosemitebandit/dotdotdot/blob/master/nvim-init.vim) --
+* see more in [my init.vim](https://github.com/yosemitebandit/dotdotdot/blob/master/nvim-init.vim) --
 you can change the signs and adjust how errors are displayed
 * sadly you have to stick with symbols in the gutter
 until [this PR](https://github.com/benekastah/neomake/pull/361) lands
