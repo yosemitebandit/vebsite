@@ -4,11 +4,14 @@
   {{ partial "head.html" . }}
 
   <body>
-    <div class="content container">
 
+    <div class='container top-matter'>
+      {{ partial "top-matter.html" . }}
+    </div>
+
+    <div class="content container">
       {{ partial "summary-list.html" . }}
       {{ partial "pagination.html" . }}
-
     </div>
   </body>
 

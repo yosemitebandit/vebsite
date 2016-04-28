@@ -1,0 +1,71 @@
+/* resets */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
+  margin: 0; padding: 0;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #111;
+  background-color: #fdfdfd;
+}
+
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
+  margin-bottom: 15px;
+}
+
+h1, h2, h3, h4, h5, h6, p, li, span, a, pre {
+  font-weight: 200;
+}
+
+/* text inside single backticks `like this` */
+code {
+  font-family: monospace;
+  color: #f99157;  /* orange */
+  font-size: 90%;
+}
+
+/* text inside code fences */
+pre {
+  font-size: 90%;
+}
+
+.content {
+  padding-bottom: 2.2rem;
+}
+
+.content p {
+  clear: both;
+}
+
+.post {
+  margin-bottom: 3em;
+}
+
+.note-tags {
+  display: block;
+  margin-top: 0.5rem;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  display: block;
+}
+
+img.post-thumbnail {
+  float: left;
+  margin: 5px 30px 0 0;
+}
+
+.pasture-pagination {
+  text-align: center;
+}
+
+.video-player {
+  text-align: center;
+  margin-bottom: 15px;
+}
