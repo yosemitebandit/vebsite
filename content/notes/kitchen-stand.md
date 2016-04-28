@@ -44,7 +44,7 @@ The top surface will be 25 1/4 x 29" at most -> 732in<sup>2</sup>.
 * 2" thick -> 1464in<sup>3</sup>
 * 3" thick -> 2196in<sup>3</sup>
 
-| vendors | | | | |
+| | | | | |
 | --- | --- | --- | --- | --- |
 | Menard's | cherry | 1 x 6 x 8' | $41.25 | $0.104 / in<sup>3</sup> |
 | | red oak | 2 x 6 x 8' | $76.69 | $0.096 / in<sup>3</sup> |
