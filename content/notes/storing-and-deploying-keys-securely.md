@@ -14,6 +14,8 @@ But how to do this with a lot of servers that may be rebuilt at any time?
 How do you avoid passing state to these servers when you provision them?
 And how do you share these credentials among team members?
 
+<!--more-->
+
 * ah, 1password or some other password vault would work -- schneier wrote one, even
 * and then you use two-factor on the vault
 * IAM roles may be the AWS way

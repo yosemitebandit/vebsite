@@ -7,7 +7,9 @@ tags = ["python", "go"]
 
 +++
 
-[greenteapress](http://www.greenteapress.com/complexity/thinkcomplexity.pdf)
+more from [greenteapress](http://www.greenteapress.com/complexity/thinkcomplexity.pdf)
+
+<!--more-->
 
 * cool decay example, suppose you have lambda, decay rate per second between two nuclides
 * (half life is just ln2 / lambda)

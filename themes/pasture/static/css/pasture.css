@@ -51,6 +51,11 @@ li {
   margin-left: 25px;
 }
 
+blockquote {
+  border-left: 5px solid #aeaeae;
+  padding-left: 12px;
+}
+
 .content {
   margin-bottom: 20px;
 }

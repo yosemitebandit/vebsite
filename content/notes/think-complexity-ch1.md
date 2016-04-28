@@ -7,7 +7,9 @@ tags = ["python"]
 
 +++
 
-[greenteapress.com](http://www.greenteapress.com/complexity/thinkcomplexity.pdf)
+from [greenteapress.com](http://www.greenteapress.com/complexity/thinkcomplexity.pdf)
+
+<!--more-->
 
 * there was once this [phlogiston theory](http://en.wikipedia.org/wiki/Phlogiston_theory) --
 phlogiston being an element allegedly released during combustion

@@ -14,6 +14,8 @@ This version also comes with some new
 which seems to work well.. although it opens up a GUI and that's annoying
 (asking around for a [fix](http://superuser.com/questions/578691)).
 
+<!--more-->
+
 In the past I've used [ino](http://inotool.org/), and that was nice,
 but the current official release of ino doesn't support Arduino v1.5.2.
 [This fork](https://github.com/rogue-hack-lab/ino) *almost* works for me,
