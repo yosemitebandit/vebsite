@@ -33,11 +33,11 @@ subsequently dropped a lot of my old vimrc, that was nice
 * setup a 256 color term and a new theme -- [OceanicNext](https://github.com/mhartington/oceanic-next)
 and the corresponding `airline` theme ..and the corresponding iterm2 theme
 
-neomake and rust:
+[neomake](https://github.com/benekastah/neomake) and rust:
 
-* despite what the docs say,
-you want to install neomake and then call `:Neomake! cargo`
-from within vim
+* you want to install neomake and then call `:Neomake! cargo`
+from within vim -- despite what the docs say about extra config,
+this worked for me out of the box
 * and then you probably want to do that on save, so, in `init.vim`:
 `autocmd BufWritePost *.rs Neomake! cargo`
 * see more in [my init.vim](https://github.com/yosemitebandit/dotdotdot/blob/master/nvim-init.vim) --
@@ -47,3 +47,7 @@ until [this PR](https://github.com/benekastah/neomake/pull/361) lands
 and allows highlighting of columns and rows (well it will with some slight rework)
 * can't seem to get the gutter setup properly so neomake kind of pops in and out rather annoyingly ..alas
 * maybe consider [vim-accio](https://github.com/pgdouyon/vim-accio)
+
+[vim-racer](https://github.com/racer-rust/vim-racer):
+
+* `gd` to jump to a definition and then `Ctrl + O` to go back to where you were
