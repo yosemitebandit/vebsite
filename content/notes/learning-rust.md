@@ -380,4 +380,12 @@ meaning we don't have to pass around refs all the time -- this is true for the p
 
 ### the rust-lang blog
 * [on traits](http://blog.rust-lang.org/2015/05/11/traits.html)
+  * the cornerstone of abstraction in rust -- "the sole notion of interface"
+  * they can add methods to an externally defined type
+  * interfaces specify the expectations that one piece of code has on another,
+  allowing each to be switched out independently --
+  for traits, this specification largely revolves around methods
+  * (see the simple examples with `print_hash` in the linked post)
+  * like templates in C++, these abstractions will compile down to concrete code,
+  but unlike in C++, code that consumes traits will be type-checked in advance
 * [on FFI](http://blog.rust-lang.org/2015/04/24/Rust-Once-Run-Everywhere.html)
