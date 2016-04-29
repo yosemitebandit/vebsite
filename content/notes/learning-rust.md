@@ -14,7 +14,8 @@ so I'm going through some tutorials..
 
 ### [rust by example](http://rustbyexample.com)
 * the compiler is great, have yet to find a way to get compilation results in vim's quickfix window,
-syntastic is also missing errors
+syntastic is also missing errors --
+Neomake works ok though, (here's [my post on getting that setup](/neovim))
 * I smiled at the "return on the statement with no semicolon" idea --
 can also drop the last semicolon if it's the last statement in a scope, I think
 * underscores for readability in ints is cool --
@@ -143,16 +144,13 @@ References are immutable by default.
 * why `expect` -- it has to do with the return of `read_line` (an `io::Result`) --
 there is an `expect` method on this type
 that takes the value it's called with and `panic!`s with that message
-
 * [cargo.toml vs cargo.lock](http://doc.crates.io/guide.html#cargotoml-vs-cargolock) --
 commit the lock file for binaries, leave it out for libs.
 There are ways to update the lock file -- sometimes it's automatated and sometimes not,
 see [here](https://doc.rust-lang.org/book/guessing-game.html#generating-a-secret-number)
-
 * hm, not a fan of this: have to call `extern crate rand;` then `use rand::Rng;` to get
 the `Rng` train in scope, then we can call `rand::thread_rng.gen_range(1, 101);` --
 need to learn more about traits, I think..would be nicer if there was an explicit use of `Rng`
-
 * this statement: `let guess: u32 = guess.trim().parse().expect("need a number!");`
 converts guess into an `int` (and feeds rust the expected type, `u32`)
 * switch from `expect` to `match` if you actually want to handle the error (and not panic)
@@ -239,7 +237,7 @@ assert_eq!(2, plus_one(1));
   and thus also in args: `let answer = test(&vector);`
   * references are immutable -- so you can't push new values into a vector reference
   * you can also do weird stuff with [`&mut` refs](https://doc.rust-lang.org/book/references-and-borrowing.html#mut-references) --
-  you may see the pointer syntax with `*` for stuff like this
+  you may see the deref syntax with `*` for stuff like this
   * there are [borrowing rules](https://doc.rust-lang.org/book/references-and-borrowing.html#mut-references) --
   one or more `&T` refs to a resource, but /only/ one mutable reference `&mut T` to prevent data races
   * scopes matter and the compiler will give you good info about where scopes begin and end
@@ -319,7 +317,7 @@ a.push(2);  // valid -- the b borrow has ended
 
 * mutability propagates deeply into owned types (think nested structs)
 * `spawn(proc() { .. });` is a nice way to achieve parallelism
-* `enum`s can have data -- and you can do something with that data when you match
+* an `enum` can have data -- and you can do something with that data when you match
 * `&` pointers are never null -- but you can have the `Option` type be `None`
 * there can only ever be one mutable pointer to your data
 * most FFI happens in `unsafe` blocks since you can't guarantee a foreign function's signature
@@ -350,7 +348,7 @@ when refs are tagged with a lifetimes, we're saying the ref must be valid for th
 * you work with lifetimes at the type and API level,
 telling the compiler about the relationship between different lifetimes --
 this isn't necessary within a function
-* [nice examples of lifetime elision](http://cglab.ca/~abeinges/blah/too-many-lists/book/second-iter.html):
+* [examples of lifetime elision](http://cglab.ca/~abeinges/blah/too-many-lists/book/second-iter.html):
   * one input reference means the output must be dervied from that input
   * many inputs: assume they all have independent lifetimes
   * with methods: assume all output lifetimes are derived from `self`
@@ -358,7 +356,7 @@ this isn't necessary within a function
 
 
 ### [learn x in y minutes](https://learnxinyminutes.com/docs/rust/)
-* nice example of "more advanced matching" where there is an additional if tree --
+* an example of "more advanced matching" where there is an additional if tree --
 that is apparently a "match guard" -- see [here](http://rustbyexample.com/flow_control/match/guard.html)
 * terse examples of references and borrowing
 
@@ -370,7 +368,7 @@ that is apparently a "match guard" -- see [here](http://rustbyexample.com/flow_c
 
 
 ### [learn you a rust for greater good](http://pro.theta.eu.org/2016/03/12/learn-you-a-rust-for-great-good.html)
-* nice talk of borrows and mutable borrows
+* talk of borrows and mutable borrows
 [in the second part especially](http://pro.theta.eu.org/2016/03/18/lyar-borrows.html)
 * by default, variable bindings have "move semantics,"
 but some types implement `Copy` (giving them "copy semantics"),
