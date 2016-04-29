@@ -176,7 +176,8 @@ converts guess into an `int` (and feeds rust the expected type, `u32`)
   * `and_then` chains computations when there could be an error
   * you can also return early with the explicit `return` keyword
   * and the `try!` macro abstracts away the early return pattern
-  (it returns the value or an error)
+  (it returns the value or an error) --
+  more notes on `try!` [here](http://www.jonathanturner.org/2015/11/learning-to-try-things-in-rust.html)
   * rule of thumb: define your own error enum, but a `String` is ok too, especially in apps:
 
 ```rust
