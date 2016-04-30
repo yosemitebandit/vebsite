@@ -283,10 +283,20 @@ it'll install to your system.
 ..Although the two markdown bins I just installed aren't working for me :|
 `markdown` and `pulldown-cmark` are both having issues.
 * `rust-clippy` and `cargo-clippy` are neat linters
+* a [set of notes on cross-compilation](https://github.com/japaric/rust-cross)
+  * seems like if you want to distribute a binary for windows or some other platform,
+  the advice is to build it natively on that platform,
+  or take advantage of CI services like Appveyor
+
+
+### on building web services
 * [arewewebyet.org](http://www.arewewebyet.org/) has good framework suggestions
   * here's a post on using [iron](https://blog.wearewizards.io/trying-rust-for-web-services)
-  * and another on building [http test](https://github.com/brson/httptest)
-
+  * and another on building [a simple json-serving web service](https://github.com/brson/httptest)
+* [nickel.rs](https://github.com/nickel-org/nickel.rs/) is express-inspired --
+it seems to be a popular choice, more active than iron
+* the [diesel ORM](http://diesel.rs/) examples look good
+* and [maud](https://github.com/lfairy/maud) is a templating engine that might be handy
 
 
 ### [rustlings exercises](https://github.com/carols10cents/rustlings)
