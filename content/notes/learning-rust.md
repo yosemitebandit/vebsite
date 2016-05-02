@@ -291,8 +291,15 @@ it'll install to your system.
 
 ### on building web services
 * [arewewebyet.org](http://www.arewewebyet.org/) has good framework suggestions
-  * here's a post on using [iron](https://blog.wearewizards.io/trying-rust-for-web-services)
-  * and another on building [a simple json-serving web service](https://github.com/brson/httptest)
+  * here's [another list of frameworks](https://github.com/flosse/rust-web-framework-comparison)
+  * I think nickel is good, pencil also looks promising --
+  others are a bit too incomplete / underdocumented for my liking,
+  or seem overly complex for what I need right now (iron, rustful and rustless)
+  * heh, [Sean Griffin](https://github.com/sgrif), the diesel.rs lead dev,
+  says in the diesel demo that he doesn't like the currently available rust frameworks
+  and wants to work on a new one soon..
+* here's a post on using [iron](https://blog.wearewizards.io/trying-rust-for-web-services)
+* and another on building [a simple json-serving web service with iron](https://github.com/brson/httptest)
 * [nickel.rs](https://github.com/nickel-org/nickel.rs/) is express-inspired --
 it seems to be a popular choice, more active than iron
 * the [diesel ORM](http://diesel.rs/) examples look good

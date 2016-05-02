@@ -33,12 +33,12 @@ $ multirust update nightly
 ```
 
 Now start a new project (the [diesel demo](http://diesel.rs/guides/getting-started/), in my case)
-and use the nightly toolchain:
+and use the nightly-2016-04-09 toolchain:
 
 ```python
 $ cargo new diesel_demo
 $ cd diesel_demo
-$ multirust override nightly
+$ multirust override nightly-2016-04-09
 ```
 
 Read more about using alternative toolchains
