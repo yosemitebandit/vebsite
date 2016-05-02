@@ -41,5 +41,17 @@ $ cd diesel_demo
 $ multirust override nightly-2016-04-09
 ```
 
+I previously had some path modifications in my `~/.zshrc`,
+I needed to get rid of them and just let multirust manage everything,
+then I could install the diesel CLI:
+
+```python
+$ cargo install diesel_cli
+$ export PATH=$PATH:~/.multirust/toolchains/nightly-2016-04-09/cargo/bin
+$ diesel --version
+diesel 0.6.1
+
+```
+
 Read more about using alternative toolchains
 on the [multirust project page](https://github.com/brson/multirust).

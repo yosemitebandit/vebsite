@@ -407,3 +407,8 @@ meaning we don't have to pass around refs all the time -- this is true for the p
   * like templates in C++, these abstractions will compile down to concrete code,
   but unlike in C++, code that consumes traits will be type-checked in advance
 * [on FFI](http://blog.rust-lang.org/2015/04/24/Rust-Once-Run-Everywhere.html)
+
+
+### the [diesel demo](http://diesel.rs/guides/getting-started/)
+* got to play with multirust and rust nightly
+* nice example of a project structure too with multiple binaries and a `lib.rs` gluing it together
