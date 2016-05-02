@@ -3,7 +3,7 @@ date = "2016-04-18T08:55:06-07:00"
 location = ""
 tags = ["ops"]
 thumbnail = ""
-title = "git on el capitan"
+title = "git on El Capitan"
 
 +++
 
