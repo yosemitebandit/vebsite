@@ -51,15 +51,18 @@ diesel_demo=# select * from posts;
 
 
 
-### with rust
+### postgres with rust
 I'm trying [`diesel`](http://diesel.rs), but I might switch to the vanilla,
 non-ORM [`rust-postgres`](https://github.com/sfackler/rust-postgres) package.
-It's mostly datetimes that are a sticking point for me in diesel.
-And my projects with postgres and rust are not complicated.
+The ORM functionality is definitely nice, but my projects aren't that complicated
+and `diesel` is still a work-in-progress.
 
-on the [diesel demo](http://diesel.rs/guides/getting-started/):
+On the [diesel demo](http://diesel.rs/guides/getting-started/):
 
 * got to play with multirust and rust nightly
 * nice example of a project structure too with multiple binaries and a `lib.rs` gluing it together
 * datetimes were annoying in diesel and still kind of being worked on, it seems --
-see [my pseudo-lang project](https://github.com/yosemitebandit/pseudo) for an example
+see [my pseudo-lang project](https://github.com/yosemitebandit/pseudo) for an example.
+It came down to adding a sql type like `created_at TIMESTAMP NOT NULL DEFAULT (now() AT TIME ZONE 'utc')`
+and, in the diesel model definition having a struct field like `pub created_at: PgTimestamp`
+where that type comes from `diesel::pg::data_types::PgTimestamp`
