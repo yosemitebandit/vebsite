@@ -412,3 +412,9 @@ meaning we don't have to pass around refs all the time -- this is true for the p
 ### the [diesel demo](http://diesel.rs/guides/getting-started/)
 * got to play with multirust and rust nightly
 * nice example of a project structure too with multiple binaries and a `lib.rs` gluing it together
+
+
+### [the book's notes on crates and modules](https://doc.rust-lang.org/book/crates-and-modules.html)
+
+
+### [the glium tutorial](http://tomaka.github.io/glium/book/) (OpenGL)
