@@ -63,6 +63,8 @@ came out well but yeah, it's a tough one to make, takes a while..
 lots of grating and chopping, but they were a good combo!
 * also from Moosewood, the espresso / mascarpone / brandy pudding (mousse?) was very nice,
 but the gorgonzola / cream cheese / hazelnut dip was less of a hit (though not a bad spread)
+* [pan-fried chicken breasts](http://www.food.com/recipe/simple-pan-fried-chicken-breasts-91587) +
+the deglazing suggested in the comments, pretty good!
 
 
 #### things that look interesting
