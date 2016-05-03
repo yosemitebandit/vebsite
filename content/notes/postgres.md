@@ -66,3 +66,23 @@ see [my pseudo-lang project](https://github.com/yosemitebandit/pseudo) for an ex
 It came down to adding a sql type like `created_at TIMESTAMP NOT NULL DEFAULT (now() AT TIME ZONE 'utc')`
 and, in the diesel model definition having a struct field like `pub created_at: PgTimestamp`
 where that type comes from `diesel::pg::data_types::PgTimestamp`
+
+
+### migrations
+After I finished the diesel demo I wanted to add a new column, `created_at`, which would be a `Timestamp`.
+I ran `diesel migration generate add_post_created_at` to make some files,
+then, in `up.sql`, I added:
+
+```sql
+ALTER TABLE posts
+  ADD COLUMN created_at TIMESTAMP DEFAULT (now() AT TIME ZONE 'utc');
+```
+
+and in `down.sql`:
+
+```sql
+ALTER TABLE posts
+  DROP COLUMN created_at;
+```
+
+I guess one day diesel will watch your model changes and actually write this stuff for you.
