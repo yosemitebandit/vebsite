@@ -1,7 +1,7 @@
 +++
 date = "2016-05-03T08:54:58-07:00"
 location = ""
-tags = ["watching"]
+tags = ["watching", "ideas"]
 thumbnail = "/img/sequoia-np-webcam-thumbnail.jpg"
 title = "national park webcams"
 
