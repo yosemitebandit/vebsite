@@ -78,6 +78,20 @@ It came down to adding a sql type like `created_at TIMESTAMP NOT NULL DEFAULT (n
 and, in the diesel model definition having a struct field like `pub created_at: PgTimestamp`
 where that type comes from `diesel::pg::data_types::PgTimestamp`
 
+Diesel and Travis-CI:
+
+* I was getting this error: ``undefined reference to `sqlite3_errstr'``
+when I tried to `cargo install diesel_cli --verbose`
+* Travis was building on Ubuntu Precise, I eventually realized,
+and Precise has a pretty old version of sqlite3 -- one that can't be upgraded cleanly through `apt`
+* so the fix is just to ask Travis to build on Trusty infrastructure (Ubuntu 14).
+I added this to my `.travis.yml` (see more in my [pseudo project](https://github.com/yosemitebandit/pseudo)):
+
+```yaml
+sudo: required
+dist: trusty
+```
+
 
 ### migrations
 After I finished the diesel demo I wanted to add a new column, `created_at`, which would be a `Timestamp`.
