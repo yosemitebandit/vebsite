@@ -49,6 +49,12 @@ diesel_demo=# select * from posts;
 
 ```
 
+* update looks like:
+
+```sql
+UPDATE submissions SET compilation_complete = true WHERE id = 1;
+```
+
 
 
 ### postgres with rust
