@@ -57,8 +57,13 @@ non-ORM [`rust-postgres`](https://github.com/sfackler/rust-postgres) package.
 The ORM functionality is definitely nice, but my projects aren't that complicated
 and `diesel` is still a work-in-progress.
 
+* for fields that can be null, need to wrap the model types
+as something like `Option<String>`
+* [rust-dashboard](https://github.com/dikaiosune/rust-dashboard) is a good demo project for diesel
+
 On the [diesel demo](http://diesel.rs/guides/getting-started/):
 
+* the full [`diesel_demo` code is here](https://github.com/sgrif/diesel_demo)
 * got to play with multirust and rust nightly
 * nice example of a project structure too with multiple binaries and a `lib.rs` gluing it together
 * datetimes were annoying in diesel and still kind of being worked on, it seems --
