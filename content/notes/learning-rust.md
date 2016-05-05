@@ -307,6 +307,18 @@ it seems to be a popular choice, more active than iron
   * here's [auth0's tutorial on using nickel.rs](https://auth0.com/blog/2015/11/30/build-an-api-in-rust-with-jwt-authentication-using-nickelrs/)
   * and another general [nickel demo](https://github.com/Codenator81/nickel-demo)
   * here's a [todo app with nickel](https://github.com/Ryman/nickel-todo-backend)
+  * [another demo nickel app](https://github.com/shinriyo/nickel-helloworld)
+  * sometimes you need explicit returns..whyy
+* sending plain html in nickel:
+
+```rust
+server.get("/", middleware! { |_, mut response|
+  response.set(MediaType:Html);
+  let path = Path::new("assets/index.html");
+  return response.send_file(path);
+});
+```
+
 * the [diesel ORM](http://diesel.rs/) examples look good
 * and [maud](https://github.com/lfairy/maud) is a templating engine that might be handy
 
