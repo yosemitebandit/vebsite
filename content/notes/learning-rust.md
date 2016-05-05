@@ -304,10 +304,11 @@ many of the [Rosetta Code](https://rosettacode.org/wiki/Rosetta_Code) tasks
 * and another on building [a simple json-serving web service with iron](https://github.com/brson/httptest)
 * [nickel.rs](https://github.com/nickel-org/nickel.rs/) is express-inspired --
 it seems to be a popular choice, more active than iron
+  * here's [auth0's tutorial on using nickel.rs](https://auth0.com/blog/2015/11/30/build-an-api-in-rust-with-jwt-authentication-using-nickelrs/)
+  * and another general [nickel demo](https://github.com/Codenator81/nickel-demo)
+  * here's a [todo app with nickel](https://github.com/Ryman/nickel-todo-backend)
 * the [diesel ORM](http://diesel.rs/) examples look good
 * and [maud](https://github.com/lfairy/maud) is a templating engine that might be handy
-* here's [auth0's tutorial on using nickel.rs](https://auth0.com/blog/2015/11/30/build-an-api-in-rust-with-jwt-authentication-using-nickelrs/)
-* and another general [nickel demo](https://github.com/Codenator81/nickel-demo)
 
 
 ### [rustlings exercises](https://github.com/carols10cents/rustlings)
