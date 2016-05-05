@@ -8,7 +8,8 @@ title = "numerical analysis with Herbie"
 +++
 
 Saw this neat project, [Herbie](http://herbie.uwplse.org/),
-a tool that uses heuristic searches to find more numerically stable formulae.
+a tool that uses heuristic searches to find more numerically stable formulae
+for use in floating point math.
 
 <!--more-->
 
