@@ -48,6 +48,15 @@ analyze_slice(&xs);
 analyze_slice(&ys[1 .. 4]);
 ```
 
+* doing a `contains` check on an array:
+
+```rust
+let public_endpoints: [String, 2] = ["/".to_string(), "/login".to_string()];
+if public_endpoints.contains("hi") {
+  ..
+}
+```
+
 * [discussion](http://stackoverflow.com/questions/24771655) on `Option`
 (enums with `Some` and `None` variants) -- you might see these when accessing slices
 * panics still possible if you out-of-bounds index an array :((
