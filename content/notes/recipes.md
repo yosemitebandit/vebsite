@@ -65,6 +65,8 @@ lots of grating and chopping, but they were a good combo!
 but the gorgonzola / cream cheese / hazelnut dip was less of a hit (though not a bad spread)
 * [pan-fried chicken breasts](http://www.food.com/recipe/simple-pan-fried-chicken-breasts-91587) +
 the deglazing suggested in the comments, pretty good!
+* gotta find better ways to make acorn squash -- have tried a few recipes that seem christmas-themed,
+both left something to be desired..maybe should do more soups like the one my sister made above
 
 
 #### things that look interesting
