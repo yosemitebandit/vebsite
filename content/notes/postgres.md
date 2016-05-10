@@ -56,6 +56,17 @@ UPDATE submissions SET compilation_complete = true WHERE id = 1;
 ```
 
 
+### auth
+I had this error: `fe_sendauth: no password supplied`
+and started reading about [host-based auth with `pg_hba.conf`](http://www.postgresql.org/docs/9.5/static/auth-pg-hba-conf.html).
+
+* the config file is typically at `/etc/postgresql/<version>/main`.
+* you can also `psql <some-db> -c 'SHOW hba_file';`
+* the first matching record is used
+* the `trust` value in the `auth-method` column (which is the last column)
+allows connections unconditionally -- that's my setup locally
+
+
 
 ### postgres with rust
 I'm trying [`diesel`](http://diesel.rs), but I might switch to the vanilla,
