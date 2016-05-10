@@ -65,6 +65,7 @@ and started reading about [host-based auth with `pg_hba.conf`](http://www.postgr
 * the first matching record is used
 * the `trust` value in the `auth-method` column (which is the last column)
 allows connections unconditionally -- that's my setup locally
+* might need to add a new user: `sudo -u postgres createuser matt --superuser`
 * more good tips on [Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-14-04)
 
 
