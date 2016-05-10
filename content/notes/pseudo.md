@@ -23,6 +23,10 @@ diesel (the ORM) and nickel (the routing + templating system) are still nascent 
 I'm too much of a rust amateur to understand the myriad of
 code generation, macro and trait-importing tricks that these projects rely on,
 so writing the server side wasn't much fun.
+I couldn't figure out how to do sessions and cookies, really..
+I also spent a long time working on JWT in various forms,
+only to eventually realize that I'd have to have some kind of stateful page
+to pass JWT tokens back to the server..sigh.
 
 I like rust's error handling and match patterns, and I'm loving the compiler,
 so making the CLI, `pseudoc`, was fun.
