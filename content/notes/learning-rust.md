@@ -298,6 +298,8 @@ it'll install to your system.
   or take advantage of CI services like Appveyor
 * [this repo](https://github.com/Hoverbear/rust-rosetta) takes a swing at
 many of the [Rosetta Code](https://rosettacode.org/wiki/Rosetta_Code) tasks
+* the [rust-beginners IRC channel](https://client00.chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-beginners)
+is awesome
 
 
 ### on building web services
