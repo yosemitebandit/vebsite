@@ -1,7 +1,7 @@
 +++
 date = "2016-05-05T15:28:53-07:00"
 location = "Mountain View"
-tags = ["projects", "rust"]
+tags = ["projects", "favorites", "rust"]
 thumbnail = ""
 title = "pseudo"
 
