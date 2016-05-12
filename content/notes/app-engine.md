@@ -21,6 +21,13 @@ can't use semver with periods, but you can use dashes :/
   * would be nice to have a git tag-based workflow --
   create a tag, upload it, that version gets sent to GAE and traffic is migrated to it
 
+list and delete versions:
+
+```python
+$ appcfg.py list_versions ./
+$ appcfg.py delete_version ./ v1
+```
+
 
 ### testing
 * got `py.test` working with the [`pytest-beds`](https://pypi.python.org/pypi/pytest-beds) package
