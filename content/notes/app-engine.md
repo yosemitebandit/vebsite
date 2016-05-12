@@ -14,7 +14,12 @@ some notes on using Google App Engine with python:
 ### app versions
 * see [this SO post](http://stackoverflow.com/questions/3848131/google-app-engine-version-numbers) --
 can't use semver with periods, but you can use dashes :/
-* so you can upload a new version with `appcfg.py` but how do you make it live?
+* you can see various versions of the app by changing the URL, ala: `http://v0-1-0.my-app.appspot.com`
+* so you can upload a new version with `appcfg.py` but how do you make it live??
+  * you can do it from the GAE dashboard..
+  * and there is an `appcfg.py start_module_version` command but I'm not sure how to get it working
+  * would be nice to have a git tag-based workflow --
+  create a tag, upload it, that version gets sent to GAE and traffic is migrated to it
 
 
 ### testing
