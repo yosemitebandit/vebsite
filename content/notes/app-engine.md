@@ -42,7 +42,7 @@ I ran these commands in an ubuntu VM:
 ```python
 $ git clone https://github.com/certbot/certbot
 $ cd certbot
-$ ./certbot-auto certonly --manual --email my-email@gmail.com -d superamazing.com -d www.superamazing.com
+$ ./certbot-auto certonly --manual --email me@email.com -d superamazing.com -d www.superamazing.com
 ```
 
 This displays the response text you have to show at some "challenge" url on your site.
@@ -52,10 +52,9 @@ I setup my app.yaml as described here: https://www.jeffgodwyll.com/posts/2016/le
 
 Then convert your private key into an RSA private key:
 
-```
-$ sudo su
-# cd /etc/letsencrypt/live/superamazing.com
-# openssl rsa -in privkey.pem -out privkey-rsa.pem
+```python
+$ cd /etc/letsencrypt/live/superamazing.com
+$ openssl rsa -in privkey.pem -out privkey-rsa.pem
 ```
 
 And copy the certs over to the app engine dev console.
