@@ -1,7 +1,7 @@
 +++
 date = "2016-05-15T10:24:23-07:00"
 location = ""
-tags = ["reading", "cs", "drafts"]
+tags = ["reading", "cs"]
 thumbnail = ""
 title = "assembly"
 
