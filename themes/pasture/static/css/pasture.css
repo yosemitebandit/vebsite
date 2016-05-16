@@ -36,6 +36,7 @@ code {
   font-family: monospace;
   color: #f99157;  /* orange */
   font-size: 90%;
+  display: inline-block;
 }
 
 /* text inside code fences */
