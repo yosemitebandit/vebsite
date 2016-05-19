@@ -12,7 +12,7 @@ notes on bolt's "Hardware by the Numbers" series on hw startups:
 <!--more-->
 
 
-### [part one -- team + prototyping](https://blog.bolt.io/hardware-by-the-numbers-part-1-team-prototyping)
+### [part one -- team + prototyping](https://blog.bolt.io/hardware-by-the-numbers-part-1-team-prototyping-b225a33f55bf)
 * need a hacker and a dealmaker / hustler
 * to scale need 8 employees: ME + EE + FW + ID/UX, FE + BE, Marketing/Sales + Ops
 * a 50-50 split of equity is rare -- usually someone brings a little more to the table --
@@ -26,7 +26,7 @@ to get relevant, statistically significant feedback
 * initially, don't stress about patents is their advice
 
 
-### [part two -- financing and manufacturing](https://blog.bolt.io/hardware-by-the-numbers-part-2-financing-manufacturing)
+### [part two -- financing and manufacturing](https://blog.bolt.io/hardware-by-the-numbers-part-2-financing-manufacturing-474c7efe6c5f)
 * VCs will want you to be an outlier -- getting to $100M in revenue in a few years
 * a VC leading a financing round will want to own 20%
 * mean pre-money valuation is $4.5M for priced seed rounds (east coast startups, btw) --
@@ -49,7 +49,7 @@ because tooling standards are different
 * think about packaging..it doesn't have to be expensive, but it's not free
 
 
-### [part three -- logistics and marketing](https://blog.bolt.io/hardware-by-the-numbers-part-3-logistics-marketing)
+### [part three -- logistics and marketing](https://blog.bolt.io/hardware-by-the-numbers-part-3-logistics-marketing-1c7f37b64c05)
 * recommends buying insurance on your container ships --
 they can fall overboard :o and it's a 4-5wk journey
 * $2.1k to move a single container across the pacific
@@ -66,7 +66,7 @@ more effective than a PR firm, he argues
 brick and mortar stores are critical
 
 
-### [part four -- retail + exits](https://blog.bolt.io/hardware-by-the-numbers-part-4-retail-exits)
+### [part four -- retail + exits](https://blog.bolt.io/hardware-by-the-numbers-part-4-retail-exits-7b5e68cbd54a)
 * online retailers take 15-20% of the final sale price
 * big box or specialty retailers are far higher 40-70% --
 the apple store, for instance, takes about 50%
