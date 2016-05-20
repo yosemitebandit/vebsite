@@ -83,3 +83,7 @@ The software could use an upgrade.
 * Cercell
 * Fisher Scientific
 * Danaher-Pall
+* [PBS Biotech](http://www.pbsbiotech.com/store/c1/Featured_Products.html)
+* Cellexus -- here is their single-use reactor at work:
+
+{{% youtube WhaW-YMnjxs %}}
