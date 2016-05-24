@@ -51,5 +51,8 @@ At best, a team's work could be entirely open all the way to the tech front
 I would hope to work in a creative and expressive environment,
 one in which diverse perspective are sought out, shared and acted upon.
 And I've been fortunate to work with incredible colleagues
-that have helped me grow as a person and as an engineer --
+that have challenged me to grow as a person and as an engineer --
 I would of course want that to continue.
+
+I hope that, in my next venture, I'm able to foster an environment like the one described above,
+and come together with friends to make something inspiring, innovative and useful for the world at large.
