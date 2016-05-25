@@ -113,3 +113,7 @@ img.post-thumbnail {
 .top-matter ul > li:first-child {
   margin-left: 0px;
 }
+
+.tag-list a {
+  display: inline-block;
+}
