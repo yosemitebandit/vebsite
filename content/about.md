@@ -8,7 +8,8 @@ type = "about"
 hello!  I hope my notes are as useful to you as they are to me.
 Need to search for something?  Try [/all](/all).
 
-Looking for more about me?  Check out the [notes tagged with "self."](/tags/self)
+Looking for more about me?  Check out the [notes tagged with "self"](/tags/self)
+or [the "favorites" section](/tags/favorites).
 You can locate me elsewhere on
 [github](https://github.com/yosemitebandit),
 [goodreads](https://www.goodreads.com/user/show/5207178-matt-ball),
