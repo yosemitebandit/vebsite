@@ -33,7 +33,7 @@ these companies need bioreactors to run experiments.
 * [challenges in fermentation scalability](http://www.genengnews.com/gen-articles/tackling-the-challenge-of-scalability/5755/?kwrd=bioreactor)
   * a review of eppendorf's product line -- they have autoclavable, sterilize-in-place (SIP) and single-use designs
   * critical to reproduce bioprocess params at each scale to maintain yield
-  * they exampined vessel and impeller geometry, tip speed, mixing time, oxygen transfer rate,
+  * they examined vessel and impeller geometry, tip speed, mixing time, oxygen transfer rate,
   impeller power number
   * with mammalian cells and stem cells especially, you have to be careful with tip speed
   or you could shear the cells -- but then in bigger volumes you may need to mix a lot more
