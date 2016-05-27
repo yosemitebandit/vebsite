@@ -24,3 +24,4 @@ PygmentsCodeFences = true
 [params]
   paginate = 10
   paginatePath = "page"
+  revisionHistoryUrl = "https://github.com/yosemitebandit/vebsite/commits/master/content/notes/"

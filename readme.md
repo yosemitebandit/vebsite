@@ -21,7 +21,6 @@ The fabfile /should/ handle this now..
 
 * maybe the `/projects` endpoint should just be pics -- more brutalist as before
 * more travel updates
-* some concept of "updated" -- maybe a script that tweaks a "last modified" field
 * images look bad on nicer screens (like my phone :|)
 
 
