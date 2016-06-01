@@ -1,7 +1,7 @@
 +++
 date = "2016-05-09T10:43:06-07:00"
 location = ""
-tags = ["travels"]
+tags = ["travels", "outside"]
 thumbnail = "/img/jt-cactus-thumbnail.jpg"
 title = "joshua tree"
 
