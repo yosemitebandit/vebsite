@@ -3,16 +3,16 @@ date = "2016-06-01T11:11:11-07:00"
 location = ""
 tags = ["outside", "travels", "drafts"]
 thumbnail = ""
-title = "down US 1 to SLO"
+title = "riding down US 1 to SLO"
 
 +++
 
 My friend [Trevor](http://trevorshp.com) organized a ride from Gilroy to SLO
-over Memorial day weekend --
-we camped at Mt. Madonna SP outside Gilroy,
+over Memorial day weekend -- our campsites:
+Mt. Madonna SP outside Gilroy,
 Veteran's Park in downtown Monterey,
 Kirk Creek in Big Sur
-and the San Simeon Creek Campground, near Hearst Castle.
+and the San Simeon Creek Campground near Hearst Castle.
 
 <!--more-->
 
