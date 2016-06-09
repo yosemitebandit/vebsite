@@ -28,7 +28,7 @@ js and not quite complete
 
 ## Stanford course notes for the [CS231n class](http://cs231n.github.io/)
 
-#### Image Classification: Data-driven Approach, k-Nearest Neighbor, train/val/test splits
+### Image Classification: Data-driven Approach, k-Nearest Neighbor, train/val/test splits
 
 * these are data-driven approaches to classification --
 take the CIFAR-10 dataset, for example.
@@ -50,7 +50,7 @@ this applies some smoothing to the grouping (and is the "k" in k-Nearest neighbo
 CNNs are 95% accurate (on par with humans).
 
 
-#### Linear classification: Support Vector Machine, Softmax
+### Linear classification: Support Vector Machine, Softmax
 
 * the linear classifier is effectively a function that
 maps an input image, `xi`, and a weighting matrix, `W`
@@ -84,7 +84,7 @@ and its loss function will always seek greater deltas between correct and incorr
 Whereas the SVM will not penalize certain scores depending on the margin settings.
 
 
-#### Numpy sidenote
+### Numpy sidenote
 
 * the number of dimensions is the rank of an array
 * multidimensional slices: `b = a[:2, 1:3]`
@@ -99,7 +99,7 @@ and the 1st and 2nd col (up to but not including the third).
 that is, there are some situations when different sized arrays can be multiplied or added together
 
 
-#### Optimization and Stochastic Gradient Descent
+### Optimization and Stochastic Gradient Descent
 
 * With optimization we'll have the full suite -- scoring, measuring the accuracy of the score,
 and finding the weights that compute the score.
@@ -111,7 +111,7 @@ However, when this work is generalized to NNs, we will no longer see a convex fo
 so the typical convex optimization strategies will not be employed.
 
 
-#### NNs part one
+### NNs part one
 
 * several neuron activation functions are possible (sigmoid, tanh)
 but ReLUs, rectified linear units, are the most prevalent now --
@@ -154,7 +154,7 @@ that is usually statistically significant.
 So people typically hold 30k samples in their validation set (or more),
 allowing the validation set measurement to be accurate to 0.1%.
 
-#### SGD
+### SGD
 * stochastic gradient descent is GD but with sampling --
 instead of computing the loss over all data, you compute the loss over a small,
 randomly chosen subset and take smaller GD "steps."
@@ -168,7 +168,7 @@ and we can use learning rate decay
 * ADAGRAD is an SGD variant with builtin momentum and learning rate decay,
 removing some of these hyperparameters
 
-#### Hidden Layers
+### Hidden Layers
 * I saw a modest improvement in test accuracy (85% to 88%)
 when I added a single hidden layer of 1024 ReLUs to my SGD model (lesson two).
 * It's apparently more efficient to add more layers
@@ -176,7 +176,7 @@ as opposed to increasing the size of the model --
 possibly due to the hierarchical structure of natural phenomena,
 and the use of fewer parameters in deep networks (compared to "wide" networks).
 
-#### Other improvements
+### Other improvements
 * train just until the validation set stops improving to prevent overfitting
 * L2 Regularization: added to the model -- it's a hyperparameter *
 the sum of the squares of the individual elements --
@@ -209,7 +209,7 @@ to get the average activations.
 {{% gist yosemitebandit 8aec5677e69017bed04c %}}
 
 
-#### Convolutional Neural Networks
+### Convolutional Neural Networks
 * 'weight sharing' concept helps create statistical invariance --
 used in CNNs for images and embeddings in RNNs for text
 * conv nets slide a kernel through an image while keeping the 'weights' the same --
@@ -228,5 +228,26 @@ and introduce nonlinearities into the typical convolutional patch analysis
 pool, 1x1 convolutions and larger convolutions, all concatenated together
 
 
-#### some examples from [tflearn](https://github.com/tflearn/tflearn)
+### some examples from [tflearn](https://github.com/tflearn/tflearn)
 * ..
+
+
+## Andrew Ng's Coursera videos
+
+* "batch" gradient descent means you're using all of the training data during the gradient calculation.
+Compare this to minibatch which might only look at a subsample.
+* normalize your features to speed up gradient descent -- see my `ng-coursera` repo for a good example.
+You generally want to be in the neighborhood of `[-1, 1]`.
+With a toy example, I found that replacing `x` with `( x - mean(x) ) / stdev(x)`
+sped up training by at least one order of magnitude.
+* most quick fixes to non-convergence just involve making your learning rate smaller
+* suggests considering synthetic features in the multivariate linear regression lecture..
+so if you have a model predicting house prices you might try
+`price = b + W1 * sqft + W2 * (sqft) ** 2` to create a polynomial model of higher degree
+* and there is an analytical solution to the minimization problem for multivariate linear regression:
+`inv(XT * X) * XT * y` -- this inverse can be tough to compute if there are a lot of features
+* remember that logistic regression is for classification work
+and the output has a probabilistic interpretation --
+the previous work in this course gives more continuous outputs
+* higher order polynomials create more complex decision boundaries
+(the shapes / lines dividing up your classes)
