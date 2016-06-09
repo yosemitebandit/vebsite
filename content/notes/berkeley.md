@@ -3,7 +3,7 @@ date = "2016-06-08T17:39:15-07:00"
 location = ""
 tags = ["travels", "outside"]
 thumbnail = "/img/tropical-bouquet-thumbnail.jpg"
-title = "berkeley"
+title = "Berkeley"
 
 +++
 
