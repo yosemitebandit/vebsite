@@ -2,6 +2,7 @@
 BaseURL = "https://oakmachine.com/"
 Title = "oakmachine"
 MetaDataFormat = "toml"
+Theme = "pasture"
 
 
 # Syntax highlighting settings.

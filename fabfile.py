@@ -26,7 +26,7 @@ def build():
   """Builds the content with hugo.
   """
   with prefix(env.activate):
-    local('hugo --theme=pasture')
+    local('hugo')
 
 
 def deploy():
