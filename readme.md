@@ -29,8 +29,8 @@ The fabfile /should/ handle this now..
 make some content, get the theme's latest and test that sucker out:
 
     $ hugo new notes/yup.md
-    $ hugo server --theme=pasture --port=8080 --watch --disableLiveReload --preserveTaxonomyNames
     $ git subtree pull --prefix themes/pasture https://github.com/yosemitebandit/pasture.git master --squash
+    $ hugo server --port=8080 --watch --disableLiveReload --preserveTaxonomyNames
 
 changed the theme (a subtree) inside this repo?
 
@@ -38,11 +38,11 @@ changed the theme (a subtree) inside this repo?
 
 view the site locally:
 
-    $ hugo server --theme=pasture --port=8000 --watch --disableLiveReload --preserveTaxonomyNames
+    $ hugo server --port=8000 --watch --disableLiveReload --preserveTaxonomyNames
 
 build the static content:
 
-    $ hugo --theme=pasture --verbose
+    $ hugo --verbose
 
 or, with the power of fabric, build and deploy:
 
