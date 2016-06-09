@@ -21,9 +21,9 @@ Saw some amazing succulents at the botanical gardens, some could grow to be 2000
 
 ![tropical bouquet](/img/tropical-bouquet.jpg)
 
-Ate like royalty at Gather, Cheeseboard and many other places..
+We ate like royalty at Gather, Cheeseboard and many other places..
 
-Saw and puzzled through *The Lobster*..
+We saw and puzzled through *The Lobster*..
 
 ![the lobster](/img/the-lobster-grasslands.jpg)
 
