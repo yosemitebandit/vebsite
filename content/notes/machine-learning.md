@@ -234,6 +234,7 @@ pool, 1x1 convolutions and larger convolutions, all concatenated together
 
 ## Andrew Ng's Coursera videos
 
+### linear regression
 * "batch" gradient descent means you're using all of the training data during the gradient calculation.
 Compare this to minibatch which might only look at a subsample.
 * normalize your features to speed up gradient descent -- see my `ng-coursera` repo for a good example.
@@ -246,8 +247,16 @@ so if you have a model predicting house prices you might try
 `price = b + W1 * sqft + W2 * (sqft) ** 2` to create a polynomial model of higher degree
 * and there is an analytical solution to the minimization problem for multivariate linear regression:
 `inv(XT * X) * XT * y` -- this inverse can be tough to compute if there are a lot of features
+
+### logistic regression
 * remember that logistic regression is for classification work
 and the output has a probabilistic interpretation --
 the previous work in this course gives more continuous outputs
 * higher order polynomials create more complex decision boundaries
 (the shapes / lines dividing up your classes)
+* for binary logistic regression (labels in `{ 0, 1 }`),
+the cost function must change -- it can no longer be just MSE
+as the sigmoid activation will cause this to be non-convex and have local, non-global optima.
+The new cost function is `-log(h)` if `y = 1` and `-log(1 - h)` if `y = 0`.
+This fn comes from the principle of maximum likelihood estimation --
+a way to efficiently find parameters.
