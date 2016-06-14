@@ -260,3 +260,17 @@ as the sigmoid activation will cause this to be non-convex and have local, non-g
 The new cost function is `-log(h)` if `y = 1` and `-log(1 - h)` if `y = 0`.
 This fn comes from the principle of maximum likelihood estimation --
 a way to efficiently find parameters.
+* if you have a cost function and a way to compute the gradient of the cost function,
+you can use more advanced optimization techniques than gradient descent:
+the conjugate gradient, BFGS or L-BFGS, for example.
+These might run more quickly than vanilla gradient descent,
+or they might automatically pick a good learning rate
+* in multiclass one-vs-all classification,
+you just train a logistic regression classifier for each class --
+essentially asking classifiers to identify data as "in" or "out" of the club..
+then run each classifier on new data and pick the result that's most confident (largest)
+
+### regularization
+* in Ng's examples, we have a weight vector where the first element, `W0`, is a bias term --
+he points out you shouldn't penalize `W0` during regularization
+but instead just penalize the large multiplicative weights
