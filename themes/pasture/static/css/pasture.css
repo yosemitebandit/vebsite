@@ -118,6 +118,11 @@ img.post-thumbnail {
   display: inline-block;
 }
 
+/* Remove margin-bottom after second and third level list items. */
+li ul {
+  margin-bottom: 0px;
+}
+
 li ul li ul {
   margin-bottom: 0px;
 }
