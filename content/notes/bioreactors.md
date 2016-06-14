@@ -39,9 +39,30 @@ these companies need bioreactors to run experiments.
   or you could shear the cells -- but then in bigger volumes you may need to mix a lot more
   * good notes on testing mix rates, OTR and impeller power number
 
-* [Apr 2016 article on singlue use innovation](http://www.genengnews.com/gen-articles/innovation-continues-in-single-use/5734/?kwrd=bioreactor)
+* [Apr 2016 article on single use innovation](http://www.genengnews.com/gen-articles/innovation-continues-in-single-use/5734/?kwrd=bioreactor)
   * strong research interest in single use and continuous flow
   * people in the industry think a facility that only uses disposables is coming
+
+* [Apr 2015 article on single use processing for microbial cultures](http://www.bioprocessintl.com/upstream-processing/fermentation/single-use-processing-for-microbial-fermentations/)
+  * single use vessels for mammalian purposes "have gained wide acceptance"
+  but the industry still needs options for "column chromatography media, cryopreservation, and process monitoring"
+  * single use vessels in microbial fermentation is rare
+  * "Fermentation is principally the domain of nonglycosylated recombinant proteins
+  and peptides such as insulin, erythropoietin, and interferon." -- I-know-some-of-those-words.jpg
+  * new high-value therapeutics produced through fermentation:
+  "antibody fragments, fusion proteins, nonglycosylated antibodies"
+  * risks to biomanufacturers: regulatory (I keep hearing about this vaguely)
+  and a lack of "reliable platform processes that reduce development costs and shorten time to market"
+  * conventional single-use bioreactors that are suited for mammalian culture
+  are not well-suited for single-use fermentations --
+  worse by a factor of three in the OD600 dept, according to one app note
+  * nice notes on fermentator design..
+  fermentation is governed by oxygen transfer and heat dissipation rates,
+  OTR can change with the geometry of the vessel, impeller speed, impeller fin number,
+  sparge gas bubble size, and other factors
+  * they tested their 30 and 300L single use fermentors against stainless steel bioreactors
+  with *E. coli* and *Pichia pastoris* and saw similar OD600 values over time
+  and similar dry cell weights
 
 
 
