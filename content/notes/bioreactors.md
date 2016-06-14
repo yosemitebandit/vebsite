@@ -49,8 +49,26 @@ these companies need bioreactors to run experiments.
   * single use vessels in microbial fermentation is rare
   * "Fermentation is principally the domain of nonglycosylated recombinant proteins
   and peptides such as insulin, erythropoietin, and interferon." -- I-know-some-of-those-words.jpg
+      * nonglycosylated: from [this pubmed abstract](http://www.ncbi.nlm.nih.gov/pubmed/9951685),
+      it seems like proteins expressed in *E. coli* may be nonglycosylated
+      whereas the same protein from CHO cells may be glycosylated.
+      The effect of the sugar chain may be small in terms of its contribution to molecular weight (4%),
+      but there is some debate as to how the sugar chain can change the protein's function.
+      * insulin: regulates blood sugar levels
+      * erythropoietin: secreted by the kidneys, it increases the rate of production of red blood cells
+      in response to falling oxygen levels
+      * inteferon: a signaling protein released in response to the presence of pathogens,
+      they activate other immune cells
   * new high-value therapeutics produced through fermentation:
   "antibody fragments, fusion proteins, nonglycosylated antibodies"
+      * antibody fragments: ..
+      * fusion proteins: aka [chimeric proteins](https://en.wikipedia.org/wiki/Fusion_protein)
+      they are the result of translating a gene sequence that is the combination of two parent sequences.
+      For instance, if you develop a monoclonal antibody in a mouse,
+      you may need to reengineer the sequence a bit to make it more like a human antibody
+      * monoclonal antibody: antibodies specific to one antigen made by identical immune cells --
+      used in detection and purification of substances, often made by just harvesting cells from live mice
+      * nonglycosylated antibodies: presumably an antibody without that sugar chain..
   * risks to biomanufacturers: regulatory (I keep hearing about this vaguely)
   and a lack of "reliable platform processes that reduce development costs and shorten time to market"
   * conventional single-use bioreactors that are suited for mammalian culture
