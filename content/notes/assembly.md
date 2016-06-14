@@ -25,9 +25,9 @@ of the corresponding 32bit registers `{eax, ecx, ..edi}` (where `e` stands for "
 instructions:
 
 * in most operations, two registers are given --
-the first is a source and the second is a source and destination.
-For example, `addl %ecx, %eax` would be something like `eax = eax + ecx;` in C notation,
-with both `eax` and `ecx` having type `uint32_t`
+the first is a source and the second is both a source and destination.
+  * for example, `addl %ecx, %eax` would be something like `eax = eax + ecx;` in C notation,
+  with both `eax` and `ecx` having type `uint32_t`
   * some operations take only one operator, like `notl %eax` is `eax ~= eax;`
   and `incl %ecx` would be `ecx = ecx + 1;`
 * for bit shifting we write `shll %c1, %ebx` which is `ebx = ebx << c1;`
@@ -35,9 +35,9 @@ with both `eax` and `ecx` having type `uint32_t`
 so `movl $0xFF, %esi` means `esi = 0xFF;`
   * `movl` copies 32 bits from the first arg to the second arg --
   not really "moving," just blowing away the second arg's contents
-* see [this SO discussion](http://stackoverflow.com/questions/20247944)
-on the suffixes in `movl`, `movw` and `movb` -- `l` indicates you're moving 32 bits,
-`w` is 16 and `b` is 8
+  * (see [this SO discussion](http://stackoverflow.com/questions/20247944)
+  on the suffixes in `movl`, `movw` and `movb` -- `l` indicates you're moving 32 bits,
+  `w` is 16 and `b` is 8)
 * you'll often need to write sequences of instructions -- you can't just try `addl %eax, %ebx, %ecx`
 
 registers and memory:
@@ -45,11 +45,11 @@ registers and memory:
 * there's a 32-bit register, `eflags` that some instructions modify --
 it can largely be ignored though
 * RAM and registers -- RAM is just a big array of bytes, it's system memory
-* data is stored in little endian form --
-bytes at lower memory addresses are loaded into the lower part of the register
-(makes things appear to read backwards if you write out the addresses left to right)
-* reading memory: `movb (%ecx), %a1` means (again in C-like notation) `a1 = *ecx;`
-* writing: `movb %b1, (%edx)` means `*edx = b1;`
+  * data is stored in little endian form --
+  bytes at lower memory addresses are loaded into the lower part of the register
+  (makes things appear to read backwards if you write out the addresses left to right)
+  * reading memory: `movb (%ecx), %a1` means (again in C-like notation) `a1 = *ecx;`
+  * writing: `movb %b1, (%edx)` means `*edx = b1;`
 * you can also use memory operands in arithmetic instructions:
 `addl (%ecx), %eax` means `eax = eax + (*ecx);` (reading 32 bits from memory)
 or `addl %ebx, (%edx)` which means `*edx = (*edx) + ebx;` (reading and writing)
