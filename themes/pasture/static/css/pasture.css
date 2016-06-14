@@ -117,3 +117,7 @@ img.post-thumbnail {
 .tag-list a {
   display: inline-block;
 }
+
+li ul li ul {
+  margin-bottom: 0px;
+}
