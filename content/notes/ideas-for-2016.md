@@ -11,17 +11,23 @@ some things to do this year..
 
 <!--more-->
 
+*places to see*
+
 * go to the Lost Coast
 * ride around Desolation Wilderness
 * styx pass
 * do a double century..or maybe a double metric (125 miles)..that'd be a good start
 
-* make two chairs
+*things to make*
+
+* two chairs
 * finish [quandry](/quandry)
-* take something to Maker Faire (in May)
+* take something to Maker Faire (in May) -- setbot was too late :((
 * bean bag bot
 * primitive bow / red oak bow on instructables
 * projector + imu -- "window" into another space
+
+*things to learn*
 
 * work on that linear algebra book in rust --
 or simple classifiers in rust
