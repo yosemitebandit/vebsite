@@ -2,7 +2,7 @@
 date = "2016-06-14T11:01:03-07:00"
 location = ""
 tags = ["ideas", "hardware", "outside"]
-thumbnail = ""
+thumbnail = "/img/jt-hike-in-sun-thumbnail.jpg"
 title = "outside-o-meter"
 
 +++
