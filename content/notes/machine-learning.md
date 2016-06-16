@@ -274,3 +274,9 @@ then run each classifier on new data and pick the result that's most confident (
 * in Ng's examples, we have a weight vector where the first element, `W0`, is a bias term --
 he points out you shouldn't penalize `W0` during regularization
 but instead just penalize the large multiplicative weights
+
+### neural networks
+* Ng points out that hidden layers are kind of like learned features --
+like how we previous had to deliberately engineer features
+by combining preexisting features into new polynomials,
+the network can now combine the original features in new ways via the weights
