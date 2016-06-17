@@ -47,3 +47,5 @@ calling another "withdraw" before the contract checks that you actually still ha
 There is also some discussion about "proof of stake" vs the traditional "proof of work" --
 I'm still trying to understand this..
 Apparently ETH was contemplating forking to PoS but that hadn't gone through yet.
+
+I'd also like to read more on Monero.
