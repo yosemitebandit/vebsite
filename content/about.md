@@ -6,14 +6,14 @@ type = "about"
 +++
 
 hello!  I hope my notes are as useful to you as they are to me.
-Need to search for something?  Try [/all](/all).
+Looking for more about me?  Try..
 
-Looking for more about me?  Check out the [notes tagged with "self"](/tags/self)
-or [the "favorites" section](/tags/favorites).
-You can locate me elsewhere on
-[github](https://github.com/yosemitebandit),
-[goodreads](https://www.goodreads.com/user/show/5207178-matt-ball),
-and [last.fm](http://www.last.fm/user/post_haste).
+* the [notes tagged with `self`](/tags/self)
+* or [the `favorites` section](/tags/favorites)
+* [my github profile](https://github.com/yosemitebandit),
+* [goodreads](https://www.goodreads.com/user/show/5207178-matt-ball),
+* [last.fm](http://www.last.fm/user/post_haste),
+* or search all these posts via [/all](/all)
 
 This site's made with [hugo](http://hugo.spf13.com)
 and the [pasture](https://github.com/yosemitebandit/pasture) theme.
