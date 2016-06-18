@@ -41,6 +41,7 @@ These are forks to ethereum itself,
 even though it was only a bad contract written into the DAO that caused this issue.
 Miners would have to come on board,
 and this has come some controversy about the allegedly decentralized nature of ETH.
+Which causes more distrust in the network, forking or the attack itself?
 Who decides when a bad contract is bad enough to warrant a fork?
 Well one pretty good answer is that the miners still decide..it's still a consensus-driven system.
 And it's a lot of the global supply of ETH tied up in this bad contract --
