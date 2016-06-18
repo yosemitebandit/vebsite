@@ -13,10 +13,12 @@ allowing ETH wrapped up in the DAO to be drained --
 lamentable, but it's made for some really interesting reading!
 
 [The attacker](https://etherchain.org/account/0x304a554a310c7e546dfe434669c62820b7d83490)
-split into a "child DAO" and got about 2.4M ETH total before being stopped.
-That's about 3% of the total ETH in circulation, and leaves the DAO with 7.9M ETH.
-That was taking 258 ETH per sec -- 1 ETH is worth about $15 atm, after a 25% drop in value today.
-The balance will be stuck there for 27 days due to, I think, the DAO's rules.
+split into a "child DAO" and got about 3.6M ETH total before being stopped.
+That's about 4% of the total ETH in circulation, and leaves the DAO with 7.9M ETH.
+The attack took 258 ETH per sec -- 1 ETH is worth about $15 atm, after a 25% drop in value today.
+The balance will be frozen for 27 days due to, I think, the DAO's rules.
+Er, and also because many (all?) of the exchanges paused their trading for a bit
+according to [these logs](http://pastebin.com/aMKwQcHR).
 
 <!--more-->
 
