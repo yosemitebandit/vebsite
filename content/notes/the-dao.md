@@ -47,6 +47,8 @@ And it's a lot of the global supply of ETH tied up in this bad contract --
 the price seems like it'll drop no matter what they do.
 [Ethcore agrees in their response](https://blog.ethcore.io/attack-on-thedao-what-will-be-your-response/) --
 pointing out that bitcoin worked through similar bugs via consensus-driven hard forks.
+[Bloomberg](http://www.bloomberg.com/view/articles/2016-06-17/blockchain-company-s-smart-contracts-were-dumb)
+has an amusing and informative take on how the "hack" is unfolding..
 
 There are fun conspiracy theories about the attacker paying off miners to not accept these proposals..
 And other great theories about how the plan was to short ETH all along..
