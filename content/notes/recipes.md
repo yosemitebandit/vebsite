@@ -67,6 +67,10 @@ but the gorgonzola / cream cheese / hazelnut dip was less of a hit (though not a
 the deglazing suggested in the comments, pretty good!
 * gotta find better ways to make acorn squash -- have tried a few recipes that seem christmas-themed,
 both left something to be desired..maybe should do more soups like the one my sister made above
+* [pineapple salsa with jicama](http://www.simplyrecipes.com/recipes/pineapple_salsa_with_jicama/) --
+really nice and fresh!
+* [guacamole with serrano peppers](http://www.simplyrecipes.com/recipes/perfect_guacamole/) --
+it's all about good avocados
 
 
 #### things that look interesting
