@@ -19,3 +19,7 @@ collecting the B-cells that make the target antibodies
 and then fusing it with a tumor cell to make the cell immortal
 * dalton: the weight of one proton or neutron, essentially --
 abbreviated `Da` or `u`, it is about 10^-27kg
+* deamidation: the removal of an amide functional group from an organic compound --
+a form of protein degradation
+* parenteral: bypassing the GI tract -- like administering a drug intravenously
+or via inhalation
