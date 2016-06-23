@@ -14,7 +14,9 @@ here are some notes:
 
 <!--more-->
 
-### unit one
+
+### unit one -- intro
+
 * Dec 1983 -- genzyme makes alglucerase, the first synthetically engineered beta-glucocerebrosidase,
 an enzyme that, when lacking, causes Gaucher's Disease
 * biologic medicines are quite broad according to the FDA --
@@ -49,6 +51,7 @@ monoclonal antibodies are 1.3k amino acids and 144k Daltons
   * 1952: there are 58k polio cases in the US -- Salk treats Polio with a mammalian-produced product
   * 1953: Watson, Crick and Franklin deduced the double helix structure of DNA
   * 1973: recombinant DNA tech (plasmid injection)
+  * the 70s: HGH was isolated from cadavers to treat growth deficiencies
   * the 80s: genzyme makes that Gaucher's enzyme..but it takes 20k placentas to treat 1 child / yr, wow..
   they soon looked into recombinant techniques
 * the steps of biomanufacturing:
@@ -56,3 +59,59 @@ monoclonal antibodies are 1.3k amino acids and 144k Daltons
   * upstream processing: reactor condition optimization
   * downstream processing: purification and recovery
   * fill and finish: adding other components to the active pure product to make a final drug
+
+
+### unit two -- protein structure and function
+
+* seven of the top-10 best selling drugs of 2013 (including the top-3) were protein drugs
+as opposed to small molecule drugs (aspirin, penicillin)
+  * the top three included humira (an immunosuppressant), enbrel (treats autoimmune diseases)
+  and remicade (another immunosuppressant) ..they're all for stuff like arthritis
+* small molecules are, compared to biolgic drugs..
+  * far easier to characterize
+  * far less targeted (where we're targeting DNA, RNA or receptor proteins)
+  or where we're accidentally affecting other pathways
+  (where the biologic drug is so complex that these consequences are unlikely)
+  * more stable -- less likely to be affected by, say, oxidation or deamidation,
+  processes that can alter a protein's folded structure and thus its function
+  * less likely to aggregate improperly
+  * administered orally, as opposed to protein drugs which typically must be given parenterally
+* biotherapeutic categories affect:
+  * enzymatic / regulatory activity (like insulin or erythropoietin)
+  * special targeting activity (like rituximab -- it targets B-cells for destruction,
+  a treatment for non-Hodgkin's lymphoma)
+  * protein vaccines (HPV, HepB and flu vaccines, for instance)
+* amino acids
+  * differentiated by side chains
+  * our DNA makes 20 different side chains
+  * some have charges which can form ionic bonds (lysine and glutamic acid, for instance)
+  * some have polar functional groups and can form hydrogen bonds
+  * most are neither charged nor are they polarized --
+  they are hydrophobic and thus typically make up the core of a protein's structure
+  * cysteine has a thiol group which can form very strong disulfide bonds
+  * proline's side chain is linked to the amine group in the main part of the amino acid,
+  kinking the structure
+* peptides come about through dipeptide bonds,
+  * < 40 amino acids makes a peptide, anything more is a protein
+* in the discussion about structure, there's a cool example involving insulin:
+  * typically produced and stored as a hexamer --
+  three dimers that join together via two zinc atoms
+  * but insulin is only active as a monomer, and it naturally forms dimers
+  * so insulin analogs have been engineered that reduce the dimerization
+* post-translational mods
+  * oxidation, reduction in the side chains
+  * proteins can be trimmed
+  * disulfide bonds can be formed
+  * they can tag and destroy mis-folded proteins or mediate other protein function
+* new molecules can be attached to the protein like in glycosolation --
+glycans are linear or branched polysaccharides.
+Half of human proteins are glycosolated
+and mammalian cell lines most closely reproduce glycosolation patterns found in a human
+* the Gaucher's Disease example was cool --
+they created a carbohydrate on an engineered enzyme
+that would trigger natural uptake by a macrophage
+* deamidation is a PTM to avoid, in this case Asparagine loses an amide --
+one example of deamidation they listed was fixed when the final product was stored in plastic rather than glass
+* acylation can, in insulin, adjust the release profile of the drug
+* PEGylation (polyethylene glycol addition) -- PEG polymers are added to biologics as a shield.
+They can prevent the immune system from clearing the drugs
