@@ -115,3 +115,25 @@ one example of deamidation they listed was fixed when the final product was stor
 * acylation can, in insulin, adjust the release profile of the drug
 * PEGylation (polyethylene glycol addition) -- PEG polymers are added to biologics as a shield.
 They can prevent the immune system from clearing the drugs
+
+*protein structure and function examples -- insulin*
+
+* they discuss engineered changes to insulin:
+  * "lispro" was an insulin variant that had Lys and Pro switched at the end of one chain --
+  this resulted in less dimerization and a release profile more similar to natural insulin
+  * it was found by looking at another molecule and wasn't a product of screening
+  * glargine developed to be a "long-lasting" insulin
+
+*protein structure and function examples -- antibodies*
+
+* five of the top ten best selling drugs of 2013 are antibody drugs
+  * some target cells for destruction, others make it so small molecules can't be used by the body,
+  others deliver radioactive or chemotoxic agents to cells,
+  some just block other receptors
+* IgG antibodies are about 150kDa
+  * y-shaped, they have two identical heavy chains and two identical heavy chains
+  * each chain has a constant domain and a variable domain --
+  in humans this is literally a random sequence of amino acids
+  * with PTMs, there are 100M possibilities for each antibody
+* an antibody's "glyco profile" is the library of glycosolation changes made to a single dose --
+it can have a big effect on safety and efficacy
