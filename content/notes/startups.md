@@ -56,3 +56,11 @@ I would of course want that to continue.
 
 I hope that, in my next venture, I'm able to foster an environment like the one described above,
 and come together with friends to make something inspiring, innovative and useful for the world at large.
+
+
+### other notes
+* [nice notes from Mike Maples](https://medium.com/@m2jr/beyond-lean-startups-pre-money-keynote-speech-from-6-22-16-11aa0257901b#.ifqk4psux)
+  * need to develop the power of proprietary tech, the product, the company and the category
+  * create a "WTF moment" for customers -- they should never go back to the old way of doing things
+  * nice note on empowering teams: they should control the deadline or the features -- mgmt should never control both
+
