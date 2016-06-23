@@ -50,7 +50,7 @@ $ git subtree pull --prefix themes/pasture git@github.com:yosemitebandit/pasture
 $ git subtree push --prefix themes/pasture git@github.com:yosemitebandit/pasture.git master --squash
 ```
 
-#### structure
+### structure
 
 It would be nice to view tags in two ways:
 the first typical way would just shows articles corresponding to that tag.
@@ -64,7 +64,11 @@ Then this could be more of a traditional blog where I'm just writing..
 So each article would be a "day" and the pages with meaningful names would be tags.
 
 
-#### others
+### others
 
 * 8th light has a nice looking set of articles
 * [this](http://robenkleene.github.io/2016/03/17/live-search/) is a nice blog
+
+
+### ideas
+* page that summarizes everytime I've typed "wow"
