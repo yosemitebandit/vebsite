@@ -14,3 +14,8 @@ various terms I've come across..
 * monoclonal antibodies: antibodies made from clones of a single B-cell,
 they will have a singular specificity to antigens
 * water polishing: removing microscopic particular matter or very low concentrations of dissolved material
+* hybridoma: created by injecting an antigen into a mouse,
+collecting the B-cells that make the target antibodies
+and then fusing it with a tumor cell to make the cell immortal
+* dalton: the weight of one proton or neutron, essentially --
+abbreviated `Da` or `u`, it is about 10^-27kg
