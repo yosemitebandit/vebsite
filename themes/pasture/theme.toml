@@ -8,4 +8,4 @@ features = ["blog", "technical", "personal"]
 
 [author]
     name = "Matt Ball"
-    homepage = "http://yosemitebandit.com"
+    homepage = "https://oakmachine.com"
