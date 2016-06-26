@@ -13,6 +13,8 @@ Looking for more about me?  Try..
 * [my github profile](https://github.com/yosemitebandit),
 * [goodreads](https://www.goodreads.com/user/show/5207178-matt-ball),
 * [last.fm](http://www.last.fm/user/post_haste),
+* [something portfolio-ish](/portfolio)
+(really just everything tagged with "projects"),
 * or search all these posts via [/all](/all)
 
 This site's made with [hugo](http://hugo.spf13.com)
