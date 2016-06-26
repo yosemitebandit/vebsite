@@ -31,8 +31,8 @@ anyway, on to KiCad..
   * create a schematic and add components, creating components when necessary
   * annotate components (giving them numbers like `R1`, `C3`),
   * ERC..
-  * select footprints for each component (a change from EAGLE that I like),
-  making footprints where necessary
+  * associate components -- select footprints for each component
+  (a change from EAGLE that I like), making footprints where necessary
   * make a netlist
   * make a PCB, reading the netlist
   * debug rule check..
@@ -44,9 +44,22 @@ anyway, on to KiCad..
 ### [Windsor Schmidt's 20min walkthrough video](https://www.youtube.com/watch?v=zK3rDhJqMu0)
 
 ### [Matthew Venn's five part series](https://www.youtube.com/watch?v=v-qCI8wv72w&list=PLmcDgdDpcaPjIBy60y22XzG036ckQI7bC)
+
+*part one - schematic*
+
 * hit `g` while hovering over a part and then `r` to rotate it in place in the schematic
 * `w` to run wires
 * can add "power flags" to indicate to KiCad that power will come in from elsewhere
+* when doing PCB layout, `view -> switch to OpenGL`, then `right click -> routing options`
+there are cool walk-around and shove routers --
+hard to rip wires in this mode though
+
+*part two - pcb layout*
+
+* `cmd + shift` to move things with finer control
+* draw board border in `edge cuts` layer
+
+*part three - changing the schematic*
 
 
 ### [Contextual Electronics has about 90min of video on KiCad](https://contextualelectronics.com/learning/getting-to-blinky-4-0/)
