@@ -2,7 +2,7 @@
 date = "2016-02-24T10:51:03-08:00"
 location = "Mountain View"
 tags = ["projects", "woodworking"]
-thumbnail = ""
+thumbnail = "/img/island-tabletop-planing-thumbnail.jpg"
 title = "kitchen stand"
 
 +++
@@ -64,3 +64,16 @@ seems like that's worth a try.
 
 * [maple kitchen stand](http://www.instructables.com/id/Butcher-Block-Kitchen-Prep-Station/?ALLSTEPS)
 * [clever countertop attachment method](http://www.instructables.com/id/DIY-Butcher-Block-Kitchen-Island/?ALLSTEPS)
+
+
+### several months later..
+
+I used oak + spruce + pine and apparently got a piece of beech too, according to George:
+
+![island tabletop dryfit](/img/island-tabletop-dryfit.jpg)
+
+me and Nora hand planed the top quite a bit..
+
+![island tabletop planing](/img/island-tabletop-planing.jpg)
+
+more touchups and planing to come!
