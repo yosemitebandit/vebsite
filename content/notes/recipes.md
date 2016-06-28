@@ -71,6 +71,12 @@ both left something to be desired..maybe should do more soups like the one my si
 really nice and fresh!
 * [guacamole with serrano peppers](http://www.simplyrecipes.com/recipes/perfect_guacamole/) --
 it's all about good avocados
+* artichoke dip -- we made this with mayo, cream cheese, canned artichokes, garlic, dill, salt and a few almonds (!)
+* [fresh ricotta](http://www.epicurious.com/recipes/food/views/fresh-homemade-ricotta-234282) --
+verdict is still out, but use a really big pot if you can
+* [mushroom + bacon pie](http://allrecipes.com/recipe/88086/mushroom-pie/) -- tasty and pretty straightforward
+* [puff pastry](http://www.dessertfortwo.com/15-minute-puff-pastry/) -- came out absurdly wet with all that water,
+but eventually worked out ok..I think
 
 
 #### things that look interesting
