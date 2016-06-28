@@ -33,7 +33,7 @@ monoclonal antibodies are 1.3k amino acids and 144k Daltons
 * some history:
   * ~7000BC: a pot from China was used to make something like wine..cool
   * the 1850s: Pasteur characterized the activity of yeast and bacteria in distillery equipment in Lille
-  * 1894: antibody therapy was inadverntely created with a diphtheria treatment
+  * 1894: antibody therapy was inadvertently created with a diphtheria treatment
   involving a "serum" from guinea pigs that had been infected with a heat-inactivated bacteria --
   later horses were used to increase production
   (anti-toxins and anti-venoms are still made in horses and other animals --
