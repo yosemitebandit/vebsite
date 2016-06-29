@@ -37,6 +37,23 @@ and could be administered intranasally as a prophylactic or therapeutic
   but they found their protein worked so well that Fc-FcγR wasn't as important
 
 
+*aside on yeast display*
+
+* a technique to "engineer the affinity, specificity and stability of antibodies,"
+according to [openwetware.org](http://openwetware.org/images/8/8d/Yeast_surface_display.pdf)
+* a protein of interest is displayed on the surface of yeast cells
+as a fusion of a transmembrane protein, Aga2p
+  * the target protein, because of this fusion, is held kind of at "arm's length" from the cell,
+  minimizing potential interactions with the yeast itself
+* you can then add potential ligands, themselves complexed with flourescent and / or magnetic substances,
+and see which yeast bind to the ligands
+  * flourescing additives allow quantification
+  * and magnetic beads can be used for separation
+* you've presumably done this in a yeast library with ~10^8 variants
+(clones, but for some randomly mutated sequence),
+so you can extract the yeast that bound with high affinity, sequence it, and make your protein of interest
+
+
 *their methods*
 
 ...
