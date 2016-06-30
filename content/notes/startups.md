@@ -13,7 +13,7 @@ I've loved working on small teams throughout school, in hackathons and in the wo
 Little teams let me take on many roles and explore lots of different things,
 from [hardware](/perkinsense)
 to [the web](/endaga)
-to [product design](/wing),
+to [product design](/project-wing),
 [ux](/aquaya)
 and [even sales I guess](/redwood-cloud)!
 I really like the opportunity to see a product,
