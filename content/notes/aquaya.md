@@ -2,7 +2,7 @@
 date = "2013-02-18T13:00:00-08:00"
 thumbnail = ""
 title = "Aquaya"
-location = ""
+location = "San Francisco"
 tags = ["werk", "drafts"]
 
 +++

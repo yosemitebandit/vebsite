@@ -1,9 +1,9 @@
 +++
 date = "2016-06-14T15:58:46-07:00"
-location = ""
+location = "Mountain View"
 tags = ["projects"]
 thumbnail = ""
-title = "trashtalk api"
+title = "the trashtalk API"
 
 +++
 

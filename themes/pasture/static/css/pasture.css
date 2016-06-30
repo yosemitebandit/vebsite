@@ -130,3 +130,9 @@ li ul li ul {
 .portfolio-header {
   margin: 20px 0 30px;
 }
+
+@media print {
+  .pagebreak-after {
+    page-break-after: always;
+  }
+}

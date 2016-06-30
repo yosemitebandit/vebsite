@@ -1,9 +1,9 @@
 +++
 date = "2015-10-04T10:39:30-08:00"
 location = "Oakland"
-tags = ["werk"]
+tags = ["werk", "hardware"]
 thumbnail = ""
-title = "endaga"
+title = "Endaga"
 
 +++
 

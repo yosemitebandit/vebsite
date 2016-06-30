@@ -3,22 +3,140 @@
   {{ partial "head.html" . }}
 
   <div class="content">
-    <div class="posts">
+    <div class="posts pagebreak-after">
+      <p>
+        {{ .Content }}
+      </p>
+    </div>
 
-      <div class="portfolio-header">
-        <h2>Matt Ball &mdash; oakmachine.com</h2>
-      </div>
+    <div class="posts pagebreak-after">
+      <h3>Contents</h3>
 
+      <i>past work</i>
+      <ul>
+        <li>Endaga &mdash; 3</li>
+        <li>Project Wing &mdash; 4</li>
+        <li>Aquaya &mdash; 5</li>
+      </ul>
+
+      <i>software</i>
+      <ul>
+        <li>setbot &mdash; 5</li>
+        <li>the trashtalk API &mdash; 5</li>
+      </ul>
+
+      <i>hackathons</i>
+      <ul>
+        <li>redream &mdash; 5</li>
+        <li>doubleyou &mdash; 5</li>
+        <li>MEDuele &mdash; 5</li>
+      </ul>
+
+      <i>hardware</i>
+      <ul>
+        <li>DuTrack &mdash; 5</li>
+        <li>Perkinsense &mdash; 5</li>
+        <li>rainwater harvesting &mdash; 5</li>
+        <li>Community garden &mdash; 5</li>
+      </ul>
+    </div>
+
+
+    <div class="posts pagebreak-after">
       {{ range .Site.Pages }}
-        {{ if not (isset .Params "menu") }}
-          {{ if in .Params.tags "projects" }}
-            {{ if not (in .Params.tags "drafts") }}
-              {{ partial "single-article.html" . }}
-            {{ end }}
-          {{ end }}
+        {{ if eq .Title "Endaga" }}
+          {{ partial "single-article.html" . }}
         {{ end }}
       {{ end }}
-
     </div>
+
+    <div class="posts pagebreak-after">
+      {{ range .Site.Pages }}
+        {{ if eq .Title "Project Wing" }}
+          {{ partial "single-article.html" . }}
+        {{ end }}
+      {{ end }}
+    </div>
+
+    <div class="posts pagebreak-after">
+      {{ range .Site.Pages }}
+        {{ if eq .Title "Aquaya" }}
+          {{ partial "single-article.html" . }}
+        {{ end }}
+      {{ end }}
+    </div>
+
+    <div class="posts pagebreak-after">
+      {{ range .Site.Pages }}
+        {{ if eq .Title "setbot" }}
+          {{ partial "single-article.html" . }}
+        {{ end }}
+      {{ end }}
+    </div>
+
+    <div class="posts pagebreak-after">
+      {{ range .Site.Pages }}
+        {{ if eq .Title "the trashtalk API" }}
+          {{ partial "single-article.html" . }}
+        {{ end }}
+      {{ end }}
+    </div>
+
+    <div class="posts pagebreak-after">
+      {{ range .Site.Pages }}
+        {{ if eq .Title "redream" }}
+          {{ partial "single-article.html" . }}
+        {{ end }}
+      {{ end }}
+    </div>
+
+    <div class="posts pagebreak-after">
+      {{ range .Site.Pages }}
+        {{ if eq .Title "doubleyou" }}
+          {{ partial "single-article.html" . }}
+        {{ end }}
+      {{ end }}
+    </div>
+
+    <div class="posts pagebreak-after">
+      {{ range .Site.Pages }}
+        {{ if eq .Title "MEDuele" }}
+          {{ partial "single-article.html" . }}
+        {{ end }}
+      {{ end }}
+    </div>
+
+    <div class="posts pagebreak-after">
+      {{ range .Site.Pages }}
+        {{ if eq .Title "DuTrack" }}
+          {{ partial "single-article.html" . }}
+        {{ end }}
+      {{ end }}
+    </div>
+
+    <div class="posts pagebreak-after">
+      {{ range .Site.Pages }}
+        {{ if eq .Title "Perkinsense" }}
+          {{ partial "single-article.html" . }}
+        {{ end }}
+      {{ end }}
+    </div>
+
+    <div class="posts pagebreak-after">
+      {{ range .Site.Pages }}
+        {{ if eq .Title "rainwater harvesting" }}
+          {{ partial "single-article.html" . }}
+        {{ end }}
+      {{ end }}
+    </div>
+
+    <div class="posts pagebreak-after">
+      {{ range .Site.Pages }}
+        {{ if eq .Title "Duke community garden" }}
+          {{ partial "single-article.html" . }}
+        {{ end }}
+      {{ end }}
+    </div>
+
   </div>
 </html>
