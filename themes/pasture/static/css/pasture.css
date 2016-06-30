@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
   margin-bottom: 15px;
 }
 
-h1, h2, h3, h4, h5, h6, p, li, span, a, pre, td, th {
+h1, h2, h3, h4, h5, h6, p, li, span, a, pre, td, th, i {
   font-weight: 200;
 }
 
@@ -127,6 +127,8 @@ li ul li ul {
   margin-bottom: 0px;
 }
 
+/* portfolio stuff
+*/
 .portfolio-header {
   margin: 20px 0 30px;
 }
@@ -134,5 +136,11 @@ li ul li ul {
 @media print {
   .pagebreak-after {
     page-break-after: always;
+  }
+}
+
+@media screen {
+  .pagebreak-after {
+    margin-bottom: 120px;
   }
 }
