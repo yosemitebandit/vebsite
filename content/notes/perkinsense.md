@@ -3,7 +3,7 @@ date = "2010-06-03T11:20:52-08:00"
 location = "Durham"
 tags = ["python", "js", "projects", "favorites"]
 thumbnail = "/img/perkinsense-thumbnail.png"
-title = "perkinsense"
+title = "Perkinsense"
 
 +++
 
