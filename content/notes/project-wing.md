@@ -3,7 +3,7 @@ date = "2014-01-15T14:27:24-07:00"
 location = "Mountain View"
 tags = ["projects", "favorites", "hardware", "travels", "werk", "drafts"]
 thumbnail = "/img/wing-thumbnail.jpg"
-title = "wing"
+title = "Project Wing"
 
 +++
 
