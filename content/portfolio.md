@@ -26,4 +26,4 @@ If you have any questions or ideas or would like to collaborate on something, le
 
 * matt.ball.2@gmail.com
 * 650 690 6913
-* [oakmachine.com](https://oakmachine.com)
+* [oakmachine.com/portfolio](/portfolio)
