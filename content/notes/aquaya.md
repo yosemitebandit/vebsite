@@ -32,7 +32,7 @@ many of the old school phones we were trying to work with couldn't support Khmer
 so the text on their data collection apps had to be in English.
 Many operators just memorized the positions of responses,
 but this was clearly not ideal..
-I worked on [IVRHub](/ivrhub) to try to enable voice-baesd questions and responses,
+I worked on [IVRHub](/ivrhub) to try to enable voice-based questions and responses,
 but we sadly never tested it.
 
 We later worked more with our partners in Vietnam (HueWaco) and Mozambique (UNICEF)
