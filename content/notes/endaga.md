@@ -14,6 +14,8 @@ and use our cloud services to become the "Verizon" of their area.
 They could buy SIM cards and sell service to people in their community.
 Our system allowed operators to set their own prices for calls and SMS and,
 (eventually) data -- we provided something 2.5G-ish, with really slow GPRS-based data.
+[This paper (pdf)](/misc/small-scale-cell-networks.pdf)
+provides a lot of detail about the network and its operation.
 
 <!--more-->
 
