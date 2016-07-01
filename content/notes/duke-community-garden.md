@@ -2,7 +2,7 @@
 date = "2008-10-24T14:19:12-08:00"
 location = "Durham"
 tags = ["projects", "favorites", "woodworking"]
-thumbnail = "/img/dcg-from-above-thumbnail.jpg"
+thumbnail = "/img/dcg-moving-beds-thumbnail.png"
 title = "Duke community garden"
 
 +++
