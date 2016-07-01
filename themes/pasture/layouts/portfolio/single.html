@@ -10,7 +10,7 @@
     </div>
 
     <div class="posts pagebreak-after">
-      <h3>Contents</h3>
+      <h3>contents</h3>
 
       <i>past work</i>
       <ul>
@@ -39,8 +39,20 @@
         <li>rainwater harvesting &mdash; 5</li>
         <li>Duke community garden &mdash; 5</li>
       </ul>
+
+      <i>grab bag!</i>
+      <ul>
+        <li>stravanova &mdash; 5</li>
+        <li>erik the wall-plotter &mdash; 5</li>
+        <li>trebuchets &mdash; 5</li>
+        <li>jatropha &mdash; 5</li>
+        <li>the prism, ultimater version &mdash; 5</li>
+        <li>biomass charcoal &mdash; 5</li>
+      </ul>
     </div>
 
+
+    <h3><i>past work</i></h3>
 
     <div class="posts pagebreak-after">
       {{ range .Site.Pages }}
@@ -66,6 +78,9 @@
       {{ end }}
     </div>
 
+
+    <h3><i>software</i></h3>
+
     <div class="posts pagebreak-after">
       {{ range .Site.Pages }}
         {{ if eq .Title "setbot" }}
@@ -81,6 +96,9 @@
         {{ end }}
       {{ end }}
     </div>
+
+
+    <h3><i>hackathons</i></h3>
 
     <div class="posts pagebreak-after">
       {{ range .Site.Pages }}
@@ -105,6 +123,9 @@
         {{ end }}
       {{ end }}
     </div>
+
+
+    <h3><i>hardware</i></h3>
 
     <div class="posts pagebreak-after">
       {{ range .Site.Pages }}
@@ -134,6 +155,57 @@
       {{ range .Site.Pages }}
         {{ if eq .Title "Duke community garden" }}
           {{ partial "single-article.html" . }}
+        {{ end }}
+      {{ end }}
+    </div>
+
+
+    <h3><i>grab bag!</i></h3>
+
+    <div class="posts">
+      {{ range .Site.Pages }}
+        {{ if eq .Title "stravanova" }}
+          {{ partial "single-article-blurb.html" . }}
+        {{ end }}
+      {{ end }}
+    </div>
+
+    <div class="posts">
+      {{ range .Site.Pages }}
+        {{ if eq .Title "erik the wall-plotter" }}
+          {{ partial "single-article-blurb.html" . }}
+        {{ end }}
+      {{ end }}
+    </div>
+
+    <div class="posts">
+      {{ range .Site.Pages }}
+        {{ if eq .Title "trebuchet" }}
+          {{ partial "single-article-blurb.html" . }}
+        {{ end }}
+      {{ end }}
+    </div>
+
+    <div class="posts">
+      {{ range .Site.Pages }}
+        {{ if eq .Title "jatropha" }}
+          {{ partial "single-article-blurb.html" . }}
+        {{ end }}
+      {{ end }}
+    </div>
+
+    <div class="posts">
+      {{ range .Site.Pages }}
+        {{ if eq .Title "the prism, ultimater version" }}
+          {{ partial "single-article-blurb.html" . }}
+        {{ end }}
+      {{ end }}
+    </div>
+
+    <div class="posts">
+      {{ range .Site.Pages }}
+        {{ if eq .Title "biomass charcoal" }}
+          {{ partial "single-article-blurb.html" . }}
         {{ end }}
       {{ end }}
     </div>
