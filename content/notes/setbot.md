@@ -7,7 +7,7 @@ title = "setbot"
 
 +++
 
-I've been working on a computer vision system that can play the card game set.
+I've been working on a computer vision system that can play the card game Set.
 It recently beat a human!  (Though it was a close game..)
 If you just want to read more about the pipeline and see the code,
 the [github repo is here](https://github.com/yosemitebandit/setbot).

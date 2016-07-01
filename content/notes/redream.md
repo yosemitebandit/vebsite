@@ -16,7 +16,7 @@ We used to tweet out all the dreams on [`@redream_us`](https://twitter.com/redre
 but we no longer have the redream.us domain, and the compilations were rendered client side,
 so the montages are lost to time :(
 
-We applied some really simple NLP techniques to find keywords in the dreams people described,
+We applied some really simple natural language processing techniques to find keywords in the dreams people described,
 and we pulled clips based on those keywords from Vimeo and the Prelinger Archive.
 The videos were spliced together on the site and kind of time-shifted,
 so the dream would seem to loop, but they'd be subtly different each time.
