@@ -9,7 +9,7 @@ location = "Berkeley"
 
 After building [MEDuele](https://github.com/yosemitebandit/meduele) in 2011,
 I returned to the [Cal Health Hackathon](http://blogs.ischool.berkeley.edu/hackinghealth/)
-to work with [Stephanie](http://stephjang.com/), [Patrick](http://stanford.edu/~ppye/),
+to work with [Steph](http://stephjang.com/), [Patrick](http://stanford.edu/~ppye/),
 [Cyrus](http://www.cyrusstoller.com/), [Jas](http://www.iamjasdeep.com/) and Kristen on another idea.
 
 <!--more-->
@@ -27,7 +27,7 @@ This 'DoubleYou' would be an easy way for a child to understand
 his or her progress towards fitness and dietary goals.
 
 The site we demoed was at mydoubleyou.org but we no longer maintain that domain.
-Stephanie built some great avatars that react to parameters like fitness and mood.
+Steph built some great avatars that react to parameters like fitness and mood.
 I helped build the backend, crunch the sample data and setup an API for the avatars to consume.
 The code is [on github](https://github.com/yosemitebandit/doubleyou).
 And we ended up taking second place, woo!
