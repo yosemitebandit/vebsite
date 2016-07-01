@@ -26,11 +26,11 @@ Below is an early delivery prototype.
 
 ![the egg prototype](/img/egg-prototype.png)
 
-I also worked on the systems ESCs -- the electronic speed controllers convert control signals
+I also worked on the system's ESCs -- the electronic speed controllers convert control signals
 into three phase power to drive a single brushless motor.
 Our vehicle had four of these components per vehicle and, for a few months,
 it felt like we'd lose an ESC on just about every flight.
-We were using an off-the-shelf component and unfortunately we were uncovering some firmware bugs..
+We were using an off-the-shelf component and unfortunately we were uncovering some firmware bugs.
 I built a test rig to replay control data from our logs onto a benchtop ESC,
 and eventually I could show that a specific sequence of control commands could
 put the ESC into a faulty state.
