@@ -48,6 +48,8 @@ We also just generally struggled in our communication with the local partner gro
 That was the biggest lesson: talk to the local group as often as possible,
 there really can't be enough need-finding.
 
+![RWH tank complete](/img/rwh-tank-complete.jpg)
+
 This was an incredible trip though,
 I ended up back in Uganda the next year and expect I'll be there again at some point.
 More pictures from the people we met and our work
