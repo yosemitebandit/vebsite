@@ -23,7 +23,8 @@ that was trained on about 200k cards -- the classifier reports the cards charact
 * once the board is understood, we pick three card combos and check to see if they are sets
 * all identified sets have an attached probability
 (based on the classifier's confidence in card-identification),
-so, in the typical gameplay mode, it outputs only the "most likely" set.
+so, in the typical gameplay mode, it outputs only the "most likely" set,
+for example:
 
 ![gameplay window](/img/setbot-game.png)
 
@@ -32,7 +33,7 @@ so, in the typical gameplay mode, it outputs only the "most likely" set.
 * I converted the webcam image to [HSV space](https://en.wikipedia.org/wiki/HSL_and_HSV)
 and set thresholding ranges to find bright white contours --
 I tried HSL but had no luck for..reasons I can't remember
-* [this post](http://arnab.org/blog/so-i-suck-24-automating-card-games-using-opencv-and-python)
+* [this post on playing 24](http://arnab.org/blog/so-i-suck-24-automating-card-games-using-opencv-and-python)
 was very helpful -- I used a lot of similar techniques
 
 
@@ -46,8 +47,9 @@ The full model image is [here](/img/setbot-model.png)
 * I found some weird inconsistencies with keras -- increasing the size of the validation set
 would make my model stop converging during training..which makes no sense.
 So I think there is some weird instability there -- I'll probably look to vanilla tensorflow from now on.
+Though keras was rapidly getting updates as I was using it, so it may be fine now.
 * the keras-based code is [here](https://github.com/yosemitebandit/setbot/blob/master/cnn_with_generator.py)
-* I trained on an 8 core digital ocean box (CPU only) --
+* I trained on an 8 core digital ocean box (CPU only, unfortunately) --
 though once I started using a generator to feed in the training batches,
 I was only using about 4GB of memory so I could've downgraded
 
