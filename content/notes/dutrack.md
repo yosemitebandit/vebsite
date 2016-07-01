@@ -2,7 +2,7 @@
 date = "2010-02-03T11:20:56-08:00"
 location = "Durham"
 tags = ["python", "js", "projects", "favorites"]
-thumbnail = "/img/dutrack-thumbnail.jpg"
+thumbnail = "/img/opengts-screenshot-thumbnail.png"
 title = "DuTrack"
 
 +++
