@@ -8,12 +8,14 @@ title = "Duke community garden"
 +++
 
 I loved working at the garden --
-we built raised beds, a hoop house, a shed, a bat box, bluebird houses, compost bins
-and an experimental rainwater harvesting system.
+I got to design and build raised beds, a hoop house, a shed, a bat box,
+bluebird houses, compost bins and an experimental rainwater harvesting system.
 I surveyed the site and helped work with volunteers at other area gardens too
 (like the excellent Durham group [SEEDS](http://www.seedsnc.org/)).
 
 <!--more-->
+
+Here's the garden's north half:
 
 ![DCG from above](/img/dcg-from-above.jpg)
 
