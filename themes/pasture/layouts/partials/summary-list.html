@@ -3,34 +3,7 @@
 
     {{ if not (isset .Params "menu") }}
 
-      <div class="post">
-        {{ if .Params.thumbnail }}
-          <a href="{{ .Permalink }}">
-            <img class="post-thumbnail" src="{{ .Params.thumbnail }}" />
-          </a>
-        {{ end }}
-
-        <h2 class="post-title">
-          <a href="{{ .Permalink }}">&sup; {{ .Title }}</a>
-        </h2>
-
-        <span class="post-date">
-          {{ .Date.Format "Jan 2, 2006" }}
-          {{ if .Params.location }}
-            &middot; {{ .Params.location }}
-          {{ end }}
-          {{ partial "tag-list.html" . }}
-        </span>
-
-
-        <div class='article-text'>
-          <p>{{ .Render "summary" }}</p>
-        </div>
-
-        {{ if .Truncated }}
-          <a href="{{ .Permalink }}">more &gtcc;</a>
-        {{ end }}
-      </div>
+      {{ partial "single-article-blurb.html" . }}
 
     {{ end }}
 
