@@ -22,6 +22,9 @@ The idea was to hover about 10m over the delivery area and,
 via a retractable cable, lower the payload to the ground in a controlled manner.
 This worked quite well in that it was accurate and kept people away from the propellors.
 It did make for some awesome crashes though ..we had a great crash reel (:
+Below is an early delivery prototype.
+
+![the egg prototype](/img/egg-prototype.png)
 
 I also worked on the systems ESCs -- the electronic speed controllers convert control signals
 into three phase power to drive a single brushless motor.
@@ -34,13 +37,13 @@ put the ESC into a faulty state.
 We worked with the vendor to fix this, and also explored making our own ESCs in-house.
 (Turns one of the first engineers on Google Maps is also an ESC expert!)
 
-![wing vehicles](/img/wing-vehicles.png)
-
 GPS was another fun area to troubleshoot --
 we had bought some pretty high end gear with dedicated antennas on each vehicle,
 but comms interference and even interference from the flight computer caused lots of problems.
 It was interesting to think of alternative ways to localize the vehicle during flight,
 and I had a good time building other prototypes to explore things like differential GPS.
+
+![wing vehicles](/img/wing-vehicles.png)
 
 I worked on a pair of simulators too:
 the first tried to emulate the dynamics of our vehicle in the flight sim software, XPlane.
