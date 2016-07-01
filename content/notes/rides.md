@@ -13,7 +13,7 @@ memories of past rides, and places I'd like to go someday..
 
 ### 2016
 
-* `Henry Coe State Park` -- an overnight ride in the rain..not my best idea
+* Henry Coe State Park -- an overnight ride in the rain..not my best idea
 
 ![henry coe](/img/bike-at-henry-coe.jpg)
 
@@ -63,6 +63,8 @@ memories of past rides, and places I'd like to go someday..
 * Pacifica solo and again with D. Moss (or were we elsewhere?)
 * hawk hill x 5 (or maybe just four)
 * one way to Sacramento-ish to hang out with D. Moss and eat all the figs and acorns in his yard
+
+![near Mt Tam](/img/near-mt-tam.jpg)
 
 
 ### 2011

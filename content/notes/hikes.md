@@ -6,6 +6,8 @@ title = "hikes"
 
 +++
 
+![near Lake Margaret](/img/near-lake-margaret.jpg)
+
 #### hikes I'd like to check out
 
 * Uvas Canyon
