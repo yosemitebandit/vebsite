@@ -23,9 +23,10 @@ but we wanted to do more than just create a typical dashboard of charts..
 So we began thinking about how this might be presented to a child.
 We came up with a [Tamagotchi-like](http://en.wikipedia.org/wiki/Tamagotchi) system --
 an online avatar would represent the data coming from the armband and other sources.
-This 'DoubleYou' would be an easy way for a child to understand his progress towards fitness or dietary goals.
+This 'DoubleYou' would be an easy way for a child to understand
+his or her progress towards fitness and dietary goals.
 
-The site we demoed is at [mydoubleyou.org](http://mydoubleyou.org).
+The site we demoed was at mydoubleyou.org but we no longer maintain that domain.
 Stephanie built some great avatars that react to parameters like fitness and mood.
 I helped build the backend, crunch the sample data and setup an API for the avatars to consume.
 The code is [on github](https://github.com/yosemitebandit/doubleyou).
