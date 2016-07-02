@@ -13,4 +13,7 @@ My friends [Ben](http://benjaminreinhardt.com) and Jen and I made this at NCSSM 
 
 ![trebuchet firing](/img/trebuchet-firing.jpg)
 
-It's also [on instructables!](http://www.instructables.com/id/Trebuchet-of-the-large-variety-a-work-in-progress/)
+It's [on instructables!](http://www.instructables.com/id/Trebuchet-of-the-large-variety-a-work-in-progress/)
+And Ben posted a video:
+
+{{% youtube ScBBxa8Eg0s %}}
