@@ -13,15 +13,15 @@ I lived and worked for three weeks in rural Uganda with friends from the States
 and with our hosts from the Central Buganda University.
 An assessment team had visited the community in 2006 and, working with CBU,
 determined that clean water access was an area where we could lend a hand.
-That group decided rainwater harvesting and a small handwashing campaign was the way to go.
+That group decided rainwater harvesting and a small hand washing campaign was the way to go.
 
 <!--more-->
 
-Back stateside, I joined on and started conducting some rainwater harvesting simulations
-based on the size of the communities, some info on the catchment buildings and weather data for the area.
+Back stateside, I started conducting some rainwater harvesting simulations
+based on the size of the communities, some info on the catchment buildings and weather data from the area.
 This gave us estimates of supply and demand which we used to size several rainwater harvesting tanks
-(Uganda has one and sometimes two rainy seasons so the goal
-was to store enough water to get people through the dry spells).
+(Uganda has one and sometimes two rainy seasons.
+Our goal was to store enough water to get people through the dry spells).
 
 I got picked for the travel team
 and jumped in to the literature on the construction
@@ -37,11 +37,11 @@ Rebar and a wire mesh made up the roof. Here we are, just prior to pouring the s
 So we ended up with one finished tank that continues to function to the present day (woo!).
 And my friend Patrick and I became pretty good friends with Kenneth,
 a really nice guy that has gone on to do interesting things all over Uganda.
-There were some, uh, sticking points though that I should probably note.. so in no particular order:
+There were some, uh, challenges that I should probably note.. so in no particular order:
 
 The tiny community of Kasaka already had a handful of rainwater harvesting tanks in various states of disrepair,
 which made me wonder why our team was building another one.
-For the sake of "experiential learning" I was told
+For the sake of "experiential learning," I was told
 to disregard Warwick's published methods for building a concrete tank and create my own.
 It was clear the Ugandans we worked with knew how to build these things and our formwork method was atypical.
 We also just generally struggled in our communication with the local partner group.

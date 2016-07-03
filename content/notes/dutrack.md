@@ -8,16 +8,16 @@ title = "DuTrack"
 +++
 
 I leveraged the [OpenGTS project](http://www.opengts.org/)
-to bring create a low-cost bus-tracking system to my school when I was a senior.
-For about $150 per year, you can have an unlimited data plan on some really cheap GPS-enabled cell phones.
-The OpenGTS project has a small client app that runs on the phones
-and transmits position data back to the OpenGTS server,
-which I initially ran on a small desktop in the [Smarthome](http://smarthome.duke.edu).
+to create a low-cost bus-tracking system to Duke University when I was a senior.
+For about $150 per year, you can buy an unlimited data plan on some really cheap GPS-enabled cell phones.
+The OpenGTS project uses a small client app running on the phones
+to transmit position data back to the OpenGTS server,
+which I initially ran on a small desktop in [my dorm](http://smarthome.duke.edu).
 
 <!--more-->
 
-I installed ~30 trackers to cover the whole fleet --
-a mechanic was nice enough to connect the trackers to each bus's electrical system so they could stay on.
+I installed ~30 trackers to cover the whole fleet.
+A mechanic was nice enough to connect the trackers to each bus's electrical system so they could stay on.
 I then modified the OpenGTS backend source to greatly increase the update rate so it would send coordinates about every 5s.
 
 ![dutrack screenshot](/img/dutrack-alpha.jpg)

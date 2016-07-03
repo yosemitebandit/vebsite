@@ -7,10 +7,10 @@ title = "Perkinsense"
 
 +++
 
-I designed and built some room occupancy sensors for the Perkins library at Duke when I was a senior.
-The study rooms there are extremely popular and spread over four floors --
+I designed and built room occupancy sensors for the Perkins library at Duke while I was a senior.
+The study rooms in the library were extremely popular and spread over four floors --
 this project helped people find ones that were unoccupied.
-Battery-powered and running on 8-bit AVRs, they used a rather fickle WiFi module called the 'WiFly.'
+Battery-powered and running on 8-bit AVRs, the sensors used a rather fickle WiFi module called the 'WiFly.'
 
 This was one of my first web projects -- the backend was, uh, interesting.
 But there was a very basic web interface that showed the status of the ~20 rooms.
