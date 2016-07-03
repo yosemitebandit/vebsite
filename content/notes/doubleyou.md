@@ -18,7 +18,7 @@ One of the hackathon's challenges was to build something
 that encourages the use of a bodymedia fitness tracker armband.
 These are wearable sensors that log heartrate and accelerometer readouts (footsteps) throughout a normal day.
 We also had a sample dataset from the armband
-but we wanted to do more than just create a typical dashboard of charts..
+but we wanted to do more than just create a typical dashboard of charts.
 
 So we began thinking about how this might be presented to a child.
 We came up with a [Tamagotchi-like](http://en.wikipedia.org/wiki/Tamagotchi) system --

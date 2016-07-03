@@ -9,7 +9,7 @@ title = "setbot"
 
 I've been working on a computer vision system that can play the card game Set.
 It recently beat a human!  (Though it was a close game..)
-If you just want to read more about the pipeline and see the code,
+If you want to read more about the pipeline and see the code,
 the [github repo is here](https://github.com/yosemitebandit/setbot).
 
 <!--more-->
@@ -20,10 +20,10 @@ the [github repo is here](https://github.com/yosemitebandit/setbot).
 * a "white isolation" technique finds all the cards
 * each card is sent to a keras-based convolutional neural network
 that was trained on about 200k cards -- the classifier reports the cards characteristics
-* once the board is understood, we pick three card combos and check to see if they are sets
+* once the board is understood, setbot picks three card combos and checks if they are sets
 * all identified sets have an attached probability
 (based on the classifier's confidence in card-identification),
-so, in the typical gameplay mode, it outputs only the "most likely" set,
+so, in the typical game play mode, it outputs only the "most likely" set,
 for example:
 
 ![gameplay window](/img/setbot-game.png)
@@ -32,7 +32,7 @@ for example:
 #### image recognition with OpenCV
 * I converted the webcam image to [HSV space](https://en.wikipedia.org/wiki/HSL_and_HSV)
 and set thresholding ranges to find bright white contours --
-I tried HSL but had no luck for..reasons I can't remember
+I tried HSL but had no luck for reasons I can't remember
 * [this post on playing 24](http://arnab.org/blog/so-i-suck-24-automating-card-games-using-opencv-and-python)
 was very helpful -- I used a lot of similar techniques
 

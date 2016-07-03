@@ -26,11 +26,11 @@ A screenshot of the webapp is below:
 
 ![meduele screenshot](/img/meduele-screenshot.png)
 
-Of course there would be a lot of concerns around patient privacy and PII --
-thankfully this was just a hackathon / POC and we didn't have to delve into that..
+Of course there would be a lot of valid concerns around a patient's private information --
+thankfully this was just a hackathon / proof of concept, and we didn't have to delve into that.
 But we did get some good feedback from the experts on the judging panel,
-they found it interesting and not necessarily untenable.
+they found it interesting and encouraged us to pursue it as a company.
 
-The source for the site is all [on github](https://github.com/yosemitebandit/meduele)
+The source for the site is [on github](https://github.com/yosemitebandit/meduele)
 and there's a short demo video of the site in action [here on youtube](https://www.youtube.com/watch?v=q_gSaW4sj6I).
 (Alas, I recently let go of the callmeduele.org domain.)
