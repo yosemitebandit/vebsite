@@ -7,5 +7,5 @@ title = "microbioreactors"
 
 +++
 
-I've been reading [this 2013 thesis on microbioreactors](/Users/matt/Downloads/862072383-MIT.pdf),
+I've been reading [this 2013 thesis on microbioreactors](/static/goh-microbioreactor-design.pdf),
 published by Shireen Goh as her PhD work at MIT.
