@@ -82,6 +82,8 @@ verdict is still out, but use a really big pot if you can
 * [mushroom + bacon pie](http://allrecipes.com/recipe/88086/mushroom-pie/) -- tasty and pretty straightforward
 * [puff pastry](http://www.dessertfortwo.com/15-minute-puff-pastry/) -- came out absurdly wet with all that water,
 but eventually worked out ok..I think
+* [sweet potato hash](http://www.foodnetwork.com/recipes/patrick-and-gina-neely/sweet-potato-hash-recipe.html) --
+kinda tasteless :(  ..I have a hard time getting veggies crispy in the frying pan though, that would've helped
 
 
 ### things that look interesting
