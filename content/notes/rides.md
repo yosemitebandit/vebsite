@@ -17,6 +17,8 @@ memories of past rides, and places I'd like to go someday..
 
 ![henry coe](/img/bike-at-henry-coe.jpg)
 
+* Acadia NP carriage trails and surrounding Mt. Desert Isle roads
+
 
 ### 2015
 
