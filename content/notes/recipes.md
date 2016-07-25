@@ -84,6 +84,8 @@ verdict is still out, but use a really big pot if you can
 but eventually worked out ok..I think
 * [sweet potato hash](http://www.foodnetwork.com/recipes/patrick-and-gina-neely/sweet-potato-hash-recipe.html) --
 kinda tasteless :(  ..I have a hard time getting veggies crispy in the frying pan though, that would've helped
+* [korean beef lettuce wraps](http://cooking.nytimes.com/recipes/1014079-korean-grilled-beef-lettuce-wraps) --
+not bad!  prolly should've marinated for more than 30mins..
 
 
 ### things that look interesting
