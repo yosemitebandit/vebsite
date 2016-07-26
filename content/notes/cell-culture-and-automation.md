@@ -52,6 +52,14 @@ conditions that will yield biologically active protein in sufficient quantity to
 * they got about 1.7mg purified protein per well
 
 
+NextGenSciences also made a [protein purification system](http://www.iptonline.com/articles/public/NextGenSciences.pdf)
+
+* developed around 2003, the company appears to be defunct
+* they wanted to sub-clone, express and purify "hundreds of proteins in parallel,"
+while also exploring cell growth conditions and purification strategies
+* LIMS with a web client (!)
+
+
 Another whitepaper on a [bespoke automated shake flask system tested by DSM and Presens (2013)](http://www.genengnews.com/gen-articles/shake-flask-feedback-controlled-feeding/4810/)
 
 * PreSens chemical optical sensors
