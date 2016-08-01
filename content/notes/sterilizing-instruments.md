@@ -39,6 +39,7 @@ reading about various ways to clean probes and instruments --
 * kills bacteria, spores, viruses, yeast and other fungi -- also very hazardous to humans
 * explosive at concentrations above 3%
 * very strict OSHA reqs around EtO's use -- if you can smell it, you've had a hazardous dose
+* it can permeate some plastics so you can actually bag your equipment before sterilizing it
 
 
 *nitrogen dioxide*
