@@ -63,6 +63,7 @@ reading about various ways to clean probes and instruments --
 
 * 22 hrs+ of immersion
 * short shelf lives (<2 weeks) and expensive
+  * [$60 / gallon at fishersci](https://www.fishersci.com/shop/products/contec-sporicidin-sterilizing-high-level-disinfecting-solution-3/p-3829034#tab1)
 * volatile and toxic to skin contact and inhalation
 
 
