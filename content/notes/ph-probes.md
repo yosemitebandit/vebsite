@@ -42,3 +42,26 @@ for hydrogen ions you'll see about 60mV changes per pH unit at 25C
 * pH probe will pass a small amount of current between the reference and measuring electrode,
 so the meter must have a high internal impedance.
 (Quora has good notes on impedance [here](https://www.quora.com/What-does-it-mean-to-have-a-high-or-low-output-impedance-physically).)
+
+
+### [review from the All About Circuits site](http://www.allaboutcircuits.com/textbook/direct-current/chpt-9/ph-measurement/)
+
+* probes allow H+ ions to migrate through a selective barrier, producing an electrical potential
+  * the measurement probe is made of a special glass to produce this selective barrier --
+  it's doped with lithium ions which will react to H+ ions
+  * the reference probe has a neutral buffer that exchanges ions
+  with the process solution through a porous separator,
+  making a relatively low resistance connection to the liquid
+  * (a plain metal wire cannot be used as it may react to the solution and produce its own voltage)
+* good explanation of why you need a high impedance voltmeter:
+  * the reference electrode might have an impedance of a few kilo-ohms,
+  but the measurement electrode (being glass) might be at hundreds of mega-ohms
+  * so if the voltmeter's resistance is low, the current passing through the other components
+  will create a large voltage drop on those components, and not much of one on the voltmeter
+  * so the voltmeter needs an impedance of something like 10^17 ohms
+  * or a "null balance" voltage measurement setup can be used
+  where a precision variable voltage source is adjusted until it reads zero --
+  i.e., there is no current flowing in the circuit.
+  A voltmeter can then be connected in parallel
+* notes that glass probes are subject to fouling
+* temp compensation is needed to adjust the pH/mV response of the measurement probe
