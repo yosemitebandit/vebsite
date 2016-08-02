@@ -65,3 +65,25 @@ so the meter must have a high internal impedance.
   A voltmeter can then be connected in parallel
 * notes that glass probes are subject to fouling
 * temp compensation is needed to adjust the pH/mV response of the measurement probe
+
+
+### [PDF from Emerson](http://www2.emersonprocess.com/siteadmincenter/PM%20Rosemount%20Analytical%20Documents/Liq_ADS_43-002.pdf)
+
+* cleaning solutions may enter the reference liquid junction..
+they'll persist until they diffuse out --
+a new "hydrolysis reference junction" (called TUpH by Emerson) has smaller pores
+and may prevent fouling
+* some sensors can sound an alarm if the reference impedance grows too large
+(indicating something has fouled that component and cleaning is needed)
+
+
+### [Mettler Toledo on glass junctions](http://www.mt.com/us/en/home/perm-lp/product-organizations/pro/ph-probe-selection.html)
+
+* ceramic: the typical porous junction that allows the ref electrolyte to diffuse out --
+fouled by proteins (which precipitate when they contact the KCl ref electrolyte) and other suspended solids
+* PTFE annular diaphragm: increases surface exposed to the medium to preven fouling
+* open junction: the ref electrolyte is completely open (only possible with a solid polymer ref electrolyte) --
+cannot clog but has slow reaction time
+* dual-membrane sans junction: for specific "chlor-alkali" processes, has builtin Na ref glass
+* no word on which of these samples are easy to clean..
+
