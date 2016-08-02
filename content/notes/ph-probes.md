@@ -11,7 +11,7 @@ learning about pH probes..
 
 <!--more-->
 
-[a brief PDF on glass pH probes (2004)](https://www.electrochem.org/dl/interface/sum/sum04/IF6-04-Pages19-20.pdf)
+### [a brief PDF on glass pH probes (2004)](https://www.electrochem.org/dl/interface/sum/sum04/IF6-04-Pages19-20.pdf)
 
 * the alkali metals in the thin (0.1mm) glass membrane undergoes ion exchange
 with the surrounding solution
@@ -28,3 +28,17 @@ as the calibration solutions don't get any better than that
 a special lithium glass can be used to mitigate this
 * proteins can absorb to the surface to interfere with measurements
 * no longer do probes need to remain wet and hydrated for proper measurement
+
+
+### [Hach's PDF on pH](/misc/hach-ph-handbook.pdf)
+
+* glass electrodes since ion *activity*, and a solution's ionic strength (its presence of other ions)
+can affect measurements as well --
+the activity coefficient is (strangely) affected by ionic strength
+* Nernst equation describes the workings of pH-sensitive electrodes --
+for hydrogen ions you'll see about 60mV changes per pH unit at 25C
+* temp effects: caused by change in glass bulb resistance and dissociation changes in the solution
+* you'll see about 0.003 pH error / pH unit / deg C in temp uncompensated systems
+* pH probe will pass a small amount of current between the reference and measuring electrode,
+so the meter must have a high internal impedance.
+(Quora has good notes on impedance [here](https://www.quora.com/What-does-it-mean-to-have-a-high-or-low-output-impedance-physically).)
