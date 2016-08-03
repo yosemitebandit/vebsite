@@ -87,5 +87,25 @@ cannot clog but has slow reaction time
 * dual-membrane sans junction: for specific "chlor-alkali" processes, has builtin Na ref glass
 
 
-no word on which of these types of probes are easy to clean..
+### ISFET probes
 
+* "hydrogen ion-selective field effect transistor" --
+some notes from [this page](http://www.all-about-ph.com/nonglass-ph-electrode.html)
+* a gate connects two electrodes, the source and drain --
+all three are embedded in silicon, the gate is in direct contact with the solution
+and is sensitive to H+ ions
+* a ref electrode in the solution is still needed and operates in the same manner as in other glass probes
+* will produce a high current, low impedance output (in contrast to glass)
+* sensing area can be cleaned with a toothbrush (in fact, I saw this recommended by one vendor)
+* can be stored dry -- have fast response times and fast measurements
+* light-sensitive
+* prone to drift and may be less accurate than glass (though a commenter disagrees)
+
+
+### [YSI on cleaning electrodes](https://www.ysi.com/ysi-blog/water-blogged-blog/2013/10/extend-the-life-of-your-ph-electrode-in-3-practical-steps)
+
+* single rods and ref electrodes: store in solution that's the same as the ref
+* glass electrodes: DI water
+* organic adhesions: use an organic solvent
+* inorganic adhesions: use a slightly acidic or basic solution and heat if necessary
+* clean ref electrode with the ref solution -- heat to break up KCl crystals
