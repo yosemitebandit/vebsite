@@ -143,3 +143,10 @@ I would've thought the opposite, that solution could more easily infiltrate and 
 * double and triple junctions exist to reduce contamination
 * nice [product breakdown](https://www.ysi.com/File%20Library/Documents/Guides/YSI_Lab_pH_Electrode_Selection_Guide_W75-03_0815.pdf)
 * to clean after protein exposure you can immerse in a pepsin cleaning solution (PEP/pH) for 1hr
+
+
+### [1991 intraluminal ISFET study](http://gut.bmj.com/content/32/3/240.full.pdf)
+
+* identical curves over 24hrs *in vitro* between glass and ISFET probes
+  * same result over 21hrs *in vivo*
+* some notes on response times too
