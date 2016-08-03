@@ -85,5 +85,7 @@ fouled by proteins (which precipitate when they contact the KCl ref electrolyte)
 * open junction: the ref electrolyte is completely open (only possible with a solid polymer ref electrolyte) --
 cannot clog but has slow reaction time
 * dual-membrane sans junction: for specific "chlor-alkali" processes, has builtin Na ref glass
-* no word on which of these samples are easy to clean..
+
+
+no word on which of these types of probes are easy to clean..
 
