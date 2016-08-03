@@ -91,15 +91,23 @@ cannot clog but has slow reaction time
 
 * "hydrogen ion-selective field effect transistor" --
 some notes from [this page](http://www.all-about-ph.com/nonglass-ph-electrode.html)
-* a gate connects two electrodes, the source and drain --
-all three are embedded in silicon, the gate is in direct contact with the solution
-and is sensitive to H+ ions
-* a ref electrode in the solution is still needed and operates in the same manner as in other glass probes
-* will produce a high current, low impedance output (in contrast to glass)
-* sensing area can be cleaned with a toothbrush (in fact, I saw this recommended by one vendor)
-* can be stored dry -- have fast response times and fast measurements
-* light-sensitive
-* prone to drift and may be less accurate than glass (though a commenter disagrees)
+  * a gate connects two electrodes, the source and drain --
+  all three are embedded in silicon, the gate is in direct contact with the solution
+  and is sensitive to H+ ions
+  * a ref electrode in the solution is still needed and operates in the same manner as in other glass probes
+  * will produce a high current, low impedance output (in contrast to glass)
+  * sensing area can be cleaned with a toothbrush (in fact, I saw this recommended by one vendor)
+  * can be stored dry -- have fast response times and fast measurements
+  * light-sensitive
+  * prone to drift and may be less accurate than glass (though a commenter disagrees)
+* notes [from wikipedia](https://en.wikipedia.org/wiki/ISFET)
+  * still limited by ref probe so some systems are trying to use a FET for the ref as well (REFET) --
+  needs frequent calibration though
+  * ref may leak??  "KCl leak" or "glycerol leak" -- hadn't heard about that!
+* [Schmid on ISFET operation and applications (PDF)](http://wwwmayr.informatik.tu-muenchen.de/konferenzen/MB-Jass2006/courses/2/AbstractSchmid.pdf)
+  * ISFET tech can be altered to sense other things like enzymes or DNA
+  * [this PDF](http://www.colorado.edu/MCEN/micronanobio/Homework/Homework_Nano-ScaleEngineering_3_2008_Solutions.pdf)
+  also captures some sensor possibilities
 
 
 ### [YSI on cleaning electrodes](https://www.ysi.com/ysi-blog/water-blogged-blog/2013/10/extend-the-life-of-your-ph-electrode-in-3-practical-steps)
@@ -109,3 +117,28 @@ and is sensitive to H+ ions
 * organic adhesions: use an organic solvent
 * inorganic adhesions: use a slightly acidic or basic solution and heat if necessary
 * clean ref electrode with the ref solution -- heat to break up KCl crystals
+
+
+### [YSI on electrolytes](https://www.ysi.com/ysi-blog/water-blogged-blog/2015/05/anatomy-of-a-ph-electrode-glass-ph-probes-part-3-of-4)
+
+* typical for a ref electrode to leak into solution (!?)
+* 3M KCl is a typical choice, may have a gelling agent
+* faster response times with liquid electrolytes
+  * refillable electrodes last longer -- have a little port with a closable window
+  * more resistant to temp and temp changes
+  * susceptible to diffusion potential issues in strongly basic or acidic solutions
+  as the outflow rate will be higher compared to gels / polymers
+* gels
+  * less likely to see silver precipitation at the junction
+  * less likely to have ions from the solution invade the reference
+
+
+### [YSI on ref junctions](https://www.ysi.com/ysi-blog/water-blogged-blog/2015/05/anatomy-of-a-ph-electrode-glass-ph-probes-part-4-of-4)
+
+* aka the diaphragm
+* need low resistance and an inert material, but some level of ion permeability
+* nice table of junction types, outflow rates (0 - 3mL / day)
+* bizarrely, they're saying that the reference electrodes that have greater outflow rates are easier to clean --
+I would've thought the opposite, that solution could more easily infiltrate and contaminate the ref
+* double and triple junctions exist to reduce contamination
+* nice [product breakdown](https://www.ysi.com/File%20Library/Documents/Guides/YSI_Lab_pH_Electrode_Selection_Guide_W75-03_0815.pdf)
