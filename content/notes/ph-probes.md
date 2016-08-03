@@ -142,3 +142,4 @@ some notes from [this page](http://www.all-about-ph.com/nonglass-ph-electrode.ht
 I would've thought the opposite, that solution could more easily infiltrate and contaminate the ref
 * double and triple junctions exist to reduce contamination
 * nice [product breakdown](https://www.ysi.com/File%20Library/Documents/Guides/YSI_Lab_pH_Electrode_Selection_Guide_W75-03_0815.pdf)
+* to clean after protein exposure you can immerse in a pepsin cleaning solution (PEP/pH) for 1hr
