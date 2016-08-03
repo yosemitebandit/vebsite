@@ -2,7 +2,7 @@
 date = "2016-08-01T17:31:58-07:00"
 location = ""
 tags = ["reading", "bio"]
-thumbnail = ""
+thumbnail = "/img/ph-probe-diagram-thumbnail.png"
 title = "pH probes"
 
 +++
@@ -150,3 +150,22 @@ I would've thought the opposite, that solution could more easily infiltrate and 
 * identical curves over 24hrs *in vitro* between glass and ISFET probes
   * same result over 21hrs *in vivo*
 * some notes on response times too
+
+
+### [Endress Hauser pH basics video](https://www.youtube.com/watch?v=P1wRXTl2L3I)
+
+* remember the Ag / AgCl component is the wire -- the electrolyte is typcically KCl
+* H+ ions penetrate the gel layer of the glass membrane -- the same happens on the inside, on the ref
+* refs are just a stable 0V potential..but they still need electrical connectivity to the measuring probe
+
+
+### [MT video](https://www.youtube.com/watch?v=gtcCLldrcg4)
+
+* nice diagram of the ref system and measurement probe
+
+![ph probe diagram](/img/ph-probe-diagram.png)
+
+* good notes on cleaning, calibration, junction types and temp compensation
+* points out that solutions themselves will have temp dependence --
+0.001 mol/L NaOH will have a pH of 11.17 at 20C (as opposed to the 11.00 you might expect),
+and the pH meter cannot compensate for that
