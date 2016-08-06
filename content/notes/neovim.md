@@ -14,8 +14,9 @@ and especially how I setup neomake to work with rust.
 
 basics:
 
+built neovim from source, following the [repo's instructions](https://github.com/neovim/neovim/wiki/Building-Neovim<Paste>), then
+
 ```python
-$ brew install neovim/neovim/neovim  # yeah, idk..
 $ brew install python3
 $ mkdir -p ~/.config/nvim
 $ touch ~/.config/nvim/init.vim  # the new ~/.vimrc
