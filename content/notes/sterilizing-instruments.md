@@ -8,7 +8,8 @@ title = "sterilizing instruments"
 +++
 
 reading about various ways to clean probes and instruments --
-[wikipedia has a great review](https://en.wikipedia.org/wiki/Sterilization).
+[wikipedia has a great review](https://en.wikipedia.org/wiki/Sterilization),
+as does [Finesse](http://www.finesse.com/media/121750/Finesse.TruFluor.ApNote.3.042408.pdf).
 
 <!--more-->
 
@@ -35,11 +36,14 @@ reading about various ways to clean probes and instruments --
 * most common method -- used for ~70% of all sterilizations and over 50% of disposable medical devices
 * gas concentrations of 200 - 800 mg/L
 * 30-60 C with RH above 30%
-* process takes several hours
+* process takes 2-3 hours of exposure and then 12hrs more to vent
 * kills bacteria, spores, viruses, yeast and other fungi -- also very hazardous to humans
-* explosive at concentrations above 3%
+* subs in for H atoms on molecules, disrupting many chemical processes
+* explosive at concentrations above 3% (so it's often diluted)
 * very strict OSHA reqs around EtO's use -- if you can smell it, you've had a hazardous dose
 * it can permeate some plastics so you can actually bag your equipment before sterilizing it
+* they typically use bio indicators to test the sterilization's efficacy on weirdly shaped equipment --
+it can kill to a 10^-6 level
 
 
 *nitrogen dioxide*
@@ -89,7 +93,18 @@ reading about various ways to clean probes and instruments --
 *ionizing radiation*
 
 * gamma, x-ray, electron beam -- some more penetrating than others
-* trivia: meat and DC mail gets irradiated
+* trivia: meat and DC mail gets irradiated, as does feathers in blankets
+* gamma uses cobalt-60 or iridium-192 -- it can penetrate 80cm
+* gamma radiation can initiate cross-linking in some polymers
+but isn't strong enough to make a material radioactive
+
+
+*clean-in-place and steam-in-place in general*
+
+* lots of validation required to prove that chemicals have been flushed
+* Finesse says the overall sterilization cost is comparable
+between EtO, gamma and traditional steam-in-place methods,
+but single use methods require less labor
 
 
 *summary*
