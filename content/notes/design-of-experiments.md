@@ -9,3 +9,6 @@ title = "design of experiments"
 
 * a software tool, [pyDOE](https://github.com/tisimst/pyDOE)
 * some [lecture notes on the topic](https://github.com/fcampelo/Design-and-Analysis-of-Experiments/tree/master/00-CourseIntro)
+* and a video:
+
+{{% youtube qDDCXo-6qTw %}}
