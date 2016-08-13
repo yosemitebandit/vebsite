@@ -17,6 +17,8 @@ another to-be-rendered part will insert into this and indicate where I'm off to:
 
 ![signpost b](/img/bike-tag-signpost-b.png)
 
+maybe the insert could have a little magnet at the end to keep things in place..
+
 ![signpost c](/img/bike-tag-signpost-c.png)
 
 ![signpost a](/img/bike-tag-signpost-a.png)
