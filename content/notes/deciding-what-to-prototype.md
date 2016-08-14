@@ -1,7 +1,7 @@
 +++
 date = "2016-08-12T18:37:37-07:00"
 location = ""
-tags = ["reading"]
+tags = ["reading", "hardware"]
 thumbnail = ""
 title = "deciding what to prototype"
 
