@@ -2,7 +2,7 @@
 date = "2016-06-25T16:34:52-07:00"
 location = ""
 tags = ["hardware", "reading", "watching"]
-thumbnail = "/img/lincoln-pcb-thumbnail.jpg"
+thumbnail = "/img/stm32-kicad-test-board-thumbnail.png"
 title = "learning KiCad"
 
 +++
@@ -43,6 +43,36 @@ anyway, on to KiCad..
 
 ### [Windsor Schmidt's 20min walkthrough video](https://www.youtube.com/watch?v=zK3rDhJqMu0)
 
+the workflow was..
+
+* make a project
+* make a lib and a new part (but not yet a footprint)
+* start a new schematic and draw your part, probably using lots of labels
+* annotate everything when you're done connecting up things
+* make a netlist and save it
+* run CvPcb to associate schematic symbols with footprints (turn on the preview, probably)
+* save and quit your schematic editor and go to Pcbnew
+* import the netlist..I got errors so I went back to the schematic editor,
+exported the netlist again, and then I could import into the pcb editor :/
+* position everything..
+* hide values (`visibles -> render -> values`)
+* draw board outline on edge cuts layer
+* check `view -> 3d viewer` (nice!)
+* select the front copper or bottom copper layer and "add filled zones" --
+can copy one to the other layer, then right click and fill them all
+(the ratsnest will update), then you can hide the fill in the left pane
+* start routing -- right click and end tracks when you've connected a net
+* change width by adding custom net classes and assigning nets into the class --
+then right click a track to edit and "set all tracks to their netclass values"
+* to fill your copper zones, run the DRC
+* make gerbers with `file -> plot` -- you probably want these layers on:
+edge cuts, the copper layers, masks and silkscreen layers
+* use that dialog to create a drill file as well
+* consider using `gerbv` to check these files.. here's my rather ugly board!
+
+![gerbv render](/img/kicad-schmidt-walkthrough-render.png)
+
+
 ### [Matthew Venn's five part series](https://www.youtube.com/watch?v=v-qCI8wv72w&list=PLmcDgdDpcaPjIBy60y22XzG036ckQI7bC)
 
 *part one - schematic*
@@ -64,4 +94,10 @@ hard to rip wires in this mode though
 
 ### [Contextual Electronics has about 90min of video on KiCad](https://contextualelectronics.com/learning/getting-to-blinky-4-0/)
 
+
 ### [Udemy's KiCad course](https://www.udemy.com/kicad-pro/)
+
+
+### libs I'm using
+
+* [bytelabs](https://github.com/open-project/kicadlibrary)
