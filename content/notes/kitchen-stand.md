@@ -76,4 +76,6 @@ me and Nora hand planed the top quite a bit..
 
 ![island tabletop planing](/img/island-tabletop-planing.jpg)
 
-more touchups and planing to come!
+I stained with danish oil and made a stand with maple, came out pretty good!
+
+![kitchen island completed](/img/island-tabletop-completed.jpg)
