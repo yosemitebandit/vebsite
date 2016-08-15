@@ -14,7 +14,7 @@ how to decide what to prototype.. hm, there are many approaches:
 * the [senic blog](https://blog.senic.com/from-idea-to-prototype-d8c8d5c80daa?gi=7bd927b0ef20)
 suggests you test even basic assumptions,
 and not make anything too high fidelity -- you want to give room for people to discuss their ideas.
-  * Also use easy to source / easy to use parts and tools.
+  * also use easy to source / easy to use parts and tools.
   * each proto should have a hypothesis / goal
 * [GV folks](http://www.fastcodesign.com/1672929/how-to-decide-what-ideas-to-prototype)
 remind you to list all your assumptions,
