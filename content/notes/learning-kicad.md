@@ -45,9 +45,11 @@ anyway, on to KiCad..
 
 the workflow was..
 
-* make a project
-* make a lib and a new part (but not yet a footprint)
-* start a new schematic and draw your part, probably using lots of labels
+* make a project and a new schematic
+* from the schematic, make a lib via `tools -> library editor`
+and create a new component (but not yet a footprint),
+save this into a new lib
+* start a new schematic and draw your circuit, probably using lots of labels
 * annotate everything when you're done connecting up things
 * make a netlist and save it
 * run CvPcb to associate schematic symbols with footprints (turn on the preview, probably)
@@ -94,10 +96,36 @@ hard to rip wires in this mode though
 
 ### [Contextual Electronics has about 90min of video on KiCad](https://contextualelectronics.com/learning/getting-to-blinky-4-0/)
 
+*part one - intro*
+
+* ..
+
+*part two - creating schematic symbols*
+
+* `?` brings up hotkeys
+* make a new lib..open the lib editor, create a new component and name it something.
+click the empty book to save the component to a new lib.
+then `preferences -> component libs` and add the new lib
+then click the book with writing on the pages to set the working lib and finally you can save.
+Note the topbar which has info about whic lib is active
+* use `~` in front of the pin name to get the bar over the name (active low)
+
+*part three - more schematic*
+
+* run ERC to find unconnected things -- note that the part's pin type might cause issues
+* then generate the netlist
+
+*part four - library setup and part association*
+
+* the start of footprints..from the schematic find CvPcb to start associating symbols and footprints
+* use the lib wizard from the schematic editor to get the github libs for the first time..
+I had to do something similar in the footprint editor to download footprints (the `.pretty` files)
+
 
 ### [Udemy's KiCad course](https://www.udemy.com/kicad-pro/)
 
 
-### libs I'm using
+### other
 
-* [bytelabs](https://github.com/open-project/kicadlibrary)
+* a lib I've used: [bytelabs](https://github.com/open-project/kicadlibrary)
+* a [nice `.gitignore` template](https://gist.github.com/masahirosuzuka/6a333a0305e6903686c9)
