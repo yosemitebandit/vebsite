@@ -112,3 +112,4 @@ but single use methods require less labor
 * seems like UV could work well for glass vessels
 * EtO could be used for sensitive probes
 * autoclave for sturdier probes
+* this is a nice review of [chemical sterilants][http://www.ncbi.nlm.nih.gov/pmc/articles/PMC99773/)
