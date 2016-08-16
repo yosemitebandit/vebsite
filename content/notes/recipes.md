@@ -86,6 +86,10 @@ but eventually worked out ok..I think
 kinda tasteless :(  ..I have a hard time getting veggies crispy in the frying pan though, that would've helped
 * [korean beef lettuce wraps](http://cooking.nytimes.com/recipes/1014079-korean-grilled-beef-lettuce-wraps) --
 not bad!  prolly should've marinated for more than 30mins..
+* Nora decorated [this fruit tart](http://www.foodnetwork.com/recipes/paula-deen/fresh-fruit-tart-recipe.html) quite nicely --
+we made it sans glaze and it was plenty sweet!
+
+![fruit tart](/img/fruit-tart.jpg)
 
 
 ### things that look interesting
