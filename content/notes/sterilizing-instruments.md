@@ -97,6 +97,20 @@ it can kill to a 10^-6 level
 * gamma uses cobalt-60 or iridium-192 -- it can penetrate 80cm
 * gamma radiation can initiate cross-linking in some polymers
 but isn't strong enough to make a material radioactive
+* probability of gamma absorption is related to a material's cross section, density and thickness --
+when a gamma ray strikes an atom, an electron may be ejected into the atom,
+this is the photoelectric effect and is the typical mode of interaction
+at energies < 10keV.
+Gamma facilities actually use systems around 1MeV where pair production (ionization cascades) effects begin
+* nice info on [gamma in this pdf](http://cdn.intechopen.com/pdfs/32842/InTech-Sterilization_by_gamma_irradiation.pdf)
+  * what actually damages cells isn't firmly known: could be genetic damage,
+  damage to the cell wall, release of free radicals like OH-
+  * it's estimated that one gray of radiation induces 1k single strand breaks,
+  40 double strand breaks, 150 cross links between DNA and protein and 250 oxidations of thymine
+  * (one gray is one joule / kg -- equal to 100 rad)
+  * nice info on D10 values -- dosage required for log reduction, typically around 0.5kGy
+  * will typically use around 25kGy though to exceed a 10^-6 sterility assurance level
+  * some spores have a D10 as high as 6.8 (*Clostridium botulinum*)
 
 
 *clean-in-place and steam-in-place in general*
