@@ -35,7 +35,7 @@ as does [Finesse](http://www.finesse.com/media/121750/Finesse.TruFluor.ApNote.3.
 
 * most common method -- used for ~70% of all sterilizations and over 50% of disposable medical devices
 * gas concentrations of 200 - 800 mg/L
-* 30-60 C with RH above 30%
+* 30-60 C with RH above 30% (sometimes 100%)
 * process takes 2-3 hours of exposure and then 12hrs more to vent
 * kills bacteria, spores, viruses, yeast and other fungi -- also very hazardous to humans
 * subs in for H atoms on molecules, disrupting many chemical processes
