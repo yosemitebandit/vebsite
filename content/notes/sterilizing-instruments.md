@@ -121,6 +121,13 @@ between EtO, gamma and traditional steam-in-place methods,
 but single use methods require less labor
 
 
+*validation*
+
+* [this webinar](https://youtu.be/enWzaJGUD6w?t=49m36s) had a note about
+validating with sterile soybean casein digest media --
+incubate for 14days with the little challenge tabs, if anything grows that's a failure
+
+
 *summary*
 
 * seems like UV could work well for glass vessels
