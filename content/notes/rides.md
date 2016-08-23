@@ -83,3 +83,4 @@ memories of past rides, and places I'd like to go someday..
 
 ### some day..
 * [this multiday southern route](https://goo.gl/p4pa1Z)
+* Zayante Rd towards Santa Cruz
