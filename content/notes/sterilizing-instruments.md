@@ -133,4 +133,4 @@ incubate for 14days with the little challenge tabs, if anything grows that's a f
 * seems like UV could work well for glass vessels
 * EtO could be used for sensitive probes
 * autoclave for sturdier probes
-* this is a nice review of [chemical sterilants][http://www.ncbi.nlm.nih.gov/pmc/articles/PMC99773/)
+* this is a nice review of [chemical sterilants](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC99773/)
