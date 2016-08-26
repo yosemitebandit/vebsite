@@ -66,3 +66,19 @@ but maybe I'll need them when it comes time to renew?
 
 After this is setup, you can redirect insecure requests to https
 by setting [the `secure` key to `always`](https://cloud.google.com/appengine/docs/python/config/appref).
+
+
+### [concepts](https://cloud.google.com/appengine/docs/python/an-overview-of-app-engine)
+
+* each service has a config file and each service has a set of versions,
+and versions have scaling types (to determine scaling properties)
+and instance classes (to determine compute resources)
+* all services share the datastore, memcache and task queue
+
+![appengine hierarchy](/img/appengine-hierarchy.png)
+
+* apps are sandboxed -- you can read from the filesystem but not write,
+you have to respond to requests within a few seconds or the process is killed,
+you can't make system calls
+* certain modules are replaced or customized (e.g. `tempfile`, `logging`)
+* threads can be used and even run in the background on manually scaled instances
