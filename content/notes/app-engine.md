@@ -108,3 +108,10 @@ dispatch:
 * all services are public by default -- specify `login: admin` to the service handlers to restrict access
 * you can start multiple modules at once with `dev_appserver.py app.yaml demo.yaml api.yaml`
 * update the dispatch with `appcfg.py -A my-app update_dispatch .`
+
+
+### [the bookshelf tutorial](https://cloud.google.com/python/getting-started/tutorial-app)
+
+* SO has a great [note on flask blueprints](http://stackoverflow.com/questions/24420857/what-are-flask-blueprints-exactly),
+but I'm not convinced my apps really needs them..
+I suppose it improves one's organization to some extent
