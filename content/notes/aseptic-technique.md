@@ -1,7 +1,7 @@
 +++
 date = "2016-08-18T17:32:53-07:00"
 location = ""
-tags = ["watching"]
+tags = ["watching", "bio"]
 thumbnail = "/img/pipetting-under-the-hood-thumbnail.png"
 title = "aseptic technique"
 
