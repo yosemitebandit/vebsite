@@ -82,9 +82,29 @@ you have to respond to requests within a few seconds or the process is killed,
 you can't make system calls
 * certain modules are replaced or customized (e.g. `tempfile`, `logging`)
 * threads can be used and even run in the background on manually scaled instances
-* subdomains seem to be related to `modules` and `services` ..and maybe dispatch files
-  * you can name the main service `default` in `app.yaml` or just not specify a service at all..
-  er, and when I say "specify a service" you have to do this with the `module` key :/
-  * all services are public by default -- specify `login: admin` to the service handlers to restrict access
-  * if you have multiple modules, do you need a dispatch file?  I'm not sure..
-  you can start multiple modules at once with `dev_appserver.py app.yaml demo.yaml api.yaml`
+
+*subdomains*
+
+* each of my subdomains is a different `service` in GAE parlance --
+for each subdomain / service, you'll need to specify a yaml file and an entrypoint (`main.py` equivalent)
+* you'll need a `dispatch.yaml`, something like this:
+
+```yaml
+application: my-app
+dispatch:
+
+  # The default module serves the main app.
+  - url: "www.example.com/"
+    module: default
+  - url: "example.com/"
+    module: default
+
+  # The API is served by another service.
+  - url: "api.culturerobotics.com/"
+    module: api
+```
+
+* the main service is just known as `default` whether you label it as such in `app.yaml` or not
+* all services are public by default -- specify `login: admin` to the service handlers to restrict access
+* you can start multiple modules at once with `dev_appserver.py app.yaml demo.yaml api.yaml`
+* update the dispatch with `appcfg.py -A my-app update_dispatch .`
