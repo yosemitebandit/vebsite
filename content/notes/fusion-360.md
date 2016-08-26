@@ -107,6 +107,7 @@ here are some other videos that were helpful:
 * [on lofting](https://www.youtube.com/watch?v=fXQ28AVaMh0)
 * [advanced sketching techniques](https://www.youtube.com/watch?v=Dfxm8irfEhc)
 * [making some sort of flange](https://www.youtube.com/watch?v=tu-Sg47RxMo)
+* [another walkthrough](https://www.youtube.com/watch?v=VbSkwvZyU_0)
 
 
 #### ideas -- things to practice on

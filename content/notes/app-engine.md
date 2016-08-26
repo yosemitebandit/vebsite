@@ -82,3 +82,9 @@ you have to respond to requests within a few seconds or the process is killed,
 you can't make system calls
 * certain modules are replaced or customized (e.g. `tempfile`, `logging`)
 * threads can be used and even run in the background on manually scaled instances
+* subdomains seem to be related to `modules` and `services` ..and maybe dispatch files
+  * you can name the main service `default` in `app.yaml` or just not specify a service at all..
+  er, and when I say "specify a service" you have to do this with the `module` key :/
+  * all services are public by default -- specify `login: admin` to the service handlers to restrict access
+  * if you have multiple modules, do you need a dispatch file?  I'm not sure..
+  you can start multiple modules at once with `dev_appserver.py app.yaml demo.yaml api.yaml`
