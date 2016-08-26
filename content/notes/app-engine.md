@@ -47,7 +47,7 @@ $ ./certbot-auto certonly --manual --email me@email.com -d superamazing.com -d w
 
 This displays the response text you have to show at some "challenge" url on your site.
 To make that work for the naked domain,
-I setup my app.yaml [as described here]()https://www.jeffgodwyll.com/posts/2016/letsencrypt)
+I setup my app.yaml [as described here](https://www.jeffgodwyll.com/posts/2016/letsencrypt)
 ..and then did it again for the www domain.
 Finish the LE setup and you should have certs.
 
