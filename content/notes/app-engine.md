@@ -115,3 +115,20 @@ dispatch:
 * SO has a great [note on flask blueprints](http://stackoverflow.com/questions/24420857/what-are-flask-blueprints-exactly),
 but I'm not convinced my apps really needs them..
 I suppose it improves one's organization to some extent
+* if you're doing things with the `gcloud` util, you might want to view and change the active project:
+
+```python
+$ gcloud beta projects list
+PROJECT_ID                 NAME                PROJECT_NUMBER
+bookshelf-tutorial-141521  bookshelf-tutorial  123789
+nother-project-678         nother-project      123456
+
+$ gcloud config set project nother-project-678
+$ gcloud config list
+Your active configuration is: [default]
+
+[core]
+account = matt@test.com
+disable_usage_reporting = True
+project = nother-project-678
+```
