@@ -11,10 +11,6 @@ Going through the CNC classes at Pier 9.
 
 <!--more-->
 
-### class one - basics
-
-* ..
-
 
 ### class two - CAM
 
@@ -59,3 +55,4 @@ these end up in the machining notes (right click on setup and then "setup sheet"
 * `right click on house -> set current view as home` -- nice
 * post simulation, you can right click on the stock and "save stock,"
 useful if you were going to make some other press fit and you need to know just what you machined
+* remember to check your "minimum part stick out" -- this is on the setup sheet as min z
