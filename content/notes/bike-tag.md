@@ -22,3 +22,11 @@ maybe the insert could have a little magnet at the end to keep things in place..
 ![signpost c](/img/bike-tag-signpost-c.png)
 
 ![signpost a](/img/bike-tag-signpost-a.png)
+
+I like this concept but the blue / yellow interface isn't quite right..
+
+![morphous mount](/img/bike-tag-morphous-mount.png)
+
+leveling that mount and adding a bunch of fillets..
+
+![morphous mount combined](/img/bike-tag-morphous-mount-combined.png)
