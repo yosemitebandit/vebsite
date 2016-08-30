@@ -47,3 +47,4 @@ it's called the volumetric oxygen transfer coefficient (units of `1 / h`).
 ### more resources
 
 * here on the [UGA BCHE 3180 page](http://cmbe.engr.uga.edu/bche3180/index.html)
+* [PDF on kLa estimation methods](https://en.wikipedia.org/wiki/Henry%27s_law)
