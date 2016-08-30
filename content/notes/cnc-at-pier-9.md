@@ -56,3 +56,8 @@ these end up in the machining notes (right click on setup and then "setup sheet"
 * post simulation, you can right click on the stock and "save stock,"
 useful if you were going to make some other press fit and you need to know just what you machined
 * remember to check your "minimum part stick out" -- this is on the setup sheet as min z
+
+
+### [video series](https://vimeo.com/channels/shoptraining)
+
+* the Haas at Pier 9 is 30 HP, 12000 RPM, 1400 IPM and can hold 24 tools
