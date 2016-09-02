@@ -61,3 +61,8 @@ useful if you were going to make some other press fit and you need to know just 
 ### [video series](https://vimeo.com/channels/shoptraining)
 
 * the Haas at Pier 9 is 30 HP, 12000 RPM, 1400 IPM and can hold 24 tools
+
+
+### misc
+
+* the [turner's cube](http://www.cnccookbook.com/CCTurnersCube.html) looks like a fun starter project
