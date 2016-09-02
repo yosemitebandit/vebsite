@@ -132,3 +132,10 @@ account = matt@test.com
 disable_usage_reporting = True
 project = nother-project-678
 ```
+
+
+### third party libs
+
+* have to be all python, so the standard `bcrypt` lib is out (but apparently `passlib` works)
+* have to `pip install <some_python_library> -t lib`
+or use a yaml file to specify pre-approved libs
