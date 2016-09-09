@@ -84,3 +84,11 @@ this is described by the Stern-Volmer equation which is linear at low concentrat
 * cleaning
   * some sensors equipped with automatic wipers to prevent bio-fouling --
   this was called out in a 52 day test
+
+
+### [Atlas Scientific DO App Note](https://www.atlas-scientific.com/_files/_app_notes/do-app-note.pdf)
+
+* note that temp, pressure and salinity changes only affect saturation percentage,
+not, to a point, the true mg / L readings
+  * cooler water, headspace with higher atmospheric pressure and less saline water can all hold more O2
+* O2 saturation can be above 100% as the heated water tries to reach an equilibrium and lose oxygen
