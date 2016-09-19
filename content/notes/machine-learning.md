@@ -1,7 +1,7 @@
 +++
 date = "2016-01-08T13:04:26-08:00"
 description = ""
-tags = ["cs", "python", "neural-networks"]
+tags = ["cs", "python", "neural networks"]
 title = "machine learning"
 thumbnail = "/img/multinomial-logistic-classification-diagram-thumbnail.png"
 

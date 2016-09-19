@@ -1,7 +1,7 @@
 +++
 date = "2016-02-08T23:10:17-08:00"
 location = ""
-tags = ["python", "neural-networks", "cs", "watching"]
+tags = ["python", "neural networks", "cs", "watching"]
 thumbnail = ""
 title = "udacity deep learning lesson two"
 
