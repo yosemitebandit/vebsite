@@ -22,6 +22,7 @@ The fabfile /should/ handle this now..
 * maybe the `/projects` endpoint should just be pics -- more brutalist as before
 * more travel updates
 * images look bad on nicer screens (like my phone :|)
+* fix image permissions issues -- everything should be 644
 
 
 #### hugo workflow
