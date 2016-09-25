@@ -1,7 +1,7 @@
 +++
 date = "2016-09-23T15:36:43-07:00"
 location = ""
-tags = ["travels", "outside", "drafts"]
+tags = ["travels", "outside"]
 thumbnail = "/img/the-view-from-ravenswood-thumbnail.jpg"
 title = "Sonoma"
 
