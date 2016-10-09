@@ -18,6 +18,8 @@ memories of past rides, and places I'd like to go someday..
 ![henry coe](/img/bike-at-henry-coe.jpg)
 
 * Acadia NP carriage trails and surrounding Mt. Desert Isle roads
+* South to San Louis Obispo
+* Black Mountain camping
 
 
 ### 2015
@@ -84,3 +86,5 @@ memories of past rides, and places I'd like to go someday..
 ### some day..
 * [this multiday southern route](https://goo.gl/p4pa1Z)
 * Zayante Rd towards Santa Cruz
+* Black Mtn -> Umunhum -> Hamliton -> Diablo -> Tam??
+  * [226 miles, 19k ft up](goo.gl/4vFYZ1)
