@@ -43,3 +43,7 @@ as per [this article](http://vim.wikia.com/wiki/Search_and_replace_the_word_unde
   * `<leader>ssd`
 
 * I should learn snippets..
+
+* better wrapping to 80char cols [in python](http://stackoverflow.com/questions/3033423):
+  * `set textwidth=79`
+  * `gqq` to format the current line
