@@ -11,6 +11,75 @@ notes on my 2016 vote:
 
 <!--more-->
 
+*questions after the election*
+
+* what will Trump's first hundred days look like?
+  * notes from [Osnos](http://www.newyorker.com/magazine/2016/09/26/president-trumps-first-term)
+  * people with him: Christie, William Palatucci, Roger Stone, Gingrich, Stephen Miller, Stephen Moore, Dan DiMicco, Peter Navarro --
+  though it should be noted Trump has historically stated and shown
+  that he values no one's advice but his own..
+  * as Obama relied heavily on executive order, Trump could undo many accords in about a year,
+  like the Paris GHG Agreement, Keystone pipeline exploration, Syrian refugee program,
+  the raising of fuel standards, the banning of energy exploration in AK and the Arctic --
+  Trump could even loosen background checks for gun purchases.
+  He will also have a drone killing program at his disposal,
+  as well as wide leeway to conduct military operations in the MidEast and Africa.
+  * he's promised to begin, in the first hour of his presidency,
+  the deportation of anyone who has entered the country illegaly -- to me this is the scariest prospect.
+  It would require an estimated police force of 90k+ to go door-to-door, an entity that cannot exist.
+  He wants 11.3 million undocumented people deported in 2yrs -- 15k arrests per day,
+  20x the current deportation pace.
+  It would be modeled on Eisenhowers "Operation Wetback"
+  during which many citizens were mistakenly deported,
+  and many immigrants died during the actual deportation.
+  To me this is the line that can't be crossed.
+  * a political scientist is quoted as saying that politics will constrain Trump,
+  because the pres-elect finds everything to be negotiable.. I'm wary of these charitable views
+  * analysis of past presidencies shows that candidates accomplish about 70% of their campaign promises
+  * Roger Stone, an adviser, claims Trump will pursue his most radical ideas,
+  using the Muslim ban as an example
+  * his family business will remain intact and is expected to be controlled by his sons --
+  the president is not required to relinquish control of business ventures despite possible conflicts of interest
+  * he will be encouraged to go after federal employee tenure
+  (I didn't know this existed -- seems like it's achieved after four years)
+  with the hope that public employee unions similarly unravel
+  * he would need Congress to needed to repeal Obamacare and cut taxes,
+  and Dems in the Senate can still filibuster with their numbers
+  * unilaterally he can renegotiate the Iran nuclear deal, ban Muslims
+  and order the JD to pursue certain cases more aggressively
+  * but civil servants do not have to follow unlawful orders..
+  some hope there for some of the egregious torture-related things Trump has said
+  * he has said he will not unilaterally back other NATO countries
+  * Gingrich believes Trump will have to build some sort of wall or fence..
+  it's projected to cost $25B+ over four years and the money would have to come from Congress
+  * Gingrich also favors the recreation of the House Un-American Activities Committee..
+  * Trump will chase supply-side economics and be able to withdraw from TPP, NAFTA and even the WTO.
+  He could also impose tariffs on certain goods from China, sparking a trade war.
+  But if that comes to pass, it's fine because "if the economy crashed you could make a deal," he's said.
+* what next steps can I personally take to protect vulnerable groups?
+  * [I do not find Remnick encouraging](http://www.newyorker.com/news/news-desk/an-american-tragedy-donald-trump)
+  * other ideas: donate time and money to EFF and ACLU, volunteer in schools
+
+
+*notes for much later*
+
+* even until late on Tuesday, it was a foregone conclusion that Clinton would win,
+at least among the polls and analysts that I read regularly.
+Only the Trump campaign and his media apparatus claimed the polls were wrong or perhaps rigged.
+Stories have come out that say even his campaign's internal polling was off.
+* she is winning the popular vote, even before all of CA is counted
+* she lost 70+ EVs by <200k votes combined
+* turnout seems low -- only ~120M votes cast with >220M eligible voters in the country
+* some data suggests over 200 counties that Obama won were lost by Clinton, primarily in PA and WI.
+* Trump received fewer votes than Romney in many states
+* the above two points are being used to argue that
+it's not about the racism of the white working class, but instead about the failure of Dems to turnout.
+And the failure of turnout is due to poor tactical choices and an unlikeable candidate.
+I don't see it though -- people still voted for a racist and a misogynist, that can't be overlooked.
+
+
+*pre Nov-8*
+
 * I voted Hillary for her policies,
 CA AG Kamala Harris for her pro-environment stances (though her opponent dabbed at the debate, haha),
 the incumbent, Anna Eshoo for her track record and policies,
