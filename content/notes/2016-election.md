@@ -15,9 +15,11 @@ notes on my 2016 vote:
 
 * what will Trump's first hundred days look like?
   * notes from [Osnos](http://www.newyorker.com/magazine/2016/09/26/president-trumps-first-term)
-  * people with him: Christie, William Palatucci, Roger Stone, Gingrich, Stephen Miller, Stephen Moore, Dan DiMicco, Peter Navarro --
+  * people with him: Christie, William Palatucci, Roger Stone, Gingrich, Stephen Miller,
+  Stephen Moore, Dan DiMicco, Peter Navarro --
   though it should be noted Trump has historically stated and shown
   that he values no one's advice but his own..
+  Other transition team members (and their associations) [listed here](https://theintercept.com/2016/11/08/trump-transition-lobbyists/).
   * as Obama relied heavily on executive order, Trump could undo many accords in about a year,
   like the Paris GHG Agreement, Keystone pipeline exploration, Syrian refugee program,
   the raising of fuel standards, the banning of energy exploration in AK and the Arctic --
