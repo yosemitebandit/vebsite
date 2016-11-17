@@ -107,7 +107,7 @@ hard to rip wires in this mode though
 click the empty book to save the component to a new lib.
 then `preferences -> component libs` and add the new lib
 then click the book with writing on the pages to set the working lib and finally you can save.
-Note the topbar which has info about whic lib is active
+Note the topbar which has info about which lib is active
 * use `~` in front of the pin name to get the bar over the name (active low)
 
 *part three - more schematic*
@@ -129,3 +129,13 @@ I had to do something similar in the footprint editor to download footprints (th
 
 * a lib I've used: [bytelabs](https://github.com/open-project/kicadlibrary)
 * a [nice `.gitignore` template](https://gist.github.com/masahirosuzuka/6a333a0305e6903686c9)
+* [this series](http://kicad.txplore.com/?p=116) on custom part creation has been great
+
+
+### importing libs
+
+* I like to `git clone` a lib somewhere in home
+and then move the bits I need (`.bak`, `.dcm`, `.pretty`, `.lib` and `.kicad_mod`)
+* they go into something like `/Library/Application\ Support/kicad/template/pololu-drv8825`
+* then there's a lot of `prefs > lib wizard` wrangling and you may have to restart kicad
+* same with footprints -- have to add the lib with some sort of wizard
