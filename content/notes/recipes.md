@@ -86,6 +86,9 @@ but eventually worked out ok..I think
 kinda tasteless :(  ..I have a hard time getting veggies crispy in the frying pan though, that would've helped
 * [korean beef lettuce wraps](http://cooking.nytimes.com/recipes/1014079-korean-grilled-beef-lettuce-wraps) --
 not bad!  prolly should've marinated for more than 30mins..
+* this [green bean casserole](http://www.daringgourmet.com/2013/12/07/ultimate-green-bean-casserole/)
+with [homemade onion rings](http://allrecipes.com/recipe/82659/old-fashioned-onion-rings/) was tasty
+* [sweet potato + egg burritos](http://cookieandkate.com/2014/healthy-freezer-breakfast-burritos-with-sweet-potato-hash/) were quite good!
 * [pumpkin pie with real pumpkin](http://www.simplyrecipes.com/m/recipes/suzannes_old_fashioned_pumpkin_pie/)
 * [chocolate pecan pie](http://cooking.nytimes.com/recipes/1015434-chocolate-pecan-pie)
 * Nora decorated [this fruit tart](http://www.foodnetwork.com/recipes/paula-deen/fresh-fruit-tart-recipe.html) quite nicely --
