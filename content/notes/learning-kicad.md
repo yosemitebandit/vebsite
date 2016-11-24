@@ -132,6 +132,11 @@ I had to do something similar in the footprint editor to download footprints (th
 * [this series](http://kicad.txplore.com/?p=116) on custom part creation has been great
 
 
+### misc
+
+* measure distance in the footprint editor by hitting 'space' to reset the `dx` / `dy` numbers in the bottom menu
+
+
 ### importing libs
 
 * I like to `git clone` a lib somewhere in home
