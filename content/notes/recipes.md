@@ -47,7 +47,7 @@ I like to add sauteed mushrooms.
 scary good
 * [carrot cake](http://allrecipes.com/recipe/7402/carrot-cake-iii/)
 * [rum punch](http://allrecipes.com/recipe/32349/caribbean-rum-punch/) --
-but I used Sunny D and pumpking pie spice :|
+but I used Sunny D and pumpkin pie spice :|
 * [broccolini with garlic](http://www.foodnetwork.com/recipes/ina-garten/sauteed-broccolini-and-garlic-recipe.html)
 * [salsa / pico de gallo](http://allrecipes.com/recipe/16542/salsa/)
 * [bittman's pancakes](http://cooking.nytimes.com/recipes/1893-everyday-pancakes) --
@@ -86,6 +86,8 @@ but eventually worked out ok..I think
 kinda tasteless :(  ..I have a hard time getting veggies crispy in the frying pan though, that would've helped
 * [korean beef lettuce wraps](http://cooking.nytimes.com/recipes/1014079-korean-grilled-beef-lettuce-wraps) --
 not bad!  prolly should've marinated for more than 30mins..
+* [pumpkin pie with real pumpkin](http://www.simplyrecipes.com/m/recipes/suzannes_old_fashioned_pumpkin_pie/)
+* [chocolate pecan pie](http://cooking.nytimes.com/recipes/1015434-chocolate-pecan-pie)
 * Nora decorated [this fruit tart](http://www.foodnetwork.com/recipes/paula-deen/fresh-fruit-tart-recipe.html) quite nicely --
 we made it sans glaze and it was plenty sweet!
 
