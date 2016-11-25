@@ -125,6 +125,13 @@ I had to do something similar in the footprint editor to download footprints (th
 ### [Udemy's KiCad course](https://www.udemy.com/kicad-pro/)
 
 
+### [PCB design techniques in KiCad](https://www.youtube.com/watch?v=mI3iMBc-8yA)
+
+* he starts using it around 22min
+* the push and shove router is so cool..switch to OpenGL mode
+and then right click -> checkout the routing options
+
+
 ### other
 
 * a lib I've used: [bytelabs](https://github.com/open-project/kicadlibrary)
