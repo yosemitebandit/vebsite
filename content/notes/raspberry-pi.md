@@ -12,17 +12,21 @@ various Π-related snippets..
 <!--more-->
 
 
-*setup an SD card with `jessie lite`*
+## setup an SD card with `jessie lite`
 
 follow [these instructions](https://www.raspberrypi.org/downloads/raspbian/)
 
 
-*enable and disable various peripherals, fix keyboard layouts, etc*
+## fix keyboard issues, like `"` showing up as `@`
 
-`$ sudo raspi-config`
+* start with `sudo raspi-config`
+* go to internationalization options > change keyboard layout
+* select "generic 101 key PC"
+* go to other then select english
+* it'll then ask you about special keys -- I leave those alone
 
 
-*setup wifi*
+## setup wifi
 
 add the following to `/etc/wpa_supplicant/wpa_supplicant.conf`:
 
@@ -36,7 +40,7 @@ network={
 and then reboot
 
 
-*live stream with a raspberry pi camera and youtube*
+## live stream with a raspberry pi camera and youtube
 
 install some prereqs:
 
@@ -56,3 +60,5 @@ and used the command from [this gist](https://gist.github.com/maxogden/69e4ae18a
 (more about the command on [this blogpost](https://maxogden.com/hd-live-streaming-cats.html))
 
 (might look at nginx-rtmp, CDN services, Wowza servers, zencoder + videojs with m3u8 and S3)
+
+more notes on [this gist](https://gist.github.com/yosemitebandit/c17db9fbc7dc908cb61a4e34d51ae791)
