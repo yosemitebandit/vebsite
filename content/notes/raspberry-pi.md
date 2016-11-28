@@ -12,12 +12,12 @@ various Π-related snippets..
 <!--more-->
 
 
-## setup an SD card with `jessie lite`
+## Setup an SD card with `jessie lite`
 
-follow [these instructions](https://www.raspberrypi.org/downloads/raspbian/)
+Follow [these instructions](https://www.raspberrypi.org/downloads/raspbian/).
 
 
-## fix keyboard issues, like `"` showing up as `@`
+## Fix keyboard issues, like `"` showing up as `@`
 
 * start with `sudo raspi-config`
 * go to internationalization options > change keyboard layout
@@ -26,9 +26,9 @@ follow [these instructions](https://www.raspberrypi.org/downloads/raspbian/)
 * it'll then ask you about special keys -- I leave those alone
 
 
-## setup wifi
+## Setup wifi
 
-add the following to `/etc/wpa_supplicant/wpa_supplicant.conf`:
+Add the following to `/etc/wpa_supplicant/wpa_supplicant.conf`:
 
 ```
 network={
@@ -37,28 +37,28 @@ network={
 }
 ```
 
-and then reboot
+and then reboot.
 
 
-## live stream with a raspberry pi camera and youtube
+## Live stream with a raspberry pi camera and youtube
 
-install some prereqs:
+Install some prereqs:
 
 `$ apt-get install libx264.`
 
-get ffmpeg source and build it:
+Get ffmpeg source and build it:
 
 ```
-$ git clone git://source.ffmpeg.org/ffmpeg.git --depth=5
+$ git clone git://source.ffmpeg.org/ffmpeg.git --depth=1
 $ cd ffmpeg
 $ ./configure --enable-gpl --enable-nonfree --enable-libx264
 $ make -j$(nproc)
 $ sudo make install
 ```
 
-and used the command from [this gist](https://gist.github.com/maxogden/69e4ae18a32d7efd00d9)
-(more about the command on [this blogpost](https://maxogden.com/hd-live-streaming-cats.html))
+Could be more clever with `./configure` and disable many unused filters, protocols, etc,
+as per [this answer on SO](https://stackoverflow.com/questions/24849129/).
 
-(might look at nginx-rtmp, CDN services, Wowza servers, zencoder + videojs with m3u8 and S3)
-
-more notes on [this gist](https://gist.github.com/yosemitebandit/c17db9fbc7dc908cb61a4e34d51ae791)
+I used the command from [this gist](https://gist.github.com/maxogden/69e4ae18a32d7efd00d9) to stream
+(more about the command on [this blogpost](https://maxogden.com/hd-live-streaming-cats.html)).
+More streaming notes on [this gist](https://gist.github.com/yosemitebandit/c17db9fbc7dc908cb61a4e34d51ae791).
