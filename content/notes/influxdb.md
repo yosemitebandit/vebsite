@@ -1,7 +1,7 @@
 +++
 date = "2016-12-10T13:06:51-08:00"
 location = ""
-tags = []
+tags = ["reading", "ops"]
 thumbnail = "/img/influx-logo-thumbnail.png"
 title = "influxdb"
 
