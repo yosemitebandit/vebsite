@@ -7,6 +7,10 @@ tags = ["go"]
 
 +++
 
+spurious notes on golang..
+
+<!--more-->
+
 [how I start - golang](https://howistart.org/posts/go/1)
 
 * I've done some go tutorials here and there -- this one is pretty well-paced given my present knowledge

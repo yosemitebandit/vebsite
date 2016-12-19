@@ -7,6 +7,10 @@ tags = ["watching", "go"]
 
 +++
 
+notes on optimization..
+
+<!--more-->
+
 [on benchmarking / optimization](https://www.youtube.com/watch?v=JkgQJrodSpI#t=94)
 
 * part of their anti-DDOS system

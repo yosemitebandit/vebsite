@@ -7,6 +7,10 @@ tags = ["go", "ops", "web"]
 
 +++
 
+some notes on the static site builder, hugo..
+
+<!--more-->
+
 * download the hugo binary for 64 bit linux
 
 ```python
