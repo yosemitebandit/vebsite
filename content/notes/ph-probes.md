@@ -69,12 +69,17 @@ so the meter must have a high internal impedance.
 
 ### [PDF from Emerson](http://www2.emersonprocess.com/siteadmincenter/PM%20Rosemount%20Analytical%20Documents/Liq_ADS_43-002.pdf)
 
+* double / triple junctions and gelled reference solutions are attempts to prevent poisoning
 * cleaning solutions may enter the reference liquid junction..
 they'll persist until they diffuse out --
 a new "hydrolysis reference junction" (called TUpH by Emerson) has smaller pores
 and may prevent fouling
 * some sensors can sound an alarm if the reference impedance grows too large
 (indicating something has fouled that component and cleaning is needed)
+* online ultrasonic cleaning ineffective, jet sprays found to be better
+* ideal slope is -59.16mV/pH unit, but in practice a new electrode may be -57 - -58mV/pH unit --
+calibrating and getting this slope shows the age of the probe,
+the zero value shows the degree of reference poisoning that has occurred
 
 
 ### [Mettler Toledo on glass junctions](http://www.mt.com/us/en/home/perm-lp/product-organizations/pro/ph-probe-selection.html)
@@ -169,3 +174,11 @@ I would've thought the opposite, that solution could more easily infiltrate and 
 * points out that solutions themselves will have temp dependence --
 0.001 mol/L NaOH will have a pH of 11.17 at 20C (as opposed to the 11.00 you might expect),
 and the pH meter cannot compensate for that
+
+
+### [Pulse Instruments on ISFET](http://www.pulseinstruments.net/isfetnonglass.aspx)
+
+* pH electrodes are very high impedance so, to minimize electrical noise,
+the cable has to be shielded and the input stage of the meter has to be very close to the electrode
+* ISFET combines the pH sensitive membrane and the voltmeter's FET into one device
+* sensing areas can be quite small with this method: 0.5 square mm for 30uL samples
