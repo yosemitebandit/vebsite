@@ -1,8 +1,9 @@
 +++
-date = "2015-01-15T07:52:19Z"
 title = "about"
-menu = "main"
-type = "about"
+template = "one-page.html"
+description = "about page"
+date = 2015-01-15T07:52:19Z
+updated = 2022-10-02
 +++
 
 hello!  I hope my notes are as useful to you as they are to me.
@@ -16,6 +17,5 @@ Looking for more about me?  Try..
 * [last.fm](http://www.last.fm/user/post_haste),
 * or search all these posts via [/all](/all)
 
-This site's made with [hugo](http://hugo.spf13.com)
-and the [pasture](https://github.com/yosemitebandit/pasture) theme.
+This site is made with `zola`.
 The source for this site is [here](https://github.com/yosemitebandit/vebsite).
