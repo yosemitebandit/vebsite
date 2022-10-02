@@ -18,4 +18,4 @@ Looking for more about me?  Try..
 * or search all these posts via [/all](/all)
 
 This site is made with `zola`.
-The source for this site is [here](https://github.com/yosemitebandit/vebsite).
+The source for this site is [here](https://github.com/yosemitebandit/vebsite/tree/zola).
