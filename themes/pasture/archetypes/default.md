@@ -1,7 +1,0 @@
-+++
-title = ""
-tags = []
-thumbnail = ""
-location = ""
-+++
-
