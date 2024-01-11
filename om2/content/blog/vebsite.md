@@ -14,3 +14,6 @@ Source is [here](https://github.com/yosemitebandit/vebsite/tree/zola):
 
 I also setup :moon: [`lunarvim`](https://www.lunarvim.org/) in service of this project
 and that has been really nice!
+With `vim`, I use various plugins and custom keybinds --
+I'm surrendering a lot of that for the `lunarvim` defaults.
+My customization, so far, is [just a few small things](https://github.com/yosemitebandit/dotdotdot/blob/b89a66fcad6d762724ff759a069ee398c1302d4a/lvim-config.lua).
