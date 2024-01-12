@@ -3,13 +3,12 @@ title = "eno"
 date = 2015-08-04
 location = "Oakland"
 tags = ["werk", "python", "projects", "hardware"]
-thumbnail = "/img/eno-board-thumbnail.jpg"
 +++
+
+![eno board](eno-board.jpg "Eno board")
 
 At Endaga I worked on [`eno`](https://github.com/endaga/eno-python),
 a "programmable cell phone" testing system.
-
-<!--more-->
 
 Endaga built really affordable cell phone towers
 and we wanted to be able to test our boxes with real phones creating real traffic.
