@@ -1,10 +1,13 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1 class="title">
-  notes
+<h1>
+  oakmachine
 </h1>
 
-<p>Click <a href="{{ get_url(path='@/posts/_index.md') }}">here</a> to see my posts</p>
+<ul>
+  <li><a href="{{ get_url(path='@/posts/_index.md') }}">Notes</a></li>
+  <li><a href="{{ get_url(path='@/projects/_index.md') }}">Projects</a></li>
+</ul>
 
 {% endblock content %}
