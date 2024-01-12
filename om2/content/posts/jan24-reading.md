@@ -23,3 +23,11 @@ date = 2024-01-11
   - I'll turn it on, seems like the downsides are what you'd expect:
   more overhead with parsing the requests and support is not universal,
   not relevant for my micro site but interesting to learn about
+- :scientist: [NYT: Arena BioWorks](https://www.nytimes.com/2024/01/12/business/arena-bioworks-scientists-harvard-mit.html)
+  - various funders are directly backing a research group aimed at broad drug discovery
+  - not a lot here on what they'll pursue or detail on how they're structured;
+  there's a lot of whinging about diverting investments away from universities
+  and poaching PIs and scientists from academia
+  - their [press release](https://www.prnewswire.com/news-releases/arena-bioworks-launches-as-a-privately-funded-fully-independent-biomedical-institute-to-shorten-the-path-from-insight-to-therapeutics-302033563.html)
+  says the model "empowers scientists to investigate any disease"
+  and, after locking in on a mechanism, they'll form companies to pursue things further
