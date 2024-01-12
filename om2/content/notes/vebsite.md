@@ -12,6 +12,7 @@ Source is [here](https://github.com/yosemitebandit/vebsite/tree/zola):
 - cloudflare -- for both DNS and the static site
 - I plan to transfer old pages to the new site
 - themes that might be nice: `abridge`, `juice`, `serene`, `even`
+- [supported emoji](https://github.com/github/gemoji/blob/master/db/emoji.json)
 
 I also setup :moon: [`lunarvim`](https://www.lunarvim.org/) in service of this project
 and that has been really nice!
