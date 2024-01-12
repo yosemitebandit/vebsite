@@ -1,6 +1,9 @@
+### dev
 ```
 cd om2
 zola serve
 zola build
 ```
-push to deploy to cf
+
+### deploy
+push to the `zola` branch to trigger a deploy with cloudflare pages
