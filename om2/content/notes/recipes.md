@@ -17,3 +17,4 @@ date = 2024-01-10
 
 ### handful of makes
 - [Cumin-Lime Shrimp](https://cooking.nytimes.com/recipes/1019629-cumin-lime-shrimp-with-ginger) - NYT
+- [Sweet Hot Mustard Chicken Thighs](https://www.allrecipes.com/recipe/233170/sweet-hot-mustard-chicken-thighs/) - Chef John
