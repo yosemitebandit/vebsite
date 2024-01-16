@@ -33,3 +33,7 @@ and poaching PIs and scientists from academia
 - their [press release](https://www.prnewswire.com/news-releases/arena-bioworks-launches-as-a-privately-funded-fully-independent-biomedical-institute-to-shorten-the-path-from-insight-to-therapeutics-302033563.html)
 says the model "empowers scientists to investigate any disease"
 and, after locking in on a mechanism, they'll form companies to pursue things further
+
+:ru: Gentleman in Moscow
+- listened to this one via Libby
+- it's quite ponderous, should I have just listened to a real Russian novel??
