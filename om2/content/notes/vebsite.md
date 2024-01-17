@@ -14,6 +14,9 @@ Source is [here](https://github.com/yosemitebandit/vebsite/tree/zola):
 - themes that might be nice: `abridge`, `juice`, `serene`, `even`
 - [supported emoji](https://github.com/github/gemoji/blob/master/db/emoji.json)
 
+inspiration
+- manuelmoreale.com
+
 I also setup :moon: [`lunarvim`](https://www.lunarvim.org/) in service of this project
 and that has been really nice!
 With `vim`, I use various plugins and custom keybinds --
