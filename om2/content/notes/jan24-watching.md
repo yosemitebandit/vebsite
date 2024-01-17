@@ -20,3 +20,4 @@ and helps prompt Frances McDormand to re-investigate William Macy
 :crossed_swords: [NAC5](https://www.youtube.com/watch?v=O5WVBFPMUrg)
 - watching pieces of this aoe2 tournament on youtube
 - insane game4 between Hera and Tatoh
+- awesome game1 between Hera and Yo

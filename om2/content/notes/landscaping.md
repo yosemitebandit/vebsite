@@ -10,6 +10,7 @@ date = 2024-01-13
 - pineapple guava
 - Alphonse Karr bamboo (clumping bamboo that apparently won't run)
 - the brazilian plants (er..name?) and use those flowering succulents that were repotted + sage
+- ferns
 
 
 ### sideyard
