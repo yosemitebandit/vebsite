@@ -17,6 +17,11 @@ Source is [here](https://github.com/yosemitebandit/vebsite/tree/zola):
 inspiration
 - manuelmoreale.com
 
+ideas
+- drop images into site as b64-encoded
+  - can have script to go from image-on-device to text-in-clipboard
+  - but how to have refs/thumbnails/galleries?
+
 I also setup :moon: [`lunarvim`](https://www.lunarvim.org/) in service of this project
 and that has been really nice!
 With `vim`, I use various plugins and custom keybinds --
