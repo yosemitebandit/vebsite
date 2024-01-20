@@ -3,10 +3,25 @@ template = "about.html"
 +++
 
 elsewhere
-- github, literal.club, letterboxed, linkedin, email
+- [github](https://github.com/yosemitebandit),
+[literal.club](https://literal.club/@oakmachine),
+letterboxed,
+[linkedin](https://linkedin.com/in/mab43),
+email
 
 friends
 - [Trevor](http://trevorshp.com)
 
 blogs I admire
-- ..
+- benmoren.com
+- [Ben Katz](https://build-its-inprogress.blogspot.com/search/label/Pendulum)
+- [dynomight](https://dynomight.net/)
+- [ACX / SSC](https://slatestarcodex.com/2014/09/30/i-can-tolerate-anything-except-the-outgroup/)
+- [Alex Molas 100 list](https://www.alexmolas.com/100-list)
+- [Chip Huyen](https://huyenchip.com/blog/)
+- [Read Something Wonderful](https://readsomethingwonderful.com/p/189/a-sense-of-where-you-are)
+- [Mark Kelly](http://www.markrkelly.com/Blog/)
+- [Andrej Karpathy](https://karpathy.medium.com/software-2-0-a64152b37c35)
+- [Nathaniel Borenstein](https://guppylake.com/)
+- [Thiago Teixeira](https://thiagot.com/index.html)
+- [Christopher Olah](https://colah.github.io/posts/2015-09-Visual-Information/)
