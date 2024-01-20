@@ -21,3 +21,8 @@ and helps prompt Frances McDormand to re-investigate William Macy
 - watching pieces of this aoe2 tournament on youtube
 - insane game4 between Hera and Tatoh
 - awesome game1 between Hera and Yo
+
+:house: [DIY cable railing](https://www.youtube.com/watch?v=e4XFHgxt3Cs) for a deck
+- from scratch: flat bar, square tubing, cedar tops
+- the guys from [This Old House](https://www.youtube.com/watch?v=vopMY32I47A)
+bevel the caps for water and use wooden posts.
