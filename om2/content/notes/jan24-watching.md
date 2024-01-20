@@ -26,3 +26,5 @@ and helps prompt Frances McDormand to re-investigate William Macy
 - from scratch: flat bar, square tubing, cedar tops
 - the guys from [This Old House](https://www.youtube.com/watch?v=vopMY32I47A)
 bevel the caps for water and use wooden posts.
+- various types of hardware..
+neither video mentioned "post protector sleeves" but those would probably be good
