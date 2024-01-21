@@ -39,4 +39,9 @@ and this is net of the expense ratio
 
 ### why not TNotes?
 - for one, they are just issued less often by their nature, and so are a bit less accessible
-- but there is an upcoming issue on Jan 18th, maybe I'll check that out
+- but there is an upcoming issue on Jan 18th, maybe I'll check that out;
+update: yeah three notes now available:
+around 4% expected yield for each,
+maturity in '26, '29 and '31,
+semi-annual coupon.
+Reminder: they're subject to federal income tax but no state/local taxes.
