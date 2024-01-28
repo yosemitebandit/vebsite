@@ -15,6 +15,9 @@ and the interest is treated as income
 ### fidelity interface
 - can buy new issue treasuries sans fees
 - can setup "autoroll" to reinvest short-term TBills into similar new (new-issue?) vehicles when things mature
+    - example: `912797GE1` from Aug 2023 will auto-roll in Feb 2024;
+    its auction results at the time were 5.24% median rate;
+    it auto-rolled to ... (TODO)
 
 
 ### examples
