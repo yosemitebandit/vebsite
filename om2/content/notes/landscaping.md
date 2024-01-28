@@ -13,6 +13,10 @@ date = 2024-01-13
 - ferns
 
 
+### planters
+- berry bushes
+
+
 ### sideyard
 - pruning the star jasmine [video](https://www.youtube.com/watch?v=l41uUVc-S0I)
 - potting area
