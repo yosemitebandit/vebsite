@@ -2,6 +2,8 @@
 template = "about.html"
 +++
 
+Matt B builds and writes here.
+
 elsewhere
 - [github](https://github.com/yosemitebandit),
 [literal.club](https://literal.club/@oakmachine),
@@ -13,7 +15,7 @@ friends
 - [Trevor](http://trevorshp.com)
 
 blogs I admire
-- benmoren.com
+- [Ben Moren](https://benmoren.com)
 - [Ben Katz](https://build-its-inprogress.blogspot.com/search/label/Pendulum)
 - [dynomight](https://dynomight.net/)
 - [ACX / SSC](https://slatestarcodex.com/2014/09/30/i-can-tolerate-anything-except-the-outgroup/)
@@ -25,3 +27,4 @@ blogs I admire
 - [Nathaniel Borenstein](https://guppylake.com/)
 - [Thiago Teixeira](https://thiagot.com/index.html)
 - [Christopher Olah](https://colah.github.io/posts/2015-09-Visual-Information/)
+- [Taylor Town](https://taylor.town/)
