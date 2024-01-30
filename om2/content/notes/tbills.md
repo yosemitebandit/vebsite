@@ -17,7 +17,9 @@ and the interest is treated as income
 - can setup "autoroll" to reinvest short-term TBills into similar new (new-issue?) vehicles when things mature
     - example: `912797GE1` from Aug 2023 will auto-roll in Feb 2024;
     its auction results at the time were 5.24% median rate;
-    it auto-rolled to ... (TODO)
+    this auto-rolled to `912797JU2` which is for 26wks and had a price of $97.4798 / $100;
+    I believe it auto-rolls to something with the same duration,
+    and in this case the rate is comparable, ~5%
 
 
 ### examples
