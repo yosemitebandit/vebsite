@@ -37,3 +37,9 @@ and, after locking in on a mechanism, they'll form companies to pursue things fu
 :ru: Gentleman in Moscow
 - listened to this one via Libby
 - it's quite ponderous, should I have just listened to a real Russian novel??
+
+:scotland: The Scottish Play
+- I listened to two productions on Libby,
+the one from BBC2 is really great
+- I spoke with ChatGPT about the different scenes and background (fairly helpful),
+and I also did some [Anki](@/notes/anki.md) decks on quotes and themes and this was really fun (Happiness!!)
