@@ -28,3 +28,4 @@ blogs I admire
 - [Thiago Teixeira](https://thiagot.com/index.html)
 - [Christopher Olah](https://colah.github.io/posts/2015-09-Visual-Information/)
 - [Taylor Town](https://taylor.town/)
+- [Shyam Pather](https://shyam.blog/posts/beyond-self-attention/)

@@ -16,6 +16,7 @@ Source is [here](https://github.com/yosemitebandit/vebsite/tree/zola):
 
 inspiration
 - manuelmoreale.com
+- dan.carley.co
 
 ideas
 - drop images into site as b64-encoded
