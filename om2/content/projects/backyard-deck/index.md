@@ -61,7 +61,7 @@ then he uses wedges to even out the internal pieces before screwing it all down
 1. everybody oils the end-grain of decking
 
 
-### Other resources
+### Reading/watching
 - [Fine Home Building](https://www.finehomebuilding.com/project-guides/decks) on a free-standing deck.
 They also have a great video series.
 - [DIY Cable Railing video](https://www.youtube.com/watch?v=e4XFHgxt3Cs)
