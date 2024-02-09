@@ -59,9 +59,11 @@ various people tack in their joists (flushing them to the girders) before attach
 [this fellow](https://www.youtube.com/watch?v=3iSBTvV206c) locks in two parallel pieces of decking with several ft of gap in between,
 then he uses wedges to even out the internal pieces before screwing it all down
 1. everybody oils the end-grain of decking
+1. put joists in with bowing up so the decking flattens it out
 
 
 ### Reading/watching
 - [Fine Home Building](https://www.finehomebuilding.com/project-guides/decks) on a free-standing deck.
 They also have a great video series.
 - [DIY Cable Railing video](https://www.youtube.com/watch?v=e4XFHgxt3Cs)
+- [Full Deck Build in NZ](https://www.youtube.com/watch?v=4Sw6YJOcVWk)
