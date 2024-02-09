@@ -1,5 +1,5 @@
 +++
-title = "jan24-reading"
+title = "jan24 reading"
 date = 2024-01-11
 +++
 
