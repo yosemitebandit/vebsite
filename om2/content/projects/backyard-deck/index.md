@@ -60,6 +60,7 @@ various people tack in their joists (flushing them to the girders) before attach
 then he uses wedges to even out the internal pieces before screwing it all down
 1. everybody oils the end-grain of decking
 1. put joists in with bowing up so the decking flattens it out
+1. [setting posts after the beam (top-down)](https://www.finehomebuilding.com/project-guides/decks/setting-deck-posts-from-the-top-down)
 
 
 ### Reading/watching

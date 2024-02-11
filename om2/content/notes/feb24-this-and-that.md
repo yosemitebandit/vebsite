@@ -25,3 +25,8 @@ this doesn't sit quite right with me, and it's something we used to talk about i
 right now they are about providing malaria meds and nets, and providing vitamin supplements.
 These seem to plug in to existing local programs and "infrastructure"
 - GiveWell publishes a whole section on ["Our Mistakes"](https://www.givewell.org/about/our-mistakes) which is so cool.
+
+:house_with_garden: [Julian Hodges: Quatrefoil](https://www.finehomebuilding.com/2007/04/18/great-gates-for-any-house)
+- creating this detail on a custom wooden gate
+
+{{ resize_image(path="notes/media/julian-hodges-quatrefoil.png", width=500, height=500, op="fit_width") }}

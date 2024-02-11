@@ -52,3 +52,6 @@ I would be satisfied with a waterproof cover and manual weather-rated switch.
 - some good tips [here](https://forum.universal-devices.com/topic/21126-outdoor-sump-pump-what-would-you-do/)
 - I like [this fellow's video](https://www.youtube.com/watch?v=ywgDOSHvsIg);
 nice tip to use a flexible coupling near the pump outlet to relieve stress on those connections
+- [video on a full drainage system](https://www.homedepot.com/p/NDS-Pop-Up-Drainage-Emitter-with-Elbow-for-3-in-Drain-Pipes-Green-Plastic-322G/100164533#overlay)
+including a "dry well", which is like a big deep basin full of stones, deep in the ground,
+where water can collect and presumably enter into the ground
