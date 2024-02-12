@@ -68,3 +68,4 @@ then he uses wedges to even out the internal pieces before screwing it all down
 They also have a great video series.
 - [DIY Cable Railing video](https://www.youtube.com/watch?v=e4XFHgxt3Cs)
 - [Full Deck Build in NZ](https://www.youtube.com/watch?v=4Sw6YJOcVWk)
+- [Video from Lowes on a ~30" floating deck](https://www.youtube.com/watch?v=SUxS4QJpeiU)
