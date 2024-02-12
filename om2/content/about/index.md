@@ -29,3 +29,4 @@ blogs I admire
 - [Christopher Olah](https://colah.github.io/posts/2015-09-Visual-Information/)
 - [Taylor Town](https://taylor.town/)
 - [Shyam Pather](https://shyam.blog/posts/beyond-self-attention/)
+- [Willem Pennings](https://willempennings.nl/balancing-cube/)
