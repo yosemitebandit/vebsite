@@ -22,3 +22,4 @@ date = 2024-01-13
 - potting area
 - cool: getchipdrop.com
 - nice for fixing stucco around gate: [Abatron WoodEpox](https://www.finehomebuilding.com/2012/05/17/easy-small-scale-stucco-patch)
+- nice walkway: https://www.youtube.com/watch?v=IQJK_BgLO04

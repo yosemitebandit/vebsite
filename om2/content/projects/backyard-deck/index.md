@@ -66,6 +66,10 @@ then he uses wedges to even out the internal pieces before screwing it all down
 ### Reading/watching
 - [Fine Home Building](https://www.finehomebuilding.com/project-guides/decks) on a free-standing deck.
 They also have a great video series.
+- [DCA 6-12](https://awc.org/wp-content/uploads/2022/02/AWC-DCA62012-DeckGuide-1405.pdf)
+is the American Wood Council's alternative decking code: thorough and prescriptive
 - [DIY Cable Railing video](https://www.youtube.com/watch?v=e4XFHgxt3Cs)
 - [Full Deck Build in NZ](https://www.youtube.com/watch?v=4Sw6YJOcVWk)
 - [Video from Lowes on a ~30" floating deck](https://www.youtube.com/watch?v=SUxS4QJpeiU)
+- [Framing](https://www.youtube.com/watch?v=glRLIOOeb-o)
+- [Lots of great videos from this fellow](https://www.youtube.com/watch?v=LXZoefTjMXI)
