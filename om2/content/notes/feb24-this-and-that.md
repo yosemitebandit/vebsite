@@ -30,3 +30,17 @@ These seem to plug in to existing local programs and "infrastructure"
 - creating this detail on a custom wooden gate
 
 {{ resize_image(path="notes/media/julian-hodges-quatrefoil.png", width=500, height=500, op="fit_width") }}
+
+:robot: Phind-70B
+- played around with this model and writing a simple app to do image processing,
+it worked very well for iteration and debugging
+- I had tried GPT3 for a simple app in the past,
+but I got discouraged because I felt it led me astray for hours.. this was much more promising!
+
+{{ resize_image(path="notes/media/mb-canny.png", width=500, height=500, op="fit_width") }}
+
+
+:clock: Ivan Miranda's marble clock series
+
+- https://www.youtube.com/watch?v=JLD_Nl12oac
+- so good!
