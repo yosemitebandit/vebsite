@@ -34,9 +34,14 @@ measurements:
 
 
 Some designs I like:
-- https://www.youtube.com/shorts/LCKzti1H7l8
-- some tips: https://www.youtube.com/shorts/ItmsHbG7mqw
-- https://www.youtube.com/shorts/pHctbPSRVhc
-- nice latch: https://www.youtube.com/watch?v=UPIX3GcBpYA
-- detail on a gate with a [steel/concrete core](https://www.finehomebuilding.com/membership/pdf/14540/021129110.pdf)
-- on Julian Hodges, master gate builder: https://www.finehomebuilding.com/2007/07/01/in-the-golden-gates-shadow
+- my fave: from Julian Hodges, master gate builder
+{{ resize_image(path="projects/sideyard-gate/hodges-gate.jpeg", width=500, height=500, op="fit_width") }}
+    - https://www.finehomebuilding.com/2007/07/01/in-the-golden-gates-shadow
+    - with the recessed slats, curved top, thicker base
+    - but how do they curve the top, hmm
+    - similar design with rabbet: https://www.youtube.com/shorts/pHctbPSRVhc
+- more:
+    - https://www.youtube.com/shorts/LCKzti1H7l8
+    - some tips: https://www.youtube.com/shorts/ItmsHbG7mqw
+    - nice latch: https://www.youtube.com/watch?v=UPIX3GcBpYA
+    - detail on a gate with a [steel/concrete core](https://www.finehomebuilding.com/membership/pdf/14540/021129110.pdf)
