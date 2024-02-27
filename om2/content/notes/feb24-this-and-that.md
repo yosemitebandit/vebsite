@@ -40,7 +40,14 @@ but I got discouraged because I felt it led me astray for hours.. this was much 
 {{ resize_image(path="notes/media/mb-canny.png", width=500, height=500, op="fit_width") }}
 
 
-:clock: Ivan Miranda's marble clock series
+:mantelpiece_clock: Ivan Miranda's marble clock series
 
 - https://www.youtube.com/watch?v=JLD_Nl12oac
 - so good!
+
+
+:sheep: Maya Lin's [_A Fold in the Field_](https://www.mayalinstudio.com/art/a-fold-in-the-field)
+
+{{ resize_image(path="notes/media/fold-in-the-field.jpeg", width=500, height=500, op="fit_width") }}
+
+- installation in New Zealand
