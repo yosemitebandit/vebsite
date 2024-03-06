@@ -9,7 +9,7 @@ Our gate is busted!
 {{ resize_image(path="projects/sideyard-gate/original-gate.jpg", width=500, height=500, op="fit_width") }}
 
 The hinges and fasteners aren't quite right on the wooden side.
-Might also be mis-aligned.
+The hinges might also be mis-aligned.
 Also the brace is backwards.
 The stucco wall on the left seems to have cinderblock underneath
 and the fasteners in there are mostly tight.
@@ -17,15 +17,14 @@ and the fasteners in there are mostly tight.
 {{ resize_image(path="projects/sideyard-gate/original-screw.jpg", width=500, height=500, op="fit_height") }}
 
 The latch is also no good, too easy to get stuck,
-and we'd like to be able to open it from the outside.
+and we'd like to be able to open it from the outside, which we currently cannot!
 
 
-### Rebuild
+### Designs and Techniques
 
 - probably need to redo the hinges just to feel complete about it
 - I'd like to be able to open it from the outside
 - should it self-close?
-- adjustable hook and band seems really nice [video](https://www.youtube.com/watch?v=2JiGxM6N3Oo)
 - we'd like to stain it dark to match the front door
 
 measurements:
@@ -33,7 +32,7 @@ measurements:
 {{ resize_image(path="projects/sideyard-gate/measurements-sketch.jpg", width=500, height=500, op="fit_width") }}
 
 
-Some designs I like:
+Some designs and methods I like:
 - my fave: from Julian Hodges, master gate builder
 {{ resize_image(path="projects/sideyard-gate/hodges-gate.jpeg", width=500, height=500, op="fit_width") }}
     - https://www.finehomebuilding.com/2007/07/01/in-the-golden-gates-shadow
@@ -45,3 +44,17 @@ Some designs I like:
     - some tips: https://www.youtube.com/shorts/ItmsHbG7mqw
     - nice latch: https://www.youtube.com/watch?v=UPIX3GcBpYA
     - detail on a gate with a [steel/concrete core](https://www.finehomebuilding.com/membership/pdf/14540/021129110.pdf)
+    - adjustable hook and band seems really nice [video](https://www.youtube.com/watch?v=2JiGxM6N3Oo)
+
+
+### Materials and Design
+
+- I got some lumber and it made me rethink the design, given what was available
+
+{{ resize_image(path="projects/sideyard-gate/frame.jpg", width=500, height=500, op="fit_width") }}
+
+- I'll try a redwood frame, with thin redwood slats to cover the front, and complete an arch
+- I think I'll need some slat pattern that will be more cut efficient,
+diagonal or could this work with an arch at top, hm:
+
+{{ resize_image(path="projects/sideyard-gate/atd-gates-la.jpeg", width=500, height=500, op="fit_width") }}
