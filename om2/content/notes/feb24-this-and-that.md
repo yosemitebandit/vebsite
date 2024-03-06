@@ -51,3 +51,8 @@ but I got discouraged because I felt it led me astray for hours.. this was much 
 {{ resize_image(path="notes/media/fold-in-the-field.jpeg", width=500, height=500, op="fit_width") }}
 
 - installation in New Zealand
+
+
+:game_die: [Bertrand's Paradox](https://www.youtube.com/watch?v=mZBwsm6B280)
+
+- Numberphile and 3Blue1Brown with some nice Monte Carlo examples
