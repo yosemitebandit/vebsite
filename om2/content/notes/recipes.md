@@ -13,8 +13,12 @@ date = 2024-01-10
 ### dozens of makes
 - [Umami Romanesco](https://www.allrecipes.com/recipe/281570/roasted-roman-style-romanesco/) (or cauliflower) - Chef John
 - [Chickpea Stew with Parmesan and Rosemary](https://cooking.nytimes.com/recipes/1013535-chickpea-vegetable-soup-with-parmesan-rosemary-and-lemon) - NYT
+- Bittman's polenta
+- Sourdough
+- Poke
 
 
 ### handful of makes
 - [Cumin-Lime Shrimp](https://cooking.nytimes.com/recipes/1019629-cumin-lime-shrimp-with-ginger) - NYT
 - [Sweet Hot Mustard Chicken Thighs](https://www.allrecipes.com/recipe/233170/sweet-hot-mustard-chicken-thighs/) - Chef John
+- [Muhammara](https://cooking.nytimes.com/recipes/1017492-muhammara-red-pepper-and-walnut-spread) - NYT
