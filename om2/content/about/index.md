@@ -30,4 +30,5 @@ blogs I admire
 - [Taylor Town](https://taylor.town/)
 - [Shyam Pather](https://shyam.blog/posts/beyond-self-attention/)
 - [Willem Pennings](https://willempennings.nl/balancing-cube/)
-- [Michael Lynch](mtlynch.io)
+- [Michael Lynch](https://mtlynch.io)
+- [Nick Sweeting](https://sweeting.me/)
