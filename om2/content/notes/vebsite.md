@@ -22,6 +22,10 @@ ideas
 - drop images into site as b64-encoded
   - can have script to go from image-on-device to text-in-clipboard
   - but how to have refs/thumbnails/galleries?
+- landing page with some procedurally generated tree
+  - eg simulated weather and tree growth in certain directions
+- sections for notes, projects, about, recipes, music, reading
+  - elevate the project pages
 
 I also setup :moon: [`lunarvim`](https://www.lunarvim.org/) in service of this project
 and that has been really nice!
