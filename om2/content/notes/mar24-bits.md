@@ -28,3 +28,9 @@ multiple outdoor units with an air handler, a variety of vents and several wall-
 - looks like a handful of corporate entities which you can plug into + a way to manage finances
 - "exit to community" is a cool aim as well,
 where they plan to "mature into ownership by their community of stakeholders"
+
+
+:book: [Mary Frances Dunham memoirs](https://dunham-family.com/dhaka-memoirs/)
+- incredible set of memoirs, focused on Americans living in East Pakistan in the 60s
+- I'm listening to _Midnight's Children_ now, set in the same vicinity
+- also just a great project put together by a mother/daughter team, that's really touching
