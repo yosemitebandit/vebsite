@@ -58,3 +58,7 @@ Some designs and methods I like:
 diagonal or could this work with an arch at top, hm:
 
 {{ resize_image(path="projects/sideyard-gate/atd-gates-la.jpeg", width=500, height=500, op="fit_width") }}
+
+- could mimic a deck hidden fastener system and use knock-off deck clips like "Muzata" or "Myard" on Amazon..
+of course you'd have to cut some dados in your boards
+- or could make a nice face-nailing pattern, following the arch, pre-drilling for stainless nails
