@@ -18,12 +18,13 @@ unit conversions,
 plants and trees,
 Spanish,
 the US constitution,
-music (chords, themes, notes)
+music (chords, themes, notes, famous works, uke patterns, pitch practice)
 even [The Scottish Play](@/notes/jan24-reading.md)!
 
 I'd like to build (or find) decks on:
 - cheese, more on wine (Zraly book? winefolly?)
 - famous scientists and discoveries, Nobel prizes in the sciences
+(see: people with celestial bodies/asteroids named after them)
 - and personal things,
 like the story behind pictures,
 or plots of books and movies I've seen,
@@ -46,4 +47,5 @@ target temperatures for things like chicken
 - decimal fractions
 - algorithms e.g. ways to integrate
 - logic
-- mental models (yegg), heuristics, biases
+- mental models (yegg), heuristics, biases, fallacies, schools of thought
+- orienteering symbols
