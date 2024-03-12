@@ -34,3 +34,14 @@ where they plan to "mature into ownership by their community of stakeholders"
 - incredible set of memoirs, focused on Americans living in East Pakistan in the 60s
 - I'm listening to _Midnight's Children_ now, set in the same vicinity
 - also just a great project put together by a mother/daughter team, that's really touching
+
+
+:house_with_garden: [Siloe Oliveira rebuilds a garden shed](https://www.youtube.com/watch?v=HWRulq1rtvM)
+- bricolage!
+- wonderful detail and all-around aesthetic
+
+
+:shell: [Eirik Brandal's shell-tethered vesper](https://www.youtube.com/watch?v=R9ZAp6HtYOs)
+- so awesome, I love the scaffolding
+ 
+{{ resize_image(path="notes/media/shell-tethered-vesper.png", width=500, height=500, op="fit_width") }}
