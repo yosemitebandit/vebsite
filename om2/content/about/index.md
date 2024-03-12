@@ -13,6 +13,7 @@ email
 
 friends
 - [Trevor](http://trevorshp.com)
+- [Tim](https://www.mirrorofimagination.com/)
 
 blogs I admire
 - [Ben Moren](https://benmoren.com)
