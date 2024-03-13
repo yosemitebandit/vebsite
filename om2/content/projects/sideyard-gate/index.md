@@ -62,3 +62,5 @@ diagonal or could this work with an arch at top, hm:
 - could mimic a deck hidden fastener system and use knock-off deck clips like "Muzata" or "Myard" on Amazon..
 of course you'd have to cut some dados in your boards
 - or could make a nice face-nailing pattern, following the arch, pre-drilling for stainless nails
+- could put in trim screws and fill them,
+or could glue a decorative curved piece of trim on top of that screw pattern to hide it
