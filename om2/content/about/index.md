@@ -33,3 +33,4 @@ blogs I admire
 - [Willem Pennings](https://willempennings.nl/balancing-cube/)
 - [Michael Lynch](https://mtlynch.io)
 - [Nick Sweeting](https://sweeting.me/)
+- [Mark Nagelberg](https://www.marknagelberg.com/)
