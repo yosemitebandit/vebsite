@@ -13,6 +13,7 @@ Source is [here](https://github.com/yosemitebandit/vebsite/tree/zola):
 - I plan to transfer old pages to the new site
 - themes that might be nice: `abridge`, `juice`, `serene`, `even`
 - [supported emoji](https://github.com/github/gemoji/blob/master/db/emoji.json)
+- nice resource for [named colors in CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/named-color)
 
 inspiration
 - manuelmoreale.com
