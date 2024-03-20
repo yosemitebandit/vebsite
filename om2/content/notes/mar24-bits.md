@@ -23,7 +23,7 @@ multiple outdoor units with an air handler, a variety of vents and several wall-
 - Another TOH video where they install an air handler + ducts in the attic: https://www.youtube.com/watch?v=lb0UgFisz1E
 
 
-:open_hands: [OpenCollective](opencollective.com)
+:open_hands: [OpenCollective](https://opencollective.com)
 - Anki uses this platform to run a sort of patreon-type community, pretty cool!
 - looks like a handful of corporate entities which you can plug into + a way to manage finances
 - "exit to community" is a cool aim as well,
