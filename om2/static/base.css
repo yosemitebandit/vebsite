@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  color: #444;
+  background-color: oldlace;
+  font-family: sans-serif;
+  line-height: 1.4em;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 1rem;
+}
+a {
+  text-decoration: none;
+  color: darkgreen;
+  border-bottom: 2px solid darkgreen;
+}
+a:hover {
+  color: darkslateblue;
+  border-bottom: 2px solid darkslateblue;
+}
