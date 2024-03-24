@@ -14,6 +14,9 @@ email
 friends
 - [Trevor](http://trevorshp.com)
 - [Tim](https://www.mirrorofimagination.com/)
+- [Ayush](http://ayushdubey.com/)
+- [Steph](https://www.stephjang.com/)
+- [Kelvin](https://www.kelvinguu.com/)
 
 blogs I admire
 - [Ben Moren](https://benmoren.com)
@@ -34,3 +37,5 @@ blogs I admire
 - [Michael Lynch](https://mtlynch.io)
 - [Nick Sweeting](https://sweeting.me/)
 - [Mark Nagelberg](https://www.marknagelberg.com/)
+- [James Somers](https://jsomers.net/)
+- [Saharan](https://oimo.io)
