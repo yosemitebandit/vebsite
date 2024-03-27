@@ -13,9 +13,10 @@ date = 2024-01-10
 ### dozens of makes
 - [Umami Romanesco](https://www.allrecipes.com/recipe/281570/roasted-roman-style-romanesco/) (or cauliflower) - Chef John
 - [Chickpea Stew with Parmesan and Rosemary](https://cooking.nytimes.com/recipes/1013535-chickpea-vegetable-soup-with-parmesan-rosemary-and-lemon) - NYT
-- Bittman's polenta
+- Polenta - Mark Bittman
 - Sourdough
 - Poke
+- [Shakshuka with Feta](https://cooking.nytimes.com/recipes/1014721-shakshuka-with-feta) - NYT
 
 
 ### handful of makes
