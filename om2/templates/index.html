@@ -1,14 +1,18 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1>
-  om2
-</h1>
 
-<ul>
-  <li><a href="{{ get_url(path='@/notes/_index.md') }}">Notes</a></li>
-  <li><a href="{{ get_url(path='@/projects/_index.md') }}">Projects</a></li>
-  <li><a href="{{ get_url(path='@/about/index.md') }}">About</a></li>
-</ul>
+<div id='home-container'>
+  <img src="{{ get_url(path='one.svg') | safe }}" alt="oak machine" />
+  <br />
+
+  <a href="{{ get_url(path='@/notes/_index.md') }}">Notes</a>
+  &nbsp;
+  &nbsp;
+  <a href="{{ get_url(path='@/projects/_index.md') }}">Projects</a>
+  &nbsp;
+  &nbsp;
+  <a href="{{ get_url(path='@/about/index.md') }}">About</a>
+</div>
 
 {% endblock content %}

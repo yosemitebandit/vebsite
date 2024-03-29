@@ -19,3 +19,6 @@ a:hover {
   color: darkslateblue;
   border-bottom: 2px solid darkslateblue;
 }
+#home-container {
+  text-align: center;
+}
