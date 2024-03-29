@@ -12,12 +12,14 @@ later: interactive shader
 
 import random
 
-import matplotlib.pyplot as plt
+import svgwrite
 
-shoots = 32
+branches = 32
 ticks = 128
 
-for shoot in range(shoots):
+drawing = svgwrite.Drawing("out.svg", profile="tiny")
+
+for branch in range(branches):
     twig = [
         (0.0, 0.0, 0.0),
     ]
@@ -30,12 +32,17 @@ for shoot in range(shoots):
             )
         )
 
-    fig = plt.figure()
-    axis = fig.add_subplot(projection="3d")
-    for node in twig:
-        x, y, z = node
-        axis.plot(x, y, z, marker="o")
-
-    plt.show()
-
+    for index, node in enumerate(twig):
+        if index == 0:
+            continue
+        x0, y0, z0 = twig[index - 1]
+        x1, y1, z1 = node
+        drawing.add(
+            drawing.line(
+                (x0, y0),
+                (x1, y1),
+                stroke=svgwrite.rgb(10, 10, 16, "%"),
+            )
+        )
+    drawing.save()
     break

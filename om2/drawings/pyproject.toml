@@ -7,7 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-matplotlib = "^3.8.3"
+svgwrite = "^1.4.3"
 
 
 [build-system]
