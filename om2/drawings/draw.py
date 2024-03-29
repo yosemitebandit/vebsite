@@ -13,22 +13,32 @@ later: interactive shader
 import random
 
 
-header = "<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100'>"
+canvas = (400.0, 400.0)
+header = (
+    f"<svg xmlns='http://www.w3.org/2000/svg' "
+    f"width='{canvas[0]}' "
+    f"height='{canvas[1]}' "
+    ">"
+)
 footer = "</svg>"
 svg_elements = []
 
 branches = 32
-ticks = 128
+ticks = 256
 
 for branch in range(branches):
     twig = [
-        (0.0, 0.0, 0.0),
+        (
+            canvas[0] / 2,
+            canvas[1],
+            0.0,
+        ),
     ]
     for tick in range(ticks):
         twig.append(
             (
-                twig[-1][0] + 10 * random.random(),
-                twig[-1][1] + 10 * random.random(),
+                twig[-1][0] + 10 * random.random() * random.choice((-1, 1)),
+                twig[-1][1] - 10 * random.random(),
                 twig[-1][2] + 10 * random.random(),
             )
         )
@@ -41,7 +51,6 @@ for branch in range(branches):
         svg_elements.append(
             f"<line x1='{x1}' y1='{y1}' x2='{x2}' y2='{y2}' stroke='black' />"
         )
-    break
 
 with open("out.svg", "w") as outfile:
     outfile.write(header + "".join(svg_elements) + footer)
