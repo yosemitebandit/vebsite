@@ -12,12 +12,13 @@ later: interactive shader
 
 import random
 
-import svgwrite
+
+header = "<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100'>"
+footer = "</svg>"
+svg_elements = []
 
 branches = 32
 ticks = 128
-
-drawing = svgwrite.Drawing("out.svg", profile="tiny")
 
 for branch in range(branches):
     twig = [
@@ -26,23 +27,21 @@ for branch in range(branches):
     for tick in range(ticks):
         twig.append(
             (
-                twig[-1][0] + random.random(),
-                twig[-1][1] + random.random(),
-                twig[-1][2] + random.random(),
+                twig[-1][0] + 10 * random.random(),
+                twig[-1][1] + 10 * random.random(),
+                twig[-1][2] + 10 * random.random(),
             )
         )
 
     for index, node in enumerate(twig):
         if index == 0:
             continue
-        x0, y0, z0 = twig[index - 1]
-        x1, y1, z1 = node
-        drawing.add(
-            drawing.line(
-                (x0, y0),
-                (x1, y1),
-                stroke=svgwrite.rgb(10, 10, 16, "%"),
-            )
+        x1, y1, z1 = twig[index - 1]
+        x2, y2, z2 = node
+        svg_elements.append(
+            f"<line x1='{x1}' y1='{y1}' x2='{x2}' y2='{y2}' stroke='black' />"
         )
-    drawing.save()
     break
+
+with open("out.svg", "w") as outfile:
+    outfile.write(header + "".join(svg_elements) + footer)
