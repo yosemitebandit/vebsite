@@ -17,6 +17,8 @@ date = 2024-01-10
 - Sourdough
 - Poke
 - [Shakshuka with Feta](https://cooking.nytimes.com/recipes/1014721-shakshuka-with-feta) - NYT
+- Salad with Gnocchi
+- Chocolate Tofu (!) Pudding - Mark Bittman
 
 
 ### handful of makes
