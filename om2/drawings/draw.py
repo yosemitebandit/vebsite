@@ -13,7 +13,7 @@ later: interactive shader
 import random
 
 
-canvas = (400.0, 400.0)
+canvas = (400.0, 400.0, 400.0)
 header = (
     "<svg xmlns='http://www.w3.org/2000/svg' "
     f"width='{canvas[0]}' "
@@ -23,32 +23,32 @@ header = (
 footer = "</svg>"
 svg_elements = []
 
-branches = 128
-ticks = 64
+stems = 128
+nodes = 64
 
-for branch in range(branches):
-    twig = [(canvas[0] / 2, canvas[1], 0.0, 0.0)]
-    for tick in range(ticks):
-        twig.append(
+for stem in range(stems):
+    twigs = [(0.0, 0.0, 0.0, 0.0)]  # x, y, z, diameter
+    for node in range(nodes):
+        twigs.append(
             (
-                twig[-1][0] + 10 * random.random() * random.choice((-1, 1)),
-                twig[-1][1] - 10 * random.random(),
-                twig[-1][2] + 10 * random.random(),
-                ticks / (tick + 1) * 0.1 * random.random(),
+                twigs[-1][0] + 10 * random.random() * random.choice((-1, 1)),
+                twigs[-1][1] + 10 * random.random() * random.choice((-1, 1)),
+                twigs[-1][2] + 10 * random.random(),
+                nodes / (node + 1) * 0.1 * random.random(),
             )
         )
 
-    for index, node in enumerate(twig):
+    for index, twig in enumerate(twigs):
         if index == 0:
             continue
-        x1, y1, z1, sw1 = twig[index - 1]
-        x2, y2, z2, sw2 = node
+        x1, y1, z1, w1 = twigs[index - 1]
+        x2, y2, z2, w2 = twig
         svg_elements.append(
             "<line "
-            f"x1='{x1}' y1='{y1}' "
-            f"x2='{x2}' y2='{y2}' "
+            f"x1='{x1 + canvas[0] / 2}' y1='{-z1 + canvas[2]}' "
+            f"x2='{x2 + canvas[0] / 2}' y2='{-z2 + canvas[2]}' "
             f"stroke='darkgreen' "
-            f"stroke-width='{sw2}' "
+            f"stroke-width='{w2}' "
             "/>"
         )
 
