@@ -23,8 +23,8 @@ header = (
 footer = "</svg>"
 svg_elements = []
 
-branches = 64
-ticks = 256
+branches = 128
+ticks = 64
 
 for branch in range(branches):
     twig = [(canvas[0] / 2, canvas[1], 0.0, 0.0)]
