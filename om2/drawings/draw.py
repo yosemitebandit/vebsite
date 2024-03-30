@@ -7,6 +7,7 @@
 6. mush all frames into mp4
 ..
 etc. play with growth algorithm and camera
+wind blows heavier stems
 later: interactive shader
 """
 
@@ -34,7 +35,7 @@ for stem in range(stems):
                 twigs[-1][0] + 10 * random.random() * random.choice((-1, 1)),
                 twigs[-1][1] + 10 * random.random() * random.choice((-1, 1)),
                 twigs[-1][2] + 10 * random.random(),
-                nodes / (node + 1) * 0.1 * random.random(),
+                nodes / (node + 1) * 0.1,
             )
         )
 
@@ -48,8 +49,14 @@ for stem in range(stems):
             f"x1='{x1 + canvas[0] / 2}' y1='{-z1 + canvas[2]}' "
             f"x2='{x2 + canvas[0] / 2}' y2='{-z2 + canvas[2]}' "
             f"stroke='darkgreen' "
-            f"stroke-width='{w2}' "
+            ">"
+            "<animate "
+            "attributeName='stroke-width' "
+            f"values='0;{w2};0' "
+            "dur='1024s' "
+            "repeatCount='indefinite' "
             "/>"
+            "</line>"
         )
 
 with open("out.svg", "w") as outfile:
