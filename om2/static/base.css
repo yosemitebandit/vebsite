@@ -22,3 +22,6 @@ a:hover {
 #home-container {
   text-align: center;
 }
+img {
+  max-width: 100%;
+}
