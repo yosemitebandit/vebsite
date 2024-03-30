@@ -45,3 +45,10 @@ where they plan to "mature into ownership by their community of stakeholders"
 - so awesome, I love the scaffolding
  
 {{ resize_image(path="notes/media/shell-tethered-vesper.png", width=500, height=500, op="fit_width") }}
+
+
+:moon: Midnight's Children
+- I listened to this phenomenal book by Salman Rushdie via Libby, with great narration by Lyndam Gregory 
+- It's one of my all time favorites and I can't wait to get into it again --
+the characters, setting, brilliant language, history, allusions, surreal elements -- all fantastic
+- I liked the recaps and discussions on this book from the podcasts _Good Scribes Only_ and _Open Book_
