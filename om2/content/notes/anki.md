@@ -19,7 +19,7 @@ plants and trees,
 Spanish,
 the US constitution,
 music (chords, themes, notes, famous works, uke patterns, pitch practice)
-even [The Scottish Play](@/notes/jan24-reading.md)!
+even [The Scottish Play](@/notes/24-jan.md)!
 
 I'd like to build (or find) decks on:
 - cheese, more on wine (Zraly book? winefolly?)
