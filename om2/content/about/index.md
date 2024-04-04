@@ -40,3 +40,4 @@ blogs I admire
 - [James Somers](https://jsomers.net/)
 - [Saharan](https://oimo.io)
 - [Phil Buccellato](https://www.saucesandwich.com/)
+- [Predrag Gruevski](https://predr.ag/blog)
