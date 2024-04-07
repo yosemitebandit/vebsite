@@ -29,3 +29,4 @@ and sometimes the only book people owned
 - wonderful Novella -- I listened to it via Libby
 - beautiful language and imagery, especially the dialogue from the Kinsella's
 - a lovely review on the [California Review of Books](https://calirb.com/foster-by-claire-keegan/)
+- what is she warning Kinsella of in the end??
