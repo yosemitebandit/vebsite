@@ -24,3 +24,7 @@ and sometimes the only book people owned
 
 :sailboat: Hornblower IV
 - HH is back at it, this time in the Baltic Sea
+
+:ireland: Claire Keegan's _Foster_
+- wonderful Novella -- I listened to it via Libby
+- beautiful language and imagery, especially the dialogue from the Kinsella's
