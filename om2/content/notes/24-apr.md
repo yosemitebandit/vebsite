@@ -28,3 +28,4 @@ and sometimes the only book people owned
 :ireland: Claire Keegan's _Foster_
 - wonderful Novella -- I listened to it via Libby
 - beautiful language and imagery, especially the dialogue from the Kinsella's
+- a lovely review on the [California Review of Books](https://calirb.com/foster-by-claire-keegan/)
