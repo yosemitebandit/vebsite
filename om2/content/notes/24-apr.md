@@ -35,3 +35,10 @@ and sometimes the only book people owned
 - really cool from [Dr. Will Wood](https://www.youtube.com/watch?v=gP7DZ4TiFz4)
 
 {{ resize_image(path="notes/media/prime-gaps.png", width=500, height=500, op="fit_width") }}
+
+:art: _The Principles of Uncertainty_
+- I've been reading Maira Kalman's second (?) book as a quasi-story book for the baby,
+it meanders but I don't think baby minds
+- the colors are truly great!
+
+{{ resize_image(path="notes/media/kalman.jpg", width=500, height=500, op="fit_width") }}
