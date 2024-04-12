@@ -17,6 +17,8 @@ friends
 - [Ayush](http://ayushdubey.com/)
 - [Steph](https://www.stephjang.com/)
 - [Kelvin](https://www.kelvinguu.com/)
+- [Ben](https://benjaminreinhardt.com/)
+- [Shaddi](https://www.shaddih.com/)
 
 blogs I admire
 - [Ben Moren](https://benmoren.com)
