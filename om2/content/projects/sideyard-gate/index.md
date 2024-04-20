@@ -6,7 +6,7 @@ location = "Redwood City"
 
 Our gate is busted!
 
-{{ resize_image(path="projects/sideyard-gate/original-gate.jpg", width=500, height=500, op="fit_width") }}
+{{ resize_image(path="projects/sideyard-gate/original/original-gate.jpg", width=500, height=500, op="fit_width") }}
 
 The hinges and fasteners aren't quite right on the wooden side.
 The hinges might also be mis-aligned.
@@ -14,7 +14,7 @@ Also the brace is backwards.
 The stucco wall on the left seems to have cinderblock underneath
 and the fasteners in there are mostly tight.
 
-{{ resize_image(path="projects/sideyard-gate/original-screw.jpg", width=500, height=500, op="fit_height") }}
+{{ resize_image(path="projects/sideyard-gate/original/original-screw.jpg", width=500, height=500, op="fit_height") }}
 
 The latch is also no good, too easy to get stuck,
 and we'd like to be able to open it from the outside, which we currently cannot!
@@ -29,7 +29,7 @@ and we'd like to be able to open it from the outside, which we currently cannot!
 
 measurements:
 
-{{ resize_image(path="projects/sideyard-gate/measurements-sketch.jpg", width=500, height=500, op="fit_width") }}
+{{ resize_image(path="projects/sideyard-gate/inspiration/measurements-sketch.jpg", width=500, height=500, op="fit_width") }}
 
 
 Some designs and methods I like:
@@ -51,13 +51,13 @@ Some designs and methods I like:
 
 - I got some lumber and it made me rethink the design, given what was available
 
-{{ resize_image(path="projects/sideyard-gate/frame.jpg", width=500, height=500, op="fit_width") }}
+{{ resize_image(path="projects/sideyard-gate/inspiration/frame.jpg", width=500, height=500, op="fit_width") }}
 
 - I'll try a redwood frame, with thin redwood slats to cover the front, and complete an arch
 - I think I'll need some slat pattern that will be more cut efficient,
 diagonal or could this work with an arch at top, hm:
 
-{{ resize_image(path="projects/sideyard-gate/atd-gates-la.jpeg", width=500, height=500, op="fit_width") }}
+{{ resize_image(path="projects/sideyard-gate/inspiration/atd-gates-la.jpeg", width=500, height=500, op="fit_width") }}
 
 - could mimic a deck hidden fastener system and use knock-off deck clips like "Muzata" or "Myard" on Amazon..
 of course you'd have to cut some dados in your boards
