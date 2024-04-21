@@ -25,3 +25,9 @@ a:hover {
 img {
   max-width: 100%;
 }
+a > img {
+  padding: 10px;
+}
+a:has(img) {
+  border-bottom: none;
+}
