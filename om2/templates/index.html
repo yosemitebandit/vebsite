@@ -3,7 +3,12 @@
 {% block content %}
 
 <div id='home-container'>
-  <img src="{{ get_url(path='one.svg', cachebust=true) | safe }}" alt="oak machine" />
+  <img
+    src="{{ get_url(path='one.svg', cachebust=true) | safe }}"
+    alt="oak machine"
+    width="400"
+    height="400"
+  />
   <br />
 
   <a href="{{ get_url(path='@/notes/_index.md') }}">Notes</a>
