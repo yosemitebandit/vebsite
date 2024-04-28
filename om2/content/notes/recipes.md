@@ -7,7 +7,7 @@ date = 2024-01-10
 - Flax-y Oatmeal
   - 1/2 cup oats; 2 Tbsp ground flax; half banana; almond milk
   - microwave 2min..
-  - top with berries, pumpkin and sunflower seeds, peanut butter, coconut, cacao nibs
+  - top with berries, pumpkin and sunflower seeds, peanut butter, coconut, cacao nibs, pecans
 
 
 ### dozens of makes
@@ -26,3 +26,5 @@ date = 2024-01-10
 - [Sweet Hot Mustard Chicken Thighs](https://www.allrecipes.com/recipe/233170/sweet-hot-mustard-chicken-thighs/) - Chef John
 - [Muhammara](https://cooking.nytimes.com/recipes/1017492-muhammara-red-pepper-and-walnut-spread) - NYT
 - [Beef Shawarma](https://www.youtube.com/watch?v=tWybyH21dCM) - Middle Eats
+- [Meatballs](https://foodwishes.blogspot.com/2007/02/italian-meatballs-lets-get-rolling.html) - Chef John
+- [Zucchini Bread](https://www.allrecipes.com/recipe/285397/chef-johns-zucchini-bread/) - Chef John
