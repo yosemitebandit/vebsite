@@ -42,3 +42,9 @@ it meanders but I don't think baby minds
 - the colors are truly great!
 
 {{ resize_image(path="notes/media/kalman.jpg", width=500, height=500, op="fit_width") }}
+
+:sunrise: _Waking Up_
+- Sam Harris's book, reminiscent in several parts to _The Man Who Mistook His Wife for a Hat_.
+- I'm enjoying the breakdown of different Buddhist practices and his discussion on gurus.
+- I also love the work on the mind as a filter, something I think he discussed on _Very Bad Wizards_
+- "Charity, community, ritual and the contemplative life" -- things to embrace
