@@ -48,3 +48,9 @@ it meanders but I don't think baby minds
 - I'm enjoying the breakdown of different Buddhist practices and his discussion on gurus.
 - I also love the work on the mind as a filter, something I think he discussed on _Very Bad Wizards_
 - "Charity, community, ritual and the contemplative life" -- things to embrace
+
+:music: [Bard Songbook](https://github.com/vojtechkral/bard)
+- this project looks great,
+I have ukulele notes on paper, on youtube, google keep..really all over the place, 
+would love to consolidate them!
+- or even contribute to an open source songbook in this format
