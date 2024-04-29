@@ -49,8 +49,12 @@ it meanders but I don't think baby minds
 - I also love the work on the mind as a filter, something I think he discussed on _Very Bad Wizards_
 - "Charity, community, ritual and the contemplative life" -- things to embrace
 
-:music: [Bard Songbook](https://github.com/vojtechkral/bard)
+:musical_note: [Bard Songbook](https://github.com/vojtechkral/bard)
 - this project looks great,
 I have ukulele notes on paper, on youtube, google keep..really all over the place, 
 would love to consolidate them!
 - or even contribute to an open source songbook in this format
+
+:artificial_satellite: [The Horsehead Nebula](https://www.youtube.com/watch?v=TkVprNB5XbI)
+- just an amazing montage zooming into the nebula,
+compiled from Euclid + Hubble + Webb imagery
