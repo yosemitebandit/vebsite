@@ -1,7 +1,10 @@
 +++
-title = "sideyard gate"
+title = "Vera Gate"
 date = 2024-02-11
 location = "Redwood City"
+
+[extra]
+thumbnail = "projects/sideyard-gate/cladding/mounted.jpg"
 +++
 
 ### Our gate was busted!

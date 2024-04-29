@@ -1,7 +1,10 @@
 +++
-title = "driveway pump"
+title = "Vera Puddles"
 date = 2024-02-07
 location = "Redwood City"
+
+[extra]
+thumbnail = "projects/driveway-pump/backyard-puddle.jpg"
 +++
 
 It's been wet lately!

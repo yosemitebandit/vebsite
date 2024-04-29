@@ -1,8 +1,11 @@
 +++
-title = "eno"
+title = "Eno"
 date = 2015-08-04
 location = "Oakland"
 tags = ["werk", "python", "projects", "hardware"]
+
+[extra]
+thumbnail = "projects/eno/eno-board.jpg"
 +++
 
 ![eno board](eno-board.jpg "Eno board")

@@ -7,9 +7,18 @@
   {{ section.title }}
 </h1>
 
-<ul>
+<div class='captioned-gallery'>
   {% for page in section.pages %}
-  <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+  <a href="{{ page.permalink | safe }}">
+    {% if page.extra.thumbnail %}
+      {% set thumb = resize_image(path=page.extra.thumbnail, width=200, height=200, op="fill") %}
+      <img src="{{ thumb.url }}" />
+    {% endif %}
+    <span class='caption'>
+      {{ page.title }}
+    </span>
+  </a>
   {% endfor %}
-</ul>
+</div>
+
 {% endblock content %}

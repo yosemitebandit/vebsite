@@ -1,7 +1,10 @@
 +++
-title = "backyard deck"
+title = "Vera Deck"
 date = 2024-02-05
 location = "Redwood City"
+
+[extra]
+thumbnail = "projects/backyard-deck/site-plan-sketch.jpg"
 +++
 
 I'd like to build something like this

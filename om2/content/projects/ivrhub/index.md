@@ -1,8 +1,11 @@
 +++
-title = "ivrhub"
+title = "IVRHub"
 date = 2012-08-13
 location = "SF"
 tags = ["werk", "python", "projects"]
+
+[extra]
+thumbnail = "projects/ivrhub/ivrhub-screenshot.png"
 +++
 
 Voice-based data collection.

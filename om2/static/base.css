@@ -31,3 +31,24 @@ a > img {
 a:has(img) {
   border-bottom: none;
 }
+
+.captioned-gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+.captioned-gallery a {
+  flex: 0 0 calc(25% - 20px);
+  margin: 10px;
+  text-align: center;
+}
+.captioned-gallery a:hover {
+  border-bottom: none;
+}
+.captioned-gallery img {
+  max-width: 100%;
+  height: auto;
+  padding: 0px;
+}
+.caption {
+  margin-top: 5px;
+}
