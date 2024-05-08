@@ -19,6 +19,7 @@ friends
 - [Kelvin](https://www.kelvinguu.com/)
 - [Ben](https://benjaminreinhardt.com/)
 - [Shaddi](https://www.shaddih.com/)
+- [Matt](https://mwcrowley.com/)
 
 blogs I admire
 - [Ben Moren](https://benmoren.com)
