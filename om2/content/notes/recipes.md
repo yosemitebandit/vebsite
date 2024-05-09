@@ -1,5 +1,5 @@
 +++
-title = "recipes"
+title = "Recipes"
 date = 2024-01-10
 +++
 

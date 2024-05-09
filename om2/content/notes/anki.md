@@ -1,5 +1,5 @@
 +++
-title = "anki"
+title = "Anki"
 date = 2024-01-30
 +++
 

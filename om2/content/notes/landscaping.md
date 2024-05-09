@@ -1,5 +1,5 @@
 +++
-title = "landscaping"
+title = "Landscaping"
 date = 2024-01-13
 +++
 

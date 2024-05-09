@@ -1,5 +1,5 @@
 +++
-title = "vebsite"
+title = "Vebsite"
 date = 2024-01-10
 +++
 
