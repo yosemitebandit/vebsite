@@ -52,3 +52,11 @@ where they plan to "mature into ownership by their community of stakeholders"
 - It's one of my all time favorites and I can't wait to get into it again --
 the characters, setting, brilliant language, history, allusions, surreal elements -- all fantastic
 - I liked the recaps and discussions on this book from the podcasts _Good Scribes Only_ and _Open Book_
+- articles to read:
+[1](https://www.nytimes.com/2022/08/12/nyregion/salman-rushdie-books.html)
+, [2](https://archive.nytimes.com/www.nytimes.com/books/98/12/06/specials/rushdie-children.html)
+, [3](https://www.nytimes.com/2013/04/26/movies/midnights-children-adaptation-of-salman-rushdies-novel.html)
+, [4](https://www.nytimes.com/2001/09/16/magazine/midnight-s-children.html)
+, [5](https://archive.nytimes.com/www.nytimes.com/books/99/04/18/specials/rushdie-booker.html)
+, [6](https://www.postcolonialweb.org/pakistan/literature/rushdie/mcrev1.html)
+, [7](https://archive.nytimes.com/india.blogs.nytimes.com/2013/02/01/selling-salman-rushdiesmidnights-children-in-india/)
