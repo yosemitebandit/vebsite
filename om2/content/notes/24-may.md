@@ -56,3 +56,16 @@ and as if you had acted for the first time as wrongly as you are about to act no
 :construction_worker: Cloudflare Workers
 - [great tutorial video](https://www.youtube.com/watch?v=H7Qe96fqg1M) from CF themselves
 - I'm trying a typescript example for my WhenPress project idea
+
+:computer: [Nagle's Algorithm](https://en.wikipedia.org/wiki/Nagle%27s_algorithm)
+- I honestly didn't know RFCs were older than me..
+- this fellow lives a stone's throw away, I'll consider him my neighbor, how cool.
+He now seems to run projects around graphics and metaverse clients
+
+:key: Serverless KV
+- I'm building an app with Cloudflare workers and using [Cloudflare KV](with their KV product)
+- there is also [Vercel KV](https://vercel.com/docs/storage/vercel-kv),
+which is just [Upstash](https://upstash.com)
+This might be better than CF, hm, since it's just redis. CFKV is more stripped down.
+- [SST](https://sst.dev/) could also be interesting, like an abstraction atop AWS
+- [Supabase](https://supabase.com/docs/guides/functions) has edge fns too
