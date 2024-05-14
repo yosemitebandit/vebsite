@@ -44,3 +44,6 @@ blogs I admire
 - [Saharan](https://oimo.io)
 - [Phil Buccellato](https://www.saucesandwich.com/)
 - [Predrag Gruevski](https://predr.ag/blog)
+- [Brandur Leach](https://brandur.org/about)
+- [Michael Fogleman](https://www.michaelfogleman.com)
+- [Licia He](https://www.eyesofpanda.com/)
