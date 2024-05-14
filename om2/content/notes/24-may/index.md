@@ -89,9 +89,9 @@ on preserving part of (or an area around?) La Junta / Cochamó valley in norther
 
 {{ gallery(
   assets=[
-    "notes/media/cochamo/trolley.jpg",
-    "notes/media/cochamo/horses.jpg",
-    "notes/media/cochamo/stream.jpg",
+    "notes/24-may/trolley.jpg",
+    "notes/24-may/horses.jpg",
+    "notes/24-may/stream.jpg",
   ])
 }}
 
