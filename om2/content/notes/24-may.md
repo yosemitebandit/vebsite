@@ -69,3 +69,15 @@ which is just [Upstash](https://upstash.com)
 This might be better than CF, hm, since it's just redis. CFKV is more stripped down.
 - [SST](https://sst.dev/) could also be interesting, like an abstraction atop AWS
 - [Supabase](https://supabase.com/docs/guides/functions) has edge fns too
+
+:quill: [proselint](https://github.com/amperser/proselint)
+- I've gotta try this out..love the idea
+- this (or my idea of this) is what I wanted grammarly to be
+
+:moon: [moondream](https://github.com/vikhyat/moondream/tree/main)
+- a small (1.6B) vison language model,
+it uses Phi architecture and a custom encoder
+- ok maybe not that unique though?
+There seem to be several systems using Phi architecture, including llava-phi.
+- here's a [demo assistant app](https://github.com/nkasmanoff/pi-card) (all offline) with moondream on an RPi5
+- nice [huggingface article](https://huggingface.co/blog/vlms) with some leaderboard links
