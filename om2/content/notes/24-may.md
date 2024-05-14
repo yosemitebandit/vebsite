@@ -70,7 +70,7 @@ This might be better than CF, hm, since it's just redis. CFKV is more stripped d
 - [SST](https://sst.dev/) could also be interesting, like an abstraction atop AWS
 - [Supabase](https://supabase.com/docs/guides/functions) has edge fns too
 
-:quill: [proselint](https://github.com/amperser/proselint)
+:fountain_pen: [proselint](https://github.com/amperser/proselint)
 - I've gotta try this out..love the idea
 - this (or my idea of this) is what I wanted grammarly to be
 
@@ -81,3 +81,20 @@ it uses Phi architecture and a custom encoder
 There seem to be several systems using Phi architecture, including llava-phi.
 - here's a [demo assistant app](https://github.com/nkasmanoff/pi-card) (all offline) with moondream on an RPi5
 - nice [huggingface article](https://huggingface.co/blog/vlms) with some leaderboard links
+
+:chile: Cochamó
+- there is a series of articles [in NYT](https://www.nytimes.com/2024/04/30/climate/chile-cochamo-valley-puelo-patagonia.html) and elsewhere
+on preserving part of (or an area around?) La Junta / Cochamó valley in northern Patagonia
+- I did some hiking in this area around 2015 and it is just spectacular
+
+{{ gallery(
+  assets=[
+    "notes/media/cochamo/trolley.jpg",
+    "notes/media/cochamo/horses.jpg",
+    "notes/media/cochamo/stream.jpg",
+  ])
+}}
+
+- I didn't quite follow the stories though, they're still raising funds to complete the purchase of this particular tract of land for preservation..?
+- I was there right when the North Face founder tragically died in a kayak accident,
+my understanding is he had done quite a lot to preserve massive portions of the land there
