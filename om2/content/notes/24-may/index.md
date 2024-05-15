@@ -81,6 +81,7 @@ it uses Phi architecture and a custom encoder
 There seem to be several systems using Phi architecture, including llava-phi.
 - here's a [demo assistant app](https://github.com/nkasmanoff/pi-card) (all offline) with moondream on an RPi5
 - nice [huggingface article](https://huggingface.co/blog/vlms) with some leaderboard links
+- and actually today [Paligemma](https://github.com/google-research/big_vision/blob/main/big_vision/configs/proj/paligemma/README.md)came out, a 3B model
 
 :chile: Cochamó
 - there is a series of articles [in NYT](https://www.nytimes.com/2024/04/30/climate/chile-cochamo-valley-puelo-patagonia.html) and elsewhere
