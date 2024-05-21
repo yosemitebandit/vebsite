@@ -69,6 +69,7 @@ which is just [Upstash](https://upstash.com)
 This might be better than CF, hm, since it's just redis. CFKV is more stripped down.
 - [SST](https://sst.dev/) could also be interesting, like an abstraction atop AWS
 - [Supabase](https://supabase.com/docs/guides/functions) has edge fns too
+- Azion has a product as well: [Edge KV](https://www.azion.com/en/products/edge-kv/)
 
 :fountain_pen: [proselint](https://github.com/amperser/proselint)
 - I've gotta try this out..love the idea
@@ -99,3 +100,11 @@ on preserving part of (or an area around?) La Junta / Cochamó valley in norther
 - I didn't quite follow the stories though, they're still raising funds to complete the purchase of this particular tract of land for preservation..?
 - I was there right when the North Face founder tragically died in a kayak accident,
 my understanding is he had done quite a lot to preserve massive portions of the land there
+
+
+:gem: Resilient Modeling Strategy
+- in a [post about CADmium](https://mattferraro.dev/posts/cadmium),
+I saw reference to [_RMS_](https://www.youtube.com/watch?v=YU_lTS1vIx4&t=255s)
+- this looks like a great convention for preserving structure for parametric designs,
+especially in shared projects.
+- do CAD tools have linters/style guides / copilots yet? We always wanted this at Culture. I guess MEs get by!
