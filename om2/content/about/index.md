@@ -47,3 +47,5 @@ blogs I admire
 - [Brandur Leach](https://brandur.org/about)
 - [Michael Fogleman](https://www.michaelfogleman.com)
 - [Licia He](https://www.eyesofpanda.com/)
+- [Jack Cheng](https://www.jackcheng.com/)
+- [Rafał Pastuszak](https://sonnet.io/)
