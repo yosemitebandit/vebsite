@@ -49,3 +49,4 @@ blogs I admire
 - [Licia He](https://www.eyesofpanda.com/)
 - [Jack Cheng](https://www.jackcheng.com/)
 - [Rafał Pastuszak](https://sonnet.io/)
+- [John Ousterhout](https://web.stanford.edu/~ouster/cgi-bin/misc.php)
