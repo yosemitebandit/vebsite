@@ -74,6 +74,7 @@ This might be better than CF, hm, since it's just redis. CFKV is more stripped d
 :fountain_pen: [proselint](https://github.com/amperser/proselint)
 - I've gotta try this out..love the idea
 - this (or my idea of this) is what I wanted grammarly to be
+- see also: [write-good](https://github.com/btford/write-good)
 
 :moon: [moondream](https://github.com/vikhyat/moondream/tree/main)
 - a small (1.6B) vison language model,
@@ -108,3 +109,9 @@ I saw reference to [_RMS_](https://www.youtube.com/watch?v=YU_lTS1vIx4&t=255s)
 - this looks like a great convention for preserving structure for parametric designs,
 especially in shared projects.
 - do CAD tools have linters/style guides / copilots yet? We always wanted this at Culture. I guess MEs get by!
+
+
+:books: A flurry of books as we traveled to Chile
+- _The World According to Garp_: audiobook, a long and twisting ride, my second John Irving novel
+- _Beard Science_: Southern romance :see_no_evil:
+- _IQ_: a fun thriller/detective story that I've read before
