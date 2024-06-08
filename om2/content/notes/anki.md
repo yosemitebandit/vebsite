@@ -49,3 +49,4 @@ target temperatures for things like chicken
 - logic
 - mental models (yegg), heuristics, biases, fallacies, schools of thought
 - orienteering symbols
+- basic latin
