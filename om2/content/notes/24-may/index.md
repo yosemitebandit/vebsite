@@ -48,19 +48,23 @@ for thereby the parts are joined more firmly together."
 >> "Live as if you were living already for the second time,
 and as if you had acted for the first time as wrongly as you are about to act now." (!)
 
+
 :cherry_blossom: May Day at WSP
 - many songs and dances
 - a tight braid on the maypole
 - poems, some staff twirling as well, very fun!
 
+
 :construction_worker: Cloudflare Workers
 - [great tutorial video](https://www.youtube.com/watch?v=H7Qe96fqg1M) from CF themselves
 - I'm trying a typescript example for my WhenPress project idea
+
 
 :computer: [Nagle's Algorithm](https://en.wikipedia.org/wiki/Nagle%27s_algorithm)
 - I honestly didn't know RFCs were older than me..
 - this fellow lives a stone's throw away, I'll consider him my neighbor, how cool.
 He now seems to run projects around graphics and metaverse clients
+
 
 :key: Serverless KV
 - I'm building an app with Cloudflare workers and using [Cloudflare KV](with their KV product)
@@ -71,10 +75,12 @@ This might be better than CF, hm, since it's just redis. CFKV is more stripped d
 - [Supabase](https://supabase.com/docs/guides/functions) has edge fns too
 - Azion has a product as well: [Edge KV](https://www.azion.com/en/products/edge-kv/)
 
+
 :fountain_pen: [proselint](https://github.com/amperser/proselint)
 - I've gotta try this out..love the idea
 - this (or my idea of this) is what I wanted grammarly to be
 - see also: [write-good](https://github.com/btford/write-good)
+
 
 :moon: [moondream](https://github.com/vikhyat/moondream/tree/main)
 - a small (1.6B) vison language model,
@@ -84,6 +90,7 @@ There seem to be several systems using Phi architecture, including llava-phi.
 - here's a [demo assistant app](https://github.com/nkasmanoff/pi-card) (all offline) with moondream on an RPi5
 - nice [huggingface article](https://huggingface.co/blog/vlms) with some leaderboard links
 - and actually today [Paligemma](https://github.com/google-research/big_vision/blob/main/big_vision/configs/proj/paligemma/README.md)came out, a 3B model
+
 
 :chile: Cochamó
 - there is a series of articles [in NYT](https://www.nytimes.com/2024/04/30/climate/chile-cochamo-valley-puelo-patagonia.html) and elsewhere
@@ -109,6 +116,33 @@ I saw reference to [_RMS_](https://www.youtube.com/watch?v=YU_lTS1vIx4&t=255s)
 - this looks like a great convention for preserving structure for parametric designs,
 especially in shared projects.
 - do CAD tools have linters/style guides / copilots yet? We always wanted this at Culture. I guess MEs get by!
+
+
+:movie_camera: KnockKnock
+- I tried for a few days to process the live video from our nest doorbell,
+but I sadly never got it to work
+- we have a [Nest doorbell "wired" version](https://developers.google.com/nest/device-access/api/doorbell-wired
+)
+and I wanted to process the imagery
+to detect when the baby got home
+so I could be notified
+- I wanted to subscribe to a `CameraMotion` event,
+use that to get an `eventSessionId`
+and from there get actual video from `CameraClipPreview`
+which is all that my hw supports
+- I got some of their demos working
+like accessing device attributes and refreshing tokens,
+but overall I had two pretty fundamental problems:
+  - I could never get pubsub working with my camera hardware,
+  though it did kinda work for our thermostat..albeit messages were delayed
+  - and I couldn't actually generate a WebRTC stream,
+  probably my SDP offer was mal-formed, I'm not sure
+- if I pick this back up,
+the [`knockknock` project](https://github.com/yosemitebandit/knockknock),
+I think I could run the webapp demo and try to look at their SDP flow
+- [Tamir Mayer published a similar project](https://medium.com/@tamirmayer/google-nest-camera-internal-api-fdf9dc3ce167
+) and ended up using some big workarounds instead of the documented API,
+so I could try that too!
 
 
 :books: A flurry of books as we traveled to Chile
