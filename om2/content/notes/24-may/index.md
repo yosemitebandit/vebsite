@@ -137,6 +137,8 @@ but overall I had two pretty fundamental problems:
   though it did kinda work for our thermostat..albeit messages were delayed
   - and I couldn't actually generate a WebRTC stream,
   probably my SDP offer was mal-formed, I'm not sure
+- I also used google cloud's serverless platform for the first time,
+cloud functions, pretty easy. I thought I needed some kind of pubsub event callback handler
 - if I pick this back up,
 the [`knockknock` project](https://github.com/yosemitebandit/knockknock),
 I think I could run the webapp demo and try to look at their SDP flow
