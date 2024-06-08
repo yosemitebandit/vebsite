@@ -20,7 +20,7 @@ tens of $MMs in revenue.
 It was the biggest and most complex endeavor I've been a part of --
 lots of change, challenges, growth..
 
-{{ resize_image(path="projects/culture/reactor-city.jpg", width=500, height=500, op="fit_width") }}
+{{ resize_image(path="projects/culture/reactor-city.jpg", width=800, height=500, op="fit_width") }}
 
 ### The early days
 Will and I started working from Autodesk's Pier9,
