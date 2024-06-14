@@ -14,7 +14,7 @@ date = 2024-01-10
 - [Umami Romanesco](https://www.allrecipes.com/recipe/281570/roasted-roman-style-romanesco/) (or cauliflower) - Chef John
 - [Chickpea Stew with Parmesan and Rosemary](https://cooking.nytimes.com/recipes/1013535-chickpea-vegetable-soup-with-parmesan-rosemary-and-lemon) - NYT
 - Polenta - Mark Bittman
-- Sourdough
+- Sourdough; Simple White Yeasty Bread
 - Poke
 - [Shakshuka with Feta](https://cooking.nytimes.com/recipes/1014721-shakshuka-with-feta) - NYT
 - Salad with Gnocchi
@@ -38,6 +38,7 @@ they have tons of good recipe ideas in there
 - ingredients / finger foods:
     - avo spears
     - mashed/steamed butternut squash, broccoli, carrot, cauliflower, zucchini, green beans,
-    mushrooms, parsnip, peas, rbp,
+    mushrooms, parsnip, peas,
+    red bell pepper (planks boiled for 20min),
     - cooked rice, taters, hard boiled eggs, chicken, salmon, lentils,
     - tofu, yogurts, cottage cheese
