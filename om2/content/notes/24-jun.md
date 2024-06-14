@@ -35,3 +35,25 @@ At [Culture](@/projects/culture/index.md) I would joke that our deployment is so
 - afaik they ship all their imagery to the cloud for processing,
 but I could imagine a product variant for super remote areas which tries to do some analysis onsite and
 sends just analysis results (vs all the imagery) over low bandwidth links like sat, or custom long-range networks.
+
+
+:basketball: Farewell to the NBA
+- I'm announcing my retirement from (following) the NBA
+- I've watched games and kept up with NBA news for years.. not sure how it began,
+I was never any good at basketball when I was a kid, and I don't play now.
+My family was more into college bball, and I never talk about basketball with friends.
+- The soap opera of it, fueled for me by `\r\nba` in particular, was pretty addicting.
+- There's really good parity, and I also love how open it seems to be as a system of businesses --
+all the contract details laid bare with player moves and front office dealings..fascinating.
+- In the midst of the finals I'm going to try to say farewell here to make room for other things
+- Maybe it's all sour grapes because the Warriors are on the decline
+and I wanted a more competitive series with Celtics/Mavericks.. I wrote this and the Mavs were down 0-2 (now 0-3).
+- But it's been pretty seamless to disconnect from it so far..just in time to dive into the 2024 Euros, hah
+
+
+:books: Various Reading
+- _Raising Human Beings_ -- the idea of a deeper partnership in the family really resonates with me
+- _Two Serpents Rise_ -- read this before and loved it, I'll try to work through the other books in the series
+- _Hornblower_ -- listening to more of these books..
+the finale and peak of his career as Lorn Hornblower was pretty lame..
+but we're back on the high seas with Lad Hornblower (Midshipman), giving that a go
