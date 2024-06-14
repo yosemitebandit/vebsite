@@ -28,3 +28,16 @@ date = 2024-01-10
 - [Beef Shawarma](https://www.youtube.com/watch?v=tWybyH21dCM) - Middle Eats
 - [Meatballs](https://foodwishes.blogspot.com/2007/02/italian-meatballs-lets-get-rolling.html) - Chef John
 - [Zucchini Bread](https://www.allrecipes.com/recipe/285397/chef-johns-zucchini-bread/) - Chef John
+
+
+### [Eating Well: The First Year](https://www.firststepsnutrition.org/eating-well-in-the-first-year)
+- the First Steps Nutrition Trust put out a straightforward guide on feeding babies,
+they have tons of good recipe ideas in there
+- they suggest doing fruits after savory foods
+- introduce things like dairy, nuts, eggs and fish one-at-a-time to watch for allergies
+- ingredients / finger foods:
+    - avo spears
+    - mashed/steamed butternut squash, broccoli, carrot, cauliflower, zucchini, green beans,
+    mushrooms, parsnip, peas, rbp,
+    - cooked rice, taters, hard boiled eggs, chicken, salmon, lentils,
+    - tofu, yogurts, cottage cheese
