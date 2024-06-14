@@ -128,14 +128,16 @@ and Beth Thompson-Webb (independent)
 wanted to pursue a Series C, then they wanted to sell the company, then they went back to wanting to fundraise.
 I wanted to sell or focus exclusively on technology (vs tech + services).
 At some point the board started building their case for regime change and hired consultants to evaluate the operations and exec team.
-Will especially tried to facilitate things as best he could but the board was not communicative, nor were they truthful.
+Will tried to facilitate and remained super professional but the board was not communicative,
+nor were they truthful in my opinion.
 It was all pretty chaotic and wasteful, unfortunately.
-I would warn other entrepreneurs about these firms but I don't think their funds are active anyway :shrug:
+I would warn other entrepreneurs against working with these firms
+but I don't think their funds are active anyway :shrug:
 Will and I left around Q1 2024.
 
 I realized I still have physical muscle memory from Culture!
 And not in a bad way.
-I open a terminal and my fingers' first instinct is to autojmp into the Culture mono repo, "universe" : `j univ` 
+I open a terminal and my fingers' first instinct is to autojmp into the old Culture monorepo, "universe" : `j univ` 
 ready to hack on oxygen controllers, add to the website, or make some new stats project..
 
 I'm grateful for the chance to meet and work with so many amazing folks via Culture --
