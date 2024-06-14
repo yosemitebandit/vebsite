@@ -92,24 +92,51 @@ but we could never really go back to a tech-focused company after this.
 - Focus -- we didn't have it. Or we had it and lost it.
 Or we had it, made some changes to grow and pursue new markets, and kind of lost our way.
 I would joke that we had three businesses in one:
-building custom hardware, building software for clients and lab management and running a CRO.
-We also did a lot of the supply chain logistics, probably too much / for too long.
+building custom hardware, building software for biotech labs and running a CRO.
+We also did a lot of the supply chain logistics -- probably too much of that / for too long.
 
 
 ### I'm proud!
-- Overall I'm proud that we never got hacked .. to my knowledge :see_no_evil:
-- We managed a whole lot of client data and never mis-managed it / never lost it.
+- Overall I'm proud of many things -- for one we never got hacked .. to my knowledge :see_no_evil:
+- We managed a whole lot of technical client data and never mis-managed it / never lost it.
 Well there was one incident in like 2019
 where a dev ran a unit test and accidentally targeted prod, 
 the test's teardown started deleting the DB,
 but we stopped it and irrevocably lost only about 30min of timeseries data from a handful of experiments.
 - We made tens of $MMs in revenue, from a variety of clients around the country,
 even some international teams,
-and we re-signed most of them to new contracts -- they weren't one-and-done.
+and we re-signed most of them to new contracts at various points -- they weren't one-and-done.
 We did generate value for people.
 - Culture is a part of hundreds of people's career journey --
 many folks have leveled up either at Culture or in their next gig,
-crossing from labwork to project mgmt, sales, management
-or startups of their own.
+crossing from labwork to product, sales, going into management
+and creating startups of their own.
 - We supported multiple families through parental leave (including my own!)
 and at least one couple even met at the company
+- The company had an innovative and custom simulation/emulation system
+for testing changes before pushing to the devices,
+I thought that was pretty cool
+
+
+### The End
+In late 2023 Will and I came to disagree with our board about where to take the company.
+Our board --
+Andrew Lee from Northpond Ventures,
+Dan Phillips from Cultivian,
+Risa Stack from the Production Board
+and Beth Thompson-Webb (independent)
+wanted to pursue a Series C, then they wanted to sell the company, then they went back to wanting to fundraise.
+I wanted to sell or focus exclusively on technology (vs tech + services).
+At some point the board started building their case for regime change and hired consultants to evaluate the operations and exec team.
+Will especially tried to facilitate things as best he could but the board was not communicative, nor were they truthful.
+It was all pretty chaotic and wasteful, unfortunately.
+I would warn other entrepreneurs about these firms but I don't think their funds are active anyway :shrug:
+Will and I left around Q1 2024.
+
+I realized I still have physical muscle memory from Culture!
+And not in a bad way.
+I open a terminal and my fingers' first instinct is to autojmp into the Culture mono repo, "universe" : `j univ` 
+ready to hack on oxygen controllers, add to the website, or make some new stats project..
+
+I'm grateful for the chance to meet and work with so many amazing folks via Culture --
+I genuinely wish the team all the best and I hope they can find their way!
