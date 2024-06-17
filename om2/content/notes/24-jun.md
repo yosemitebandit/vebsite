@@ -57,3 +57,17 @@ and I wanted a more competitive series with Celtics/Mavericks.. I wrote this and
 - _Hornblower_ -- listening to more of these books..
 the finale and peak of his career as Lorn Hornblower was pretty lame..
 but we're back on the high seas with Lad Hornblower (Midshipman), giving that a go
+
+
+:puzzle: recent crosswords
+- I was thrilled to recently crack two NYT crosswords:
+one from Thursday and the subsequent Saturday
+- They took me 1hr and 3hr of noodling.
+
+
+{{ gallery(
+  assets=[
+    "notes/media/thr-xword.png",
+    "notes/media/sat-xword.png",
+  ])
+}}
