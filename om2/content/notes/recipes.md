@@ -28,6 +28,7 @@ date = 2024-01-10
 - [Beef Shawarma](https://www.youtube.com/watch?v=tWybyH21dCM) - Middle Eats
 - [Meatballs](https://foodwishes.blogspot.com/2007/02/italian-meatballs-lets-get-rolling.html) - Chef John
 - [Zucchini Bread](https://www.allrecipes.com/recipe/285397/chef-johns-zucchini-bread/) - Chef John
+- [Pasta Alla Brontese](https://cooking.nytimes.com/recipes/1023489-pasta-alla-brontese-creamy-fettuccine-with-pancetta-and-pistachios) - NYT
 
 
 ### [Eating Well: The First Year](https://www.firststepsnutrition.org/eating-well-in-the-first-year)
