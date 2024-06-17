@@ -59,15 +59,17 @@ the finale and peak of his career as Lorn Hornblower was pretty lame..
 but we're back on the high seas with Lad Hornblower (Midshipman), giving that a go
 
 
-:puzzle: recent crosswords
+:jigsaw: Some Crosswords
 - I was thrilled to recently crack two NYT crosswords:
 one from Thursday and the subsequent Saturday
 - They took me 1hr and 3hr of noodling.
-
+My subconscious kept unlocking clues, one by one, for example
+"Coins in a biblical parable" are "talents"
+no idea where I pulled that one from!
 
 {{ gallery(
   assets=[
-    "notes/media/thr-xword.png",
-    "notes/media/sat-xword.png",
+    "notes/24-jun/thr-xword.png",
+    "notes/24-jun/sat-xword.png",
   ])
 }}
