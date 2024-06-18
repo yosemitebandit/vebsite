@@ -66,10 +66,20 @@ one from Thursday and the subsequent Saturday
 My subconscious kept unlocking clues, one by one, for example
 "Coins in a biblical parable" are "talents"
 no idea where I pulled that one from!
+- Edit: I barely missed a recent Sunday crossword --
+had to turn on autocheck to finish it.
+I didn't know the Yale founder "Elihu",
+and I misspelled an "updo hairstyle" : "pouf".
+I also had the clue "hardly" as "nare"
+(I guess I was thinking of "ne'er" ??)
+but should have been "nary".
+And the crossing on that one was the name of a hockey player --
+the rare sport I don't follow!
 
 {{ gallery(
   assets=[
     "notes/24-jun/thr-xword.png",
     "notes/24-jun/sat-xword.png",
+    "notes/24-jun/sun-xword.png",
   ])
 }}
