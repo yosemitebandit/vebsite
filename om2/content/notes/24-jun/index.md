@@ -92,3 +92,13 @@ the rare sport I don't follow!
 the implementation seems to vary quite a bit on diff platforms,
 and I keep bumping into little surprises like when fstrings don't work
 - Dev Speed there is none. It's about a 1min cycle time (re-upload code to device and reset)
+
+
+:dizzy: Skimming Math
+- In 2016 James Maynard showed that, for any decimal digit,
+there are infinitely many primes that do not have that digit in their base10 expansion :exploding_head:!
+- the [Mertens conjecture](https://en.wikipedia.org/wiki/Mertens_conjecture)
+was proposed in 1885 -- that the Mobius function is bounded by sqrt(n).
+(Numberphile has a great video on this.)
+It's now known there's a counterexample somewhere below 10^10^40 :exploding_head: :exploding_head: !
+- reminiscent of the Collatz conjecture
