@@ -61,12 +61,12 @@ but we're back on the high seas with Lad Hornblower (Midshipman), giving that a 
 
 :jigsaw: Some Crosswords
 - I was thrilled to recently crack two NYT crosswords:
-one from Thursday and the subsequent Saturday
+one from Thursday (Michael Lieberman) and the subsequent Saturday (Daniel Sheremata)
 - They took me 1hr and 3hr of noodling.
 My subconscious kept unlocking clues, one by one, for example
 "Coins in a biblical parable" are "talents"
 no idea where I pulled that one from!
-- Edit: I barely missed a recent Sunday crossword --
+- Edit: I barely missed a recent Sunday crossword (Zachary Schiff) --
 had to turn on autocheck to finish it.
 I didn't know the Yale founder "Elihu",
 and I misspelled an "updo hairstyle" : "pouf".
