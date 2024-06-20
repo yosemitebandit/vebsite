@@ -83,3 +83,12 @@ the rare sport I don't follow!
     "notes/24-jun/sun-xword.png",
   ])
 }}
+
+
+:bee: Micropython and Xbee
+- For the whenpress project, I've been using Xbees for the first time in years
+- This is also my first time with micropython
+- Micropython is at times confusing..
+the implementation seems to vary quite a bit on diff platforms,
+and I keep bumping into little surprises like when fstrings don't work
+- Dev Speed there is none. It's about a 1min cycle time (re-upload code to device and reset)
