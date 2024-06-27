@@ -11,7 +11,7 @@ and then using stable diffusion,
 specifically the default model as of now is `juggernautXL_v8Rundiffusion`
 - I've played with Midjourney for a while and Fooocus gives really good results out of the box,
 I'd say very very close to the outputs you can get from Midjourney
-- I tested in colab only, would be fun to try it locally
+- I tested in a colab only, would be fun to try it locally
 - the prompt for the image below was just "beach",
 generated in a few min on colab:
 
@@ -60,7 +60,7 @@ but we're back on the high seas with Lad Hornblower (Midshipman), giving that a 
 
 
 :jigsaw: Some Crosswords
-- I was thrilled to recently crack two NYT crosswords:
+- recently I was thrilled to crack two NYT crosswords:
 one from Thursday (Michael Lieberman) and the subsequent Saturday (Daniel Sheremata)
 - They took me 1hr and 3hr of noodling.
 My subconscious kept unlocking clues, one by one, for example
@@ -102,3 +102,40 @@ was proposed in 1885 -- that the Mobius function is bounded by sqrt(n).
 (Numberphile has a great video on this.)
 It's now known there's a counterexample somewhere below 10^10^40 :exploding_head: :exploding_head: !
 - reminiscent of the Collatz conjecture
+
+
+:computer: tmux
+- I started using tmux plugin manager
+mostly to setup a plugin for persisting and restoring my sessions: tmux-ressurect
+- so far so good,
+I have persistent sessions for writing this site,
+the whenpress project I'm working on now
+and my dotfiles which receive frequent futzing
+- nothing fancy: just tabs for lvim, maybe a server running and an empty terminal for git
+- I also have tmux-continuum -- 
+which should set all this up on-boot --
+but it's not working for me
+- nbd though, I can just load the sessions
+
+
+:jar: Plum Jam
+- our neighbor gave us a whole lot of great plums
+- I made jam with [Josh Weissman's recipe/video](https://www.youtube.com/watch?v=KUGjgUA-BWU),
+which is:
+    - break down the fruit -- I pitted the plums and removed the skin
+    - macerate with sugar -- I had about 1kg plums and 120g sugar, let it sit at RT for 2hr
+    - add juice from half a lemon
+    - bring to boil in a pot,
+    boil it pretty hard (but don't scorch)
+    and then reduce it for a while, maybe 30min,
+    stir it a lot all the while
+    - cool in an ice bath -- just so I could put it in a glass container without waiting too too long
+- this was just put in a regular jar since we have to finish it soon any way before some travel,
+but I would love to try canning sometime, I've never done it
+
+{{ gallery(
+  assets=[
+    "notes/media/jam-jar.jpg",
+    "notes/media/jam-on-toast.jpg",
+  ])
+}}
