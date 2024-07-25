@@ -49,3 +49,42 @@ It's so so cool to see it all in action.
     "notes/24-jul/jigsaw-solving.png",
   ])
 }}
+
+
+:book: Sense and Sensibility
+- I listened to Joanna Trollope's modern retelling of Jane Austen's novel,
+narrated by Kate Reading.
+I used [Libby](https://libbyapp.com).
+- The reading was lovely.
+The story: increasingly excruciating as things wore on.
+I didn't read the original so I probably missed a lot of fun moments and connections.
+- I think I need to improve the priortization of my reading/listening list..
+this one bubbled up somewhat randomly and was instantly available on the app, and I snatched at it.
+
+
+:cityscape: Walks with Men
+- Ann Beattie's novella of relationships and NYC in the 80s, 10/10 from me.
+I listened via on Libby, narrated by the author herself.
+- I was really taken in by the realism -- I thought it was a biography for a while.
+
+
+:dizzy: Bit Flipping
+- [This project from smerity](https://github.com/Smerity/bitflipped)
+allocates 1GB and lets you watch bits flip due to cosmic rays and more (:
+- This links to another cool project: [bitsquatting](http://dinaburg.org/bitsquatting.html).
+It's like typosquatting -- you register a domain that is one bit different from a popular domain.
+So even if someone intends to visit `microsoft.com`,
+a bitflip may lead their machine to make a request to `micro3oft.com`.
+  - `s` = `0b01110011`
+  - `3` = `0b00110011`
+- I thought DNSSEC would help with this, but I guess it depends when/where the bitflip occurs.
+
+
+:coin: Coordinating a Coin Flip .. over the phone
+- there are various [commitment schemes](https://en.wikipedia.org/wiki/Commitment_scheme)
+- Gemini suggested this for an over-the-phone coin flip:
+  - Alice picks a random number and computes the hash, shares hash with Bob
+  - Bob calls even or odd
+  - Alice reveals the original number
+  - Bob verifies the hash
+  - Resolve based on even/odd call vs the original number
