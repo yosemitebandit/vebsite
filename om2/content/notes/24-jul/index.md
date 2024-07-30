@@ -14,6 +14,7 @@ but I don't think I'd be able to handle
 "Molecular size and weight of asphaltene and asphaltene solubility fractions from coals, crude oils and bitumen"
 - The papers could be scored by quantity and "intensity" of jargon
 
+
 :robot: [Mark Rober's Jigsaw Bot](https://www.youtube.com/watch?v=Sqr-PdVYhY4)
 - This is so cool -- Mark Rober and his team created a puzzle solving robot.
 They modified a CNC with a more precise end-effector, upgraded various motors, wrote a bunch of custom software and it's awesome.
@@ -88,3 +89,40 @@ a bitflip may lead their machine to make a request to `micro3oft.com`.
   - Alice reveals the original number
   - Bob verifies the hash
   - Resolve based on even/odd call vs the original number
+
+
+:artist: SFMOMA
+- There are some evocative pieces there, my favorites were from
+Robert Therrien,
+Zanele Muholi,
+Cy Twombly,
+Elizabeth Murray,
+Martin Puryear,
+Whanki Kim,
+Ellsworth Kelly,
+Agnes Martin,
+Imi Knoebel,
+Maren Hassinger,
+Gerhard Richter
+and
+Ragnar Kjartansson
+- some of these could be recreated for the home,
+in greatly simplified ways of course..
+
+{{ gallery(
+  assets=[
+    "notes/24-jul/sfmoma/martin.jpg",
+    "notes/24-jul/sfmoma/richter.jpg",
+    "notes/24-jul/sfmoma/hassinger.jpg",
+    "notes/24-jul/sfmoma/knoebel.jpg",
+    "notes/24-jul/sfmoma/kelly.jpg",
+    "notes/24-jul/sfmoma/kim.jpg",
+    "notes/24-jul/sfmoma/puryear.jpg",
+    "notes/24-jul/sfmoma/puryear2.jpg",
+    "notes/24-jul/sfmoma/therrien.jpg",
+    "notes/24-jul/sfmoma/murray.jpg",
+    "notes/24-jul/sfmoma/holzer.jpg",
+    "notes/24-jul/sfmoma/twombly.jpg",
+    "notes/24-jul/sfmoma/kjartansson-the-visitors.jpg",
+  ])
+}}
