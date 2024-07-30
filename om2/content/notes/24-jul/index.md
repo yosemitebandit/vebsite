@@ -103,9 +103,13 @@ Ellsworth Kelly,
 Agnes Martin,
 Imi Knoebel,
 Maren Hassinger,
+Jay DeFeo (I overheard someone describing another DeFeo piece, [_The Rose_](https://whitney.org/collection/works/10075)
+and the legend of its 7yr creation, near loss and finally recovery),
+Sigmar Polke,
 Gerhard Richter
 and
-Ragnar Kjartansson
+Ragnar Kjartansson.
+- I would especially love to go back and hear all of Kjartansson's (and friends') performance.
 - some of these could be recreated for the home,
 in greatly simplified ways of course..
 
@@ -120,6 +124,8 @@ in greatly simplified ways of course..
     "notes/24-jul/sfmoma/puryear.jpg",
     "notes/24-jul/sfmoma/puryear2.jpg",
     "notes/24-jul/sfmoma/therrien.jpg",
+    "notes/24-jul/sfmoma/polke.jpg",
+    "notes/24-jul/sfmoma/defeo.jpg",
     "notes/24-jul/sfmoma/murray.jpg",
     "notes/24-jul/sfmoma/holzer.jpg",
     "notes/24-jul/sfmoma/twombly.jpg",
