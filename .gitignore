@@ -2,3 +2,4 @@ om2/public/
 om2/static/processed_images
 om2/drawings/pyrightconfig.json
 om2/drawings/out.svg
+**.DS_Store
