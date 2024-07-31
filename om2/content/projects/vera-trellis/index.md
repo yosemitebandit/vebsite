@@ -13,7 +13,8 @@ first jute twine, then nylon. Both were vertical and didn't work that well.
 The lines should be mostly horizontal!
 
 Here is how it looked after a year or so of trying to grow straight up.
-I think the beds need more compost and some other tweaks to watering too.
+I think the beds need more compost
+and some other tweaks to the drip irrigation too.
 Well to be fair that section in the corner near the door is doing great,
 I think it gets the most water and a bit less sun..
 and perhaps has more bits to grab onto being near a downspout.
@@ -27,19 +28,30 @@ I figured fishing wire could work too so that's what I went with:
 easier to cut and no tensioners needed.
 It's rated for 48lbs.
 
-I aimed for studs at first but kept missing them..
-thankfully the bolts felt quite sturdy in just the siding.
-So eventually I just followed the pattern I wanted and didn't keep to 16" OC.
-
 {{ gallery(
   assets=[
     "projects/vera-trellis/pattern.jpg",
     "projects/vera-trellis/eyebolts.jpg",
+  ])
+}}
+
+I predrilled and aimed for studs at first, but I kept missing them..
+thankfully the bolts felt quite sturdy when they were just in the siding.
+So eventually I just followed the pattern I wanted and didn't keep to 16" OC.
+I predrilled, then used a mallet to try to engage the bolt's teeth in the spongy siding,
+then tried to start each bolt by hand.
+I used an allen key chucked up in a drill to tighten everything down.
+
+{{ gallery(
+  assets=[
     "projects/vera-trellis/drill.jpg",
     "projects/vera-trellis/bolted.jpg",
     "projects/vera-trellis/diamonds.jpg",
     "projects/vera-trellis/complete.jpg",
   ])
 }}
+
+With the fishing wire I made a diamond pattern to fit either side of the window.
+Each diamond is 16" x 30".
 
 We'll check back next year to see how it does!
