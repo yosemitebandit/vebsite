@@ -18,7 +18,19 @@ date = 2024-01-10
 - Poke
 - [Shakshuka with Feta](https://cooking.nytimes.com/recipes/1014721-shakshuka-with-feta) - NYT
 - Salad with Gnocchi
+- [Espresso Chili](http://www.epicurious.com/recipes/food/views/Black-Bean-and-Espresso-Chili-107639) - Bittman
 - Chocolate Tofu (!) Pudding - Mark Bittman
+
+
+{{ gallery(
+  assets=[
+    "notes/recipes/poke.jpg",
+    "notes/recipes/chili.jpg",
+    "notes/recipes/bread.jpg",
+    "notes/recipes/shakshuka.jpg",
+    "notes/recipes/gnocchi-salad.jpg",
+  ])
+}}
 
 
 ### handful of makes
@@ -29,6 +41,15 @@ date = 2024-01-10
 - [Meatballs](https://foodwishes.blogspot.com/2007/02/italian-meatballs-lets-get-rolling.html) - Chef John
 - [Zucchini Bread](https://www.allrecipes.com/recipe/285397/chef-johns-zucchini-bread/) - Chef John
 - [Pasta Alla Brontese](https://cooking.nytimes.com/recipes/1023489-pasta-alla-brontese-creamy-fettuccine-with-pancetta-and-pistachios) - NYT
+- [Lacto-Fermented Hot Sauce](https://www.youtube.com/shorts/bPrJCfqr5xA) - Johnny Kyunghwo
+
+
+{{ gallery(
+  assets=[
+    "notes/recipes/lacto-hot-sauce.jpg",
+    "notes/recipes/hummus.jpg",
+  ])
+}}
 
 
 ### [Eating Well: The First Year](https://www.firststepsnutrition.org/eating-well-in-the-first-year)
