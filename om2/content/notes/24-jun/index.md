@@ -55,7 +55,7 @@ and I wanted a more competitive series with Celtics/Mavericks.. I wrote this and
 - _Raising Human Beings_ -- the idea of a deeper partnership in the family really resonates with me
 - _Two Serpents Rise_ -- read this before and loved it, I'll try to work through the other books in the series
 - _Hornblower_ -- listening to more of these books..
-the finale and peak of his career as Lorn Hornblower was pretty lame..
+the finale and peak of his career as Lord Hornblower was pretty lame..
 but we're back on the high seas with Lad Hornblower (Midshipman), giving that a go
 
 
