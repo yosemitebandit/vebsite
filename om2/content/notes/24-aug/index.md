@@ -39,3 +39,10 @@ or, like, what containers they expect to find.
 - The question posed in the article
 is whether the munitions can be removed without disturbing more sediment
 or further breaking apart things as you take em out
+
+
+:book: Berlin Game
+- I'm listening to Len Deighton's 1983 novel via Audible, fantastic!
+- James Lailey with a really great narration, he's adding a ton to the characters -- there is extensive dialog
+- Deighton is right up my alley and the book already has a lot of parallels to _Tinker Tailor Soldier Spy_, which I loved.
+I heard about the author from a profile on the unapologetic Palantir CEO Alex Karp.
