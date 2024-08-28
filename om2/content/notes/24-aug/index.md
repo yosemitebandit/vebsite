@@ -63,3 +63,17 @@ or further breaking apart things as you take em out
 - James Lailey with a really great narration, he's adding a ton to the characters -- there is extensive dialog
 - Deighton is right up my alley and the book already has a lot of parallels to _Tinker Tailor Soldier Spy_, which I loved.
 I heard about the author from a profile on the unapologetic Palantir CEO Alex Karp.
+
+
+:grimacing: Lunarvim pains
+- The disadvantages of this pre-baked neovim setup are showing..
+- I was attempting to setup `ruff` alongside `pyright` and things still don't work to my satisfaction, 
+e.g. linting errors not clearing after they've been corrected or
+plugins failing to load if the py file, when it opens, has a syntax error (!?)
+- I find it tough to locate and change defaults or even to correctly clear various caches if I want to install/reinstall things
+- I'm uninstalling/re-installing the binary,
+using `LvimCacheReset`,
+`MasonUpdate`,
+`LvimSyncCorePlugins`
+and manual `LspInstall`
+- for now I'm surrendering back to the defaults sans `ruff`
