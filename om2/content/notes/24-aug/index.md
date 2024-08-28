@@ -15,6 +15,23 @@ maybe I'll give it another go someday.
 in which I think I've avoided spoilers, I think I should try again, but in text vs audio)
 
 
+:racehorse: Si vs Bio FLOPs
+- [The s.o.t.a. H100](https://www.nvidia.com/en-us/data-center/h100/)
+  - FP64: ~34 TFLOPs (80GB, 3TB/s mem bandwidth)
+  - FP64 with tensor core: ~64 TFLOPs
+  - FP8/int8 with tensor core: ~4000 TFLOPs (!)
+  - bfloat16: ~1000 TFLOPs [estimated](https://152334h.github.io/blog/scaling-exponents/)
+  - one H100 node is about $3/hr
+- comparing gates from a very cool 
+2011 Science paper by [Qian](https://www.bbe.caltech.edu/people/lulu-qian)
+and [Winfree](https://www.dna.caltech.edu/~winfree/)
+["Scaling Up Digital Circuit Computation with DNA Strand Displacement Cascades"](https://www.science.org/doi/10.1126/science.1200520)
+  - `AND` gate: 5hrs
+  - `OR` gate: 12hrs
+
+{{ resize_image(path="notes/24-aug/bio-logic-gates.png", width=700, height=500, op="fit_width") }}
+
+
 :book: Atlas Six
 - Olivie Blake's novel, I listened to a good chunk of it via Libby,
 but I couldn't finish --
