@@ -10,6 +10,7 @@ date = 2024-09-12
 - I found it very moving in parts
 - The podcast _Good Scribes Only_ has a short review,
 as does [the NYT](https://www.nytimes.com/2019/04/08/books/review-normal-people-sally-rooney.html)
+which links Rooney's novels to Rachel Cusk's Outline series, and I think I agree with that
 
 
 :bug: David Hillis's Tree of Life
