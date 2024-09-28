@@ -31,3 +31,32 @@ his original pdf is [here](http://www.zo.utexas.edu/faculty/antisense/Downloadfi
   or about 0.18% of the 1.7 million species that have been formally described and named."
 - Wikipedia links some [more recent visualizations](https://en.wikipedia.org/wiki/Tree_of_life_(biology)#Horizontal_gene_transfer_and_rooting_the_tree_of_life)
 which are equally cool
+
+
+:snowflake: Quantum Navigation
+- I saw [this video from Ben Miles](https://www.youtube.com/watch?v=bFM9HHB9JXI) on creating quantum nav devices,
+basically hyper-precise IMUs.
+Another source said they were four orders of magnitude more sensitive than traditional IMUs
+and thus less susceptible to drift.
+- they create a Bose-Einstein condensate (matter near absolute zero)
+and then I believe they split the system, it acts as a wave and interferes with itself,
+and you can measure some acceleration-dependent patterns.
+From there you back out velocity/position.
+- This company in the video, [Infleqtion](https://www.infleqtion.com/),
+has already done some test flights with the technology, so cool..
+
+
+:notes: fron2
+- [This instrument](https://www.youtube.com/watch?v=XGHIcU3g8Ps) from Fron Reilly is so cool,
+bow on rotating strings + resonator, amazing
+
+{{ resize_image(path="notes/24-sep/fron2.png", width=700, height=500, op="fit_width") }}
+
+
+:city_sunset: Make Sunsets
+- article on these guys [in the NYT](https://www.nytimes.com/2024/09/25/climate/rogue-solar-geoengineering.html) --
+they are sort of renegade solar geoengineers, releasing small amounts of sulfur dioxide via balloon
+- SO2 forms aerosols which block sunlight. [This stack exchange post](https://earthscience.stackexchange.com/questions/9805/would-adding-sulfur-dioxide-to-the-atmosphere-have-a-global-cooling-effect)
+goes into much more detail on the pros/cons of such an idea
+- I admire the intent and drive and of course wish they could scale it up responsibly and with more careful study,
+but they seem to have a good time launching their one-off balloons .. more power to them
