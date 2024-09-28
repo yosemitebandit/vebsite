@@ -54,9 +54,14 @@ bow on rotating strings + resonator, amazing
 
 
 :city_sunset: Make Sunsets
-- article on these guys [in the NYT](https://www.nytimes.com/2024/09/25/climate/rogue-solar-geoengineering.html) --
-they are sort of renegade solar geoengineers, releasing small amounts of sulfur dioxide via balloon
+- here's an article on these guys [in the NYT](https://www.nytimes.com/2024/09/25/climate/rogue-solar-geoengineering.html) --
+they are sort of renegade solar geoengineers, releasing small amounts of sulfur dioxide via balloons,
+and funding it all by selling "cooling credits"
 - SO2 forms aerosols which block sunlight. [This stack exchange post](https://earthscience.stackexchange.com/questions/9805/would-adding-sulfur-dioxide-to-the-atmosphere-have-a-global-cooling-effect)
 goes into much more detail on the pros/cons of such an idea
-- I admire the intent and drive and of course wish they could scale it up responsibly and with more careful study,
+  - In fact they review a paper that used an atmospheric model to examine the idea of large-scale SO2 release (and some other particulates).
+  The article posits it could be done (balancing warming by GHG with cooling by aerosols/particulates) but there are of course side effects
+  including human health impacts from these particulates and changes in rainfall. 
+  Hard to say if it's worse than runaway climate change or if these effects are just less-studied.
+- back to this company -- I admire the intent and drive and of course wish they could scale it up responsibly and with more careful study,
 but they seem to have a good time launching their one-off balloons .. more power to them
