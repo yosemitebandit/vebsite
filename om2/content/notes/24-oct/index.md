@@ -25,3 +25,18 @@ I did make it through Katrina Carrasco's Rough Trade
 but I sort of half-listened and was lost at points..
 I did manage to guess the ending pretty easily though.
 Overall, it was ok!
+
+
+:screwdriver: Broken Bit
+
+My driver had a broken bit stuck inside and I was very happy to finally fix this.
+
+{{ resize_image(path="notes/24-oct/broken-bit.png", width=700, height=500, op="fit_height") }}
+
+The nice fellows at Builders Market lent me some picks (several of which I broke..sorry)
+and also fueled me with ideas and ice cream sandwiches.
+The quick release chuck had to be disassembled and thankfully the bit wasn't fully jammed, it just slid out.
+Then I reassmelbed it all twice -- first time with the quick release collar backwards -- but now it's back to normal!
+It used to work, even with the jammed bit, but now it really cranks, and has been very fun to use on my back steps project:
+
+{{ resize_image(path="notes/24-oct/driving-screws.png", width=700, height=500, op="fit_height") }}
