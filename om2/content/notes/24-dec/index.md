@@ -23,3 +23,9 @@ and how the cost/benefit pans out given price expectations for the token
 and how it could help our vehicles.
 - Also in this vein, the Sparkfun founder seems to be hacking on lots of RTK devices,
 very cool to make all this more available
+
+
+:movie_camera: Paul F Tompkin's Herzog
+- I love Paul F Tompkins on Offbook (The Improvised Musical Podcast),
+and he did a pretty great [review of Trader Joes as Werner Herzog](https://www.youtube.com/watch?v=nmQAsyFE-Mc)
+which Herzog himself found amusing, hah
