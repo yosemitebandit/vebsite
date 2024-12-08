@@ -11,3 +11,15 @@ with more discussion in the issues
 received a PR with a `curl .. | bash` inside the branch name,
 this affected the build system (Github actions)
 and embedded a crypto miner into the releases that landed on pypi
+
+
+:satellite: GEODNET
+- I came across this system where, if I understand correctly,
+individuals operate RTK base stations (reference points to improve a GPS position)
+and they get rewarded with the token $GEOD.
+- cool concept! I wonder how the rewards work exactly,
+and how the cost/benefit pans out given price expectations for the token
+- when I was at [Wing](https://wing.com) years and years ago I briefly became interested in RTK
+and how it could help our vehicles.
+- Also in this vein, the Sparkfun founder seems to be hacking on lots of RTK devices,
+very cool to make all this more available
