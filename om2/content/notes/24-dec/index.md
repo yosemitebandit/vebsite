@@ -29,3 +29,10 @@ very cool to make all this more available
 - I love Paul F Tompkins on Offbook (The Improvised Musical Podcast),
 and he did a pretty great [review of Trader Joes as Werner Herzog](https://www.youtube.com/watch?v=nmQAsyFE-Mc)
 which Herzog himself found amusing, hah
+
+
+:coffee: [The Bruta](https://revistaespresso.com.br/design-e-espresso-artesanal-conheca-a-bruta/)
+- Edu Rodrigues makes these lever-actuated espresso machines,
+I love the materials -- concrete, steel and hardwoods, striking!
+
+{{ resize_image(path="notes/24-dec/edu-bruta.png", width=700, height=500, op="fit_height") }}
