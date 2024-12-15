@@ -36,3 +36,12 @@ which Herzog himself found amusing, hah
 I love the materials -- concrete, steel and hardwoods, striking!
 
 {{ resize_image(path="notes/24-dec/edu-bruta.png", width=700, height=500, op="fit_height") }}
+
+
+:fire: Cloudflare Durable Objects
+- all of my latest projects have been built on cloudflare.
+I just started using their "Durable Objects" product -- 
+it basically extends Workers (edge/serverless on V8 runtime) with a bit more state
+- I liked [this review article](https://www.lambrospetrou.com/articles/durable-objects-cloudflare/)
+and [this one as well](https://www.lambrospetrou.com/articles/durable-objects-control-data-plane-pattern/)
+- the overall platform's experience continues to be really easy and great -- deploys, logging, metrics, docs.. good stuff!
