@@ -45,3 +45,21 @@ it basically extends Workers (edge/serverless on V8 runtime) with a bit more sta
 - I liked [this review article](https://www.lambrospetrou.com/articles/durable-objects-cloudflare/)
 and [this one as well](https://www.lambrospetrou.com/articles/durable-objects-control-data-plane-pattern/)
 - the overall platform's experience continues to be really easy and great -- deploys, logging, metrics, docs.. good stuff!
+
+
+:student: HARKing
+- in their paper "[AI-Powered (Finance) Scholarship](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5060022),"
+Robert Novy-Marx and Mihail Velikov generate interesting stock market predictor signals using an empirical process
+(one that they also developed).
+They narrow 30k candidate signals down to ~100 and then they generate entire papers around those signals.
+Using Sonnet-3.5 they posit entire theoretical frameworks around the validity of the useful signals.
+- The challenge the researchers are highlighting is not exactly the issue of blasting out hallucinated papers
+(after all, the signals are, according to the evaluation framework, real),
+(er though some of the generated citations _are_ hallucinated)
+but it's more about [HARKing](https://en.wikipedia.org/wiki/HARKing) -- hypothesizing after the results are known.
+This post-hoc analysis is antithetical to "True Science," traps you in false positives and leads to findings that are probably not reproducible.
+- "When AI systems can rapidly produce hundreds of seemingly coherent
+theoretical explanations for mined empirical results, how do we maintain meaningful
+quality control through our existing institutions and avoid overwhelming our traditional peer review process?"
+- Their generated papers are all released on github,
+all authored [by I.M. Harking](https://github.com/velikov-mihail/AI-Powered-Scholarship/blob/main/pdfs/OANCFCSTK_modified_v1.pdf), heh.
