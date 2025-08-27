@@ -4,14 +4,14 @@ date = 2024-12-30
 location = "Bay Area"
 
 [extra]
-thumbnail = "projects/280N/a-01.png"
+thumbnail = "projects/280N/images/a-01.png"
 +++
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 <div class="image-slider-container">
   <div class="image-slider">
-    <img id="slider-image" src="/projects/280N/a-01.png" alt="280N Image">
+    <img id="slider-image" src="/projects/280N/images/a-01.png" alt="280N Image">
   </div>
   <div class="slider-controls">
     <input type="range" id="image-range" min="1" max="5" value="1" class="slider">
@@ -89,7 +89,7 @@ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor
 document.addEventListener('DOMContentLoaded', function() {
   const slider = document.getElementById('image-range');
   const image = document.getElementById('slider-image');
-  const basePath = '/projects/280N/';
+  const basePath = '/projects/280N/images/';
 
   // Set initial max value based on available images
   // You can adjust this number based on how many a-XX.png images you have
