@@ -11,10 +11,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor i
 
 <div class="image-slider-container">
   <div class="image-slider">
-    <img id="slider-image" src="/projects/280N/images/a-01.png" alt="280N Image">
+    <img id="slider-image-1" src="/projects/280N/images/a-01.png" alt="Image sequence">
+    <img id="slider-image-2" src="/projects/280N/images/a-02.png" alt="Image sequence">
   </div>
   <div class="slider-controls">
-    <input type="range" id="image-range" min="1" max="5" value="1" class="slider">
+    <input type="range" id="image-range" min="1" max="5" value="1" step="0.01" class="slider">
     <div class="slider-labels">
       <span>a-01</span>
       <span>a-05</span>
@@ -39,9 +40,16 @@ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor
 }
 
 .image-slider img {
-  max-width: 100%;
-  height: auto;
-  transition: opacity 0.3s ease-in-out;
+  width: 100%;
+  height: 400px;
+  object-fit: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#slider-image-1 {
+  position: relative;
 }
 
 .slider-controls {
@@ -88,27 +96,49 @@ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const slider = document.getElementById('image-range');
-  const image = document.getElementById('slider-image');
+  const image1 = document.getElementById('slider-image-1');
+  const image2 = document.getElementById('slider-image-2');
   const basePath = '/projects/280N/images/';
 
-  // Set initial max value based on available images
-  // You can adjust this number based on how many a-XX.png images you have
-  const maxImages = 5;
-  slider.max = maxImages;
+  // Preload all images
+  const images = [];
+  for (let i = 1; i <= 5; i++) {
+    const img = new Image();
+    const imageNumber = i.toString().padStart(2, '0');
+    img.src = basePath + 'a-' + imageNumber + '.png';
+    images.push(img);
+  }
+
+  let currentPair = [1, 2]; // Track current image pair
+
+  function updateImages(value) {
+    const lowerIndex = Math.floor(value);
+    const upperIndex = Math.min(lowerIndex + 1, 5);
+
+    // Only update src when we need new images (prevents flashing)
+    if (currentPair[0] !== lowerIndex || currentPair[1] !== upperIndex) {
+      const lower = lowerIndex.toString().padStart(2, '0');
+      const upper = upperIndex.toString().padStart(2, '0');
+
+      // Wait for images to be loaded before switching
+      if (images[lowerIndex - 1].complete && images[upperIndex - 1].complete) {
+        image1.src = basePath + 'a-' + lower + '.png';
+        image2.src = basePath + 'a-' + upper + '.png';
+        currentPair = [lowerIndex, upperIndex];
+      }
+    }
+
+    // Calculate blend ratio
+    const blend = value - lowerIndex;
+    image2.style.opacity = blend;
+  }
 
   slider.addEventListener('input', function() {
-    const imageNumber = this.value.toString().padStart(2, '0');
-    const newSrc = basePath + 'a-' + imageNumber + '.png';
-
-    // Fade out
-    image.style.opacity = '0.3';
-
-    // Change image after short delay
-    setTimeout(() => {
-      image.src = newSrc;
-      image.style.opacity = '1';
-    }, 150);
+    updateImages(parseFloat(this.value));
   });
+
+  // Initialize
+  image2.style.opacity = '0';
 });
 </script>
 
