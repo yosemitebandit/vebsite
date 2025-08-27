@@ -25,6 +25,20 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor i
 
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
+<div class="image-slider-container">
+  <div class="image-slider">
+    <img id="slider-image-b1" src="/projects/280N/images/dde-01.png" alt="DDE series image sequence">
+    <img id="slider-image-b2" src="/projects/280N/images/dde-02.png" alt="DDE series image sequence">
+  </div>
+  <div class="slider-controls">
+    <input type="range" id="image-range-b" min="1" max="6" value="1" step="0.01" class="slider">
+    <div class="slider-labels">
+      <span>dde-01</span>
+      <span>dde-06</span>
+    </div>
+  </div>
+</div>
+
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
 
 <style>
@@ -48,7 +62,8 @@ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor
   left: 0;
 }
 
-#slider-image-1 {
+#slider-image-1,
+#slider-image-b1 {
   position: relative;
 }
 
@@ -95,50 +110,81 @@ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  const slider = document.getElementById('image-range');
-  const image1 = document.getElementById('slider-image-1');
-  const image2 = document.getElementById('slider-image-2');
+  // A-series slider
+  const sliderA = document.getElementById('image-range');
+  const imageA1 = document.getElementById('slider-image-1');
+  const imageA2 = document.getElementById('slider-image-2');
+
+  // B-series slider
+  const sliderB = document.getElementById('image-range-b');
+  const imageB1 = document.getElementById('slider-image-b1');
+  const imageB2 = document.getElementById('slider-image-b2');
+
   const basePath = '/projects/280N/images/';
 
-  // Preload all images
-  const images = [];
+  // Preload A-series images
+  const imagesA = [];
   for (let i = 1; i <= 5; i++) {
     const img = new Image();
     const imageNumber = i.toString().padStart(2, '0');
     img.src = basePath + 'a-' + imageNumber + '.png';
-    images.push(img);
+    imagesA.push(img);
   }
 
-  let currentPair = [1, 2]; // Track current image pair
+    // Preload DDE-series images (fallback to A-series if DDE doesn't exist)
+  const imagesB = [];
+  for (let i = 1; i <= 6; i++) {
+    const img = new Image();
+    const imageNumber = i.toString().padStart(2, '0');
+    img.src = basePath + 'dde-' + imageNumber + '.png';
 
-  function updateImages(value) {
-    const lowerIndex = Math.floor(value);
-    const upperIndex = Math.min(lowerIndex + 1, 5);
+    // Fallback to A-series if DDE-series image fails to load
+    img.onerror = function() {
+      this.src = basePath + 'a-' + imageNumber + '.png';
+    };
 
-    // Only update src when we need new images (prevents flashing)
-    if (currentPair[0] !== lowerIndex || currentPair[1] !== upperIndex) {
-      const lower = lowerIndex.toString().padStart(2, '0');
-      const upper = upperIndex.toString().padStart(2, '0');
+    imagesB.push(img);
+  }
 
-      // Wait for images to be loaded before switching
-      if (images[lowerIndex - 1].complete && images[upperIndex - 1].complete) {
-        image1.src = basePath + 'a-' + lower + '.png';
-        image2.src = basePath + 'a-' + upper + '.png';
-        currentPair = [lowerIndex, upperIndex];
+  let currentPairA = [1, 2];
+  let currentPairB = [1, 2];
+
+  function createUpdateFunction(series, image1, image2, images, currentPair) {
+    return function(value) {
+      const lowerIndex = Math.floor(value);
+      const upperIndex = Math.min(lowerIndex + 1, images.length);
+
+      if (currentPair[0] !== lowerIndex || currentPair[1] !== upperIndex) {
+        const lower = lowerIndex.toString().padStart(2, '0');
+        const upper = upperIndex.toString().padStart(2, '0');
+
+        if (images[lowerIndex - 1].complete && images[upperIndex - 1].complete) {
+          image1.src = basePath + series + '-' + lower + '.png';
+          image2.src = basePath + series + '-' + upper + '.png';
+          currentPair[0] = lowerIndex;
+          currentPair[1] = upperIndex;
+        }
       }
-    }
 
-    // Calculate blend ratio
-    const blend = value - lowerIndex;
-    image2.style.opacity = blend;
+      const blend = value - lowerIndex;
+      image2.style.opacity = blend;
+    };
   }
 
-  slider.addEventListener('input', function() {
-    updateImages(parseFloat(this.value));
+  const updateImagesA = createUpdateFunction('a', imageA1, imageA2, imagesA, currentPairA);
+  const updateImagesB = createUpdateFunction('dde', imageB1, imageB2, imagesB, currentPairB);
+
+  sliderA.addEventListener('input', function() {
+    updateImagesA(parseFloat(this.value));
   });
 
-  // Initialize
-  image2.style.opacity = '0';
+  sliderB.addEventListener('input', function() {
+    updateImagesB(parseFloat(this.value));
+  });
+
+  // Initialize both sliders
+  imageA2.style.opacity = '0';
+  imageB2.style.opacity = '0';
 });
 </script>
 
