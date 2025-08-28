@@ -7,7 +7,13 @@ location = "Bay Area"
 thumbnail = "projects/280N/images/101/101-00.png"
 +++
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+[Donald Hoffman](https://en.wikipedia.org/wiki/Donald_D._Hoffman)
+argues that our perception is already a false mapping of what truly is,
+and that we are better off for it!
+I think we could continue "enhancing" our perception and tune out man-made visual clutter like ads.
+Trade it for a more aesthetic environment of your choosing.
+
+With AI inpainting and VR this is possible, albeit not in realtime.
 
 <div class="image-slider-container">
   <div class="image-slider">
