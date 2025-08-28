@@ -15,10 +15,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor i
     <img id="slider-image-101-2" src="/projects/280N/images/101/101-01.png" alt="101 series image sequence">
   </div>
   <div class="slider-controls">
-    <input type="range" id="image-range-101" min="0" max="9" value="0" step="0.01" class="slider">
+    <input type="range" id="image-range-101" min="0" max="10" value="0" step="0.01" class="slider">
     <div class="slider-labels">
       <span>101-00</span>
-      <span>101-09</span>
+      <span>101-10</span>
     </div>
   </div>
 </div>
@@ -31,10 +31,10 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
     <img id="slider-image-dde-2" src="/projects/280N/images/dde/dde-01.png" alt="DDE series image sequence">
   </div>
   <div class="slider-controls">
-    <input type="range" id="image-range-dde" min="0" max="9" value="0" step="0.01" class="slider">
+    <input type="range" id="image-range-dde" min="0" max="10" value="0" step="0.01" class="slider">
     <div class="slider-labels">
       <span>dde-00</span>
-      <span>dde-09</span>
+      <span>dde-10</span>
     </div>
   </div>
 </div>
@@ -47,10 +47,10 @@ Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed 
     <img id="slider-image-jl-2" src="/projects/280N/images/jl/jl-01.png" alt="JL series image sequence">
   </div>
   <div class="slider-controls">
-    <input type="range" id="image-range-jl" min="0" max="9" value="0" step="0.01" class="slider">
+    <input type="range" id="image-range-jl" min="0" max="10" value="0" step="0.01" class="slider">
     <div class="slider-labels">
       <span>jl-00</span>
-      <span>jl-09</span>
+      <span>jl-10</span>
     </div>
   </div>
 </div>
@@ -131,9 +131,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Configuration: easily change image counts here
   const seriesConfig = {
-    '101': { count: 10, slider: 'image-range-101', img1: 'slider-image-101-1', img2: 'slider-image-101-2' },
-    'dde': { count: 10, slider: 'image-range-dde', img1: 'slider-image-dde-1', img2: 'slider-image-dde-2' },
-    'jl':  { count: 10, slider: 'image-range-jl',  img1: 'slider-image-jl-1',  img2: 'slider-image-jl-2' }
+    '101': { count: 11, slider: 'image-range-101', img1: 'slider-image-101-1', img2: 'slider-image-101-2' },
+    'dde': { count: 11, slider: 'image-range-dde', img1: 'slider-image-dde-1', img2: 'slider-image-dde-2' },
+    'jl':  { count: 11, slider: 'image-range-jl',  img1: 'slider-image-jl-1',  img2: 'slider-image-jl-2' }
   };
 
   // Preload all series
