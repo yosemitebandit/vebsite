@@ -63,6 +63,22 @@ Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed 
 
 At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentibus voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
 
+<div class="image-slider-container">
+  <div class="image-slider">
+    <img id="slider-image-va-1" src="/projects/280N/images/va/va-00.png" alt="VA series image sequence">
+    <img id="slider-image-va-2" src="/projects/280N/images/va/va-01.png" alt="VA series image sequence">
+  </div>
+  <div class="slider-controls">
+    <input type="range" id="image-range-va" min="0" max="10" value="0" step="0.01" class="slider">
+    <div class="slider-labels">
+      <span>va-00</span>
+      <span>va-10</span>
+    </div>
+  </div>
+</div>
+
+Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.
+
 <style>
 .image-slider-container {
   margin: 2rem 0;
@@ -86,7 +102,8 @@ At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praese
 
 #slider-image-101-1,
 #slider-image-dde-1,
-#slider-image-jl-1 {
+#slider-image-jl-1,
+#slider-image-va-1 {
   position: relative;
 }
 
@@ -139,7 +156,8 @@ document.addEventListener('DOMContentLoaded', function() {
   const seriesConfig = {
     '101': { count: 11, slider: 'image-range-101', img1: 'slider-image-101-1', img2: 'slider-image-101-2' },
     'dde': { count: 11, slider: 'image-range-dde', img1: 'slider-image-dde-1', img2: 'slider-image-dde-2' },
-    'jl':  { count: 11, slider: 'image-range-jl',  img1: 'slider-image-jl-1',  img2: 'slider-image-jl-2' }
+    'jl':  { count: 11, slider: 'image-range-jl',  img1: 'slider-image-jl-1',  img2: 'slider-image-jl-2' },
+    'va':  { count: 11, slider: 'image-range-va',  img1: 'slider-image-va-1',  img2: 'slider-image-va-2' }
   };
 
   // Preload all series
