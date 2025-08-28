@@ -176,8 +176,18 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       }
 
+            // Fast transition zones: only blend in narrow range before each integer
       const blend = value - lowerIndex;
-      image2.style.opacity = blend;
+      const transitionWidth = 0.20;
+
+      if (blend > (1 - transitionWidth) && lowerIndex < upperIndex) {
+        // Approaching next image - start crossfade
+        const normalizedBlend = (blend - (1 - transitionWidth)) / transitionWidth;
+        image2.style.opacity = normalizedBlend;
+      } else {
+        // Show current image sharp
+        image2.style.opacity = 0;
+      }
     };
   }
 
