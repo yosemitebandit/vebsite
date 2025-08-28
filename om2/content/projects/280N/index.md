@@ -4,34 +4,34 @@ date = 2024-12-30
 location = "Bay Area"
 
 [extra]
-thumbnail = "projects/280N/images/a-01.png"
+thumbnail = "projects/280N/images/101-01.png"
 +++
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 <div class="image-slider-container">
   <div class="image-slider">
-    <img id="slider-image-1" src="/projects/280N/images/a-01.png" alt="Image sequence">
-    <img id="slider-image-2" src="/projects/280N/images/a-02.png" alt="Image sequence">
+    <img id="slider-image-101-1" src="/projects/280N/images/101-01.png" alt="101 series image sequence">
+    <img id="slider-image-101-2" src="/projects/280N/images/101-02.png" alt="101 series image sequence">
   </div>
   <div class="slider-controls">
-    <input type="range" id="image-range" min="1" max="5" value="1" step="0.01" class="slider">
+    <input type="range" id="image-range-101" min="1" max="5" value="1" step="0.01" class="slider">
     <div class="slider-labels">
-      <span>a-01</span>
-      <span>a-05</span>
+      <span>101-01</span>
+      <span>101-05</span>
     </div>
   </div>
 </div>
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
 
 <div class="image-slider-container">
   <div class="image-slider">
-    <img id="slider-image-b1" src="/projects/280N/images/dde-01.png" alt="DDE series image sequence">
-    <img id="slider-image-b2" src="/projects/280N/images/dde-02.png" alt="DDE series image sequence">
+    <img id="slider-image-dde-1" src="/projects/280N/images/dde-01.png" alt="DDE series image sequence">
+    <img id="slider-image-dde-2" src="/projects/280N/images/dde-02.png" alt="DDE series image sequence">
   </div>
   <div class="slider-controls">
-    <input type="range" id="image-range-b" min="1" max="6" value="1" step="0.01" class="slider">
+    <input type="range" id="image-range-dde" min="1" max="6" value="1" step="0.01" class="slider">
     <div class="slider-labels">
       <span>dde-01</span>
       <span>dde-06</span>
@@ -39,7 +39,23 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
   </div>
 </div>
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+
+<div class="image-slider-container">
+  <div class="image-slider">
+    <img id="slider-image-jl-1" src="/projects/280N/images/jl-01.png" alt="JL series image sequence">
+    <img id="slider-image-jl-2" src="/projects/280N/images/jl-02.png" alt="JL series image sequence">
+  </div>
+  <div class="slider-controls">
+    <input type="range" id="image-range-jl" min="1" max="5" value="1" step="0.01" class="slider">
+    <div class="slider-labels">
+      <span>jl-01</span>
+      <span>jl-05</span>
+    </div>
+  </div>
+</div>
+
+At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentibus voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
 
 <style>
 .image-slider-container {
@@ -62,8 +78,9 @@ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor
   left: 0;
 }
 
-#slider-image-1,
-#slider-image-b1 {
+#slider-image-101-1,
+#slider-image-dde-1,
+#slider-image-jl-1 {
   position: relative;
 }
 
@@ -110,44 +127,53 @@ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  // A-series slider
-  const sliderA = document.getElementById('image-range');
-  const imageA1 = document.getElementById('slider-image-1');
-  const imageA2 = document.getElementById('slider-image-2');
-
-  // B-series slider
-  const sliderB = document.getElementById('image-range-b');
-  const imageB1 = document.getElementById('slider-image-b1');
-  const imageB2 = document.getElementById('slider-image-b2');
-
   const basePath = '/projects/280N/images/';
 
-  // Preload A-series images
-  const imagesA = [];
+  // 101 series slider
+  const slider101 = document.getElementById('image-range-101');
+  const image101_1 = document.getElementById('slider-image-101-1');
+  const image101_2 = document.getElementById('slider-image-101-2');
+
+  // DDE series slider
+  const sliderDDE = document.getElementById('image-range-dde');
+  const imageDDE_1 = document.getElementById('slider-image-dde-1');
+  const imageDDE_2 = document.getElementById('slider-image-dde-2');
+
+  // JL series slider
+  const sliderJL = document.getElementById('image-range-jl');
+  const imageJL_1 = document.getElementById('slider-image-jl-1');
+  const imageJL_2 = document.getElementById('slider-image-jl-2');
+
+  // Preload 101 series images
+  const images101 = [];
   for (let i = 1; i <= 5; i++) {
     const img = new Image();
     const imageNumber = i.toString().padStart(2, '0');
-    img.src = basePath + 'a-' + imageNumber + '.png';
-    imagesA.push(img);
+    img.src = basePath + '101-' + imageNumber + '.png';
+    images101.push(img);
   }
 
-    // Preload DDE-series images (fallback to A-series if DDE doesn't exist)
-  const imagesB = [];
+  // Preload DDE series images
+  const imagesDDE = [];
   for (let i = 1; i <= 6; i++) {
     const img = new Image();
     const imageNumber = i.toString().padStart(2, '0');
     img.src = basePath + 'dde-' + imageNumber + '.png';
-
-    // Fallback to A-series if DDE-series image fails to load
-    img.onerror = function() {
-      this.src = basePath + 'a-' + imageNumber + '.png';
-    };
-
-    imagesB.push(img);
+    imagesDDE.push(img);
   }
 
-  let currentPairA = [1, 2];
-  let currentPairB = [1, 2];
+  // Preload JL series images
+  const imagesJL = [];
+  for (let i = 1; i <= 5; i++) {
+    const img = new Image();
+    const imageNumber = i.toString().padStart(2, '0');
+    img.src = basePath + 'jl-' + imageNumber + '.png';
+    imagesJL.push(img);
+  }
+
+  let currentPair101 = [1, 2];
+  let currentPairDDE = [1, 2];
+  let currentPairJL = [1, 2];
 
   function createUpdateFunction(series, image1, image2, images, currentPair) {
     return function(value) {
@@ -171,20 +197,26 @@ document.addEventListener('DOMContentLoaded', function() {
     };
   }
 
-  const updateImagesA = createUpdateFunction('a', imageA1, imageA2, imagesA, currentPairA);
-  const updateImagesB = createUpdateFunction('dde', imageB1, imageB2, imagesB, currentPairB);
+  const updateImages101 = createUpdateFunction('101', image101_1, image101_2, images101, currentPair101);
+  const updateImagesDDE = createUpdateFunction('dde', imageDDE_1, imageDDE_2, imagesDDE, currentPairDDE);
+  const updateImagesJL = createUpdateFunction('jl', imageJL_1, imageJL_2, imagesJL, currentPairJL);
 
-  sliderA.addEventListener('input', function() {
-    updateImagesA(parseFloat(this.value));
+  slider101.addEventListener('input', function() {
+    updateImages101(parseFloat(this.value));
   });
 
-  sliderB.addEventListener('input', function() {
-    updateImagesB(parseFloat(this.value));
+  sliderDDE.addEventListener('input', function() {
+    updateImagesDDE(parseFloat(this.value));
   });
 
-  // Initialize both sliders
-  imageA2.style.opacity = '0';
-  imageB2.style.opacity = '0';
+  sliderJL.addEventListener('input', function() {
+    updateImagesJL(parseFloat(this.value));
+  });
+
+  // Initialize all sliders
+  image101_2.style.opacity = '0';
+  imageDDE_2.style.opacity = '0';
+  imageJL_2.style.opacity = '0';
 });
 </script>
 
