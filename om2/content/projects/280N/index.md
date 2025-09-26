@@ -4,7 +4,7 @@ date = 2025-08-25
 location = "Redwood City"
 
 [extra]
-thumbnail = "projects/280N/images/101/101-00.png"
+thumbnail = "projects/280N/images/101/101-10.png"
 +++
 
 [Donald Hoffman](https://en.wikipedia.org/wiki/Donald_D._Hoffman)
