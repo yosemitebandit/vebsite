@@ -13,6 +13,7 @@ email
 
 friends
 - [Trevor](http://trevorshp.com)
+- [Will](https://willpatrick.xyz/)
 - [Tim](https://www.mirrorofimagination.com/)
 - [Ayush](http://ayushdubey.com/)
 - [Steph](https://www.stephjang.com/)
