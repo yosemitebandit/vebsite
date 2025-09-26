@@ -2,6 +2,7 @@
 title = "Vera Puddles"
 date = 2024-02-07
 location = "Redwood City"
+draft = true
 
 [extra]
 thumbnail = "projects/driveway-pump/backyard-puddle.jpg"
