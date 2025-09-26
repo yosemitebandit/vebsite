@@ -4,7 +4,7 @@ date = 2016-09-18
 location = "Boulder"
 
 [extra]
-thumbnail = "projects/avc/carputer-2016-thumbnail.png"
+thumbnail = "projects/avc/carputer-at-the-starting-line.jpg"
 +++
 
 Me and some friends worked on a car for [Sparkfun's Autonomous Vehicle Competition](http://avc.sparkfun.com).
