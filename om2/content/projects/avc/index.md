@@ -1,0 +1,150 @@
++++
+title = "AVC 2016"
+date = 2016-09-18
+location = "Boulder"
+
+[extra]
+thumbnail = "projects/avc/carputer-2016-thumbnail.png"
++++
+
+Me and some friends worked on a car for [Sparkfun's Autonomous Vehicle Competition](http://avc.sparkfun.com).
+The race has your car make one (just one!) lap around a haybale-bordered track in Sparkfun HQ's parking lot.
+There are dirt sections, hoops to go through, barrels to dodge, jumps, zigzags
+and the famous "discombobulator" -- a spinning disc that most competitors just try to jump if they approach it at all.
+
+Our entry, "Neural Carputer," used an eight layer neural network
+with four convolution and four fully-connected layers.
+It was an end-to-end system -- it took in camera and odometer data and output steering and throttle commands.
+We took about an hour of training data --
+I just manually drove the car through the course during the practice time before race day.
+In autonomous mode, Carputer would eventually make one perfect run around the course
+and have many more less-than-perfect runs too (:
+
+<!-- more -->
+
+{{ resize_image(path="projects/avc/carputer-at-the-starting-line.jpg", width=500, height=500, op="fit_width") }}
+
+*the hardware*
+
+Carputer has raced in three AVCs now and the hardware's evolved over the years..
+one arduino takes RC input data, another arduino sends servo commands, and in between..
+a Macbook Pro retina with an NVIDIA GPU running our control software, haha.
+The Macbook is definitely overkill but it lets us take data, train, update and test very quickly.
+
+{{ resize_image(path="projects/avc/carputer-hardware.jpg", width=500, height=500, op="fit_width") }}
+
+The chassis is an RC car that we exteneded to accomodate the laptop.
+Our camera is mounted into the plastic body of the car.
+We use a 3S lipo but stay far away from the car's 60mph+ max speed.
+There was once a lidar in the mix but we couldn't quite get that working the way we wanted.
+
+*the software*
+
+We'll post it soon --
+it uses [tensorflow](https://tensorflow.org) and a bunch of pre- and post-processing scripts.
+
+*our autonomous runs on the Sparkfun course*
+
+Our first test run in the early morning light was amazing -- it completed a full lap,
+only lightly grazing a barrier on the backstretch.
+Here's what the car sees, in jawdropping 160 x 120 resolution.
+We've overlayed the steering and throttle settings, as well as the odo measurements.
+
+<video controls width="500">
+  <source src="/projects/avc/avc-2016-morning-test.mp4" type="video/mp4">
+</video>
+
+We had trained that particular model during the drive to the track
+after applying two new ideas the night before.
+We were really pumped about the car's morning performance but,
+sadly, this would be our best run of the day..
+
+We competed in three official heats:
+the first heat had our car roll forward with great promise for about 3m and then promptly hit the brakes.
+It sat there stubbornly until the judges made us clear the track.
+
+<video controls width="500">
+  <source src="/projects/avc/avc-2016-heat-one.mp4" type="video/mp4">
+</video>
+
+Our logs showed that the remote override had been activated --
+something we usually employ to prevent really spectacular crashes.
+I had been holding the RC transmitter, but I didn't think I had hit our e-stop button.
+We later saw this happen during other test runs and attributed it to RF voodoo magic --
+there were a lot of other transmitters in the vicinity.
+After commenting out our remote kill switch code, we got ready for the next races..
+
+Our second heat was the most exciting run I saw from any car --
+Carputer fought through several haybales, hellbent on getting through the dirt,
+and then it took an unplanned turn towards the discombobulator..
+
+<video controls width="500">
+  <source src="/projects/avc/avc-2016-heat-two.mp4" type="video/mp4">
+</video>
+
+here's the audience's perspective:
+
+<iframe width="500" height="315" src="https://www.youtube.com/embed/RpsyCn09ZeE" frameborder="0" allowfullscreen></iframe>
+
+As usual, the discombobulator won (:
+We nearly got very lucky and had the car right itself
+*and* point in the right direction -- it might have done ok if it had tipped a bit more.
+Or if Otavio had danced a bit harder, haha.
+
+Our final official race was quite anticlimatic --
+we had added a throttle hack to try and slow down just for the first turn..
+that, a new untested model, and some camera white balance issues
+left us driving uncertainly towards an SFE videographer and then into a haybale.
+
+<video controls width="500">
+  <source src="/projects/avc/avc-2016-heat-three.mp4" type="video/mp4">
+</video>
+
+Hm, it also looks like our steering trim is way off after crashing so much during the day --
+we're sending "89" to the steering (just one away from neutral) but we're drifting way left.
+Compare that to the 89 we send in the first video..
+
+We also had the car race for fun in the multi-car rumble --
+it gets a lot of human assistance on those laps (:
+I'm sure Sparkfun will do an AVC wrapup video sometime soon,
+hopefully Carputer makes it in there.
+You can see us at 52:42 and other various points
+[in the SFE livestream](https://youtu.be/XjWWUj6ia34?t=51m43s)
+
+*various tricks that helped us this year*
+
+We "class balanced" our network by tossing 70% of training data
+that just had the car going straight-ish -- this allowed the network to learn more from turns.
+It helped make up for the fact that most of the driving is on straightaways.
+
+Our odometer wasn't the fanciest, and we only had one of them, so we were worried about drift.
+To counteract this we binned our odo data to effectively divide the track into 64 segments.
+Our hope was that the car would use this info about its rough position on the track
+to augment its perception of certain images.
+
+*next year*
+
+* learn about how to avoid RC interference
+* figure out white balancing issues
+* trim the steering more often
+* reattach the lidar and get that working (:
+
+*other racers*
+
+This fellow hand-built his hall-effect odometer system
+with alternating neodinium magnets on the inside of each wheel.. amazing.
+
+{{ resize_image(path="projects/avc/handbuilt-hall-effect-odometer.jpg", width=500, height=500, op="fit_width") }}
+
+"Two Potatoe" was cleaning up out there -- it completed all three of its runs
+at a respectable pace with no fuss.
+
+{{ resize_image(path="projects/avc/two-potatoe-hoverboard.png", width=500, height=500, op="fit_width") }}
+
+This guy was up late with us during the practice session,
+making a map in the dark with his scanning lidar.
+
+{{ resize_image(path="projects/avc/lidar-mapper.jpg", width=500, height=500, op="fit_width") }}
+
+I had a great time, hopefully SFE hosts it again next year!
+Or maybe we can make a CA series happen..
