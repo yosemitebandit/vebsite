@@ -1,19 +1,24 @@
 +++
 title = "280N"
-date = 2024-12-30
-location = "Bay Area"
+date = 2025-08-25
+location = "Redwood City"
 
 [extra]
 thumbnail = "projects/280N/images/101/101-00.png"
 +++
 
 [Donald Hoffman](https://en.wikipedia.org/wiki/Donald_D._Hoffman)
-argues that our perception is already a false mapping of what truly is,
-and that we are better off for it!
+argues that our perception is a false mapping of reality,
+and he says that we are better off for it!
 I think we could continue "enhancing" our perception and tune out man-made visual clutter like ads.
-Trade it for a more aesthetic environment of your choosing.
+We can trade it for a more aesthetic environment, custom to your liking.
 
 With AI inpainting and VR this is possible, albeit not in realtime.
+I generated sequences of images using the new Gemini 2.5 Flash Image (nano-banana).
+Each iteration for a ~1MB image took about 30 seconds and costs about $0.05 USD.
+
+Starting with a street view of highway 101 North,
+we gradually remove visual clutter and then turn up the natural elements:
 
 <div class="image-slider-container">
   <div class="image-slider">
@@ -29,7 +34,7 @@ With AI inpainting and VR this is possible, albeit not in realtime.
   </div>
 </div>
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+101N again, closer to SF:
 
 <div class="image-slider-container">
   <div class="image-slider">
@@ -45,7 +50,7 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
   </div>
 </div>
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+Exiting the city on a notoriously ad-strewn stretch:
 
 <div class="image-slider-container">
   <div class="image-slider">
@@ -61,7 +66,11 @@ Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed 
   </div>
 </div>
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentibus voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+Could your self-driving car show you this as it navigates the true obstacles?
+Could it render true obstacles as something else more aesthetic?
+
+Just a plain walk down the street, you probably don't need the traffic signs unless you're lost,
+nor the utility poles and wires, or the parked cars:
 
 <div class="image-slider-container">
   <div class="image-slider">
@@ -77,7 +86,7 @@ At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praese
   </div>
 </div>
 
-Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.
+Next up: photospheres in a true AR/VR rig.
 
 <style>
 .image-slider-container {
@@ -232,6 +241,3 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentibus voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
