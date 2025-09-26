@@ -4,7 +4,7 @@ date = 2010-02-03
 location = "Durham"
 
 [extra]
-thumbnail = "projects/dutrack/opengts-screenshot-thumbnail.png"
+thumbnail = "projects/dutrack/dutrack-alpha.jpg"
 +++
 
 I leveraged the [OpenGTS project](http://www.opengts.org/)
