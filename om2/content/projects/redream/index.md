@@ -5,13 +5,10 @@ location = "SF"
 
 [extra]
 thumbnail = "projects/redream/screenshot.png"
-# No thumbnail - system will auto-generate
 +++
 
 I helped build a dream restoration machine during a hackathon hosted by GAFFTA and the Tribeca Institute.
 Our site took written memories of dreams and pieced together video montages that evoke the nocturnal experience.
-
-<!-- more -->
 
 We used to tweet out all the dreams on [`@redream_us`](https://twitter.com/redream_us),
 but we no longer have the redream.us domain, and the compilations were rendered client side,
