@@ -21,7 +21,7 @@ The surveyors would do this for a variety of locations and time-points.
 Back at the web portal you can transcribe (and maybe translate) the responses.
 I think you could record questions via voice or maybe you had to do that on the web portal.
 
-This one definitely had connections to one of my other projects, Meduele.
+This one definitely had connections to one of my other projects, [MEDuele](/projects/meduele).
 
 The code is gone, alas, but would be easy to recreate!
 IIRC I wrote most of it in one day during a conference.
