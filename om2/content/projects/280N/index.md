@@ -4,7 +4,7 @@ date = 2025-08-25
 location = "Redwood City"
 
 [extra]
-thumbnail = "projects/280N/images/101/101-10.png"
+thumbnail = "projects/280n/images/101/101-10.png"
 +++
 
 [Donald Hoffman](https://en.wikipedia.org/wiki/Donald_D._Hoffman)
@@ -22,8 +22,8 @@ we gradually remove visual clutter and then turn up the natural elements:
 
 <div class="image-slider-container">
   <div class="image-slider">
-    <img id="slider-image-101-1" src="/projects/280N/images/101/101-00.png" alt="101 series image sequence">
-    <img id="slider-image-101-2" src="/projects/280N/images/101/101-01.png" alt="101 series image sequence">
+    <img id="slider-image-101-1" src="/projects/280n/images/101/101-00.png" alt="101 series image sequence">
+    <img id="slider-image-101-2" src="/projects/280n/images/101/101-01.png" alt="101 series image sequence">
   </div>
   <div class="slider-controls">
     <input type="range" id="image-range-101" min="0" max="10" value="0" step="0.01" class="slider">
@@ -38,8 +38,8 @@ we gradually remove visual clutter and then turn up the natural elements:
 
 <div class="image-slider-container">
   <div class="image-slider">
-    <img id="slider-image-dde-1" src="/projects/280N/images/dde/dde-00.png" alt="DDE series image sequence">
-    <img id="slider-image-dde-2" src="/projects/280N/images/dde/dde-01.png" alt="DDE series image sequence">
+    <img id="slider-image-dde-1" src="/projects/280n/images/dde/dde-00.png" alt="DDE series image sequence">
+    <img id="slider-image-dde-2" src="/projects/280n/images/dde/dde-01.png" alt="DDE series image sequence">
   </div>
   <div class="slider-controls">
     <input type="range" id="image-range-dde" min="0" max="10" value="0" step="0.01" class="slider">
@@ -54,8 +54,8 @@ Exiting the city on a notoriously ad-strewn stretch:
 
 <div class="image-slider-container">
   <div class="image-slider">
-    <img id="slider-image-jl-1" src="/projects/280N/images/jl/jl-00.png" alt="JL series image sequence">
-    <img id="slider-image-jl-2" src="/projects/280N/images/jl/jl-01.png" alt="JL series image sequence">
+    <img id="slider-image-jl-1" src="/projects/280n/images/jl/jl-00.png" alt="JL series image sequence">
+    <img id="slider-image-jl-2" src="/projects/280n/images/jl/jl-01.png" alt="JL series image sequence">
   </div>
   <div class="slider-controls">
     <input type="range" id="image-range-jl" min="0" max="10" value="0" step="0.01" class="slider">
@@ -74,8 +74,8 @@ nor the utility poles and wires, or the parked cars:
 
 <div class="image-slider-container">
   <div class="image-slider">
-    <img id="slider-image-va-1" src="/projects/280N/images/va/va-00.png" alt="VA series image sequence">
-    <img id="slider-image-va-2" src="/projects/280N/images/va/va-01.png" alt="VA series image sequence">
+    <img id="slider-image-va-1" src="/projects/280n/images/va/va-00.png" alt="VA series image sequence">
+    <img id="slider-image-va-2" src="/projects/280n/images/va/va-01.png" alt="VA series image sequence">
   </div>
   <div class="slider-controls">
     <input type="range" id="image-range-va" min="0" max="10" value="0" step="0.01" class="slider">
@@ -159,7 +159,7 @@ Next up: photospheres in a true AR/VR rig.
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  const basePath = '/projects/280N/images/';
+  const basePath = '/projects/280n/images/';
 
   // Configuration: easily change image counts here
   const seriesConfig = {
