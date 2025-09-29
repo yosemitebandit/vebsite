@@ -8,7 +8,7 @@ title = "the altiplano"
 +++
 
 I traveled to Obrajes, Bolivia in the summer of 2008 as part of an Engineers Without Borders team.
-([Patrick](http://stanford.edu/~ppye/) and [Steph](http://stephjang.com) went too, woo!)
+Patrick and [Steph](http://stephjang.com) went too, woo!)
 The communities in the area are seasonally impeded by a river that swells with the rains and mountain runoff --
 crops cannot be taken to the nearby city of Oruro and children are sometimes kept from school by the waters.
 
