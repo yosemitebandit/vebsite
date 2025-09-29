@@ -1,29 +1,59 @@
 +++
 title = "Aquaya"
-date = 2012-08-13
-location = "SF"
-tags = ["werk", "python", "projects", "js", "favorites"]
+date = 2012-02-18
+location = "San Francisco"
+tags = ["werk", "python", "projects", "js", "favorites", "travels"]
 
 [extra]
-thumbnail = "projects/aquaya/ivrhub-screenshot.png"
+thumbnail = "projects/aquaya/cambodia-facility.jpg"
 +++
 
-At Aquaya we were helping to collect water quality data from a variety of communities.
-There was a survey component and it had to be localized.
-There was typically a simple app to mediate this,
-but in Cambodia the phones couldn't support the Khmer language.
+Aquaya is a small nonprofit research and consulting group
+that works with water service providers around the world.
+I worked there from February 2012 to February 2013,
+primarily focusing on their information communication and technology initiatives.
 
-So I made this voice-based system: IVRHub.
+When I joined Aquaya, I began working on Aquatest,
+a program that studied the use of mobile phones for collecting water quality data in rural areas.
+At the time, many of the organizations we worked with were successfully *providing* water,
+but they were struggling to measure water quality, especially in rural areas.
+The Aquatest pilot program combined a portable microbial testing system
+with the use of various mobile phone apps to get data from the remote test sites back to HQ.
+We interviewed teams using these systems in Mozambique, Vietnam and Cambodia.
+Here's an operator that worked with Teuk Saat, our Cambodian partner.
+
+![Teuk Saat operator](teuk-saat-operator.png "Teuk Saat operator")
+
+## IVRHub: Voice-Based Data Collection
+
+Teuk Saat had an especially interesting dilemma --
+many of the old school phones we were trying to work with couldn't support Khmer glyphs,
+so the text on their data collection apps had to be in English.
+Many operators just memorized the positions of responses on the screens of their phones,
+but this was clearly not ideal.
+
+I worked on IVRHub, a system that enabled voice-based Q&A for data collection,
+hoping it would allow managers and operators to use whatever language they preferred.
 You could call in, hear the questions and give your responses via voice.
 The surveyors would do this for a variety of locations and time-points.
 Back at the web portal you can transcribe (and maybe translate) the responses.
-I think you could record questions via voice or maybe you had to do that on the web portal.
+
+![IVRHub interface](ivrhub-screenshot.png "IVRHub interface")
 
 This one definitely had connections to one of my other projects, [MEDuele](/projects/meduele).
-
+Sadly we never tested it with real customers.
 The code is gone, alas, but would be easy to recreate!
 IIRC I wrote most of it in one day during a conference.
 
-I also built Pipeline: a data collection and management system being built during my work at Aquaya.
+## Pipeline: Data Management System
+
+We later worked more with our partners in Vietnam (HueWaco) and Mozambique (UNICEF)
+to build an open source business intelligence system.
+Initially, many of their water quality records were kept on paper and their measurements were compiled manually.
+We wanted to change that so they could gather more data and compile reports more easily.
+
+To this end I built Pipeline, a flexible system for data collection and aggregation.
+We went through a lot of iterations with our clients
+and it was very gratifying to build something that improved their data collection and analysis capabilities.
 It was in production at pipelinehq.org
 and is open sourced [on github](https://github.com/aquaya/pipeline).
