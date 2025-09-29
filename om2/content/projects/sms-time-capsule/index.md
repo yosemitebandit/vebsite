@@ -3,6 +3,7 @@ title = "SMS Time Capsule"
 date = 2011-12-13
 location = "Palo Alto"
 tags = ["projects", "python", "favorites"]
+draft = true
 
 [extra]
 thumbnail = "projects/sms-time-capsule/sms-time-capsule-thumbnail.png"

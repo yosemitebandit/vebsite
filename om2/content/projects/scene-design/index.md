@@ -3,6 +3,7 @@ title = "Scene Design"
 date = 2009-04-03
 location = "Durham"
 tags = ["projects", "favorites"]
+draft = true
 
 [extra]
 thumbnail = "projects/scene-design/scene-design-thumbnail.jpg"

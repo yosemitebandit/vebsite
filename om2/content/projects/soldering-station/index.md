@@ -3,6 +3,7 @@ title = "Soldering Station"
 date = 2007-06-03
 location = "Chapel Hill"
 tags = ["projects", "woodworking", "favorites"]
+draft = true
 
 [extra]
 thumbnail = "projects/soldering-station/soldering-station-thumbnail.jpg"

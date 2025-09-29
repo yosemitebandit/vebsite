@@ -3,6 +3,7 @@ title = "Savonius Turbine"
 date = 2009-04-03
 location = "Durham"
 tags = ["projects", "hardware", "favorites"]
+draft = true
 
 [extra]
 thumbnail = "projects/savonius-turbine/savonius-thumbnail.jpg"
