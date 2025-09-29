@@ -29,7 +29,7 @@ Are they visible light only -- are the cameras inoperative at night?
 - And I wonder if they do any IRL testing/in-situ calibration with like a large smoke machine, hah..
 Related -- here is [imagery from a controlled burn in Aspen CO](https://www.youtube.com/watch?v=zqqPFw8Dftw)
 - Would be a fun challenge to manage these device in very rugged deployments,
-reminds me of my work at [Endaga](@/projects/eno/index.md) where ssh into the boxes was tough!
+reminds me of my work at [Endaga](@/projects/endaga/index.md) where ssh into the boxes was tough!
 At [Culture](@/projects/culture/index.md) I would joke that our deployment is so easy
 -- no batteries, wired internet, engineers 50ft away.. easy!
 - afaik they ship all their imagery to the cloud for processing,
