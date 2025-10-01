@@ -97,20 +97,25 @@ So this artwork gets generated as a step if the user (the email sender) is new.
 I start with a base image and use SVG to add text on top: just the sender's email addr is the custom part for now.
 Then I use the [resvg](https://www.npmjs.com/package/@resvg/resvg-wasm) WASM module
 to convert SVG to PNG and save the result.
+
+{{ resize_image(path="projects/audioverde/artwork.png", width=500, height=500, op="fit_width") }}
+
 The WASM binary is added directly in src
-and I think this pattern opens up some cool things that could be done on Cloudflare Worker isolates,
-even in their somewhat restricted environment.
+(I think this pattern opens up some cool things that could be done on Cloudflare Worker isolates,
+even in their somewhat restricted environment).
 There is also an offline step that converts fonts to SVG paths before all this, but I manage that in a one-off way.
 
 
 ### Figures
 
 Some incoming emails have visual elements, "figures."
-I have an LLM extract visual elements and assess each one:
-download it and discard small images (e.g. tracking pixels),
-otherwise give a short description of what is shown.
-I provide the LLM with the text that surrounds the figure
+I have an LLM (also `gemini-2.5-pro`) extract visual elements and assess each one:
+download them and discard small images (e.g. tracking pixels, UI icons).
+For the remaining images the LLM provides a short description of what is shown.
+To help in the description, I give the LLM the text that surrounds the figure
 and I ask it to say something novel and try not to repeat the surrounding text.
+
+[todo: example figure and description]
 
 
 ### Narration Script
