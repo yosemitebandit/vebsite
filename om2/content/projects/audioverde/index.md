@@ -15,31 +15,31 @@ I made [Audioverde](https://audioverde.com) to turn these emails into podcasts.
 You can try it too: just forward an email to `podcast@audioverde.com`
 and you'll get a reply back with a link to a personal feed.
 Add that feed into your podcast player of choice
-(as long as that's not spotify..can't do custom RSS feeds on spotify 🥲)
-and your episode will show up there in a few minutes.
+and your episode will show up there in a few minutes
+(except for spotify..can't do custom RSS feeds on spotify 🥲).
 
 It's free to use for now, but maybe I'll try to have a pricing model around it in the future.
 
 
 ### Technical
 
-I started with a Cloudflare worker and expanded into using a variety of CF services,
-a "workflow" , queues, R2 (artifact storage), D1 (sql), KV (kv):
+I started with a Cloudflare worker and expanded into using a variety of CF services:
+their queues, R2 (artifact storage), D1 (sql), KV (kv):
 
 {{ resize_image(path="projects/audioverde/cornelia-bindings.png", width=500, height=500, op="fit_width") }}
 
-CF is a fun platform -- just very nice in terms of Typescript support,
+CF is a fun platform -- very nice in terms of Typescript support,
 APIs, docs, really clean deploy process, their CLI tool `wrangler` and their GUIs are nice too.
 I jumped through some hoops (noted below) to keep everything in their env and I'm glad it worked out.
 In other projects (like [FHAI](/projects/firsthello))
-I had to migrate part of the backend off CF
-and onto a more "traditional" backend server environment like Google Cloud Run.
+I had to migrate part of the backend away from CF
+and onto a more "traditional" backend server environment (in that case Google Cloud Run).
 I'm glad I didn't have to do that here!
 
 
 ### Workflow Steps
 
-Fundamentally the service works by receiving a forwarded email,
+The service works by receiving a forwarded email,
 extracting the "primary" content of the email,
 then turning that into a script for narration,
 sending that script to a text-to-speech service
@@ -72,18 +72,22 @@ Early on the in the workflow I send plaintext content to an LLM
 (right now `gemini-2.5-pro`)
 and my simple prompt asks if the content is suitable for podcast narration.
 
-My thinking is this would rule out spam since anyone could fire a message into `podcast@audioverde.com`
-and trigger the workflow here, and I don't want that.
+My thinking is that I should rule out spam
+since anyone could trigger my workflow by firing any old message into `podcast@audioverde.com`
+, and I don't want that.
 The whole workflow will terminate if this filtering step decides the content is not suitable.
 
-This could cost me pennies for processing a high amount of spam,
-but I figure if that starts to happen I can block incoming mail upstream of this based on sender characteristics.
+This could still cost me pennies for processing a high amount of spam,
+but I figure if that starts to happen I can block incoming mail upstream of this,
+perhaps based on sender characteristics.
 
 This and subsequent LLM calls go into their own queue.
-I like the CF queues because it makes it clear how to manage timeouts/retries for these calls.
-[todo: only using API-based llms; tts overwhelms other costs of the pipeline so i didn't optimze the text-to-text llms]
-I use streaming to make sure the Worker isolate doesn't timeout [todo link to 524?].
-
+I like the [CF queues](https://developers.cloudflare.com/queues/)
+because it makes it clear how to manage timeouts/retries for these calls.
+Right now I'm not self hosting any LLMs, I'm generally using high end models through APIs.
+Those API calls would fail with error 524 (esp before I started streaming responses)
+because the LLM might think for a while before responding, and CF would terminate the connection.
+So the queues help manage retries in those cases.
 
 
 ### Artwork
