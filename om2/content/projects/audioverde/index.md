@@ -19,11 +19,13 @@ Here's an example, narrating [a post from Tomasz Tunguz](https://tomtunguz.com/d
   Sorry, your browser does not support the audio element.
 </audio>
 
-You can try it too: just forward an email to `podcast@audioverde.com`
-and you'll get a reply back with a link to a personal feed.
-Add that feed into your podcast player of choice
-and your episode will show up there in a few minutes
-(except for spotify..can't do custom RSS feeds on spotify 🥲).
+You can try it too:
+
+1. forward an email to [`podcast@audioverde.com`](mailto:podcast@audioverde.com)
+2. you'll get a reply with a link to a personal feed
+3. add that feed into your podcast player of choice
+(except for spotify..no custom RSS for spotify 🥲).
+4. in a few minutes your episode will show up
 
 It's free to use for now, but maybe I'll have a pricing model around it in the future.
 
@@ -85,7 +87,7 @@ Early on the in the workflow I send plaintext content to an LLM
 and my simple prompt asks if the content is suitable for podcast narration.
 
 My thinking is that I should rule out spam
-since anyone could trigger my workflow by firing any old message into `podcast@audioverde.com`
+since anyone could trigger my workflow by firing any old message into [`podcast@audioverde.com`](mailto:podcast@audioverde.com)
 , and I don't want that.
 The whole workflow will terminate if this filtering step decides the content is not suitable.
 
@@ -195,5 +197,5 @@ the codegen tools don't really understand how to navigate that (or perhaps a ski
 
 Give it a try and please tell me what you think:
 
-Fwd your newsletter to `podcast@audioverde.com`
+Fwd your newsletter to [`podcast@audioverde.com`](mailto:podcast@audioverde.com)
 and you'll receive a reply with a link to your custom RSS feed.
