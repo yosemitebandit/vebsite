@@ -15,7 +15,7 @@ I made [Audioverde](https://audioverde.com) to turn these emails into podcasts.
 Here's an example episode, narrating [a post from Tomasz Tunguz](https://tomtunguz.com/data--ai-infrastructure-are-fusing/):
 
 <audio controls preload="metadata">
-  <source src="episode.mp3" type="audio/mpeg">
+  <source src="/projects/audioverde/episode.mp3" type="audio/mpeg">
   Sorry, your browser does not support the audio element.
 </audio>
 
