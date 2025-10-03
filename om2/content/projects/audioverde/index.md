@@ -12,6 +12,13 @@ I subscribe to a lot of email newsletters that are very intriguing,
 but I don't always read 'em all.
 I made [Audioverde](https://audioverde.com) to turn these emails into podcasts.
 
+Here's an example, narrating [a post from Tomasz Tunguz](https://tomtunguz.com/data--ai-infrastructure-are-fusing/):
+
+<audio controls preload="metadata">
+  <source src="episode.mp3" type="audio/mpeg">
+  Sorry, your browser does not support the audio element.
+</audio>
+
 You can try it too: just forward an email to `podcast@audioverde.com`
 and you'll get a reply back with a link to a personal feed.
 Add that feed into your podcast player of choice
@@ -19,6 +26,11 @@ and your episode will show up there in a few minutes
 (except for spotify..can't do custom RSS feeds on spotify 🥲).
 
 It's free to use for now, but maybe I'll have a pricing model around it in the future.
+
+I was inspired by
+[Type III Audio](https://preview.type3.audio/)
+and
+[the fellow who reads the SSC / ACX posts](https://sscpodcast.libsyn.com/).
 
 
 ### Technical
