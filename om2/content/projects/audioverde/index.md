@@ -29,11 +29,6 @@ You can try it too:
 
 It's free to use for now, but maybe I'll have a pricing model around it in the future.
 
-I was inspired by
-[Type III Audio](https://preview.type3.audio/)
-and
-[the fellow who reads the SSC / ACX posts](https://sscpodcast.libsyn.com/).
-
 
 ### Technical
 
@@ -189,6 +184,9 @@ Most newsletters are small and processing them costs about $0.10 each.
 
 ### Overall
 
+- I'm drawing inspiration from [Type III Audio](https://preview.type3.audio/)
+and
+[the fellow who reads the SSC / ACX posts](https://sscpodcast.libsyn.com/).
 - I used Cursor (with Sonnet 3.5/3.7) and now mostly Claude Code to work on this project,
 it's been great with typescript.
 The major challenge has been architecture and managing the eccentricities of the Cloudflare environment --
