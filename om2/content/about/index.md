@@ -9,7 +9,7 @@ elsewhere
 [literal.club](https://literal.club/@oakmachine),
 letterboxed,
 [linkedin](https://linkedin.com/in/mab43),
-email
+[email](mailto:matt@oakmachine.com)
 
 friends
 - [Trevor](http://trevorshp.com)
