@@ -12,16 +12,12 @@ List-Unsubscribe: https://dynomight.substack.com/action/disable_email/disable?to
 References: post-12345@substack.com
 X-Mailgun-Sid: ryJhmzI2MilsIm
 X-Mailgun-Sending-Ip: 139.102.224.13
-ARC-Message-Signature: s=arc-20240605; bh=4DDi/CeEgRBwPR7QM0p9ijYfrQLh3uFAGeG87xYCzu0=; fh=HcDPvP9vtnIp0080Hm8mT4113GCURBDShwPiSdHoI5Y=;
-
 
 That you can apparently learn to meditate your way into a state of profound relaxation
 
 https://cdn.substack.com/113355.png
 https://cdn.substack.com/224466.png
 https://cdn.substack.com/778899.png
-
-...
         </pre>
       </div>
     </div>
@@ -39,17 +35,58 @@ Date: Fri, 28 Nov 2025 17:00:53 +0000</span>
 References: post-12345@substack.com
 X-Mailgun-Sid: ryJhmzI2MilsIm
 X-Mailgun-Sending-Ip: 139.102.224.13
-ARC-Message-Signature: s=arc-20240605; bh=4DDi/CeEgRBwPR7QM0p9ijYfrQLh3uFAGeG87xYCzu0=; fh=HcDPvP9vtnIp0080Hm8mT4113GCURBDShwPiSdHoI5Y=;</span>
+</span>
+That you can apparently learn to meditate your way into a state of profound relaxation
 
+https://cdn.substack.com/113355.png
+https://cdn.substack.com/224466.png
+https://cdn.substack.com/778899.png
+        </pre>
+      </div>
+    </div>
+
+    <div class="pipeline-arrow">→</div>
+
+    <div class="pipeline-stage">
+      <div class="stage-label">Simplified Content</div>
+      <div class="email-preview">
+        <pre class="raw-email">
+From: dynomight@substack.com
+To: matt@oakmachine.com
+Subject: Underrated reasons to be thankful IV
+Date: Fri, 28 Nov 2025 17:00:53 +0000
 
 That you can apparently learn to meditate your way into a state of profound relaxation
 
 https://cdn.substack.com/113355.png
 https://cdn.substack.com/224466.png
 https://cdn.substack.com/778899.png
-
-...
         </pre>
+      </div>
+    </div>
+
+    <div class="pipeline-arrow">→</div>
+
+    <div class="pipeline-stage llm-filter-stage">
+      <div class="stage-label">LLM Filtering</div>
+      <div class="stage-content">
+        <div class="llm-prompt">
+          <div class="prompt-header">Prompt to gemini-2.5-pro:</div>
+          <div class="prompt-text">"Is this content suitable for podcast narration?
+
+Content:
+From: dynomight@substack.com
+Subject: Underrated reasons to be thankful IV
+Date: Fri, 28 Nov 2025
+
+That you can apparently learn to meditate your way into a state of profound relaxation
+
+[3 images]"
+          </div>
+          <div class="llm-response">
+            <strong>Response:</strong> ✓ Yes, suitable for narration
+          </div>
+        </div>
       </div>
     </div>
 
@@ -161,6 +198,44 @@ https://cdn.substack.com/778899.png
   text-decoration: line-through;
   color: #999;
   opacity: 0.6;
+}
+
+.llm-filter-stage {
+  border-color: #7c3aed;
+  background: #faf5ff;
+}
+
+.llm-prompt {
+  width: 100%;
+  text-align: left;
+}
+
+.prompt-header {
+  font-weight: bold;
+  color: #7c3aed;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.prompt-text {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 1rem;
+  font-family: 'Courier New', monospace;
+  font-size: 0.85rem;
+  white-space: pre-wrap;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.llm-response {
+  background: #d1fae5;
+  border: 2px solid #10b981;
+  border-radius: 4px;
+  padding: 0.75rem;
+  font-size: 0.9rem;
+  color: #065f46;
 }
 
 /* Animation hooks for future JavaScript */
