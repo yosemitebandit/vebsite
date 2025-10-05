@@ -100,7 +100,7 @@ As ever, I am thankful to you, for being here.</pre>
     <div class="pipeline-arrow">→</div>
 
     <div class="pipeline-stage llm-filter-stage">
-      <div class="stage-label">LLM Filtering</div>
+      <div class="stage-label">Filter with LLM</div>
       <div class="stage-content">
         <div class="llm-prompt">
           <div class="prompt-header">Prompt to gemini-2.5-pro:</div>
@@ -127,7 +127,7 @@ As ever, I am thankful to you, for being here.
     <div class="pipeline-arrow">→</div>
 
     <div class="pipeline-stage figure-extraction-stage">
-      <div class="stage-label">Figure Extraction</div>
+      <div class="stage-label">Extract Figures</div>
       <div class="stage-content">
         <div class="figure-list">
           <div class="figure-item figure-discarded">
@@ -154,7 +154,7 @@ As ever, I am thankful to you, for being here.
     <div class="pipeline-arrow">→</div>
 
     <div class="pipeline-stage figure-description-stage">
-      <div class="stage-label">Figure Description</div>
+      <div class="stage-label">Describe Figures</div>
       <div class="stage-content">
         <div class="figure-list">
           <div class="figure-item figure-described">
@@ -177,7 +177,7 @@ As ever, I am thankful to you, for being here.
     <div class="pipeline-arrow">→</div>
 
     <div class="pipeline-stage script-generation-stage">
-      <div class="stage-label">Script Generation</div>
+      <div class="stage-label">Generate Script</div>
       <div class="stage-content">
         <div class="llm-prompt">
           <div class="prompt-header">Prompt to gemini-2.5-pro:</div>
@@ -221,7 +221,7 @@ Thanks for listening. This has been an Audioverde production.</pre>
     <div class="pipeline-arrow">→</div>
 
     <div class="pipeline-stage multipart-stage">
-      <div class="stage-label">Multi-part Episodes (if needed)</div>
+      <div class="stage-label">Split Long Episodes (if needed)</div>
       <div class="multipart-container">
         <div class="multipart-content">
           <div class="part-item">
@@ -246,6 +246,78 @@ As ever, I am thankful to you, for being here.
 
 That was the conclusion of "Underrated reasons to be thankful IV" by dynomight. Thank you for listening and goodbye.
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pipeline-arrow">→</div>
+
+    <div class="pipeline-stage tts-stage">
+      <div class="stage-label">Text-to-Speech</div>
+      <div class="tts-container">
+        <div class="tts-content">
+
+          <div class="chunk-item">
+            <div class="chunk-label">Chunk 1 Text → WAV</div>
+            <div class="chunk-text">"This is 'Underrated reasons to be thankful IV' by dynomight, part one."</div>
+            <div class="chunk-status">✓ audio_chunk_1.wav (2.1 sec)</div>
+          </div>
+
+          <div class="chunk-item">
+            <div class="chunk-label">Chunk 2 Text → WAV</div>
+            <div class="chunk-text">"That you can apparently learn to meditate your way..."</div>
+            <div class="chunk-status">✓ audio_chunk_2.wav (3.8 sec)</div>
+          </div>
+
+          <div class="chunk-item">
+            <div class="chunk-label">Chunk 3 Text → WAV</div>
+            <div class="chunk-text">"Now there's an image: A thanksgiving feast. Now back to the article."</div>
+            <div class="chunk-status">✓ audio_chunk_3.wav (4.2 sec)</div>
+          </div>
+
+          <div class="chunk-item-collapsed">
+            ... 2 more chunks ...
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pipeline-arrow">→</div>
+
+    <div class="pipeline-stage concatenation-stage">
+      <div class="stage-label">Concatenate</div>
+      <div class="concat-container">
+        <div class="concat-content">
+          <div class="concat-diagram">
+            <div class="wav-file">audio_chunk_1.wav</div>
+            <div class="concat-plus">+</div>
+            <div class="wav-file">audio_chunk_2.wav</div>
+            <div class="concat-plus">+</div>
+            <div class="wav-file">audio_chunk_3.wav</div>
+            <div class="concat-plus">+</div>
+            <div class="wav-file">audio_chunk_4.wav</div>
+            <div class="concat-plus">+</div>
+            <div class="wav-file">audio_chunk_5.wav</div>
+            <div class="concat-arrow">↓</div>
+            <div class="wav-result">combined_part_1.wav (18.5 sec)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pipeline-arrow">→</div>
+
+    <div class="pipeline-stage mp3-stage">
+      <div class="stage-label">Convert to MP3</div>
+      <div class="mp3-container">
+        <div class="mp3-content">
+          <div class="mp3-diagram">
+            <div class="wav-file-large">combined_part_1.wav</div>
+            <div class="mp3-details">2.1 MB</div>
+            <div class="concat-arrow">↓</div>
+            <div class="mp3-result">episode_part_1.mp3</div>
+            <div class="mp3-stats">445 KB</div>
           </div>
         </div>
       </div>
@@ -702,6 +774,220 @@ That was the conclusion of "Underrated reasons to be thankful IV" by dynomight. 
   line-height: 1.5;
   white-space: pre-wrap;
   color: #333;
+}
+
+.tts-stage {
+  border-color: #ef476f;
+  background: #fde8ed;
+}
+
+.tts-container {
+  background: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: auto;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.tts-content {
+  font-family: 'Courier New', monospace;
+  font-size: 0.85rem;
+  margin: 0;
+  padding: 1rem;
+  color: #333;
+  flex: 1;
+  overflow: auto;
+}
+
+.tts-info {
+  background: white;
+  border: 2px solid #ef476f;
+  border-radius: 6px;
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: #073b4c;
+  text-align: center;
+}
+
+.chunk-item {
+  background: white;
+  border: 2px solid #ef476f;
+  border-radius: 6px;
+  padding: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.chunk-label {
+  font-weight: bold;
+  color: #ef476f;
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+}
+
+.chunk-text {
+  font-family: 'Courier New', monospace;
+  font-size: 0.8rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+  font-style: italic;
+}
+
+.chunk-status {
+  font-size: 0.8rem;
+  color: #06d6a0;
+  font-weight: bold;
+}
+
+.chunk-item-collapsed {
+  text-align: center;
+  color: #999;
+  font-style: italic;
+  padding: 0.5rem;
+  font-size: 0.85rem;
+}
+
+.concatenation-stage {
+  border-color: #06d6a0;
+  background: #e6faf4;
+}
+
+.concat-container {
+  background: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: auto;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.concat-content {
+  margin: 0;
+  padding: 1rem;
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.concat-diagram {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.wav-file {
+  background: white;
+  border: 2px solid #06d6a0;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  font-family: 'Courier New', monospace;
+  font-size: 0.85rem;
+  color: #073b4c;
+  font-weight: bold;
+}
+
+.concat-plus {
+  font-size: 1.2rem;
+  color: #06d6a0;
+  font-weight: bold;
+}
+
+.concat-arrow {
+  font-size: 1.5rem;
+  color: #06d6a0;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.wav-result {
+  background: #06d6a0;
+  color: white;
+  border: 2px solid #06d6a0;
+  border-radius: 6px;
+  padding: 0.75rem 1.25rem;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.mp3-stage {
+  border-color: #ffd166;
+  background: #fffbeb;
+}
+
+.mp3-container {
+  background: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: auto;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.mp3-content {
+  margin: 0;
+  padding: 1rem;
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.mp3-diagram {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.mp3-info {
+  font-size: 0.8rem;
+  color: #999;
+  font-style: italic;
+  margin-bottom: 0.25rem;
+}
+
+.wav-file-large {
+  background: white;
+  border: 2px solid #06d6a0;
+  border-radius: 6px;
+  padding: 0.75rem 1.25rem;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9rem;
+  color: #073b4c;
+  font-weight: bold;
+}
+
+.mp3-details {
+  font-size: 0.75rem;
+  color: #666;
+  margin-bottom: 0.25rem;
+}
+
+.mp3-result {
+  background: #ffd166;
+  color: #073b4c;
+  border: 2px solid #ffd166;
+  border-radius: 6px;
+  padding: 0.75rem 1.25rem;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.mp3-stats {
+  font-size: 0.75rem;
+  color: #666;
+  margin-top: 0.25rem;
 }
 
 .pipeline-note {
