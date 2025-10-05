@@ -29,6 +29,11 @@ You can try it too:
 
 It's free to use for now, but maybe I'll have a pricing model around it in the future.
 
+### Pipeline
+
+Here's how it converts a raw email into an mp3:
+
+{{ audioverde_animated_pipeline() }}
 
 ### Technical
 

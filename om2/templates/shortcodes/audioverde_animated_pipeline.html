@@ -1,0 +1,194 @@
+<div class="audioverde-animation">
+  <div class="pipeline-container">
+    <div class="pipeline-stage email-stage">
+      <div class="stage-label">Raw Email</div>
+      <div class="email-preview">
+        <pre class="raw-email">
+From: dynomight@substack.com
+To: matt@oakmachine.com
+Subject: Underrated reasons to be thankful IV
+Date: Fri, 28 Nov 2025 17:00:53 +0000
+List-Unsubscribe: https://dynomight.substack.com/action/disable_email/disable?token=asdf123123
+References: post-12345@substack.com
+X-Mailgun-Sid: ryJhmzI2MilsIm
+X-Mailgun-Sending-Ip: 139.102.224.13
+ARC-Message-Signature: s=arc-20240605; bh=4DDi/CeEgRBwPR7QM0p9ijYfrQLh3uFAGeG87xYCzu0=; fh=HcDPvP9vtnIp0080Hm8mT4113GCURBDShwPiSdHoI5Y=;
+
+
+That you can apparently learn to meditate your way into a state of profound relaxation
+
+https://cdn.substack.com/113355.png
+https://cdn.substack.com/224466.png
+https://cdn.substack.com/778899.png
+
+...
+        </pre>
+      </div>
+    </div>
+
+    <div class="pipeline-arrow">→</div>
+
+    <div class="pipeline-stage filter-stage">
+      <div class="stage-label">Distill</div>
+      <div class="email-preview">
+        <pre class="raw-email"><span class="header-keep">From: dynomight@substack.com
+To: matt@oakmachine.com
+Subject: Underrated reasons to be thankful IV
+Date: Fri, 28 Nov 2025 17:00:53 +0000</span>
+<span class="header-remove">List-Unsubscribe: https://dynomight.substack.com/action/disable_email/disable?token=asdf123123
+References: post-12345@substack.com
+X-Mailgun-Sid: ryJhmzI2MilsIm
+X-Mailgun-Sending-Ip: 139.102.224.13
+ARC-Message-Signature: s=arc-20240605; bh=4DDi/CeEgRBwPR7QM0p9ijYfrQLh3uFAGeG87xYCzu0=; fh=HcDPvP9vtnIp0080Hm8mT4113GCURBDShwPiSdHoI5Y=;</span>
+
+
+That you can apparently learn to meditate your way into a state of profound relaxation
+
+https://cdn.substack.com/113355.png
+https://cdn.substack.com/224466.png
+https://cdn.substack.com/778899.png
+
+...
+        </pre>
+      </div>
+    </div>
+
+    <div class="pipeline-arrow">→</div>
+
+    <div class="pipeline-stage processing-stage">
+      <div class="stage-label">Processing</div>
+      <div class="stage-content">
+        <div class="processing-placeholder">Pipeline stages coming soon...</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+.audioverde-animation {
+  margin: 2rem 0;
+  padding: 2rem;
+  background: #f5f5f5;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+.pipeline-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: nowrap;
+  width: max-content;
+}
+
+.pipeline-stage {
+  flex: 0 0 auto;
+  width: 400px;
+  height: 500px;
+  background: white;
+  border: 2px solid #333;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.stage-label {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: #2c5282;
+}
+
+.email-preview {
+  background: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: auto;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.raw-email {
+  font-family: 'Courier New', monospace;
+  font-size: 0.85rem;
+  margin: 0;
+  padding: 1rem;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  color: #333;
+  flex: 1;
+  overflow: auto;
+}
+
+.pipeline-arrow {
+  font-size: 2rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.processing-stage {
+  border-color: #666;
+  border-style: dashed;
+}
+
+.stage-content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.processing-placeholder {
+  color: #999;
+  font-style: italic;
+  text-align: center;
+  padding: 2rem;
+}
+
+.filter-stage {
+  border-color: #2c5282;
+}
+
+.header-keep {
+  background: #fef3c7;
+  font-weight: 600;
+}
+
+.header-remove {
+  text-decoration: line-through;
+  color: #999;
+  opacity: 0.6;
+}
+
+/* Animation hooks for future JavaScript */
+.pipeline-stage.animate {
+  animation: pulse 0.5s ease-in-out;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+</style>
+
+<script>
+// Placeholder for future animation logic
+document.addEventListener('DOMContentLoaded', function() {
+  const animation = document.querySelector('.audioverde-animation');
+
+  // TODO: Add pipeline animation logic here
+  console.log('AudioVerde pipeline animation loaded');
+
+  // Example: Add click handler to trigger animation
+  const emailStage = animation.querySelector('.email-stage');
+  if (emailStage) {
+    emailStage.addEventListener('click', function() {
+      this.classList.add('animate');
+      setTimeout(() => this.classList.remove('animate'), 500);
+    });
+  }
+});
+</script>
