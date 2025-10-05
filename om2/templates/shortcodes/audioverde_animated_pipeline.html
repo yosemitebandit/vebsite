@@ -133,7 +133,7 @@ As ever, I am thankful to you, for being here.
           <div class="figure-item figure-discarded">
             <div class="figure-url">https://cdn.substack.com/113355.png</div>
             <div class="figure-size">0.5 KB</div>
-            <div class="figure-status discard">✗ Discarded (too small - likely tracking pixel)</div>
+            <div class="figure-status discard">✗ Discarded (too small - tracking pixel?)</div>
           </div>
 
           <div class="figure-item figure-kept">
@@ -362,6 +362,13 @@ Thanks for listening. This has been an Audioverde production.</pre>
   animation: horseWobbleGentle 1s ease-in-out infinite;
   z-index: 2;
   transform: scaleX(-1);
+  cursor: grab;
+  user-select: none;
+}
+
+.progress-horse.dragging {
+  cursor: grabbing;
+  transition: none;
 }
 
 .progress-horse.galloping {
@@ -638,39 +645,92 @@ document.addEventListener('DOMContentLoaded', function() {
   const confettiContainer = animation.querySelector('.confetti-container');
 
   let scrollTimeout;
+  let isDragging = false;
+  let startX;
+  let startScrollLeft;
 
-  // Update horse position based on scroll
-  animation.addEventListener('scroll', function() {
+  function updateHorsePosition() {
     const scrollLeft = animation.scrollLeft;
     const scrollWidth = animation.scrollWidth - animation.clientWidth;
     const scrollPercent = scrollLeft / scrollWidth;
 
     // Calculate horse position along the track
-    // Allow horse to cross the finish line
     const trackWidth = track.offsetWidth;
-    const horseStart = 50; // Starting position in px
-    const horseEnd = trackWidth + 20; // End position past the finish line
+    const horseStart = 50;
+    const horseEnd = trackWidth + 20;
     const horsePosition = horseStart + (scrollPercent * (horseEnd - horseStart));
 
     horse.style.left = horsePosition + 'px';
 
-    // Trigger confetti when near the end (90% or more)
+    // Trigger confetti when near the end
     if (scrollPercent >= 0.9) {
       confettiContainer.classList.add('celebrating');
     } else {
       confettiContainer.classList.remove('celebrating');
     }
+  }
+
+  // Update horse position based on scroll
+  animation.addEventListener('scroll', function() {
+    if (isDragging) return; // Don't update if we're dragging
+
+    updateHorsePosition();
 
     // Add galloping animation while scrolling
     horse.classList.add('galloping');
-
-    // Clear existing timeout
     clearTimeout(scrollTimeout);
-
-    // Set timeout to remove galloping class when scrolling stops
     scrollTimeout = setTimeout(function() {
       horse.classList.remove('galloping');
     }, 150);
   });
+
+  // Horse dragging functionality
+  horse.addEventListener('mousedown', function(e) {
+    isDragging = true;
+    startX = e.pageX;
+    startScrollLeft = animation.scrollLeft;
+    horse.classList.add('dragging');
+    horse.classList.add('galloping');
+    e.preventDefault();
+  });
+
+  document.addEventListener('mousemove', function(e) {
+    if (!isDragging) return;
+
+    const trackWidth = track.offsetWidth;
+    const horseStart = 50;
+    const horseEnd = trackWidth + 20;
+    const trackRect = track.getBoundingClientRect();
+
+    // Calculate horse position relative to track
+    const mouseX = e.pageX - trackRect.left;
+    const clampedX = Math.max(horseStart, Math.min(mouseX, horseEnd));
+
+    // Calculate scroll percentage from horse position
+    const scrollPercent = (clampedX - horseStart) / (horseEnd - horseStart);
+    const scrollWidth = animation.scrollWidth - animation.clientWidth;
+    const newScrollLeft = scrollPercent * scrollWidth;
+
+    // Update scroll position
+    animation.scrollLeft = newScrollLeft;
+
+    // Update horse position immediately
+    horse.style.left = clampedX + 'px';
+  });
+
+  document.addEventListener('mouseup', function() {
+    if (isDragging) {
+      isDragging = false;
+      horse.classList.remove('dragging');
+
+      clearTimeout(scrollTimeout);
+      scrollTimeout = setTimeout(function() {
+        horse.classList.remove('galloping');
+      }, 150);
+    }
+  });
+
+  // Initial position
+  updateHorsePosition();
 });
 </script>
