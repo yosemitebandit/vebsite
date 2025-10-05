@@ -13,7 +13,7 @@ References: post-12345@substack.com
 X-Mailgun-Sid: ryJhmzI2MilsIm
 X-Mailgun-Sending-Ip: 139.102.224.13
 
-That you can apparently learn to meditate your way into a state of profound relaxation
+That you can apparently learn to meditate your way into a state of profound relaxation...
 
 https://cdn.substack.com/113355.png
 https://cdn.substack.com/224466.png
@@ -36,7 +36,7 @@ References: post-12345@substack.com
 X-Mailgun-Sid: ryJhmzI2MilsIm
 X-Mailgun-Sending-Ip: 139.102.224.13
 </span>
-That you can apparently learn to meditate your way into a state of profound relaxation
+That you can apparently learn to meditate your way into a state of profound relaxation...
 
 https://cdn.substack.com/113355.png
 https://cdn.substack.com/224466.png
@@ -56,7 +56,7 @@ To: matt@oakmachine.com
 Subject: Underrated reasons to be thankful IV
 Date: Fri, 28 Nov 2025 17:00:53 +0000
 
-That you can apparently learn to meditate your way into a state of profound relaxation
+That you can apparently learn to meditate your way into a state of profound relaxation...
 
 https://cdn.substack.com/113355.png
 https://cdn.substack.com/224466.png
@@ -72,19 +72,71 @@ https://cdn.substack.com/778899.png
       <div class="stage-content">
         <div class="llm-prompt">
           <div class="prompt-header">Prompt to gemini-2.5-pro:</div>
-          <div class="prompt-text">"Is this content suitable for podcast narration?
+          <div class="prompt-text">Is this suitable for narration?
 
 Content:
 From: dynomight@substack.com
 Subject: Underrated reasons to be thankful IV
 Date: Fri, 28 Nov 2025
 
-That you can apparently learn to meditate your way into a state of profound relaxation
+That you can apparently learn to meditate your way into a state of profound relaxation...
 
-[3 images]"
+https://cdn.substack.com/113355.png
+https://cdn.substack.com/224466.png
+https://cdn.substack.com/778899.png
           </div>
           <div class="llm-response">
             <strong>Response:</strong> ✓ Proceed
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pipeline-arrow">→</div>
+
+    <div class="pipeline-stage figure-extraction-stage">
+      <div class="stage-label">Figure Extraction</div>
+      <div class="stage-content">
+        <div class="figure-list">
+          <div class="figure-item figure-discarded">
+            <div class="figure-url">https://cdn.substack.com/113355.png</div>
+            <div class="figure-size">0.5 KB</div>
+            <div class="figure-status discard">✗ Discarded (too small - likely tracking pixel)</div>
+          </div>
+
+          <div class="figure-item figure-kept">
+            <div class="figure-url">https://cdn.substack.com/224466.png</div>
+            <div class="figure-size">45 KB</div>
+            <div class="figure-status keep">✓ Keep</div>
+          </div>
+
+          <div class="figure-item figure-kept">
+            <div class="figure-url">https://cdn.substack.com/778899.png</div>
+            <div class="figure-size">38 KB</div>
+            <div class="figure-status keep">✓ Keep</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pipeline-arrow">→</div>
+
+    <div class="pipeline-stage figure-description-stage">
+      <div class="stage-label">Figure Description</div>
+      <div class="stage-content">
+        <div class="figure-list">
+          <div class="figure-item figure-described">
+            <div class="figure-url">https://cdn.substack.com/224466.png</div>
+            <div class="llm-description">
+              <strong>LLM Description:</strong> A thanksgiving feast.
+            </div>
+          </div>
+
+          <div class="figure-item figure-described">
+            <div class="figure-url">https://cdn.substack.com/778899.png</div>
+            <div class="llm-description">
+              <strong>LLM Description:</strong> Workers in a field.
+            </div>
           </div>
         </div>
       </div>
@@ -135,7 +187,7 @@ That you can apparently learn to meditate your way into a state of profound rela
   font-weight: bold;
   font-size: 1.1rem;
   margin-bottom: 0.5rem;
-  color: #2c5282;
+  color: #073b4c;
 }
 
 .email-preview {
@@ -186,12 +238,12 @@ That you can apparently learn to meditate your way into a state of profound rela
 }
 
 .filter-stage {
-  border-color: #1d4ed8;
-  background: #eff6ff;
+  border-color: #118ab2;
+  background: #e6f4f8;
 }
 
 .header-keep {
-  background: #fef3c7;
+  background: #fff7e6;
   font-weight: 600;
 }
 
@@ -202,18 +254,19 @@ That you can apparently learn to meditate your way into a state of profound rela
 }
 
 .llm-filter-stage {
-  border-color: #7c3aed;
-  background: #faf5ff;
+  border-color: #ef476f;
+  background: #fde8ed;
 }
 
 .llm-prompt {
   width: 100%;
   text-align: left;
+  position: relative;
 }
 
 .prompt-header {
   font-weight: bold;
-  color: #7c3aed;
+  color: #ef476f;
   margin-bottom: 0.5rem;
   font-size: 0.9rem;
 }
@@ -226,17 +279,112 @@ That you can apparently learn to meditate your way into a state of profound rela
   font-family: 'Courier New', monospace;
   font-size: 0.85rem;
   white-space: pre-wrap;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
   color: #333;
+  position: relative;
 }
 
 .llm-response {
-  background: #d1fae5;
-  border: 2px solid #10b981;
-  border-radius: 4px;
+  position: absolute;
+  bottom: 150px;
+  right: 30px;
+  background: rgba(255, 255, 255, 0.85);
+  border: 4px solid #06d6a0;
+  border-radius: 8px;
+  padding: 0.75rem 1.25rem;
+  font-size: 1.2rem;
+  color: #06d6a0;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transform: rotate(-12deg);
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.85), 0 0 0 6px #06d6a0;
+  z-index: 10;
+}
+
+.figure-extraction-stage {
+  border-color: #333;
+  background: white;
+}
+
+.figure-list {
+  width: 100%;
+  overflow-y: auto;
+}
+
+.figure-item {
+  background: white;
+  border: 2px solid #ddd;
+  border-radius: 6px;
   padding: 0.75rem;
-  font-size: 0.9rem;
-  color: #065f46;
+  margin-bottom: 0.75rem;
+  font-size: 0.85rem;
+}
+
+.figure-item:last-child {
+  margin-bottom: 0;
+}
+
+.figure-discarded {
+  opacity: 0.5;
+  border-color: #ef476f;
+}
+
+.figure-kept {
+  border-color: #06d6a0;
+}
+
+.figure-url {
+  font-family: 'Courier New', monospace;
+  font-size: 0.75rem;
+  color: #666;
+  margin-bottom: 0.25rem;
+  word-break: break-all;
+}
+
+.figure-size {
+  font-size: 0.75rem;
+  color: #999;
+  margin-bottom: 0.5rem;
+}
+
+.figure-status {
+  font-weight: bold;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.figure-status.keep {
+  background: #e6faf4;
+  color: #06d6a0;
+  font-weight: bold;
+}
+
+.figure-status.discard {
+  background: #fde8ed;
+  color: #ef476f;
+  font-weight: bold;
+}
+
+.llm-description {
+  background: #fff7e6;
+  padding: 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  color: #073b4c;
+}
+
+.figure-description-stage {
+  border-color: #118ab2;
+  background: #e6f4f8;
+}
+
+.figure-described {
+  border-color: #118ab2;
 }
 
 /* Animation hooks for future JavaScript */
