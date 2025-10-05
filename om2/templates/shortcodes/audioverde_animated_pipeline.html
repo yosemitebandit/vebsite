@@ -1,4 +1,19 @@
 <div class="audioverde-animation">
+  <div class="pipeline-progress-wrapper">
+    <div class="progress-track">
+      <div class="start-line">📧</div>
+      <div class="progress-horse">🐴</div>
+      <div class="finish-line">
+        🎵
+        <div class="confetti-container">
+          <div class="confetti">🎉</div>
+          <div class="confetti">✨</div>
+          <div class="confetti">🎊</div>
+          <div class="confetti">✨</div>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="pipeline-container">
     <div class="pipeline-stage email-stage">
       <div class="stage-label">Raw Email</div>
@@ -17,8 +32,14 @@ That you can apparently learn to meditate your way into a state of profound rela
 
 https://cdn.substack.com/113355.png
 https://cdn.substack.com/224466.png
+
+That as you gaze into space at night...
+
 https://cdn.substack.com/778899.png
-        </pre>
+
+As ever, I am thankful to you, for being here.
+
+Unsubscribe: https://substack.com/efljia</pre>
       </div>
     </div>
 
@@ -40,7 +61,14 @@ That you can apparently learn to meditate your way into a state of profound rela
 
 https://cdn.substack.com/113355.png
 https://cdn.substack.com/224466.png
+
+That as you gaze into space at night...
+
 https://cdn.substack.com/778899.png
+
+As ever, I am thankful to you, for being here.
+
+<span class="header-remove">Unsubscribe: https://substack.com/efljia</span></pre>
         </pre>
       </div>
     </div>
@@ -60,8 +88,12 @@ That you can apparently learn to meditate your way into a state of profound rela
 
 https://cdn.substack.com/113355.png
 https://cdn.substack.com/224466.png
+
+That as you gaze into space at night...
+
 https://cdn.substack.com/778899.png
-        </pre>
+
+As ever, I am thankful to you, for being here.</pre>
       </div>
     </div>
 
@@ -72,18 +104,18 @@ https://cdn.substack.com/778899.png
       <div class="stage-content">
         <div class="llm-prompt">
           <div class="prompt-header">Prompt to gemini-2.5-pro:</div>
-          <div class="prompt-text">Is this suitable for narration?
-
-Content:
-From: dynomight@substack.com
-Subject: Underrated reasons to be thankful IV
-Date: Fri, 28 Nov 2025
+          <div class="prompt-text">Is this suitable for narration:
 
 That you can apparently learn to meditate your way into a state of profound relaxation...
 
 https://cdn.substack.com/113355.png
 https://cdn.substack.com/224466.png
+
+That as you gaze into space at night...
+
 https://cdn.substack.com/778899.png
+
+As ever, I am thankful to you, for being here.
           </div>
           <div class="llm-response">
             <strong>Response:</strong> ✓ Proceed
@@ -144,6 +176,50 @@ https://cdn.substack.com/778899.png
 
     <div class="pipeline-arrow">→</div>
 
+    <div class="pipeline-stage script-generation-stage">
+      <div class="stage-label">Script Generation</div>
+      <div class="stage-content">
+        <div class="llm-prompt">
+          <div class="prompt-header">Prompt to gemini-2.5-pro:</div>
+          <div class="prompt-text">Generate a podcast narration script with an intro and outro:
+
+That you can apparently learn to meditate your way into a state of profound relaxation...
+
+That as you gaze into space at night...
+
+As ever, I am thankful to you, for being here.
+
+Figure descriptions:
+- Figure 1: A thanksgiving feast.
+- Figure 2: Workers in a field.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pipeline-arrow">→</div>
+
+    <div class="pipeline-stage narration-script-stage">
+      <div class="stage-label">Narration Script</div>
+      <div class="email-preview">
+        <pre class="raw-email">This is "Underrated reasons to be thankful IV" by dynomight.
+
+That you can apparently learn to meditate your way into a state of profound relaxation...
+
+Now there's an image: A thanksgiving feast. Now back to the article.
+
+That as you gaze into space at night...
+
+Here we see another image: Workers in a field. Back to the text.
+
+As ever, I am thankful to you, for being here.
+
+Thanks for listening. This has been an Audioverde production.</pre>
+      </div>
+    </div>
+
+    <div class="pipeline-arrow">→</div>
+
     <div class="pipeline-stage processing-stage">
       <div class="stage-label">Processing</div>
       <div class="stage-content">
@@ -157,9 +233,151 @@ https://cdn.substack.com/778899.png
 .audioverde-animation {
   margin: 2rem 0;
   padding: 2rem;
+  padding-top: 1rem;
   background: #f5f5f5;
   border-radius: 8px;
   overflow-x: auto;
+  position: relative;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.audioverde-animation::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+.pipeline-progress-wrapper {
+  position: sticky;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background: #f5f5f5;
+  z-index: 100;
+  margin-bottom: 1rem;
+}
+
+.progress-track {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  background: #e8e8e8;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.progress-track::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 2px;
+  background-image: repeating-linear-gradient(
+    to right,
+    #ccc 0px,
+    #ccc 8px,
+    transparent 8px,
+    transparent 16px
+  );
+  z-index: 0;
+}
+
+.start-line {
+  position: absolute;
+  left: 10px;
+  font-size: 1.5rem;
+  z-index: 1;
+}
+
+.finish-line {
+  position: absolute;
+  right: 10px;
+  font-size: 1.5rem;
+  z-index: 1;
+}
+
+.confetti-container {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.confetti-container.celebrating {
+  opacity: 1;
+}
+
+.confetti {
+  position: absolute;
+  font-size: 0.8rem;
+}
+
+.celebrating .confetti {
+  animation: confettiFall 2s ease-in-out infinite;
+}
+
+.celebrating .confetti:nth-child(1) {
+  left: -15px;
+  animation-delay: 0s;
+}
+
+.celebrating .confetti:nth-child(2) {
+  left: -5px;
+  animation-delay: 0.5s;
+}
+
+.celebrating .confetti:nth-child(3) {
+  left: 5px;
+  animation-delay: 1s;
+}
+
+.celebrating .confetti:nth-child(4) {
+  left: 15px;
+  animation-delay: 1.5s;
+}
+
+@keyframes confettiFall {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(40px) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+.progress-horse {
+  position: absolute;
+  left: 50px;
+  font-size: 2rem;
+  transition: left 0.3s ease-out;
+  animation: horseWobbleGentle 1s ease-in-out infinite;
+  z-index: 2;
+  transform: scaleX(-1);
+}
+
+.progress-horse.galloping {
+  animation: horseWobbleIntense 0.2s ease-in-out infinite;
+}
+
+@keyframes horseWobbleGentle {
+  0%, 100% { transform: scaleX(-1) translateY(0px) rotate(-3deg); }
+  25% { transform: scaleX(-1) translateY(-2px) rotate(0deg); }
+  50% { transform: scaleX(-1) translateY(0px) rotate(3deg); }
+  75% { transform: scaleX(-1) translateY(-2px) rotate(0deg); }
+}
+
+@keyframes horseWobbleIntense {
+  0%, 100% { transform: scaleX(-1) translateY(0px) rotate(-1deg); }
+  50% { transform: scaleX(-1) translateY(-3px) rotate(1deg); }
 }
 
 .pipeline-container {
@@ -387,6 +605,20 @@ https://cdn.substack.com/778899.png
   border-color: #118ab2;
 }
 
+.script-generation-stage {
+  border-color: #ffd166;
+  background: #fffbeb;
+}
+
+.script-generation-stage .prompt-header {
+  color: #ffd166;
+}
+
+.narration-script-stage {
+  border-color: #333;
+  background: white;
+}
+
 /* Animation hooks for future JavaScript */
 .pipeline-stage.animate {
   animation: pulse 0.5s ease-in-out;
@@ -399,20 +631,46 @@ https://cdn.substack.com/778899.png
 </style>
 
 <script>
-// Placeholder for future animation logic
 document.addEventListener('DOMContentLoaded', function() {
   const animation = document.querySelector('.audioverde-animation');
+  const horse = animation.querySelector('.progress-horse');
+  const track = animation.querySelector('.progress-track');
+  const confettiContainer = animation.querySelector('.confetti-container');
 
-  // TODO: Add pipeline animation logic here
-  console.log('AudioVerde pipeline animation loaded');
+  let scrollTimeout;
 
-  // Example: Add click handler to trigger animation
-  const emailStage = animation.querySelector('.email-stage');
-  if (emailStage) {
-    emailStage.addEventListener('click', function() {
-      this.classList.add('animate');
-      setTimeout(() => this.classList.remove('animate'), 500);
-    });
-  }
+  // Update horse position based on scroll
+  animation.addEventListener('scroll', function() {
+    const scrollLeft = animation.scrollLeft;
+    const scrollWidth = animation.scrollWidth - animation.clientWidth;
+    const scrollPercent = scrollLeft / scrollWidth;
+
+    // Calculate horse position along the track
+    // Allow horse to cross the finish line
+    const trackWidth = track.offsetWidth;
+    const horseStart = 50; // Starting position in px
+    const horseEnd = trackWidth + 20; // End position past the finish line
+    const horsePosition = horseStart + (scrollPercent * (horseEnd - horseStart));
+
+    horse.style.left = horsePosition + 'px';
+
+    // Trigger confetti when near the end (90% or more)
+    if (scrollPercent >= 0.9) {
+      confettiContainer.classList.add('celebrating');
+    } else {
+      confettiContainer.classList.remove('celebrating');
+    }
+
+    // Add galloping animation while scrolling
+    horse.classList.add('galloping');
+
+    // Clear existing timeout
+    clearTimeout(scrollTimeout);
+
+    // Set timeout to remove galloping class when scrolling stops
+    scrollTimeout = setTimeout(function() {
+      horse.classList.remove('galloping');
+    }, 150);
+  });
 });
 </script>
