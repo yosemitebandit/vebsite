@@ -254,7 +254,7 @@ That was the conclusion of "Underrated reasons to be thankful IV" by dynomight. 
     <div class="pipeline-arrow">→</div>
 
     <div class="pipeline-stage tts-stage">
-      <div class="stage-label">Text-to-Speech</div>
+      <div class="stage-label">Text-to-Speech Chunks of Text</div>
       <div class="tts-container">
         <div class="tts-content">
 
@@ -290,15 +290,13 @@ That was the conclusion of "Underrated reasons to be thankful IV" by dynomight. 
       <div class="concat-container">
         <div class="concat-content">
           <div class="concat-diagram">
-            <div class="wav-file">audio_chunk_1.wav</div>
-            <div class="concat-plus">+</div>
-            <div class="wav-file">audio_chunk_2.wav</div>
-            <div class="concat-plus">+</div>
-            <div class="wav-file">audio_chunk_3.wav</div>
-            <div class="concat-plus">+</div>
-            <div class="wav-file">audio_chunk_4.wav</div>
-            <div class="concat-plus">+</div>
-            <div class="wav-file">audio_chunk_5.wav</div>
+            <div class="wav-pile">
+              <div class="wav-chunk wav-chunk-1">1.wav</div>
+              <div class="wav-chunk wav-chunk-2">2.wav</div>
+              <div class="wav-chunk wav-chunk-3">3.wav</div>
+              <div class="wav-chunk wav-chunk-4">4.wav</div>
+              <div class="wav-chunk wav-chunk-5">5.wav</div>
+            </div>
             <div class="concat-arrow">↓</div>
             <div class="wav-result">combined_part_1.wav (18.5 sec)</div>
           </div>
@@ -325,10 +323,38 @@ That was the conclusion of "Underrated reasons to be thankful IV" by dynomight. 
 
     <div class="pipeline-arrow">→</div>
 
-    <div class="pipeline-stage processing-stage">
-      <div class="stage-label">Processing</div>
-      <div class="stage-content">
-        <div class="processing-placeholder">Pipeline stages coming soon...</div>
+    <div class="pipeline-stage rss-stage">
+      <div class="stage-label">Serve RSS to Podcast Player</div>
+      <div class="email-preview">
+        <pre class="raw-email">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;rss version="2.0"&gt;
+  &lt;channel&gt;
+    &lt;title&gt;Audioverde - dynomight&lt;/title&gt;
+    &lt;description&gt;Personal podcast feed&lt;/description&gt;
+
+    &lt;item&gt;
+      &lt;title&gt;Underrated reasons to be thankful IV (Part 1)&lt;/title&gt;
+      &lt;description&gt;From dynomight@substack.com&lt;/description&gt;
+      &lt;pubDate&gt;Fri, 28 Nov 2025 17:00:53 +0000&lt;/pubDate&gt;
+      &lt;enclosure
+        url="https://r2.audioverde.com/episode_part_1.mp3"
+        length="445000"
+        type="audio/mpeg"/&gt;
+      &lt;guid&gt;audioverde-12345-part1&lt;/guid&gt;
+    &lt;/item&gt;
+
+    &lt;item&gt;
+      &lt;title&gt;Underrated reasons to be thankful IV (Part 2)&lt;/title&gt;
+      &lt;description&gt;From dynomight@substack.com&lt;/description&gt;
+      &lt;pubDate&gt;Fri, 28 Nov 2025 17:00:53 +0000&lt;/pubDate&gt;
+      &lt;enclosure
+        url="https://r2.audioverde.com/episode_part_2.mp3"
+        length="412000"
+        type="audio/mpeg"/&gt;
+      &lt;guid&gt;audioverde-12345-part2&lt;/guid&gt;
+    &lt;/item&gt;
+  &lt;/channel&gt;
+&lt;/rss&gt;</pre>
       </div>
     </div>
   </div>
@@ -871,7 +897,7 @@ That was the conclusion of "Underrated reasons to be thankful IV" by dynomight. 
   flex: 1;
   overflow-y: auto;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
 }
 
@@ -879,31 +905,68 @@ That was the conclusion of "Underrated reasons to be thankful IV" by dynomight. 
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.5rem;
+  gap: 1rem;
 }
 
-.wav-file {
+.wav-pile {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  margin: 2rem;
+}
+
+.wav-chunk {
+  position: absolute;
+  width: 100px;
+  height: 100px;
   background: white;
   border: 2px solid #06d6a0;
   border-radius: 6px;
-  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: 'Courier New', monospace;
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   color: #073b4c;
   font-weight: bold;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.1);
 }
 
-.concat-plus {
-  font-size: 1.2rem;
-  color: #06d6a0;
-  font-weight: bold;
+.wav-chunk-1 {
+  top: 0;
+  left: 0;
+  transform: rotate(-8deg);
+}
+
+.wav-chunk-2 {
+  top: 5px;
+  left: 8px;
+  transform: rotate(3deg);
+}
+
+.wav-chunk-3 {
+  top: 10px;
+  left: 5px;
+  transform: rotate(-2deg);
+}
+
+.wav-chunk-4 {
+  top: 15px;
+  left: 12px;
+  transform: rotate(5deg);
+}
+
+.wav-chunk-5 {
+  top: 20px;
+  left: 10px;
+  transform: rotate(-4deg);
+  background: #e6faf4;
 }
 
 .concat-arrow {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #06d6a0;
   font-weight: bold;
-  margin: 0.5rem 0;
 }
 
 .wav-result {
@@ -938,7 +1001,7 @@ That was the conclusion of "Underrated reasons to be thankful IV" by dynomight. 
   flex: 1;
   overflow-y: auto;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
 }
 
@@ -988,6 +1051,11 @@ That was the conclusion of "Underrated reasons to be thankful IV" by dynomight. 
   font-size: 0.75rem;
   color: #666;
   margin-top: 0.25rem;
+}
+
+.rss-stage {
+  border-color: #073b4c;
+  background: #e8f0f2;
 }
 
 .pipeline-note {
@@ -1099,6 +1167,42 @@ document.addEventListener('DOMContentLoaded', function() {
         horse.classList.remove('galloping');
       }, 150);
     }
+  });
+
+  // Click on track to jump to position
+  track.addEventListener('click', function(e) {
+    // Don't jump if clicking on the horse
+    if (e.target === horse || horse.contains(e.target)) {
+      return;
+    }
+
+    const trackRect = track.getBoundingClientRect();
+    const clickX = e.pageX - trackRect.left;
+
+    const trackWidth = track.offsetWidth;
+    const horseStart = 50;
+    const horseEnd = trackWidth + 20;
+
+    // Calculate click position and clamp it
+    const clampedX = Math.max(horseStart, Math.min(clickX, horseEnd));
+
+    // Calculate scroll percentage from click position
+    const scrollPercent = (clampedX - horseStart) / (horseEnd - horseStart);
+    const scrollWidth = animation.scrollWidth - animation.clientWidth;
+    const newScrollLeft = scrollPercent * scrollWidth;
+
+    // Smooth scroll to position
+    animation.scrollTo({
+      left: newScrollLeft,
+      behavior: 'smooth'
+    });
+
+    // Add galloping animation
+    horse.classList.add('galloping');
+    clearTimeout(scrollTimeout);
+    scrollTimeout = setTimeout(function() {
+      horse.classList.remove('galloping');
+    }, 500);
   });
 
   // Initial position
