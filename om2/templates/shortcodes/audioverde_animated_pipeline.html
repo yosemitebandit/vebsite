@@ -220,6 +220,39 @@ Thanks for listening. This has been an Audioverde production.</pre>
 
     <div class="pipeline-arrow">→</div>
 
+    <div class="pipeline-stage multipart-stage">
+      <div class="stage-label">Multi-part Episodes (if needed)</div>
+      <div class="multipart-container">
+        <div class="multipart-content">
+          <div class="part-item">
+            <div class="part-preview">This is "Underrated reasons to be thankful IV" by dynomight, part one.
+
+That you can apparently learn to meditate your way...
+
+Now there's an image: A thanksgiving feast. Now back to the article.
+
+That was part one of "Underrated reasons to be thankful IV" by dynomight. Find the remaining parts in your podcast feed. Thank you for listening and goodbye.
+            </div>
+          </div>
+
+          <div class="part-item">
+            <div class="part-preview">This is "Underrated reasons to be thankful IV" by dynomight, part two.
+
+That as you gaze into space at night...
+
+Here we see another image: Workers in a field. Back to the text.
+
+As ever, I am thankful to you, for being here.
+
+That was the conclusion of "Underrated reasons to be thankful IV" by dynomight. Thank you for listening and goodbye.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pipeline-arrow">→</div>
+
     <div class="pipeline-stage processing-stage">
       <div class="stage-label">Processing</div>
       <div class="stage-content">
@@ -624,6 +657,58 @@ Thanks for listening. This has been an Audioverde production.</pre>
 .narration-script-stage {
   border-color: #333;
   background: white;
+}
+
+.multipart-stage {
+  border-color: #f78c6b;
+  background: #fff0eb;
+}
+
+.multipart-container {
+  background: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: auto;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.multipart-content {
+  font-family: 'Courier New', monospace;
+  font-size: 0.85rem;
+  margin: 0;
+  padding: 1rem;
+  color: #333;
+  flex: 1;
+  overflow: auto;
+}
+
+.part-item {
+  background: white;
+  border: 2px solid #f78c6b;
+  border-radius: 6px;
+  padding: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.part-item:last-child {
+  margin-bottom: 0;
+}
+
+.part-preview {
+  font-family: 'Courier New', monospace;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  color: #333;
+}
+
+.pipeline-note {
+  text-align: center;
+  font-size: 0.75rem;
+  color: #999;
+  margin-bottom: 0.5rem;
 }
 
 /* Animation hooks for future JavaScript */
