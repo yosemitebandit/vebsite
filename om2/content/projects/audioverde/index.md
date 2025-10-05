@@ -31,7 +31,7 @@ It's free to use for now, but maybe I'll have a pricing model around it in the f
 
 ### Pipeline
 
-Here's how Audioverde converts a raw email into an mp3:
+Here's how Audioverde converts a raw email into a podcast feed:
 
 {{ audioverde_animated_pipeline() }}
 
@@ -50,46 +50,18 @@ I had to migrate part of the backend away from Cloudflare
 and onto a more "traditional" backend server environment (in that case Google Cloud Run).
 I'm glad I didn't have to do that here!
 
-
-### Workflow Steps
-
-The service works by receiving a forwarded email,
-extracting the "primary" content of the email,
-then turning that into a script for narration,
-sending that script to a text-to-speech service
-and then saving and serving the resulting audio file through an RSS feed.
-
-The steps in greater detail:
-
-```
-
-    0.  Receive Email
-    1.  Init Storage
-    2.  Filter                  LLM 🤖
-    3.  Artwork                 WASM ⛏️
-    4.  Approval Notification
-    5.  Figures                 LLM 🤖
-    6.  Narration Script        LLM 🤖
-    7.  TTS
-    8.  Audio Concatenation
-    9.  MP3
-    10. Cleanup
-    11. Costs
-
-```
-
-Some details on the more interesting steps:
+Some details on the more interesting steps in the pipeline:
 
 ### Filtering
 
-Early on the in the workflow I send plaintext content to an LLM
+Early on the in the workflow I send distilled content to an LLM
 (right now `gemini-2.5-pro`)
 and my simple prompt asks if the content is suitable for podcast narration.
 
 My thinking is that I should rule out spam
-since anyone could trigger my workflow by firing any old message into [`podcast@audioverde.com`](mailto:podcast@audioverde.com)
+since anyone could trigger my workflow by firing a message to [`podcast@audioverde.com`](mailto:podcast@audioverde.com)
 , and I don't want that.
-The whole workflow will terminate if this filtering step decides the content is not suitable.
+The whole workflow will terminate if this filtering step decides that the email is not suitable.
 
 This could still cost me pennies for processing a high amount of spam,
 but I figure if that starts to happen I can block the incoming mail upstream of this,
@@ -112,11 +84,11 @@ I thought it would be fun if everyone's unique podcast had customized cover art.
 So this artwork gets generated for new users on their first use of the workflow.
 
 I start with a green background image
-(Photo by [Rebecca Orlov | Epic Playdate](https://unsplash.com/@epicplaydate)
+(credit to [Rebecca Orlov | Epic Playdate](https://unsplash.com/@epicplaydate)
 on [Unsplash](https://unsplash.com/photos/green-abstract-art-HGVtA1zSHo4))
 and use SVG to add text on top.
 For now the custom part is just the sender's email address.
-Then I use the [resvg](https://www.npmjs.com/package/@resvg/resvg-wasm) WASM module
+Then I use the [resvg](https://www.npmjs.com/package/@resvg/resvg-wasm) web assembly module
 to convert SVG to PNG and save the result.
 
 {{ resize_image(path="projects/audioverde/artwork.png", width=500, height=600, op="fit_width") }}
@@ -124,14 +96,13 @@ to convert SVG to PNG and save the result.
 The WASM binary is added directly in src.
 I think this pattern of using WASM opens up some cool things that could be done on Cloudflare Worker isolates,
 even in their somewhat restricted environment.
-There is also an offline step that converts fonts to SVG paths and caches those, but I manage that in a one-off way.
+There is also an offline step that converts fonts to SVG paths, but I manage that in a one-off way.
 
 
 ### Figures
 
 Some incoming emails have visual elements, "figures."
-I have an LLM (again `gemini-2.5-pro`) extract the visual elements and assess each one:
-download them and describe them.
+I download these and then an LLM (again `gemini-2.5-pro`) describes them.
 If it's a tracking pixel or some UI icon I just discard that.
 To help in the description, I give the LLM the text that surrounds the figure
 and I ask it to say something novel and try not to repeat the surrounding text.
@@ -165,12 +136,18 @@ These parts are processed as their own unique episodes with a bit of metadata to
 ### TTS
 
 And finally we can generate some audio.
-I'm switching between `gpt-4o-mini-tts`, `gemini-2.5-pro/flash-preview-tts`.
+I'm switching between `gpt-4o-mini-tts` and `gemini-2.5-pro/flash-preview-tts`.
 The gemini models are still in preview and have tighter rate limits.
 I found 11Labs too expensive.
-These bits of audio are also processed in chunks of text
-and the audio gets glued back together as WAV files.
-The WAV is converted to MP3 via lamejs -- I think I tried some WASM stuff here too but ended up going the pure js route.
+
+The script is broken up into chunks of text and then sent out for TTS, 
+and again this is mediated by a Cloudflare queue.
+The snippets of audio that come back are cached, then eventually glued back together in order.
+I inject some silence where the script has `[PAUSE]` markers.
+I add music to the beginning and end.
+
+The full epsisode WAV file is converted to MP3 via lamejs --
+I think I tried some WASM stuff here too but ended up going the pure js route.
 
 
 ### Observability
@@ -189,16 +166,22 @@ Most newsletters are small and processing them costs about $0.10 each.
 
 ### Overall
 
-- I'm drawing inspiration from [Type III Audio](https://preview.type3.audio/)
+- This was great fun to build and improve over a few weeks!
+- It all draws inspiration from [Type III Audio](https://preview.type3.audio/)
 and
 [the fellow who reads the SSC / ACX posts](https://sscpodcast.libsyn.com/).
 - I used Cursor (with Sonnet 3.5/3.7) and now mostly Claude Code to work on this project,
 it's been great with typescript.
 The major challenge has been architecture and managing the eccentricities of the Cloudflare environment --
-the codegen tools don't really understand how to navigate that (or perhaps a skill issue wrt prompting?)
-- It would be fun to add new features like handling attachments or other email content like a complex email chain with multiple speaker voices.
+the codegen tools don't really understand how to navigate that (or perhaps this is just a skill issue wrt prompting?)
+- Many additional features are possible:
+handling attachments,
+narrating a long chain of email conversation like a message board,
+a separate bookmarklet (are those still a thing??) to send web page content into the pipeline
 
-Give it a try and please tell me what you think:
+I'd love for you to give it a try and please tell me what you think:
 
 Fwd your newsletter to [`podcast@audioverde.com`](mailto:podcast@audioverde.com)
 and you'll receive a reply with a link to your custom RSS feed.
+
+Send feedback and ideas to [`matt@audioverde.com`](mailto:matt@audioverde.com).
