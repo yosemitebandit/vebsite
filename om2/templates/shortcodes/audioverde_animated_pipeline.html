@@ -28,18 +28,26 @@ References: post-12345@substack.com
 X-Mailgun-Sid: ryJhmzI2MilsIm
 X-Mailgun-Sending-Ip: 139.102.224.13
 
-That you can apparently learn to meditate your way into a state of profound relaxation...
+&lt;html&gt;
+&lt;body&gt;
+&lt;div class="container"&gt;
+&lt;p&gt;That you can apparently learn to meditate your way into a state of profound relaxation...&lt;/p&gt;
 
-https://cdn.substack.com/113355.png
-https://cdn.substack.com/224466.png
+&lt;img src="https://cdn.substack.com/113355.png" width="1" height="1"/&gt;
+&lt;img src="https://cdn.substack.com/224466.png"/&gt;
 
-That as you gaze into space at night...
+&lt;p&gt;That as you gaze into &lt;a href="https://example.com"&gt;space&lt;/a&gt; at night...&lt;/p&gt;
 
-https://cdn.substack.com/778899.png
+&lt;img src="https://cdn.substack.com/778899.png"/&gt;
 
-As ever, I am thankful to you, for being here.
+&lt;p&gt;As ever, I am thankful to you, for being here.&lt;/p&gt;
 
-Unsubscribe: https://substack.com/efljia</pre>
+&lt;div class="footer"&gt;
+&lt;a href="https://substack.com/efljia"&gt;Unsubscribe&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre>
       </div>
     </div>
 
@@ -57,19 +65,26 @@ References: post-12345@substack.com
 X-Mailgun-Sid: ryJhmzI2MilsIm
 X-Mailgun-Sending-Ip: 139.102.224.13
 </span>
-That you can apparently learn to meditate your way into a state of profound relaxation...
+<span class="header-remove">&lt;html&gt;
+&lt;body&gt;
+&lt;div class="container"&gt;
+&lt;p&gt;</span>That you can apparently learn to meditate your way into a state of profound relaxation...<span class="header-remove">&lt;/p&gt;</span>
 
-https://cdn.substack.com/113355.png
-https://cdn.substack.com/224466.png
+<span class="header-remove">&lt;img src="https://cdn.substack.com/113355.png" width="1" height="1"/&gt;
+&lt;img src="</span>https://cdn.substack.com/224466.png<span class="header-remove">"/&gt;</span>
 
-That as you gaze into space at night...
+<span class="header-remove">&lt;p&gt;</span>That as you gaze into <span class="header-remove">&lt;a href="https://example.com"&gt;</span>space<span class="header-remove">&lt;/a&gt;</span> at night...<span class="header-remove">&lt;/p&gt;</span>
 
-https://cdn.substack.com/778899.png
+<span class="header-remove">&lt;img src="</span>https://cdn.substack.com/778899.png<span class="header-remove">"/&gt;</span>
 
-As ever, I am thankful to you, for being here.
+<span class="header-remove">&lt;p&gt;</span>As ever, I am thankful to you, for being here.<span class="header-remove">&lt;/p&gt;
 
-<span class="header-remove">Unsubscribe: https://substack.com/efljia</span></pre>
-        </pre>
+&lt;div class="footer"&gt;
+&lt;a href="https://substack.com/efljia"&gt;Unsubscribe&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</span></pre>
       </div>
     </div>
 
@@ -104,7 +119,7 @@ As ever, I am thankful to you, for being here.</pre>
       <div class="stage-content">
         <div class="llm-prompt">
           <div class="prompt-header">Prompt to gemini-2.5-pro:</div>
-          <div class="prompt-text">Is this suitable for narration:
+          <div class="prompt-text">Is this suitable for narration?
 
 That you can apparently learn to meditate your way into a state of profound relaxation...
 
@@ -1109,7 +1124,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Calculate horse position along the track
     const trackWidth = track.offsetWidth;
     const horseStart = 50;
-    const horseEnd = trackWidth + 20;
+    const horseEnd = trackWidth - 40;
     const horsePosition = horseStart + (scrollPercent * (horseEnd - horseStart));
 
     horse.style.left = horsePosition + 'px';
@@ -1151,7 +1166,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const trackWidth = track.offsetWidth;
     const horseStart = 50;
-    const horseEnd = trackWidth + 20;
+    const horseEnd = trackWidth - 40;
     const trackRect = track.getBoundingClientRect();
 
     // Calculate horse position relative to track
@@ -1194,7 +1209,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const trackWidth = track.offsetWidth;
     const horseStart = 50;
-    const horseEnd = trackWidth + 20;
+    const horseEnd = trackWidth - 40;
 
     // Calculate click position and clamp it
     const clampedX = Math.max(horseStart, Math.min(clickX, horseEnd));
