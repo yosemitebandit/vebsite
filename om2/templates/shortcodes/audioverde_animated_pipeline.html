@@ -221,7 +221,7 @@ Thanks for listening. This has been an Audioverde production.</pre>
     <div class="pipeline-arrow">→</div>
 
     <div class="pipeline-stage multipart-stage">
-      <div class="stage-label">Split Long Episodes (if needed)</div>
+      <div class="stage-label">Split Long Scripts (if needed)</div>
       <div class="multipart-container">
         <div class="multipart-content">
           <div class="part-item">
@@ -254,7 +254,7 @@ That was the conclusion of "Underrated reasons to be thankful IV" by dynomight. 
     <div class="pipeline-arrow">→</div>
 
     <div class="pipeline-stage tts-stage">
-      <div class="stage-label">Text-to-Speech Chunks of Text</div>
+      <div class="stage-label">Text-to-Speech</div>
       <div class="tts-container">
         <div class="tts-content">
 
@@ -276,8 +276,16 @@ That was the conclusion of "Underrated reasons to be thankful IV" by dynomight. 
             <div class="chunk-status">✓ audio_chunk_3.wav (4.2 sec)</div>
           </div>
 
-          <div class="chunk-item-collapsed">
-            ... 2 more chunks ...
+          <div class="chunk-item">
+            <div class="chunk-label">Chunk 4 Text → WAV</div>
+            <div class="chunk-text">"That as you gaze into space at night..."</div>
+            <div class="chunk-status">✓ audio_chunk_4.wav (3.5 sec)</div>
+          </div>
+
+          <div class="chunk-item">
+            <div class="chunk-label">Chunk 5 Text → WAV</div>
+            <div class="chunk-text">"Here we see another image: Workers in a field. Back to the text..."</div>
+            <div class="chunk-status">✓ audio_chunk_5.wav (5.3 sec)</div>
           </div>
         </div>
       </div>
@@ -910,15 +918,15 @@ That was the conclusion of "Underrated reasons to be thankful IV" by dynomight. 
 
 .wav-pile {
   position: relative;
-  width: 120px;
-  height: 120px;
+  width: 240px;
+  height: 140px;
   margin: 2rem;
 }
 
 .wav-chunk {
   position: absolute;
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   background: white;
   border: 2px solid #06d6a0;
   border-radius: 6px;
@@ -933,34 +941,39 @@ That was the conclusion of "Underrated reasons to be thankful IV" by dynomight. 
 }
 
 .wav-chunk-1 {
-  top: 0;
+  top: 15px;
   left: 0;
-  transform: rotate(-8deg);
+  transform: rotate(-18deg);
+  z-index: 1;
 }
 
 .wav-chunk-2 {
-  top: 5px;
-  left: 8px;
-  transform: rotate(3deg);
+  top: 3px;
+  left: 30px;
+  transform: rotate(-5deg);
+  z-index: 2;
 }
 
 .wav-chunk-3 {
-  top: 10px;
-  left: 5px;
-  transform: rotate(-2deg);
+  top: 8px;
+  left: 60px;
+  transform: rotate(2deg);
+  z-index: 3;
 }
 
 .wav-chunk-4 {
-  top: 15px;
-  left: 12px;
-  transform: rotate(5deg);
+  top: 1px;
+  left: 90px;
+  transform: rotate(12deg);
+  z-index: 4;
 }
 
 .wav-chunk-5 {
-  top: 20px;
-  left: 10px;
-  transform: rotate(-4deg);
+  top: 12px;
+  left: 120px;
+  transform: rotate(19deg);
   background: #e6faf4;
+  z-index: 5;
 }
 
 .concat-arrow {
