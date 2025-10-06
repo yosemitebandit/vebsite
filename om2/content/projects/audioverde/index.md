@@ -43,7 +43,8 @@ their queues, R2 (artifact storage), D1 (sql), KV (kv):
 {{ resize_image(path="projects/audioverde/cornelia-bindings.png", width=500, height=500, op="fit_width") }}
 
 Cloudflare is a fun platform -- very nice in terms of Typescript support,
-APIs, docs, really clean deploy process, their CLI tool `wrangler` and their GUIs are nice too.
+APIs, docs, really clean deploy process (under 10s for the whole thing),
+their CLI tool `wrangler` and their GUIs are nice too.
 I jumped through some hoops (noted below) to keep everything in their env and I'm glad it worked out.
 In other projects (like [FHAI](/projects/firsthello))
 I had to migrate part of the backend away from Cloudflare
