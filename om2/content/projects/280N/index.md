@@ -368,12 +368,83 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Set up slider event listener now that images are loaded
     const updateFunction = createUpdateFunction(seriesName);
+
+    const updateSliderValue = (newValue) => {
+      slider.value = newValue;
+      updateFunction(newValue);
+    };
+
     slider.addEventListener('input', function() {
       updateFunction(parseFloat(this.value));
     });
 
+    // Add touch/swipe support on the image
+    let touchStartX = null;
+    let touchStartValue = null;
+
+    imageSlider.addEventListener('touchstart', (e) => {
+      touchStartX = e.touches[0].clientX;
+      touchStartValue = parseFloat(slider.value);
+    }, { passive: true });
+
+    imageSlider.addEventListener('touchmove', (e) => {
+      if (touchStartX === null) return;
+      const touchX = e.touches[0].clientX;
+      const deltaX = touchX - touchStartX;
+      const sliderWidth = imageSlider.offsetWidth;
+      const deltaValue = (deltaX / sliderWidth) * 10; // 10 is the max value
+      const newValue = Math.max(0, Math.min(10, touchStartValue + deltaValue));
+      updateSliderValue(newValue);
+    }, { passive: true });
+
+    imageSlider.addEventListener('touchend', () => {
+      touchStartX = null;
+    }, { passive: true });
+
+    // Add mouse drag support
+    let isDragging = false;
+    let dragStartX = null;
+    let dragStartValue = null;
+
+    imageSlider.addEventListener('mousedown', (e) => {
+      isDragging = true;
+      dragStartX = e.clientX;
+      dragStartValue = parseFloat(slider.value);
+      imageSlider.style.cursor = 'grabbing';
+      e.preventDefault();
+    });
+
+    document.addEventListener('mousemove', (e) => {
+      if (!isDragging) return;
+      const deltaX = e.clientX - dragStartX;
+      const sliderWidth = imageSlider.offsetWidth;
+      const deltaValue = (deltaX / sliderWidth) * 10;
+      const newValue = Math.max(0, Math.min(10, dragStartValue + deltaValue));
+      updateSliderValue(newValue);
+    });
+
+    document.addEventListener('mouseup', () => {
+      if (isDragging) {
+        isDragging = false;
+        imageSlider.style.cursor = 'grab';
+      }
+    });
+
+    // Add trackpad horizontal scroll support
+    imageSlider.addEventListener('wheel', (e) => {
+      // Check if it's a horizontal scroll or if shift is held for horizontal scrolling
+      if (Math.abs(e.deltaX) > Math.abs(e.deltaY) || e.shiftKey) {
+        e.preventDefault();
+        const delta = e.deltaX || e.deltaY;
+        const sensitivity = 0.01;
+        const newValue = Math.max(0, Math.min(10, parseFloat(slider.value) + delta * sensitivity));
+        updateSliderValue(newValue);
+      }
+    }, { passive: false });
+
     // Initialize
     image2.style.opacity = '0';
+    imageSlider.style.cursor = 'grab';
 
     // Enable the slider
     slider.disabled = false;
