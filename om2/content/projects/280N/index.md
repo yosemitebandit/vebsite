@@ -4,7 +4,7 @@ date = 2025-08-25
 location = "Redwood City"
 
 [extra]
-thumbnail = "projects/280n/images/101/101-10.png"
+thumbnail = "projects/280n/images/101/101-10.webp"
 +++
 
 [Donald Hoffman](https://en.wikipedia.org/wiki/Donald_D._Hoffman)
@@ -26,14 +26,8 @@ we gradually remove visual clutter and then turn up the natural elements:
     <div class="loading-text">Loading images <span class="loading-progress">0/11</span></div>
   </div>
   <div class="image-slider">
-    <picture>
-      <source srcset="/projects/280n/images/101/101-00.webp" type="image/webp">
-      <img id="slider-image-101-1" src="/projects/280n/images/101/101-00.png" alt="101 series image sequence">
-    </picture>
-    <picture>
-      <source srcset="/projects/280n/images/101/101-01.webp" type="image/webp">
-      <img id="slider-image-101-2" src="/projects/280n/images/101/101-01.png" alt="101 series image sequence">
-    </picture>
+    <img id="slider-image-101-1" src="/projects/280n/images/101/101-00.webp" alt="101 series image sequence">
+    <img id="slider-image-101-2" src="/projects/280n/images/101/101-01.webp" alt="101 series image sequence">
   </div>
   <div class="slider-controls">
     <input type="range" id="image-range-101" min="0" max="10" value="0" step="0.01" class="slider" disabled>
@@ -52,14 +46,8 @@ we gradually remove visual clutter and then turn up the natural elements:
     <div class="loading-text">Loading images <span class="loading-progress">0/11</span></div>
   </div>
   <div class="image-slider">
-    <picture>
-      <source srcset="/projects/280n/images/dde/dde-00.webp" type="image/webp">
-      <img id="slider-image-dde-1" src="/projects/280n/images/dde/dde-00.png" alt="DDE series image sequence">
-    </picture>
-    <picture>
-      <source srcset="/projects/280n/images/dde/dde-01.webp" type="image/webp">
-      <img id="slider-image-dde-2" src="/projects/280n/images/dde/dde-01.png" alt="DDE series image sequence">
-    </picture>
+    <img id="slider-image-dde-1" src="/projects/280n/images/dde/dde-00.webp" alt="DDE series image sequence">
+    <img id="slider-image-dde-2" src="/projects/280n/images/dde/dde-01.webp" alt="DDE series image sequence">
   </div>
   <div class="slider-controls">
     <input type="range" id="image-range-dde" min="0" max="10" value="0" step="0.01" class="slider" disabled>
@@ -78,14 +66,8 @@ Exiting the city on a notoriously ad-strewn stretch:
     <div class="loading-text">Loading images <span class="loading-progress">0/11</span></div>
   </div>
   <div class="image-slider">
-    <picture>
-      <source srcset="/projects/280n/images/jl/jl-00.webp" type="image/webp">
-      <img id="slider-image-jl-1" src="/projects/280n/images/jl/jl-00.png" alt="JL series image sequence">
-    </picture>
-    <picture>
-      <source srcset="/projects/280n/images/jl/jl-01.webp" type="image/webp">
-      <img id="slider-image-jl-2" src="/projects/280n/images/jl/jl-01.png" alt="JL series image sequence">
-    </picture>
+    <img id="slider-image-jl-1" src="/projects/280n/images/jl/jl-00.webp" alt="JL series image sequence">
+    <img id="slider-image-jl-2" src="/projects/280n/images/jl/jl-01.webp" alt="JL series image sequence">
   </div>
   <div class="slider-controls">
     <input type="range" id="image-range-jl" min="0" max="10" value="0" step="0.01" class="slider" disabled>
@@ -108,14 +90,8 @@ nor the utility poles and wires, or the parked cars:
     <div class="loading-text">Loading images <span class="loading-progress">0/11</span></div>
   </div>
   <div class="image-slider">
-    <picture>
-      <source srcset="/projects/280n/images/va/va-00.webp" type="image/webp">
-      <img id="slider-image-va-1" src="/projects/280n/images/va/va-00.png" alt="VA series image sequence">
-    </picture>
-    <picture>
-      <source srcset="/projects/280n/images/va/va-01.webp" type="image/webp">
-      <img id="slider-image-va-2" src="/projects/280n/images/va/va-01.png" alt="VA series image sequence">
-    </picture>
+    <img id="slider-image-va-1" src="/projects/280n/images/va/va-00.webp" alt="VA series image sequence">
+    <img id="slider-image-va-2" src="/projects/280n/images/va/va-01.webp" alt="VA series image sequence">
   </div>
   <div class="slider-controls">
     <input type="range" id="image-range-va" min="0" max="10" value="0" step="0.01" class="slider" disabled>
