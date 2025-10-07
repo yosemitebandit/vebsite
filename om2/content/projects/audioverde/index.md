@@ -12,7 +12,7 @@ I subscribe to a lot of email newsletters that are very intriguing,
 but I don't always read 'em all.
 I made [Audioverde](https://audioverde.com) to turn these emails into podcasts.
 
-Here's an example episode, narrating [a post from Tomasz Tunguz](https://tomtunguz.com/data--ai-infrastructure-are-fusing/):
+Here's an example episode, narrating [a post from Tomasz Tunguz](https://tomtunguz.com/snow-earnings-2025-08-28/):
 
 <audio controls preload="metadata">
   <source src="/projects/audioverde/episode.mp3" type="audio/mpeg">
