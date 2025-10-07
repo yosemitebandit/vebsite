@@ -7,6 +7,14 @@ location = "Redwood City"
 thumbnail = "projects/280n/images/101/101-10.webp"
 +++
 
+Highway 280 in the Bay Area is a designated scenic highway,
+and thus it is [miraculously free of billboards](https://www.kqed.org/news/11805469/why-arent-any-billboards-on-280).
+A few miles away, and running parallel, highway 101 is chock full of 'em.
+
+But what if you could scrub those billboards away and see something a bit nicer on your commute?
+Same for the utility poles and overhead wires: visual clutter.
+And perhaps even the street signs.. if you're a local (or navigating by GPS) you probably don't need em.
+
 [Donald Hoffman](https://en.wikipedia.org/wiki/Donald_D._Hoffman)
 argues that our perception is a false mapping of reality,
 and he says that we are better off for it!
@@ -17,7 +25,7 @@ With AI inpainting and VR this is possible, albeit not in realtime.
 I generated sequences of images using the new Gemini 2.5 Flash Image (nano-banana).
 Each iteration for a ~1MB image took about 30 seconds and costs about $0.05 USD.
 
-Starting with a street view of highway 101 North,
+Starting with a google street view image of 101N,
 we gradually remove visual clutter and then turn up the natural elements:
 
 <div class="image-slider-container" data-series="101">
