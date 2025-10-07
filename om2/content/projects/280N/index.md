@@ -20,13 +20,17 @@ Each iteration for a ~1MB image took about 30 seconds and costs about $0.05 USD.
 Starting with a street view of highway 101 North,
 we gradually remove visual clutter and then turn up the natural elements:
 
-<div class="image-slider-container">
+<div class="image-slider-container" data-series="101">
+  <div class="loading-overlay">
+    <div class="spinner"></div>
+    <div class="loading-text">Loading images <span class="loading-progress">0/11</span></div>
+  </div>
   <div class="image-slider">
     <img id="slider-image-101-1" src="/projects/280n/images/101/101-00.png" alt="101 series image sequence">
     <img id="slider-image-101-2" src="/projects/280n/images/101/101-01.png" alt="101 series image sequence">
   </div>
   <div class="slider-controls">
-    <input type="range" id="image-range-101" min="0" max="10" value="0" step="0.01" class="slider">
+    <input type="range" id="image-range-101" min="0" max="10" value="0" step="0.01" class="slider" disabled>
     <div class="slider-labels">
       <span>101-00</span>
       <span>101-10</span>
@@ -36,13 +40,17 @@ we gradually remove visual clutter and then turn up the natural elements:
 
 101N again, closer to SF:
 
-<div class="image-slider-container">
+<div class="image-slider-container" data-series="dde">
+  <div class="loading-overlay">
+    <div class="spinner"></div>
+    <div class="loading-text">Loading images <span class="loading-progress">0/11</span></div>
+  </div>
   <div class="image-slider">
     <img id="slider-image-dde-1" src="/projects/280n/images/dde/dde-00.png" alt="DDE series image sequence">
     <img id="slider-image-dde-2" src="/projects/280n/images/dde/dde-01.png" alt="DDE series image sequence">
   </div>
   <div class="slider-controls">
-    <input type="range" id="image-range-dde" min="0" max="10" value="0" step="0.01" class="slider">
+    <input type="range" id="image-range-dde" min="0" max="10" value="0" step="0.01" class="slider" disabled>
     <div class="slider-labels">
       <span>dde-00</span>
       <span>dde-10</span>
@@ -52,13 +60,17 @@ we gradually remove visual clutter and then turn up the natural elements:
 
 Exiting the city on a notoriously ad-strewn stretch:
 
-<div class="image-slider-container">
+<div class="image-slider-container" data-series="jl">
+  <div class="loading-overlay">
+    <div class="spinner"></div>
+    <div class="loading-text">Loading images <span class="loading-progress">0/11</span></div>
+  </div>
   <div class="image-slider">
     <img id="slider-image-jl-1" src="/projects/280n/images/jl/jl-00.png" alt="JL series image sequence">
     <img id="slider-image-jl-2" src="/projects/280n/images/jl/jl-01.png" alt="JL series image sequence">
   </div>
   <div class="slider-controls">
-    <input type="range" id="image-range-jl" min="0" max="10" value="0" step="0.01" class="slider">
+    <input type="range" id="image-range-jl" min="0" max="10" value="0" step="0.01" class="slider" disabled>
     <div class="slider-labels">
       <span>jl-00</span>
       <span>jl-10</span>
@@ -72,13 +84,17 @@ Could it render true obstacles as something else more aesthetic?
 Just a plain walk down the street, you probably don't need the traffic signs unless you're lost,
 nor the utility poles and wires, or the parked cars:
 
-<div class="image-slider-container">
+<div class="image-slider-container" data-series="va">
+  <div class="loading-overlay">
+    <div class="spinner"></div>
+    <div class="loading-text">Loading images <span class="loading-progress">0/11</span></div>
+  </div>
   <div class="image-slider">
     <img id="slider-image-va-1" src="/projects/280n/images/va/va-00.png" alt="VA series image sequence">
     <img id="slider-image-va-2" src="/projects/280n/images/va/va-01.png" alt="VA series image sequence">
   </div>
   <div class="slider-controls">
-    <input type="range" id="image-range-va" min="0" max="10" value="0" step="0.01" class="slider">
+    <input type="range" id="image-range-va" min="0" max="10" value="0" step="0.01" class="slider" disabled>
     <div class="slider-labels">
       <span>va-00</span>
       <span>va-10</span>
@@ -92,12 +108,65 @@ Next up: photospheres in a true AR/VR rig.
 .image-slider-container {
   margin: 2rem 0;
   max-width: 100%;
+  position: relative;
+}
+
+.loading-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.95);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  border-radius: 4px;
+  transition: opacity 0.3s ease;
+}
+
+.loading-overlay.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid darkgreen;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 1rem;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.loading-text {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.loading-progress {
+  font-weight: bold;
+  color: darkgreen;
 }
 
 .image-slider {
   position: relative;
   margin-bottom: 1rem;
   text-align: center;
+  opacity: 0.3;
+  transition: opacity 0.5s ease;
+}
+
+.image-slider.ready {
+  opacity: 1;
 }
 
 .image-slider img {
@@ -128,6 +197,12 @@ Next up: photospheres in a true AR/VR rig.
   outline: none;
   -webkit-appearance: none;
   margin-bottom: 0.5rem;
+  transition: opacity 0.3s ease;
+}
+
+.slider:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
 }
 
 .slider::-webkit-slider-thumb {
@@ -140,6 +215,11 @@ Next up: photospheres in a true AR/VR rig.
   cursor: pointer;
 }
 
+.slider:disabled::-webkit-slider-thumb {
+  cursor: not-allowed;
+  background: #999;
+}
+
 .slider::-moz-range-thumb {
   width: 20px;
   height: 20px;
@@ -147,6 +227,11 @@ Next up: photospheres in a true AR/VR rig.
   background: darkgreen;
   cursor: pointer;
   border: none;
+}
+
+.slider:disabled::-moz-range-thumb {
+  cursor: not-allowed;
+  background: #999;
 }
 
 .slider-labels {
@@ -172,18 +257,61 @@ document.addEventListener('DOMContentLoaded', function() {
   // Preload all series
   const allImages = {};
   const currentPairs = {};
+  const loadingState = {};
 
   Object.entries(seriesConfig).forEach(([seriesName, config]) => {
     allImages[seriesName] = [];
     currentPairs[seriesName] = [0, 1];
+    loadingState[seriesName] = { loaded: 0, total: config.count };
 
     for (let i = 0; i < config.count; i++) {
       const img = new Image();
       const imageNumber = i.toString().padStart(2, '0');
       img.src = basePath + seriesName + '/' + seriesName + '-' + imageNumber + '.png';
+
+      img.onload = function() {
+        loadingState[seriesName].loaded++;
+        updateLoadingIndicator(seriesName);
+
+        if (loadingState[seriesName].loaded === loadingState[seriesName].total) {
+          enableSlider(seriesName);
+        }
+      };
+
       allImages[seriesName].push(img);
     }
   });
+
+  function updateLoadingIndicator(seriesName) {
+    const container = document.querySelector(`.image-slider-container[data-series="${seriesName}"]`);
+    if (!container) return;
+
+    const progressSpan = container.querySelector('.loading-progress');
+    const state = loadingState[seriesName];
+
+    if (progressSpan) {
+      progressSpan.textContent = `${state.loaded}/${state.total}`;
+    }
+  }
+
+  function enableSlider(seriesName) {
+    const container = document.querySelector(`.image-slider-container[data-series="${seriesName}"]`);
+    if (!container) return;
+
+    const config = seriesConfig[seriesName];
+    const slider = document.getElementById(config.slider);
+    const imageSlider = container.querySelector('.image-slider');
+    const loadingOverlay = container.querySelector('.loading-overlay');
+
+    // Enable the slider
+    slider.disabled = false;
+
+    // Fade out loading overlay
+    loadingOverlay.classList.add('hidden');
+
+    // Fade in the image slider
+    imageSlider.classList.add('ready');
+  }
 
   function createUpdateFunction(seriesName) {
     const config = seriesConfig[seriesName];
