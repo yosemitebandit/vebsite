@@ -26,8 +26,14 @@ we gradually remove visual clutter and then turn up the natural elements:
     <div class="loading-text">Loading images <span class="loading-progress">0/11</span></div>
   </div>
   <div class="image-slider">
-    <img id="slider-image-101-1" src="/projects/280n/images/101/101-00.png" alt="101 series image sequence">
-    <img id="slider-image-101-2" src="/projects/280n/images/101/101-01.png" alt="101 series image sequence">
+    <picture>
+      <source srcset="/projects/280n/images/101/101-00.webp" type="image/webp">
+      <img id="slider-image-101-1" src="/projects/280n/images/101/101-00.png" alt="101 series image sequence">
+    </picture>
+    <picture>
+      <source srcset="/projects/280n/images/101/101-01.webp" type="image/webp">
+      <img id="slider-image-101-2" src="/projects/280n/images/101/101-01.png" alt="101 series image sequence">
+    </picture>
   </div>
   <div class="slider-controls">
     <input type="range" id="image-range-101" min="0" max="10" value="0" step="0.01" class="slider" disabled>
@@ -46,8 +52,14 @@ we gradually remove visual clutter and then turn up the natural elements:
     <div class="loading-text">Loading images <span class="loading-progress">0/11</span></div>
   </div>
   <div class="image-slider">
-    <img id="slider-image-dde-1" src="/projects/280n/images/dde/dde-00.png" alt="DDE series image sequence">
-    <img id="slider-image-dde-2" src="/projects/280n/images/dde/dde-01.png" alt="DDE series image sequence">
+    <picture>
+      <source srcset="/projects/280n/images/dde/dde-00.webp" type="image/webp">
+      <img id="slider-image-dde-1" src="/projects/280n/images/dde/dde-00.png" alt="DDE series image sequence">
+    </picture>
+    <picture>
+      <source srcset="/projects/280n/images/dde/dde-01.webp" type="image/webp">
+      <img id="slider-image-dde-2" src="/projects/280n/images/dde/dde-01.png" alt="DDE series image sequence">
+    </picture>
   </div>
   <div class="slider-controls">
     <input type="range" id="image-range-dde" min="0" max="10" value="0" step="0.01" class="slider" disabled>
@@ -66,8 +78,14 @@ Exiting the city on a notoriously ad-strewn stretch:
     <div class="loading-text">Loading images <span class="loading-progress">0/11</span></div>
   </div>
   <div class="image-slider">
-    <img id="slider-image-jl-1" src="/projects/280n/images/jl/jl-00.png" alt="JL series image sequence">
-    <img id="slider-image-jl-2" src="/projects/280n/images/jl/jl-01.png" alt="JL series image sequence">
+    <picture>
+      <source srcset="/projects/280n/images/jl/jl-00.webp" type="image/webp">
+      <img id="slider-image-jl-1" src="/projects/280n/images/jl/jl-00.png" alt="JL series image sequence">
+    </picture>
+    <picture>
+      <source srcset="/projects/280n/images/jl/jl-01.webp" type="image/webp">
+      <img id="slider-image-jl-2" src="/projects/280n/images/jl/jl-01.png" alt="JL series image sequence">
+    </picture>
   </div>
   <div class="slider-controls">
     <input type="range" id="image-range-jl" min="0" max="10" value="0" step="0.01" class="slider" disabled>
@@ -90,8 +108,14 @@ nor the utility poles and wires, or the parked cars:
     <div class="loading-text">Loading images <span class="loading-progress">0/11</span></div>
   </div>
   <div class="image-slider">
-    <img id="slider-image-va-1" src="/projects/280n/images/va/va-00.png" alt="VA series image sequence">
-    <img id="slider-image-va-2" src="/projects/280n/images/va/va-01.png" alt="VA series image sequence">
+    <picture>
+      <source srcset="/projects/280n/images/va/va-00.webp" type="image/webp">
+      <img id="slider-image-va-1" src="/projects/280n/images/va/va-00.png" alt="VA series image sequence">
+    </picture>
+    <picture>
+      <source srcset="/projects/280n/images/va/va-01.webp" type="image/webp">
+      <img id="slider-image-va-2" src="/projects/280n/images/va/va-01.png" alt="VA series image sequence">
+    </picture>
   </div>
   <div class="slider-controls">
     <input type="range" id="image-range-va" min="0" max="10" value="0" step="0.01" class="slider" disabled>
@@ -248,26 +272,41 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Configuration: easily change image counts here
   const seriesConfig = {
-    '101': { count: 11, slider: 'image-range-101', img1: 'slider-image-101-1', img2: 'slider-image-101-2' },
-    'dde': { count: 11, slider: 'image-range-dde', img1: 'slider-image-dde-1', img2: 'slider-image-dde-2' },
-    'jl':  { count: 11, slider: 'image-range-jl',  img1: 'slider-image-jl-1',  img2: 'slider-image-jl-2' },
-    'va':  { count: 11, slider: 'image-range-va',  img1: 'slider-image-va-1',  img2: 'slider-image-va-2' }
+    '101': { count: 11, slider: 'image-range-101', img1: 'slider-image-101-1', img2: 'slider-image-101-2', lazy: false },
+    'dde': { count: 11, slider: 'image-range-dde', img1: 'slider-image-dde-1', img2: 'slider-image-dde-2', lazy: true },
+    'jl':  { count: 11, slider: 'image-range-jl',  img1: 'slider-image-jl-1',  img2: 'slider-image-jl-2', lazy: true },
+    'va':  { count: 11, slider: 'image-range-va',  img1: 'slider-image-va-1',  img2: 'slider-image-va-2', lazy: true }
   };
 
-  // Preload all series
+  // Check WebP support
+  const supportsWebP = (function() {
+    const elem = document.createElement('canvas');
+    if (elem.getContext && elem.getContext('2d')) {
+      return elem.toDataURL('image/webp').indexOf('data:image/webp') === 0;
+    }
+    return false;
+  })();
+
   const allImages = {};
   const currentPairs = {};
   const loadingState = {};
+  const loadedSeries = new Set();
 
-  Object.entries(seriesConfig).forEach(([seriesName, config]) => {
+  function loadSeriesImages(seriesName) {
+    if (loadedSeries.has(seriesName)) return;
+    loadedSeries.add(seriesName);
+
+    const config = seriesConfig[seriesName];
     allImages[seriesName] = [];
     currentPairs[seriesName] = [0, 1];
     loadingState[seriesName] = { loaded: 0, total: config.count };
 
+    const ext = supportsWebP ? 'webp' : 'png';
+
     for (let i = 0; i < config.count; i++) {
       const img = new Image();
       const imageNumber = i.toString().padStart(2, '0');
-      img.src = basePath + seriesName + '/' + seriesName + '-' + imageNumber + '.png';
+      img.src = basePath + seriesName + '/' + seriesName + '-' + imageNumber + '.' + ext;
 
       img.onload = function() {
         loadingState[seriesName].loaded++;
@@ -278,7 +317,46 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       };
 
+      img.onerror = function() {
+        // Fallback to PNG if WebP fails
+        if (ext === 'webp') {
+          img.src = basePath + seriesName + '/' + seriesName + '-' + imageNumber + '.png';
+        }
+      };
+
       allImages[seriesName].push(img);
+    }
+  }
+
+  // Load non-lazy series immediately
+  Object.entries(seriesConfig).forEach(([seriesName, config]) => {
+    if (!config.lazy) {
+      loadSeriesImages(seriesName);
+    }
+  });
+
+  // Set up Intersection Observer for lazy loading
+  const lazyObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const seriesName = entry.target.dataset.series;
+        if (seriesName && seriesConfig[seriesName]) {
+          loadSeriesImages(seriesName);
+          lazyObserver.unobserve(entry.target);
+        }
+      }
+    });
+  }, {
+    rootMargin: '200px' // Start loading 200px before slider enters viewport
+  });
+
+  // Observe lazy-loaded containers
+  Object.entries(seriesConfig).forEach(([seriesName, config]) => {
+    if (config.lazy) {
+      const container = document.querySelector(`.image-slider-container[data-series="${seriesName}"]`);
+      if (container) {
+        lazyObserver.observe(container);
+      }
     }
   });
 
@@ -302,6 +380,16 @@ document.addEventListener('DOMContentLoaded', function() {
     const slider = document.getElementById(config.slider);
     const imageSlider = container.querySelector('.image-slider');
     const loadingOverlay = container.querySelector('.loading-overlay');
+    const image2 = document.getElementById(config.img2);
+
+    // Set up slider event listener now that images are loaded
+    const updateFunction = createUpdateFunction(seriesName);
+    slider.addEventListener('input', function() {
+      updateFunction(parseFloat(this.value));
+    });
+
+    // Initialize
+    image2.style.opacity = '0';
 
     // Enable the slider
     slider.disabled = false;
@@ -352,20 +440,6 @@ document.addEventListener('DOMContentLoaded', function() {
     };
   }
 
-  // Set up all sliders
-  Object.keys(seriesConfig).forEach(seriesName => {
-    const config = seriesConfig[seriesName];
-    const slider = document.getElementById(config.slider);
-    const image2 = document.getElementById(config.img2);
-    const updateFunction = createUpdateFunction(seriesName);
-
-    slider.addEventListener('input', function() {
-      updateFunction(parseFloat(this.value));
-    });
-
-    // Initialize
-    image2.style.opacity = '0';
-  });
 });
 </script>
 
