@@ -41,9 +41,9 @@ Some example cards:
 
 ---
 
-I added the decks to ankiweb here: `<tbd>`
+I added the decks to ankiweb here: [ankiweb.net/shared/info/1563878917](https://ankiweb.net/shared/info/1563878917)
 
-And the code for all this: [github.com/yosemitebandit/anki-castellano](github.com/yosemitebandit/anki-castellano)
+And the code for all this: [github.com/yosemitebandit/anki-castellano](https://github.com/yosemitebandit/anki-castellano)
 
 Would be cool if..
 - support Castellano -> languages other than English
