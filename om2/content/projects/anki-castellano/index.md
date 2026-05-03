@@ -49,3 +49,4 @@ Would be cool if..
 - support Castellano -> languages other than English
 - support Catalan (what's next) -> English
 - it was truly Cloze style (one card for multiple fill-in-the-blanks throughout a sentence)
+- audio
