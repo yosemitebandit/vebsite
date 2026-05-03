@@ -12,5 +12,5 @@ I made this page (app?) for practicing guitar chord changes, it's pretty fun!
 
 Try it here: [infinichord.oakmachine.com](https://infinichord.oakmachine.com)
 
-![infinichord screenshot](infinichord-screenshot.png "screenshot of the guitar practice webpage")
+[![infinichord screenshot](infinichord-screenshot.png "screenshot of the guitar practice webpage")](https://infinichord.oakmachine.com)
 
