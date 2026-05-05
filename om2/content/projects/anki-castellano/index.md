@@ -19,7 +19,7 @@ The pipeline to generate an anki deck:
 0. An LLM generates a Castellano wordlist based on a topic.
 In the prompt I hardcode for intermediate difficulty -- so words more like "cliff" and less like "house."
 The LLM is also prompted to create a cloze deletion-style sentence for the word and the translation to English.
-I'm using some recent version of gemini flash for this and that's very cheap.
+I'm using the latest and greatest gemini pro for this, and that's pretty inexpensive.
 1. I use another LLM call to create corresponding images for each word.
 The prompt was another piece generated in the previous text-only call.
 This is relatively expensive, single digit cents per image. I use gemini as well.
