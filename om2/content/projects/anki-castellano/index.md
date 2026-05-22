@@ -16,9 +16,11 @@ Type One: translate the English word to Castellano:
 > `"the capacity limit" -> "aforo"`
 
 Type Two: identify the Castellano word from an image:
+
 ![báscula](báscula.png "báscula")
 
 Type Three: fill in a missing word in a Castellano sentence (cloze):
+
 ![devolución](devolución.png "devolución")
 
 Type Four: translate a full Castellano sentence (with audio):
@@ -59,7 +61,9 @@ More example cards from early deck-building:
 
 ---
 
-I added the decks to ankiweb here: [ankiweb.net/shared/info/1563878917](https://ankiweb.net/shared/info/1563878917)
+I'm adding decks to ankiweb:
+- [ankiweb.net/shared/info/1082986108](https://ankiweb.net/shared/info/1082986108)
+- [ankiweb.net/shared/info/1563878917](https://ankiweb.net/shared/info/1563878917)
 
 And the code for all this: [github.com/yosemitebandit/anki-castellano](https://github.com/yosemitebandit/anki-castellano)
 
